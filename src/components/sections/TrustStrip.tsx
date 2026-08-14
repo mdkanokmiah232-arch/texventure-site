@@ -8,18 +8,16 @@ interface TrustStripProps {
 }
 
 const defaultItems: TrustItem[] = [
-  { number: '10+', label: 'Years Experience' },
   { number: '500+', label: 'Global Clients' },
-  { number: '1M+', label: 'Pieces / Year Capacity' },
-  { number: '50', label: 'Piece Minimum MOQ' },
-  { number: '6', label: 'Quality Certifications' },
+  { number: 'ISO 9001', label: 'Certified Quality' },
+  { number: '7–14', label: 'Day Sampling' },
 ];
 
 export default function TrustStrip({ items = defaultItems }: TrustStripProps) {
   return (
     <section className="border-b border-gray-100 bg-white">
       <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-8">
           {items.map((item) => (
             <div key={item.label} className="text-center">
               <div className="text-3xl font-bold text-[#08CCD4] sm:text-4xl">
