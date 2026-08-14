@@ -39,13 +39,15 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/95 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-white/80">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold tracking-tight text-[#1B2A4A]">
-            Tex<span className="text-[#08CCD4]">Venture</span>
-          </span>
+        <Link href="/" className="flex items-center">
+          <img
+            src="/images/logo.png"
+            alt="TexVenture — Apparel Sourcing & Buying House in Bangladesh"
+            className="h-10 w-auto md:h-12"
+          />
         </Link>
 
         {/* Desktop Nav */}

@@ -35,9 +35,11 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <Link href="/" className="inline-block">
-              <span className="text-2xl font-bold tracking-tight">
-                Tex<span className="text-[#08CCD4]">Venture</span>
-              </span>
+              <img
+                src="/images/logo.png"
+                alt="TexVenture"
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-gray-300">
               Your trusted apparel sourcing partner in Bangladesh. We deliver
