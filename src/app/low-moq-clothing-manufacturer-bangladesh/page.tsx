@@ -76,12 +76,6 @@ export default function LowMOQPage() {
           subheadline="Start with just 100 pieces per style. Test new designs, launch capsule collections, and grow your brand — without committing to thousands of units upfront."
           primaryCta={{ text: 'Get a Low MOQ Quote', href: '/get-a-quote' }}
           secondaryCta={{ text: 'See Pricing Estimates', href: '/instant-quote' }}
-          trustIndicators={[
-            '100 Pieces Per Style',
-            'Mix Colours & Sizes',
-            'Same Quality as Large Orders',
-            'Scale When Ready',
-          ]}
         />
 
         {/* Trust Strip */}

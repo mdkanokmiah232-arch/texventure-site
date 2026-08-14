@@ -88,12 +88,6 @@ export default function PillarPage() {
           subheadline="From concept to delivery — TexVenture provides custom apparel manufacturing with low MOQs from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries."
           primaryCta={{ text: 'Get a Free Quote', href: '/get-a-quote' }}
           secondaryCta={{ text: 'Instant Quote Calculator', href: '/instant-quote' }}
-          trustIndicators={[
-            '100+ Pieces MOQ',
-            'ISO 9001 Certified',
-            '500+ Global Clients',
-            '7-14 Day Turnaround',
-          ]}
         />
 
         {/* Trust Strip */}

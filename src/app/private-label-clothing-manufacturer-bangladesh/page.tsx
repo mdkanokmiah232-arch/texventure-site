@@ -76,12 +76,6 @@ export default function PrivateLabelPage() {
           subheadline="Launch or expand your own clothing brand with full private label manufacturing. Custom labels, hang tags, packaging, and branding — produced from just 100 pieces per style."
           primaryCta={{ text: 'Start Private Labeling', href: '/get-a-quote' }}
           secondaryCta={{ text: 'See Our Services', href: '/services' }}
-          trustIndicators={[
-            'Full OEM & White Label',
-            'Custom Labels & Packaging',
-            '100 Pieces MOQ',
-            '30+ Countries Shipped',
-          ]}
         />
 
         {/* Trust Strip */}

@@ -76,12 +76,6 @@ export default function StreetwearPage() {
           subheadline="Premium heavyweight fabrics, bold graphics, and drop-ready production. We manufacture hoodies, oversized tees, cargo pants, and statement pieces for streetwear brands worldwide."
           primaryCta={{ text: 'Manufacture Streetwear', href: '/get-a-quote' }}
           secondaryCta={{ text: 'See Pricing Estimates', href: '/instant-quote' }}
-          trustIndicators={[
-            '400gsm+ Heavyweight Fabrics',
-            'Puff Print & Screen Print',
-            '100 Pieces MOQ',
-            'Drop-Ready Schedules',
-          ]}
         />
 
         {/* Trust Strip */}
