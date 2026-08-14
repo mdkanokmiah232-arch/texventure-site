@@ -113,7 +113,7 @@ export default function HomePage() {
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
-            <div>
+            <div className="order-2 lg:order-1">
               <Badge variant="brand">About TexVenture</Badge>
               <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
                 Your Trusted Partner in Apparel Sourcing
