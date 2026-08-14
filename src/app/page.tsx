@@ -16,13 +16,13 @@ import { guides } from "@/data/guides";
 
 /* ─── Home Page Product Categories (matches nav menu) ─── */
 const homeProducts = [
-  { slug: "t-shirts", name: "T-Shirts", description: "Premium cotton and blended t-shirts, polos, and tees for everyday wear and branding", image: "/images/t-shirts.webp" },
-  { slug: "hoodies", name: "Hoodies", description: "Heavyweight fleece and French terry hoodies, perfect for streetwear and casual brands", image: "/images/hoodies.webp" },
-  { slug: "pants-joggers", name: "Pants & Joggers", description: "Comfortable joggers, chinos, cargo pants, and casual trousers in various fabrics", image: "/images/pants-joggers.webp" },
-  { slug: "jackets", name: "Jackets", description: "Bomber, varsity, windbreaker, and outerwear jackets for all-season fashion brands", image: "/images/jackets.webp" },
-  { slug: "activewear", name: "Activewear", description: "Performance sportswear, gym sets, yoga wear, and moisture-wicking athletic garments", image: "/images/activewear.webp" },
-  { slug: "kids-wear", name: "Kids Wear", description: "Soft, durable, and colourful children's clothing from newborn to junior sizes", image: "/images/kids-wear.jpg" },
-  { slug: "accessories", name: "Accessories", description: "Hats, caps, bags, socks, and branded merchandise to complete your product line", image: "/images/accessories.webp" },
+  { slug: "t-shirts", name: "T-Shirts", description: "Premium cotton and blended t-shirts, polos, and tees for everyday wear and branding", image: "/images/cat-tshirts.webp" },
+  { slug: "hoodies", name: "Hoodies", description: "Heavyweight fleece and French terry hoodies, perfect for streetwear and casual brands", image: "/images/cat-hoodies.webp" },
+  { slug: "pants-joggers", name: "Pants & Joggers", description: "Comfortable joggers, chinos, cargo pants, and casual trousers in various fabrics", image: "/images/cat-pants.webp" },
+  { slug: "jackets", name: "Jackets", description: "Bomber, varsity, windbreaker, and outerwear jackets for all-season fashion brands", image: "/images/cat-jackets.webp" },
+  { slug: "activewear", name: "Activewear", description: "Performance sportswear, gym sets, yoga wear, and moisture-wicking athletic garments", image: "/images/cat-activewear.webp" },
+  { slug: "kids-wear", name: "Kids Wear", description: "Soft, durable, and colourful children's clothing from newborn to junior sizes", image: "/images/cat-kids.jpg" },
+  { slug: "accessories", name: "Accessories", description: "Hats, caps, bags, socks, and branded merchandise to complete your product line", image: "/images/cat-accessories.webp" },
 ];
 
 /* ─── SEO Metadata ─── */
@@ -249,18 +249,24 @@ export default function HomePage() {
               </Link>
             ))}
 
-            {/* 8th card - View All */}
-            <Link href="/products">
+            {/* 8th card - CTA Contact */}
+            <Link href="/contact">
               <Card hover className="flex h-full flex-col items-center justify-center bg-[#07B8BE] text-center text-white">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-2xl text-white">
-                  +
+                  ✉️
                 </div>
                 <h3 className="mt-4 text-lg font-bold text-white">
-                  View All Products
+                  Get a Free Quote
                 </h3>
                 <p className="mt-2 text-sm text-white/80">
-                  Explore our full product range.
+                  Ready to start your next collection? Contact us today.
                 </p>
+                <div className="mt-4 inline-flex items-center gap-1 rounded-full bg-white px-5 py-2 text-sm font-semibold text-[#07B8BE]">
+                  Contact Us
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </div>
               </Card>
             </Link>
           </div>
