@@ -13,16 +13,15 @@ const defaultItems: TrustItem[] = [
   { number: '5', label: 'Quality Certifications' },
   { number: '100', label: 'Piece MOQ' },
   { number: '500+', label: 'Global Clients' },
-  { number: 'ISO 9001', label: 'Certified' },
+  { number: 'ISO 9001', label: 'Certified Quality' },
   { number: '7–14', label: 'Day Sampling' },
 ]
 
 export default function TrustStrip({ items = defaultItems }: TrustStripProps) {
-  // Duplicate items for seamless loop
   const doubled = [...items, ...items]
 
   return (
-    <section className="overflow-hidden bg-[#1B2A4A]">
+    <section className="bg-[#1B2A4A] overflow-hidden">
       <div className="relative py-10">
         {/* Fade edges */}
         <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-16 bg-gradient-to-r from-[#1B2A4A] to-transparent" />
@@ -33,13 +32,15 @@ export default function TrustStrip({ items = defaultItems }: TrustStripProps) {
           {doubled.map((item, i) => (
             <div
               key={`${item.label}-${i}`}
-              className="flex-shrink-0 px-8 text-center"
+              className="flex-shrink-0 px-3"
             >
-              <div className="text-3xl font-bold text-[#08CCD4] sm:text-4xl">
-                {item.number}
-              </div>
-              <div className="mt-1 text-sm font-medium text-gray-300">
-                {item.label}
+              <div className="rounded-xl bg-white/10 backdrop-blur px-6 py-4 text-center border border-white/10">
+                <div className="text-2xl font-bold text-[#08CCD4] sm:text-3xl">
+                  {item.number}
+                </div>
+                <div className="mt-1 text-xs font-medium text-white/80">
+                  {item.label}
+                </div>
               </div>
             </div>
           ))}
