@@ -247,14 +247,14 @@ export default function HomePage() {
 
             {/* 8th card - View All */}
             <Link href="/products">
-              <Card hover className="flex h-full flex-col items-center justify-center border-dashed border-2 border-gray-200 bg-white/60 text-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#08CCD4]/10 text-2xl">
+              <Card hover className="flex h-full flex-col items-center justify-center bg-[#07B8BE] text-center text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-2xl text-white">
                   +
                 </div>
-                <h3 className="mt-4 text-lg font-bold text-[#1B2A4A]">
+                <h3 className="mt-4 text-lg font-bold text-white">
                   View All Products
                 </h3>
-                <p className="mt-2 text-sm text-gray-500">
+                <p className="mt-2 text-sm text-white/80">
                   Explore our full product range.
                 </p>
               </Card>
