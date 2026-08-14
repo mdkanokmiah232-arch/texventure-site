@@ -34,6 +34,10 @@ export const metadata: Metadata = {
 /* ─── Static Data ─── */
 
 const trustStats = [
+  { number: "15+", label: "Years Experience" },
+  { number: "50+", label: "Vetted Factories" },
+  { number: "5", label: "Quality Certifications" },
+  { number: "100", label: "Piece MOQ" },
   { number: "500+", label: "Global Clients" },
   { number: "ISO 9001", label: "Certified Quality" },
   { number: "7–14", label: "Day Sampling" },

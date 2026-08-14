@@ -17,7 +17,7 @@ export default function TrustStrip({ items = defaultItems }: TrustStripProps) {
   return (
     <section className="border-b border-gray-100 bg-white">
       <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-8">
+        <div className="grid grid-cols-3 gap-6 sm:grid-cols-4 lg:grid-cols-7">
           {items.map((item) => (
             <div key={item.label} className="text-center">
               <div className="text-3xl font-bold text-[#08CCD4] sm:text-4xl">
