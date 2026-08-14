@@ -21,12 +21,14 @@ export default function HeroSection({
   ],
 }: HeroSectionProps) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-[#1B2A4A] via-[#1e3357] to-[#0f2240]">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute -right-40 -top-40 h-80 w-80 rounded-full bg-[#08CCD4] blur-3xl" />
-        <div className="absolute -bottom-20 -left-20 h-60 w-60 rounded-full bg-[#08CCD4] blur-3xl" />
-      </div>
+    <section className="relative overflow-hidden bg-[#1B2A4A]">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/hero-bg.webp')" }}
+      />
+      {/* Overlay for text readability */}
+      <div className="absolute inset-0 bg-[#1B2A4A]/60" />
 
       <div className="relative mx-auto max-w-7xl px-4 py-20 sm:py-28 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
