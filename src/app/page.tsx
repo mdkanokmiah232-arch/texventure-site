@@ -175,20 +175,20 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-12 grid grid-cols-2 gap-3 sm:gap-4 lg:gap-5">
             {services.map((service) => (
               <Link key={service.slug} href={`/services/${service.slug}`}>
-                <Card hover className="h-full border-[#08CCD4]/20">
-                  <h3 className="text-lg font-semibold text-[#1B2A4A]">
+                <Card hover className="h-full border-[#08CCD4]/20 p-4 sm:p-5">
+                  <h3 className="text-sm font-bold leading-tight text-[#1B2A4A] sm:text-base">
                     {service.name}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-gray-500">
+                  <p className="mt-1.5 text-xs leading-snug text-gray-500 sm:text-sm">
                     {service.tagline}
                   </p>
-                  <div className="mt-4 flex items-center gap-1 text-sm font-semibold text-[#08CCD4]">
+                  <div className="mt-3 flex items-center gap-1 text-xs font-semibold text-[#08CCD4] sm:text-sm">
                     Learn more
                     <svg
-                      className="h-4 w-4"
+                      className="h-3.5 w-3.5 sm:h-4 sm:w-4"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
