@@ -141,7 +141,7 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <div className="relative">
+            <div className="order-1 lg:order-2 relative">
               <div className="overflow-hidden rounded-2xl shadow-2xl">
                 <img
                   src="/images/about-texventure.webp"
