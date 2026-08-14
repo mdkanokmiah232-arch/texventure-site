@@ -1,24 +1,39 @@
 interface TrustItem {
-  number: string;
-  label: string;
+  number: string
+  label: string
 }
 
 interface TrustStripProps {
-  items?: TrustItem[];
+  items?: TrustItem[]
 }
 
 const defaultItems: TrustItem[] = [
+  { number: '15+', label: 'Years Experience' },
+  { number: '50+', label: 'Vetted Factories' },
+  { number: '5', label: 'Quality Certifications' },
+  { number: '100', label: 'Piece MOQ' },
   { number: '500+', label: 'Global Clients' },
   { number: '7–14', label: 'Day Sampling' },
-];
+]
 
 export default function TrustStrip({ items = defaultItems }: TrustStripProps) {
+  // Duplicate items for seamless loop
+  const doubled = [...items, ...items]
+
   return (
-    <section className="border-b border-gray-100 bg-white">
-      <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8">
-        <div className="grid grid-cols-3 gap-6 sm:grid-cols-4 lg:grid-cols-7">
-          {items.map((item) => (
-            <div key={item.label} className="text-center">
+    <section className="border-b border-gray-100 bg-white overflow-hidden">
+      <div className="relative py-10">
+        {/* Fade edges */}
+        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-16 bg-gradient-to-r from-white to-transparent" />
+        <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-16 bg-gradient-to-l from-white to-transparent" />
+
+        {/* Scrolling track */}
+        <div className="flex animate-marquee">
+          {doubled.map((item, i) => (
+            <div
+              key={`${item.label}-${i}`}
+              className="flex-shrink-0 px-8 text-center"
+            >
               <div className="text-3xl font-bold text-[#08CCD4] sm:text-4xl">
                 {item.number}
               </div>
@@ -30,5 +45,5 @@ export default function TrustStrip({ items = defaultItems }: TrustStripProps) {
         </div>
       </div>
     </section>
-  );
+  )
 }
