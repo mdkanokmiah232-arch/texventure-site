@@ -165,13 +165,12 @@ export default function HomePage() {
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
           <div className="text-center">
-            <Badge variant="brand">Our Services</Badge>
+            <Badge variant="brand">Our Process</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              How We Help Brands Find a Clothing Manufacturer in Bangladesh
+              How We Help Brands Manufacture Clothing in Bangladesh
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-500">
-              Whether you need full custom manufacturing or a simple private
-              label run, we have a service tailored for your stage of growth.
+              From concept to delivery — our end-to-end process covers design, sampling, production, and global logistics for your brand.
             </p>
           </div>
 
