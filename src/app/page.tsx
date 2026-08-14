@@ -11,9 +11,19 @@ import Badge from "@/components/ui/Badge";
 
 import { company } from "@/data/site";
 import { services } from "@/data/services";
-import { products } from "@/data/products";
 import { testimonials } from "@/data/testimonials";
 import { guides } from "@/data/guides";
+
+/* ─── Home Page Product Categories (matches nav menu) ─── */
+const homeProducts = [
+  { slug: "t-shirts", name: "T-Shirts", description: "Premium cotton and blended t-shirts, polos, and tees for everyday wear and branding", icon: "👕" },
+  { slug: "hoodies", name: "Hoodies", description: "Heavyweight fleece and French terry hoodies, perfect for streetwear and casual brands", icon: "🧥" },
+  { slug: "pants-joggers", name: "Pants & Joggers", description: "Comfortable joggers, chinos, cargo pants, and casual trousers in various fabrics", icon: "👖" },
+  { slug: "jackets", name: "Jackets", description: "Bomber, varsity, windbreaker, and outerwear jackets for all-season fashion brands", icon: "🧥" },
+  { slug: "activewear", name: "Activewear", description: "Performance sportswear, gym sets, yoga wear, and moisture-wicking athletic garments", icon: "🏋️" },
+  { slug: "kids-wear", name: "Kids Wear", description: "Soft, durable, and colourful children's clothing from newborn to junior sizes", icon: "👶" },
+  { slug: "accessories", name: "Accessories", description: "Hats, caps, bags, socks, and branded merchandise to complete your product line", icon: "🎒" },
+];
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = {
@@ -79,16 +89,6 @@ function getLatestGuides(count: number) {
     )
     .slice(0, count);
 }
-
-const categoryIcons: Record<string, string> = {
-  "knit-wear": "👕",
-  wovens: "👔",
-  "circular-knit": "🔄",
-  denim: "👖",
-  sweaters: "🧣",
-  "work-wear": "🦺",
-  "active-wear": "🏋️",
-};
 
 /* ─── Page Component ─── */
 
@@ -223,41 +223,39 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {products.map((product) => (
+            {homeProducts.map((product) => (
               <Link key={product.slug} href={`/products/${product.slug}`}>
-                <Card hover className="h-full">
+                <Card hover className="group h-full border border-gray-200 transition-all duration-300 hover:border-[#08CCD4] hover:border-2">
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#08CCD4]/10 text-2xl">
-                    {categoryIcons[product.slug] ?? "📦"}
+                    {product.icon}
                   </div>
-                  <h3 className="mt-4 text-lg font-semibold text-[#1B2A4A]">
+                  <h3 className="mt-4 text-lg font-bold text-[#1B2A4A] sm:text-xl">
                     {product.name}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-gray-500">
                     {product.description}
                   </p>
-                  <div className="mt-4 flex items-center justify-between text-xs text-gray-400">
-                    <span>MOQ: {product.moq}</span>
-                    <span>Lead: {product.leadTime}</span>
+                  <div className="mt-4 flex items-center gap-1 text-sm font-semibold text-[#08CCD4]">
+                    Learn more
+                    <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
                   </div>
                 </Card>
               </Link>
             ))}
 
-            {/* CTA Card */}
+            {/* 8th card - View All */}
             <Link href="/products">
-              <Card
-                hover
-                className="flex h-full flex-col items-center justify-center border-dashed border-2 border-gray-200 bg-white/60 text-center"
-              >
+              <Card hover className="flex h-full flex-col items-center justify-center border-dashed border-2 border-gray-200 bg-white/60 text-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#08CCD4]/10 text-2xl">
                   +
                 </div>
-                <h3 className="mt-4 text-lg font-semibold text-[#1B2A4A]">
-                  View All Categories
+                <h3 className="mt-4 text-lg font-bold text-[#1B2A4A]">
+                  View All Products
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                  Explore our full product range and find the right category for
-                  your brand.
+                  Explore our full product range.
                 </p>
               </Card>
             </Link>
