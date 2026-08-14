@@ -5,7 +5,6 @@ interface HeroSectionProps {
   subheadline?: string;
   primaryCta?: { text: string; href: string };
   secondaryCta?: { text: string; href: string };
-  trustIndicators?: string[];
 }
 
 export default function HeroSection({
@@ -13,12 +12,6 @@ export default function HeroSection({
   subheadline = 'We deliver custom manufacturing, low MOQ production, and end-to-end supply chain solutions for brands worldwide. From design to delivery.',
   primaryCta = { text: 'Get a Quote', href: '/contact' },
   secondaryCta = { text: 'View Our Process', href: '/custom-manufacturing' },
-  trustIndicators = [
-    '500+ Global Clients',
-    'ISO 9001 Certified',
-    'Low MOQ from 50 pcs',
-    '7-14 Day Turnaround',
-  ],
 }: HeroSectionProps) {
   return (
     <section className="relative overflow-hidden bg-[#1B2A4A]">
@@ -67,17 +60,7 @@ export default function HeroSection({
             </Link>
           </div>
 
-          {/* Trust Indicators */}
-          <div className="mt-12 flex flex-wrap items-center justify-center gap-6 border-t border-white/10 pt-8 sm:gap-8">
-            {trustIndicators.map((indicator) => (
-              <div key={indicator} className="flex items-center gap-2 text-sm text-gray-300">
-                <svg className="h-4 w-4 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                {indicator}
-              </div>
-            ))}
-          </div>
+
         </div>
       </div>
     </section>

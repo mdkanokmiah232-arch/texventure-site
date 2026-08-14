@@ -101,12 +101,7 @@ export default function HomePage() {
         subheadline="Premium Bangladesh manufacturing from just 100 pieces per style. From design to delivery, we handle custom production, fabric sourcing, and global logistics — so you can focus on building your brand."
         primaryCta={{ text: "Get a Quote", href: "/quote" }}
         secondaryCta={{ text: "View Products", href: "/products" }}
-        trustIndicators={[
-          "500+ Global Clients",
-          "ISO 9001 Certified",
-          "Low MOQ from 100 pcs",
-          "7–14 Day Sampling",
-        ]}
+
       />
 
       {/* 2. Trust Strip */}
