@@ -175,7 +175,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="mt-12 grid grid-cols-2 gap-3 sm:gap-4 lg:gap-5">
+          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5">
             {services.map((service) => (
               <Link key={service.slug} href={`/services/${service.slug}`}>
                 <Card hover className="h-full border-2 border-[#08CCD4]/30 p-4 sm:p-5">
