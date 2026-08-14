@@ -178,8 +178,8 @@ export default function HomePage() {
           <div className="mt-12 grid grid-cols-2 gap-3 sm:gap-4 lg:gap-5">
             {services.map((service) => (
               <Link key={service.slug} href={`/services/${service.slug}`}>
-                <Card hover className="h-full border-[#08CCD4]/20 p-4 sm:p-5">
-                  <h3 className="text-sm font-bold leading-tight text-[#1B2A4A] sm:text-base">
+                <Card hover className="h-full border-2 border-[#08CCD4]/30 p-4 sm:p-5">
+                  <h3 className="text-base font-bold leading-tight text-[#1B2A4A] sm:text-lg">
                     {service.name}
                   </h3>
                   <p className="mt-1.5 text-xs leading-snug text-gray-500 sm:text-sm">

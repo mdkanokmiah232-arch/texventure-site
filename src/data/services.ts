@@ -31,7 +31,7 @@ export const services: Service[] = [
   {
     slug: "custom-manufacturing",
     name: "Custom Clothing Manufacturing",
-    tagline: "Your design, built to spec",
+    tagline: "Custom apparel from concept to delivery, built to your brand specs",
     description:
       "From tech pack to finished garment — we manage the entire production cycle. Share your specs, we source the factory, handle sampling, and deliver retail-ready products straight to your door.",
     icon: "🏭",
@@ -87,7 +87,7 @@ export const services: Service[] = [
   {
     slug: "low-moq",
     name: "Low MOQ Manufacturing",
-    tagline: "Start small, scale fast",
+    tagline: "Start at 100 pieces, test designs, and scale when ready to grow",
     description:
       "No factory wants 5,000 pieces on day one. We specialise in connecting brands with factories that accept orders as low as 100 pieces per style — perfect for startups, capsule collections, and limited drops.",
     icon: "📉",
@@ -143,7 +143,7 @@ export const services: Service[] = [
   {
     slug: "private-label",
     name: "Private Label Manufacturing",
-    tagline: "Your brand, our expertise",
+    tagline: "Launch your clothing brand with custom labels, tags, and packaging",
     description:
       "Launch or expand your own label with our end-to-end private label service. We handle everything from label design and hang-tags to custom packaging — so every piece hits the market as your brand.",
     icon: "🏷️",
@@ -199,7 +199,7 @@ export const services: Service[] = [
   {
     slug: "streetwear",
     name: "Streetwear Manufacturing",
-    tagline: "Built for the culture",
+    tagline: "Premium heavyweight fabrics, bold graphics, and drop-ready production",
     description:
       "Streetwear demands premium fabrics, bold graphics, and quality construction. We work with factories that specialise in hoodies, oversized tees, cargo pants, and statement pieces that move fast in the market.",
     icon: "🔥",
