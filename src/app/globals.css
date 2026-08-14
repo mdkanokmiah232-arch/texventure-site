@@ -118,11 +118,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Heading defaults */
+/* Heading defaults - no global color, let each section set its own */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
   font-weight: 600;
-  color: var(--tv-secondary);
   line-height: 1.2;
 }
 
