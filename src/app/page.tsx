@@ -148,6 +148,9 @@ export default function HomePage() {
                   alt="TexVenture Team"
                   className="h-full w-full object-cover"
                 />
+                <div className="absolute inset-0 flex items-start justify-center pt-6">
+                  <span className="rounded-full bg-[#08CCD4] px-5 py-2 text-sm font-bold text-white shadow-lg">About TexVenture</span>
+                </div>
               </div>
               <div className="absolute -bottom-6 -left-6 rounded-2xl bg-[#1B2A4A] p-6 text-white shadow-xl">
                 <div className="text-3xl font-bold text-[#08CCD4]">15+</div>
