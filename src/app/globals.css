@@ -1,26 +1,155 @@
 @import "tailwindcss";
 
+/* ─── Brand & Design System Variables ─── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand colors */
+  --tv-primary: #08CCD4;
+  --tv-primary-light: #3DD8DF;
+  --tv-primary-dark: #06A9AF;
+  --tv-secondary: #1B2A4A;
+  --tv-secondary-light: #2A4170;
+  --tv-secondary-dark: #0F1A30;
+
+  /* Warm neutrals */
+  --tv-neutral-50: #FAFAF8;
+  --tv-neutral-100: #F5F3EF;
+  --tv-neutral-200: #E8E4DD;
+  --tv-neutral-300: #D4CEC4;
+  --tv-neutral-400: #A8A090;
+  --tv-neutral-500: #7D7566;
+  --tv-neutral-600: #5C5548;
+  --tv-neutral-700: #433E35;
+  --tv-neutral-800: #2D2A23;
+  --tv-neutral-900: #1A1814;
+
+  /* Semantic */
+  --tv-success: #22C55E;
+  --tv-warning: #F59E0B;
+  --tv-error: #EF4444;
+  --tv-info: #3B82F6;
+
+  /* Surface & text (light mode defaults) */
+  --tv-bg: #FFFFFF;
+  --tv-bg-alt: var(--tv-neutral-50);
+  --tv-surface: #FFFFFF;
+  --tv-surface-raised: var(--tv-neutral-50);
+  --tv-text: var(--tv-secondary);
+  --tv-text-muted: var(--tv-neutral-500);
+  --tv-border: var(--tv-neutral-200);
+
+  /* Spacing & sizing tokens */
+  --tv-radius-sm: 0.375rem;
+  --tv-radius-md: 0.5rem;
+  --tv-radius-lg: 0.75rem;
+  --tv-radius-xl: 1rem;
+
+  /* Shadows */
+  --tv-shadow-sm: 0 1px 2px rgba(27, 42, 74, 0.05);
+  --tv-shadow-md: 0 4px 6px -1px rgba(27, 42, 74, 0.08), 0 2px 4px -2px rgba(27, 42, 74, 0.06);
+  --tv-shadow-lg: 0 10px 15px -3px rgba(27, 42, 74, 0.08), 0 4px 6px -4px rgba(27, 42, 74, 0.06);
+  --tv-shadow-xl: 0 20px 25px -5px rgba(27, 42, 74, 0.1), 0 8px 10px -6px rgba(27, 42, 74, 0.06);
 }
 
+/* ─── Tailwind v4 Theme Tokens ─── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Brand palette */
+  --color-primary: var(--tv-primary);
+  --color-primary-light: var(--tv-primary-light);
+  --color-primary-dark: var(--tv-primary-dark);
+  --color-secondary: var(--tv-secondary);
+  --color-secondary-light: var(--tv-secondary-light);
+  --color-secondary-dark: var(--tv-secondary-dark);
+
+  /* Neutral scale */
+  --color-neutral-50: var(--tv-neutral-50);
+  --color-neutral-100: var(--tv-neutral-100);
+  --color-neutral-200: var(--tv-neutral-200);
+  --color-neutral-300: var(--tv-neutral-300);
+  --color-neutral-400: var(--tv-neutral-400);
+  --color-neutral-500: var(--tv-neutral-500);
+  --color-neutral-600: var(--tv-neutral-600);
+  --color-neutral-700: var(--tv-neutral-700);
+  --color-neutral-800: var(--tv-neutral-800);
+  --color-neutral-900: var(--tv-neutral-900);
+
+  /* Semantic */
+  --color-success: var(--tv-success);
+  --color-warning: var(--tv-warning);
+  --color-error: var(--tv-error);
+  --color-info: var(--tv-info);
+
+  /* Surface */
+  --color-background: var(--tv-bg);
+  --color-background-alt: var(--tv-bg-alt);
+  --color-surface: var(--tv-surface);
+  --color-surface-raised: var(--tv-surface-raised);
+  --color-foreground: var(--tv-text);
+  --color-muted: var(--tv-text-muted);
+  --color-border: var(--tv-border);
+
+  /* Border radius */
+  --radius-sm: var(--tv-radius-sm);
+  --radius-md: var(--tv-radius-md);
+  --radius-lg: var(--tv-radius-lg);
+  --radius-xl: var(--tv-radius-xl);
+
+  /* Shadows */
+  --shadow-sm: var(--tv-shadow-sm);
+  --shadow-md: var(--tv-shadow-md);
+  --shadow-lg: var(--tv-shadow-lg);
+  --shadow-xl: var(--tv-shadow-xl);
+
+  /* Font families */
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-outfit);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ─── Base Styles ─── */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--tv-bg);
+  color: var(--tv-text);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+  color: var(--tv-secondary);
+  line-height: 1.2;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--tv-primary);
+  outline-offset: 2px;
+  border-radius: var(--tv-radius-sm);
+}
+
+/* Selection */
+::selection {
+  background: var(--tv-primary);
+  color: white;
+}
+
+/* ─── Utility Overrides ─── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .container-tv {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
