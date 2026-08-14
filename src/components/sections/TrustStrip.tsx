@@ -13,6 +13,7 @@ const defaultItems: TrustItem[] = [
   { number: '5', label: 'Quality Certifications' },
   { number: '100', label: 'Piece MOQ' },
   { number: '500+', label: 'Global Clients' },
+  { number: 'ISO 9001', label: 'Certified' },
   { number: '7–14', label: 'Day Sampling' },
 ]
 
