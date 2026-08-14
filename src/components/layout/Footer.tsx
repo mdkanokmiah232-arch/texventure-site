@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block">
               <img
-                src="/images/logo.png"
+                src="/images/logo-white.png"
                 alt="TexVenture"
                 className="h-10 w-auto"
               />
