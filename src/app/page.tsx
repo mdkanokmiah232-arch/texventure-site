@@ -110,7 +110,56 @@ export default function HomePage() {
       {/* 2. Trust Strip */}
       <TrustStrip items={trustStats} />
 
-      {/* 3. Services Overview */}
+      {/* 3. About TexVenture */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <div>
+              <Badge variant="brand">About TexVenture</Badge>
+              <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
+                Your Trusted Partner in Apparel Sourcing
+              </h2>
+              <p className="mt-4 text-lg leading-relaxed text-gray-500">
+                TexVenture is a Bangladesh-based apparel sourcing company that
+                connects global brands with vetted manufacturers. We handle
+                everything from fabric sourcing and sampling to production, quality
+                control, and logistics — so you can focus on building your brand.
+              </p>
+              <p className="mt-4 text-lg leading-relaxed text-gray-500">
+                With over 15 years of experience and a network of 50+ certified
+                factories, we deliver quality garments at competitive prices with
+                low MOQs starting from just 100 pieces.
+              </p>
+              <div className="mt-8">
+                <Link
+                  href="/about"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#08CCD4] px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-[#08CCD4]/25 transition hover:bg-[#07b8be]"
+                >
+                  Learn More About Us
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="overflow-hidden rounded-2xl shadow-2xl">
+                <img
+                  src="/images/about-texventure.webp"
+                  alt="TexVenture Team"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-6 -left-6 rounded-2xl bg-[#1B2A4A] p-6 text-white shadow-xl">
+                <div className="text-3xl font-bold text-[#08CCD4]">15+</div>
+                <div className="text-sm font-medium">Years Experience</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Services Overview */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
           <div className="text-center">
