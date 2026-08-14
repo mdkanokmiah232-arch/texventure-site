@@ -17,13 +17,13 @@ import { guides } from "@/data/guides";
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = {
-  title: "TexVenture — Apparel Sourcing Partner for Growing Brands",
+  title: "Clothing Manufacturer in Bangladesh — TexVenture | Custom Garment Production",
   description:
-    "Bangladesh apparel sourcing & buying house. Custom manufacturing, private label, low MOQ from 100 pieces. Knitwear, wovens, denim, sweaters, active wear & work wear for brands worldwide.",
+    "Leading clothing manufacturer in Bangladesh. Custom garment production from 100 pcs MOQ. Knitwear, wovens, denim, sweaters & active wear. ISO 9001 certified, global shipping.",
   openGraph: {
-    title: "TexVenture — Apparel Sourcing Partner for Growing Brands",
+    title: "Clothing Manufacturer in Bangladesh — TexVenture",
     description:
-      "Bangladesh apparel sourcing & buying house. Custom manufacturing, private label, low MOQ from 100 pieces. Knitwear, wovens, denim, sweaters, active wear & work wear.",
+      "Leading clothing manufacturer in Bangladesh. Custom garment production from 100 pcs. ISO 9001 certified, global shipping.",
     url: "https://texventure.com",
   },
   alternates: {
@@ -99,8 +99,8 @@ export default function HomePage() {
     <>
       {/* 1. Hero Section */}
       <HeroSection
-        headline="Apparel Sourcing Partner for Growing Brands"
-        subheadline="Premium Bangladesh manufacturing from just 100 pieces per style. From design to delivery, we handle custom production, fabric sourcing, and global logistics — so you can focus on building your brand."
+        headline="Clothing Manufacturer in Bangladesh"
+        subheadline="Premium garment manufacturing in Bangladesh from just 100 pieces per style. Custom clothing production, fabric sourcing, and end-to-end supply chain for brands worldwide."
         primaryCta={{ text: "Get a Quote", href: "/quote" }}
         secondaryCta={{ text: "View Products", href: "/products" }}
 
@@ -116,17 +116,17 @@ export default function HomePage() {
             <div className="order-2 lg:order-1">
               <Badge variant="brand">About TexVenture</Badge>
               <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-                Your Trusted Partner in Apparel Sourcing
+                Your Trusted Clothing Manufacturer in Bangladesh
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                TexVenture is a Bangladesh-based apparel sourcing company that
-                connects global brands with vetted manufacturers. We handle
+                TexVenture is a leading clothing manufacturer in Bangladesh that
+                connects global brands with vetted garment factories. We handle
                 everything from fabric sourcing and sampling to production, quality
                 control, and logistics — so you can focus on building your brand.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-gray-500">
                 With over 15 years of experience and a network of 50+ certified
-                factories, we deliver quality garments at competitive prices with
+                garment factories, we deliver quality clothing at competitive prices with
                 low MOQs starting from just 100 pieces.
               </p>
               <div className="mt-8">
@@ -167,7 +167,7 @@ export default function HomePage() {
           <div className="text-center">
             <Badge variant="brand">Our Services</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              How We Help Brands Source Apparel
+              How We Help Brands Find a Clothing Manufacturer in Bangladesh
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-500">
               Whether you need full custom manufacturing or a simple private
@@ -276,7 +276,7 @@ export default function HomePage() {
               Why {company.name}?
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-500">
-              We make apparel sourcing from Bangladesh simple, transparent, and
+              We make clothing manufacturing in Bangladesh simple, transparent, and
               reliable — for brands of every size.
             </p>
           </div>
@@ -304,7 +304,7 @@ export default function HomePage() {
 
       {/* 7. Testimonials */}
       <Testimonials
-        headline="What Our Clients Say"
+        headline="What Our Clients Say About Our Clothing Manufacturing"
         testimonials={testimonials.slice(0, 3).map((t) => ({
           name: t.clientName,
           role: t.clientRole,
