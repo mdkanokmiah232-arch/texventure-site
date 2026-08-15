@@ -1,29 +1,29 @@
 import Link from 'next/link';
 
 const productLinks = [
-  { name: 'T-Shirts', href: '/products/t-shirts' },
-  { name: 'Hoodies', href: '/products/hoodies' },
-  { name: 'Pants & Joggers', href: '/products/pants-joggers' },
-  { name: 'Jackets', href: '/products/jackets' },
-  { name: 'Activewear', href: '/products/activewear' },
-  { name: 'Kids Wear', href: '/products/kids-wear' },
-  { name: 'Accessories', href: '/products/accessories' },
+  { name: 'Knit Wear', href: '/products/knit-wear' },
+  { name: 'Wovens', href: '/products/wovens' },
+  { name: 'Circular Knit', href: '/products/circular-knit' },
+  { name: 'Denim', href: '/products/denim' },
+  { name: 'Sweaters', href: '/products/sweaters' },
+  { name: 'Work Wear', href: '/products/work-wear' },
+  { name: 'Active Wear', href: '/products/active-wear' },
 ];
 
 const companyLinks = [
   { name: 'About Us', href: '/about' },
   { name: 'Our Process', href: '/custom-manufacturing' },
-  { name: 'Low MOQ', href: '/low-moq' },
-  { name: 'Markets', href: '/markets' },
+  { name: 'Low MOQ', href: '/low-moq-clothing-manufacturer-bangladesh' },
+  { name: 'Certifications', href: '/certifications' },
   { name: 'Contact', href: '/contact' },
 ];
 
 const resourceLinks = [
   { name: 'Guides', href: '/guides' },
   { name: 'Blog', href: '/blog' },
-  { name: 'FAQ', href: '/faq' },
-  { name: 'Privacy Policy', href: '/privacy' },
-  { name: 'Terms of Service', href: '/terms' },
+  { name: 'Get a Quote', href: '/get-a-quote' },
+  { name: 'Privacy Policy', href: '/privacy-policy' },
+  { name: 'Terms of Service', href: '/terms-of-service' },
 ];
 
 export default function Footer() {
@@ -214,8 +214,8 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-2 text-xs text-gray-400 sm:flex-row">
             <p>&copy; {new Date().getFullYear()} TexVenture. All rights reserved.</p>
             <div className="flex gap-4">
-              <Link href="/privacy" className="hover:text-white transition">Privacy</Link>
-              <Link href="/terms" className="hover:text-white transition">Terms</Link>
+              <Link href="/privacy-policy" className="hover:text-white transition">Privacy</Link>
+              <Link href="/terms-of-service" className="hover:text-white transition">Terms</Link>
               <Link href="/sitemap.xml" className="hover:text-white transition">Sitemap</Link>
             </div>
           </div>

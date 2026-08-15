@@ -4,19 +4,18 @@ import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
 
 const productCategories = [
-  { name: 'T-Shirts', href: '/products/t-shirts' },
-  { name: 'Hoodies', href: '/products/hoodies' },
-  { name: 'Pants & Joggers', href: '/products/pants-joggers' },
-  { name: 'Jackets', href: '/products/jackets' },
-  { name: 'Activewear', href: '/products/activewear' },
-  { name: 'Kids Wear', href: '/products/kids-wear' },
-  { name: 'Accessories', href: '/products/accessories' },
+  { name: 'Knit Wear', href: '/products/knit-wear' },
+  { name: 'Wovens', href: '/products/wovens' },
+  { name: 'Circular Knit', href: '/products/circular-knit' },
+  { name: 'Denim', href: '/products/denim' },
+  { name: 'Sweaters', href: '/products/sweaters' },
+  { name: 'Work Wear', href: '/products/work-wear' },
+  { name: 'Active Wear', href: '/products/active-wear' },
 ];
 
 const navLinks = [
   { name: 'Custom Manufacturing', href: '/custom-manufacturing' },
-  { name: 'Low MOQ', href: '/low-moq' },
-  { name: 'Markets', href: '/markets' },
+  { name: 'Low MOQ', href: '/low-moq-clothing-manufacturer-bangladesh' },
   { name: 'Guides', href: '/guides' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },

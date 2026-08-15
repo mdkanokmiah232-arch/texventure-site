@@ -115,13 +115,13 @@ export const navigation: NavItem[] = [
     label: "Services",
     href: "/services",
     children: [
-      { label: "Custom Manufacturing", href: "/services/custom-manufacturing" },
-      { label: "Low MOQ", href: "/services/low-moq" },
-      { label: "Private Label", href: "/services/private-label" },
-      { label: "Streetwear", href: "/services/streetwear" },
+      { label: "Custom Manufacturing", href: "/custom-manufacturing" },
+      { label: "Low MOQ", href: "/low-moq-clothing-manufacturer-bangladesh" },
+      { label: "Private Label", href: "/private-label-clothing-manufacturer-bangladesh" },
+      { label: "Streetwear", href: "/streetwear-manufacturer-bangladesh" },
     ],
   },
-  { label: "Instant Quote", href: "/quote" },
+  { label: "Instant Quote", href: "/instant-quote" },
   { label: "Guides", href: "/guides" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
@@ -158,9 +158,9 @@ export const stats: SiteStat[] = [
 ];
 
 export const legal = {
-  privacyPolicyUrl: "/privacy",
-  termsUrl: "/terms",
-  cookiePolicyUrl: "/cookies",
+  privacyPolicyUrl: "/privacy-policy",
+  termsUrl: "/terms-of-service",
+  cookiePolicyUrl: "/privacy-policy",
 };
 
 // ---------------------------------------------------------------------------

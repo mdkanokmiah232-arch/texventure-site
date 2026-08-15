@@ -112,7 +112,7 @@ export default async function ProductCategoryPage({ params }: Props) {
                 </svg>
               </Link>
               <Link
-                href="/quote"
+                href="/instant-quote"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-white/20 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/5"
               >
                 Instant Quote

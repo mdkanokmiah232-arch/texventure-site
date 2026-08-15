@@ -16,13 +16,13 @@ import { guides } from "@/data/guides";
 
 /* ─── Home Page Product Categories (matches nav menu) ─── */
 const homeProducts = [
-  { slug: "t-shirts", name: "T-Shirts", description: "Premium cotton and blended t-shirts, polos, and tees for everyday wear and branding", image: "https://i.postimg.cc/RZ2q0vBC/t-shart.webp" },
-  { slug: "hoodies", name: "Hoodies", description: "Heavyweight fleece and French terry hoodies, perfect for streetwear and casual brands", image: "https://i.postimg.cc/FHY7m725/hoodies.webp" },
-  { slug: "pants-joggers", name: "Pants & Joggers", description: "Comfortable joggers, chinos, cargo pants, and casual trousers in various fabrics", image: "https://i.postimg.cc/Dzs0JRvq/Pants-Joggers.webp" },
-  { slug: "jackets", name: "Jackets", description: "Bomber, varsity, windbreaker, and outerwear jackets for all-season fashion brands", image: "https://i.postimg.cc/6qHpxXcW/Jackets.webp" },
-  { slug: "activewear", name: "Activewear", description: "Performance sportswear, gym sets, yoga wear, and moisture-wicking athletic garments", image: "https://i.postimg.cc/3JRwCkrG/Activewear.webp" },
-  { slug: "kids-wear", name: "Kids Wear", description: "Soft, durable, and colourful children's clothing from newborn to junior sizes", image: "https://i.postimg.cc/nVwxx0ZH/Kids.jpg" },
-  { slug: "accessories", name: "Accessories", description: "Hats, caps, bags, socks, and branded merchandise to complete your product line", image: "https://i.postimg.cc/NFNjvc4P/Accessories.webp" },
+  { slug: "knit-wear", name: "Knit Wear", description: "Premium jersey, interlock, and piqué knit garments — t-shirts, polos, and hoodies", image: "https://i.postimg.cc/RZ2q0vBC/t-shart.webp" },
+  { slug: "wovens", name: "Wovens", description: "Button-down shirts, blouses, and dresses tailored from premium woven fabrics", image: "https://i.postimg.cc/FHY7m725/hoodies.webp" },
+  { slug: "circular-knit", name: "Circular Knit", description: "Seamless leggings, underwear, and performance base layers with 4-way stretch", image: "https://i.postimg.cc/Dzs0JRvq/Pants-Joggers.webp" },
+  { slug: "denim", name: "Denim", description: "Raw, washed, and distressed denim jeans, jackets, and shorts to your spec", image: "https://i.postimg.cc/6qHpxXcW/Jackets.webp" },
+  { slug: "active-wear", name: "Active Wear", description: "Performance sportswear, gym sets, yoga wear, and moisture-wicking athletic garments", image: "https://i.postimg.cc/3JRwCkrG/Activewear.webp" },
+  { slug: "sweaters", name: "Sweaters", description: "Full-fashion knit sweaters and cardigans in wool, cotton, and acrylic yarns", image: "https://i.postimg.cc/nVwxx0ZH/Kids.jpg" },
+  { slug: "work-wear", name: "Work Wear", description: "Durable uniforms, safety vests, and industrial garments built to last", image: "https://i.postimg.cc/NFNjvc4P/Accessories.webp" },
 ];
 
 /* ─── SEO Metadata ─── */

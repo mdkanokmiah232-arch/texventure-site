@@ -192,7 +192,7 @@ export default function ContactPage() {
                   </svg>
                 </Link>
                 <Link
-                  href="/quote"
+                  href="/instant-quote"
                   className="flex items-center justify-between rounded-lg px-3 py-2 text-sm text-gray-600 transition hover:bg-gray-50 hover:text-[#08CCD4]"
                 >
                   <span>Get Instant Quote</span>
