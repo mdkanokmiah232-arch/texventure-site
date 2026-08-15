@@ -273,6 +273,41 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 4b. 7 Manufacturing Categories */}
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <div className="text-center">
+            <Badge variant="brand">Product Categories</Badge>
+            <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
+              7 Manufacturing Categories
+            </h2>
+          </div>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              { name: "Knit Wear", desc: "T-shirts, polos, tank tops", href: "/products/knit-wear" },
+              { name: "Wovens", desc: "Shirts, blouses, dresses", href: "/products/wovens" },
+              { name: "Circular Knit", desc: "Jerseys, leggings", href: "/products/circular-knit" },
+              { name: "Denim", desc: "Jeans, jackets, shorts", href: "/products/denim" },
+              { name: "Sweaters", desc: "Pullovers, cardigans", href: "/products/sweaters" },
+              { name: "Work Wear", desc: "Uniforms, hi-vis", href: "/products/work-wear" },
+              { name: "Active Wear", desc: "Gym wear, athleisure", href: "/products/active-wear" },
+            ].map((cat) => (
+              <Link key={cat.name} href={cat.href} className="group">
+                <Card className="p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
+                  <h3 className="text-lg font-bold text-[#1B2A4A] group-hover:text-[#08CCD4] transition">
+                    {cat.name}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500">{cat.desc}</p>
+                  <span className="mt-3 inline-flex items-center text-sm font-medium text-[#08CCD4]">
+                    View Details →
+                  </span>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* 5. Why TexVenture */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
