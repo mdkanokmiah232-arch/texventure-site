@@ -175,8 +175,16 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5">
-            {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
+            {services.map((service) => {
+              const serviceHrefMap: Record<string, string> = {
+                "custom-manufacturing": "/custom-manufacturing",
+                "low-moq": "/low-moq-clothing-manufacturer-bangladesh",
+                "private-label": "/private-label-clothing-manufacturer-bangladesh",
+                "streetwear": "/streetwear-manufacturer-bangladesh",
+              };
+              const href = serviceHrefMap[service.slug] ?? "/services";
+              return (
+              <Link key={service.slug} href={href}>
                 <Card hover className="group h-full border border-gray-200 p-4 transition-all duration-300 hover:border-[#08CCD4] hover:border-2 sm:p-5">
                   <h3 className="text-lg font-bold leading-tight text-[#1B2A4A] sm:text-xl">
                     {service.name}
@@ -202,7 +210,8 @@ export default function HomePage() {
                   </div>
                 </Card>
               </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
