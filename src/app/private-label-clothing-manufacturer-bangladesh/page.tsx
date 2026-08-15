@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
-import { FAQPageSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
 import TrustStrip from '@/components/sections/TrustStrip';
@@ -60,15 +59,8 @@ const faqItems = [
 
 /* ─── Page Component ─── */
 export default function PrivateLabelPage() {
-  const faqSchema = FAQPageSchema({ mainEntity: faqItems });
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-
       <main>
         {/* Hero */}
         <HeroSection

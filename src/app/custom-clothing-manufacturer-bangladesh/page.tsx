@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
-import { OrganizationSchema, FAQPageSchema } from '@/lib/schema';
+import { OrganizationSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
 import TrustStrip from '@/components/sections/TrustStrip';
@@ -67,7 +67,6 @@ const faqItems = [
 /* ─── Page Component ─── */
 export default function PillarPage() {
   const orgSchema = OrganizationSchema();
-  const faqSchema = FAQPageSchema({ mainEntity: faqItems });
 
   return (
     <>
@@ -75,10 +74,6 @@ export default function PillarPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <main>
