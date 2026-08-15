@@ -251,7 +251,7 @@ export default function HomePage() {
 
             {/* 8th card - CTA Contact */}
             <Link href="/contact">
-              <Card hover className="flex h-full flex-col items-center justify-center bg-[#499A13] text-center text-white">
+              <Card hover className="flex h-full flex-col items-center justify-center bg-[#08CCD4] text-center text-white">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-2xl text-white">
                   ✉️
                 </div>
@@ -261,7 +261,7 @@ export default function HomePage() {
                 <p className="mt-2 text-sm text-white/80">
                   Ready to start your next collection? Contact us today.
                 </p>
-                <div className="mt-4 inline-flex items-center gap-1 rounded-full bg-white px-5 py-2 text-sm font-semibold text-[#499A13]">
+                <div className="mt-4 inline-flex items-center gap-1 rounded-full bg-white px-5 py-2 text-sm font-semibold text-[#08CCD4]">
                   Contact Us
                   <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
