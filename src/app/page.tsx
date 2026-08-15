@@ -251,7 +251,7 @@ export default function HomePage() {
 
             {/* 8th card - CTA Contact */}
             <Link href="/contact">
-              <Card hover className="flex h-full flex-col items-center justify-center bg-[#01A1AD] text-center text-white">
+              <Card hover className="flex h-full flex-col items-center justify-center !bg-[#01A1AD] text-center text-white">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-2xl text-white">
                   ✉️
                 </div>
