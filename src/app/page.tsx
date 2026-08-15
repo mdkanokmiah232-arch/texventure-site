@@ -284,13 +284,13 @@ export default function HomePage() {
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { name: "Knit Wear", desc: "T-shirts, polos, tank tops", href: "/products/knit-wear" },
-              { name: "Wovens", desc: "Shirts, blouses, dresses", href: "/products/wovens" },
-              { name: "Circular Knit", desc: "Jerseys, leggings", href: "/products/circular-knit" },
-              { name: "Denim", desc: "Jeans, jackets, shorts", href: "/products/denim" },
-              { name: "Sweaters", desc: "Pullovers, cardigans", href: "/products/sweaters" },
-              { name: "Work Wear", desc: "Uniforms, hi-vis", href: "/products/work-wear" },
-              { name: "Active Wear", desc: "Gym wear, athleisure", href: "/products/active-wear" },
+              { name: "Knit Wear", desc: "T-shirts, polos, and tank tops in cotton and blended fabrics", href: "/products/knit-wear" },
+              { name: "Wovens", desc: "Shirts, blouses, and dresses cut from premium woven fabrics", href: "/products/wovens" },
+              { name: "Circular Knit", desc: "Jerseys and leggings for form-fitting, stretch garments", href: "/products/circular-knit" },
+              { name: "Denim", desc: "Jeans, jackets, and shorts in custom washes and finishes", href: "/products/denim" },
+              { name: "Sweaters", desc: "Pullovers and cardigans in knit and fleece constructions", href: "/products/sweaters" },
+              { name: "Work Wear", desc: "Uniforms and hi-vis garments built for durability and safety", href: "/products/work-wear" },
+              { name: "Active Wear", desc: "Gym wear and athleisure for performance and everyday comfort", href: "/products/active-wear" },
             ].map((cat) => (
               <Link key={cat.name} href={cat.href} className="group">
                 <Card className="p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
