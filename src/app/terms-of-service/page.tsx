@@ -65,7 +65,7 @@ export default function TermsOfServicePage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#1B2A4A]">5. Quality &amp; Compliance</h2>
+            <h2 className="text-xl font-bold text-[#1B2A4A]">5. Quality and Compliance</h2>
             <p className="mt-3 leading-relaxed">
               Our factory partners hold certifications including BSCI, OEKO-TEX® Standard 100,
               SEDEX/SMETA, WRAP, and GOTS. Products are inspected using AQL 2.5 sampling standards

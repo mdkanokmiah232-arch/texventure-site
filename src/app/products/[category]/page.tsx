@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: 'Product Not Found' };
 
   return {
-    title: `${product.name} — Sourcing & Manufacturing in Bangladesh`,
+    title: `${product.name} — Sourcing and Manufacturing in Bangladesh`,
     description: product.description,
     alternates: {
       canonical: `https://texventure.com/products/${product.slug}`,

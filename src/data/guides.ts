@@ -42,9 +42,9 @@ MOQ stands for **Minimum Order Quantity** — the minimum number of units a fact
 
 Factories set MOQs because every production run involves fixed setup costs:
 - **Fabric dyeing** — dye lots have minimum yardage requirements
-- **Pattern & cutting** — setting up cutting patterns takes time regardless of quantity
+- **Pattern and cutting** — setting up cutting patterns takes time regardless of quantity
 - **Machine setup** — calibrating sewing lines for a new style has a fixed cost
-- **Label & trim orders** — custom labels and trims often have their own minimums
+- **Label and trim orders** — custom labels and trims often have their own minimums
 
 ### Typical MOQs in Bangladesh
 
@@ -151,9 +151,9 @@ The cost to manufacture a hoodie varies based on fabric weight, construction, or
 |-----------|-------------|---------------|
 | Fabric (350–400gsm fleece) | $3.50 – $5.00 | $5.50 – $8.00 |
 | Trims (zipper, drawcord, labels) | $0.80 – $1.50 | $1.50 – $3.00 |
-| Cut & Sew Labour | $1.50 – $2.50 | $2.50 – $4.00 |
+| Cut and Sew Labour | $1.50 – $2.50 | $2.50 – $4.00 |
 | Print / Embroidery | $0.50 – $2.00 | $2.00 – $5.00 |
-| QC & Finishing | $0.30 – $0.50 | $0.50 – $0.80 |
+| QC and Finishing | $0.30 – $0.50 | $0.50 – $0.80 |
 | **Total (Ex-Factory)** | **$6.60 – $11.50** | **$12.00 – $20.80** |
 
 ### What Affects the Price?
@@ -252,7 +252,7 @@ Choosing where to manufacture your garments depends on your budget, timeline, pr
 | Per-unit cost | $4 – $15 | $6 – $25 | $5 – $18 |
 | Shipping (to US/EU) | Moderate | Low-Moderate | Moderate |
 
-### MOQ & Flexibility
+### MOQ and Flexibility
 
 | Factor | Bangladesh | China | Vietnam |
 |--------|-----------|-------|---------|

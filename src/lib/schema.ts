@@ -47,7 +47,7 @@ export function OrganizationSchema(
       "https://www.linkedin.com/company/texventure",
     ],
     description:
-      "TexVenture — Bangladesh-based apparel sourcing, buying house & garment manufacturing partner serving global brands since inception.",
+      "TexVenture — Bangladesh-based apparel sourcing, buying house and garment manufacturing partner serving global brands since inception.",
   };
 
   const config = { ...defaults, ...overrides };

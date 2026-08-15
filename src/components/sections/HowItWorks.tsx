@@ -19,12 +19,12 @@ const defaultSteps: Step[] = [
   },
   {
     number: '02',
-    title: 'Sampling & Approval',
+    title: 'Sampling and Approval',
     description: 'We produce pre-production samples within 5-7 days. You review and approve before mass production.',
   },
   {
     number: '03',
-    title: 'Production & QC',
+    title: 'Production and QC',
     description: 'Our team manages full production with inline quality control, color accuracy, and sizing checks.',
   },
   {

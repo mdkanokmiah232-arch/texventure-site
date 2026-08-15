@@ -44,7 +44,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <img
             src="/images/logo.png"
-            alt="TexVenture — Apparel Sourcing & Buying House in Bangladesh"
+            alt="TexVenture — Apparel Sourcing and Buying House in Bangladesh"
             className="h-10 w-auto md:h-12"
           />
         </Link>

@@ -131,7 +131,7 @@ export default function LowMOQPage() {
                 },
                 {
                   icon: '📦',
-                  title: 'Mix Colours & Sizes',
+                  title: 'Mix Colours and Sizes',
                   description: 'Our 100-piece MOQ is per style — mix different colours and sizes within your order to match your target market.',
                 },
                 {
@@ -200,7 +200,7 @@ export default function LowMOQPage() {
             },
             {
               number: '02',
-              title: 'Get a Quote & Sample',
+              title: 'Get a Quote and Sample',
               description: 'We provide a transparent quote and produce a pre-production sample within 5-7 days. Review and approve before production.',
             },
             {

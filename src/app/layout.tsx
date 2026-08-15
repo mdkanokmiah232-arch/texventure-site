@@ -25,11 +25,11 @@ const SITE_URL = "https://texventure.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "TexVenture — Apparel Sourcing & Buying House in Bangladesh",
+    default: "TexVenture — Apparel Sourcing and Buying House in Bangladesh",
     template: "%s | TexVenture",
   },
   description:
-    "TexVenture — Premium apparel sourcing & buying house in Bangladesh. Knitwear, wovens, denim, sweaters, active wear & work wear with MOQ from 100 pcs/style.",
+    "TexVenture — Premium apparel sourcing and buying house in Bangladesh. Knitwear, wovens, denim, sweaters, active wear and work wear with MOQ from 100 pcs/style.",
   keywords: [
     "apparel sourcing",
     "garment manufacturing",
@@ -53,23 +53,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: SITE_URL,
     siteName: "TexVenture",
-    title: "TexVenture — Apparel Sourcing & Buying House in Bangladesh",
+    title: "TexVenture — Apparel Sourcing and Buying House in Bangladesh",
     description:
-      "Premium apparel sourcing & buying house in Bangladesh. Knitwear, wovens, denim, sweaters, active wear & work wear.",
+      "Premium apparel sourcing and buying house in Bangladesh. Knitwear, wovens, denim, sweaters, active wear and work wear.",
     images: [
       {
         url: `${SITE_URL}/og-default.png`,
         width: 1200,
         height: 630,
-        alt: "TexVenture — Apparel Sourcing & Buying House",
+        alt: "TexVenture — Apparel Sourcing and Buying House",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TexVenture — Apparel Sourcing & Buying House in Bangladesh",
+    title: "TexVenture — Apparel Sourcing and Buying House in Bangladesh",
     description:
-      "Premium apparel sourcing & buying house in Bangladesh.",
+      "Premium apparel sourcing and buying house in Bangladesh.",
     images: [`${SITE_URL}/og-default.png`],
   },
   robots: {

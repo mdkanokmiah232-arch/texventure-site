@@ -55,7 +55,7 @@ export default function CTABand({
         </div>
 
         <p className="mt-8 text-sm text-gray-400">
-          ✦ No minimum commitment &nbsp;·&nbsp; ✦ Response within 24 hours &nbsp;·&nbsp; ✦ BSCI & OEKO-TEX® Certified
+          ✦ No minimum commitment &nbsp;·&nbsp; ✦ Response within 24 hours &nbsp;·&nbsp; ✦ BSCI and OEKO-TEX® Certified
         </p>
       </div>
     </section>

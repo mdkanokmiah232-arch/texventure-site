@@ -39,43 +39,43 @@ export const services: Service[] = [
     imageAlt: "Factory production line sewing garments",
     details: [
       {
-        title: "Tech Pack & Sampling",
+        title: "Tech Pack and Sampling",
         description:
           "Submit your tech pack or let our design team help build one. We produce a pre-production sample for your approval before mass production begins.",
         highlights: [
-          "Tech pack review & cost analysis",
+          "Tech pack review and cost analysis",
           "1–2 rounds of sampling",
-          "Photo & video approval process",
+          "Photo and video approval process",
         ],
       },
       {
-        title: "Fabric & Trim Sourcing",
+        title: "Fabric and Trim Sourcing",
         description:
           "We source the right fabric, buttons, zippers, labels, and trims from our vetted supplier network — ensuring quality and cost-effectiveness.",
         highlights: [
-          "Fabric lab-dip & strike-off approval",
-          "Trim & accessory matching",
+          "Fabric lab-dip and strike-off approval",
+          "Trim and accessory matching",
           "Sustainable fabric options",
         ],
       },
       {
-        title: "Production & QC",
+        title: "Production and QC",
         description:
           "Factory production is monitored with in-line and end-line quality checks. We conduct final inspections before shipping.",
         highlights: [
-          "In-line & end-line QC",
+          "In-line and end-line QC",
           "AQL 2.5 inspection standard",
-          "Photo & video progress updates",
+          "Photo and video progress updates",
         ],
       },
       {
-        title: "Logistics & Shipping",
+        title: "Logistics and Shipping",
         description:
           "We handle export documentation, freight forwarding, and door-to-door delivery to your warehouse or fulfillment center.",
         highlights: [
-          "FOB, CIF & DDP terms available",
-          "Air, sea & express freight options",
-          "Customs & export paperwork managed",
+          "FOB, CIF and DDP terms available",
+          "Air, sea and express freight options",
+          "Customs and export paperwork managed",
         ],
       },
     ],
@@ -100,7 +100,7 @@ export const services: Service[] = [
           "Our factory partners accept minimum orders from just 100 pieces per style, making it affordable to test new designs and collections.",
         highlights: [
           "From 100 pcs per style",
-          "Mix colours & sizes in one order",
+          "Mix colours and sizes in one order",
           "No excessive fabric minimums",
         ],
       },
@@ -151,17 +151,17 @@ export const services: Service[] = [
     imageAlt: "Branded garment labels and hang-tags",
     details: [
       {
-        title: "Label & Branding Design",
+        title: "Label and Branding Design",
         description:
           "We help you create woven labels, printed labels, hang-tags, and packaging that match your brand identity.",
         highlights: [
-          "Custom woven & printed labels",
-          "Hang-tags & stickers",
-          "Poly-bags, boxes & tissue paper",
+          "Custom woven and printed labels",
+          "Hang-tags and stickers",
+          "Poly-bags, boxes and tissue paper",
         ],
       },
       {
-        title: "White-Label & OEM Production",
+        title: "White-Label and OEM Production",
         description:
           "Choose from our curated selection of proven blanks or bring your own designs — we'll manufacture with your branding throughout.",
         highlights: [
@@ -171,11 +171,11 @@ export const services: Service[] = [
         ],
       },
       {
-        title: "Packaging & Presentation",
+        title: "Packaging and Presentation",
         description:
           "From retail-ready hang to e-commerce-ready poly-bags, we ensure your product looks professional the moment it arrives.",
         highlights: [
-          "Custom tissue paper & stickers",
+          "Custom tissue paper and stickers",
           "Branded mailer bags",
           "Gift-ready packaging options",
         ],
@@ -185,9 +185,9 @@ export const services: Service[] = [
         description:
           "Not sure where to start? Our team provides guidance on fabric choices, trims, and packaging to build a cohesive brand experience.",
         highlights: [
-          "Fabric & colour recommendations",
-          "Trim & packaging consultation",
-          "Trend & market insights",
+          "Fabric and colour recommendations",
+          "Trim and packaging consultation",
+          "Trend and market insights",
         ],
       },
     ],
@@ -207,23 +207,23 @@ export const services: Service[] = [
     imageAlt: "Streetwear hoodies and graphic tees on display",
     details: [
       {
-        title: "Premium Fabrics & Construction",
+        title: "Premium Fabrics and Construction",
         description:
           "Heavyweight 400gsm French terry, 240gsm heavyweight cotton, fleece-lined hoodies — we source the premium fabrics streetwear demands.",
         highlights: [
-          "400gsm+ heavyweight fleece & terry",
-          "Oversized & boxy fits",
-          "Reinforced seams & premium trims",
+          "400gsm+ heavyweight fleece and terry",
+          "Oversized and boxy fits",
+          "Reinforced seams and premium trims",
         ],
       },
       {
-        title: "Graphics & Print Techniques",
+        title: "Graphics and Print Techniques",
         description:
           "From puff print and discharge to screen print and DTG, we offer every print technique to bring your designs to life.",
         highlights: [
-          "Screen print & puff print",
-          "DTG & sublimation",
-          "Heat transfer & embroidery",
+          "Screen print and puff print",
+          "DTG and sublimation",
+          "Heat transfer and embroidery",
         ],
       },
       {
@@ -241,7 +241,7 @@ export const services: Service[] = [
         description:
           "From hoodies and tees to cargo pants and accessories, we help you build complete collections — not just single pieces.",
         highlights: [
-          "Hoodies, tees, cargos & accessories",
+          "Hoodies, tees, cargos and accessories",
           "Coordinated colourways",
           "Collection-wide quality consistency",
         ],

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Custom Clothing Manufacturer in Bangladesh',
     description:
-      'Low MOQ custom clothing manufacturing in Bangladesh. 100 pieces per style. BSCI & OEKO-TEX certified.',
+      'Low MOQ custom clothing manufacturing in Bangladesh. 100 pieces per style. BSCI and OEKO-TEX certified.',
     url: 'https://texventure.com/custom-manufacturing',
     siteName: 'TexVenture',
     type: 'website',
@@ -66,7 +66,7 @@ const capabilities = [
       'Access to 200+ mills. Cotton, polyester, linen, bamboo, organic blends, denim, and performance fabrics.',
   },
   {
-    title: 'Sampling & Prototyping',
+    title: 'Sampling and Prototyping',
     description:
       'Production-ready samples in 7–14 days. Fit, pre-production, and shipment samples against your spec.',
   },
@@ -92,13 +92,13 @@ const processSteps = [
   },
   {
     number: '2',
-    title: 'Sampling & Approval',
+    title: 'Sampling and Approval',
     description:
       'We create a prototype. You review fit, fabric, and construction. Revisions included until sign-off.',
   },
   {
     number: '3',
-    title: 'Production & QC',
+    title: 'Production and QC',
     description:
       'Bulk production with QC at every stage — fabric, cutting, sewing, finishing — maintaining AQL 2.5 standards.',
   },

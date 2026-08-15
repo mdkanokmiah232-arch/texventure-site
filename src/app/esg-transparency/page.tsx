@@ -11,7 +11,7 @@ import { generatePageMeta } from '@/lib/metadata';
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = generatePageMeta({
-  title: 'ESG Transparency — Environmental, Social & Governance',
+  title: 'ESG Transparency — Environmental, Social and Governance',
   description:
     'TexVenture is committed to ESG transparency. Learn about our environmental practices, social responsibility initiatives, governance standards, and transparency commitments in Bangladesh apparel manufacturing.',
   path: '/esg-transparency',
@@ -54,7 +54,7 @@ const environmentalPractices = [
 
 const socialResponsibility = [
   {
-    title: 'Fair Wages & Working Conditions',
+    title: 'Fair Wages and Working Conditions',
     description:
       'All factories in our network pay above minimum wage, provide safe working environments, and comply with ILO conventions. Regular audits ensure ongoing compliance.',
     icon: '💰',
@@ -146,7 +146,7 @@ export default function ESGTransparencyPage() {
           <Breadcrumbs items={[{ name: 'ESG Transparency', href: '/esg-transparency' }]} />
           <div className="mx-auto mt-8 max-w-3xl text-center">
             <Badge variant="brand" className="mb-4">
-              Environmental, Social & Governance
+              Environmental, Social and Governance
             </Badge>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               ESG Transparency

@@ -9,14 +9,14 @@ import Badge from '@/components/ui/Badge';
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = {
-  title: 'Guides & Resources',
+  title: 'Guides and Resources',
   description:
     'Expert guides on garment manufacturing, apparel sourcing, MOQs, pricing, and the fashion supply chain — written by the TexVenture team.',
   alternates: {
     canonical: 'https://texventure.com/guides',
   },
   openGraph: {
-    title: 'Guides & Resources | TexVenture',
+    title: 'Guides and Resources | TexVenture',
     description:
       'Expert guides on garment manufacturing, apparel sourcing, MOQs, pricing, and the fashion supply chain.',
     url: 'https://texventure.com/guides',
@@ -56,7 +56,7 @@ export default function GuidesPage() {
             TexVenture Resources
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            Guides & Resources
+            Guides and Resources
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-300">
             Expert insights on garment manufacturing, apparel sourcing, pricing,

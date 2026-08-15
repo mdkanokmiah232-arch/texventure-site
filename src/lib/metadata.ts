@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 const SITE_URL = "https://texventure.com";
 const SITE_NAME = "TexVenture";
 const SITE_DESCRIPTION =
-  "TexVenture — Bangladesh apparel sourcing, buying house & garment manufacturing partner. Quality knitwear, wovens, denim, sweaters, active wear & work wear with MOQ from 100 pcs/style.";
+  "TexVenture — Bangladesh apparel sourcing, buying house and garment manufacturing partner. Quality knitwear, wovens, denim, sweaters, active wear and work wear with MOQ from 100 pcs/style.";
 
 /* ─── Default Metadata Fields ─── */
 const defaultMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Apparel Sourcing & Buying House in Bangladesh`,
+    default: `${SITE_NAME} — Apparel Sourcing and Buying House in Bangladesh`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
@@ -37,20 +37,20 @@ const defaultMetadata: Metadata = {
     locale: "en_US",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Apparel Sourcing & Buying House in Bangladesh`,
+    title: `${SITE_NAME} — Apparel Sourcing and Buying House in Bangladesh`,
     description: SITE_DESCRIPTION,
     images: [
       {
         url: `${SITE_URL}/og-default.png`,
         width: 1200,
         height: 630,
-        alt: `${SITE_NAME} — Apparel Sourcing & Buying House`,
+        alt: `${SITE_NAME} — Apparel Sourcing and Buying House`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — Apparel Sourcing & Buying House in Bangladesh`,
+    title: `${SITE_NAME} — Apparel Sourcing and Buying House in Bangladesh`,
     description: SITE_DESCRIPTION,
     images: [`${SITE_URL}/og-default.png`],
   },

@@ -71,7 +71,7 @@ const teamMembers = [
   },
   {
     name: 'Quality Assurance',
-    role: 'QC & Compliance',
+    role: 'QC and Compliance',
     description: 'Dedicated quality control team conducting in-line, end-line, and final AQL 2.5 inspections across all production lines.',
   },
 ];

@@ -36,9 +36,9 @@ export const products: ProductCategory[] = [
       "Our knit wear category covers the full spectrum of circular-knit jersey products. From lightweight single-jersey tees to heavyweight fleece hoodies, we source from factories equipped with modern knitting, dyeing, and finishing lines. Ideal for basics, streetwear, and athleisure brands.",
     features: [
       { icon: "🧶", text: "Jersey, interlock, piqué, and fleece fabrics" },
-      { icon: "🎨", text: "Pantone-matched dyeing & custom washes" },
+      { icon: "🎨", text: "Pantone-matched dyeing and custom washes" },
       { icon: "🏷️", text: "Woven labels, screen print, embroidery, DTG" },
-      { icon: "📦", text: "Retail-ready packaging & poly-bagging" },
+      { icon: "📦", text: "Retail-ready packaging and poly-bagging" },
     ],
     image: "/images/products/knit-wear.jpg",
     imageAlt: "Folded knit t-shirts and hoodies in multiple colors",
@@ -55,10 +55,10 @@ export const products: ProductCategory[] = [
     longDescription:
       "Woven garments demand precision in cutting, stitching, and finishing. We partner with factories that specialise in poplin, twill, chambray, and linen-blend fabrics to deliver crisp, well-constructed shirts, dresses, and outerwear for casual and formal markets.",
     features: [
-      { icon: "👔", text: "Poplin, twill, chambray, linen & cotton blends" },
-      { icon: "✂️", text: "Precision cutting & pattern grading" },
+      { icon: "👔", text: "Poplin, twill, chambray, linen and cotton blends" },
+      { icon: "✂️", text: "Precision cutting and pattern grading" },
       { icon: "🧵", text: "French seams, flat-felled, and overlocked finishes" },
-      { icon: "📦", text: "Hang-tagging & custom packaging" },
+      { icon: "📦", text: "Hang-tagging and custom packaging" },
     ],
     image: "/images/products/wovens.jpg",
     imageAlt: "Assortment of woven shirts and blouses on hangers",
@@ -75,10 +75,10 @@ export const products: ProductCategory[] = [
     longDescription:
       "Circular-knit garments are produced on seamless knitting machines, eliminating side seams for superior comfort. Perfect for underwear, leggings, base layers, and performance sportswear where stretch, fit, and breathability matter most.",
     features: [
-      { icon: "🔄", text: "Seamless & tubular construction" },
-      { icon: "💨", text: "Moisture-wicking & 4-way stretch" },
-      { icon: "🩱", text: "Ideal for underwear, leggings & base layers" },
-      { icon: "🌿", text: "Organic & recycled yarn options" },
+      { icon: "🔄", text: "Seamless and tubular construction" },
+      { icon: "💨", text: "Moisture-wicking and 4-way stretch" },
+      { icon: "🩱", text: "Ideal for underwear, leggings and base layers" },
+      { icon: "🌿", text: "Organic and recycled yarn options" },
     ],
     image: "/images/products/circular-knit.jpg",
     imageAlt: "Seamless leggings and underwear in various colors",
@@ -95,10 +95,10 @@ export const products: ProductCategory[] = [
     longDescription:
       "Bangladesh is one of the world's largest denim producers. We connect you with mills and garment units that handle everything from raw selvedge to enzyme washes, sandblasting, and laser finishing — delivering on-trend denim at competitive prices.",
     features: [
-      { icon: "👖", text: "Raw, stone-washed, acid-washed & distressed" },
-      { icon: "🔬", text: "Laser finishing & sustainable wash techniques" },
+      { icon: "👖", text: "Raw, stone-washed, acid-washed and distressed" },
+      { icon: "🔬", text: "Laser finishing and sustainable wash techniques" },
       { icon: "📐", text: "Custom fits: slim, straight, relaxed, tapered" },
-      { icon: "♻️", text: "Water-saving laundry & eco-dyeing" },
+      { icon: "♻️", text: "Water-saving laundry and eco-dyeing" },
     ],
     image: "/images/products/denim.jpg",
     imageAlt: "Stack of denim jeans in various washes",
@@ -115,10 +115,10 @@ export const products: ProductCategory[] = [
     longDescription:
       "Our sweater partners use V-bed flat-knit machines and whole-garment technology to produce fully fashioned knitwear. From chunky cable-knit sweaters to fine-gauge merino cardigans, we handle yarn sourcing, knitting, linking, and finishing.",
     features: [
-      { icon: "🧣", text: "Full-fashion & whole-garment knitting" },
-      { icon: "🐑", text: "Wool, cotton, acrylic & blended yarns" },
-      { icon: "🎨", text: "Jacquard, intarsia & cable patterns" },
-      { icon: "📦", text: "Neat folding & gift-ready packaging" },
+      { icon: "🧣", text: "Full-fashion and whole-garment knitting" },
+      { icon: "🐑", text: "Wool, cotton, acrylic and blended yarns" },
+      { icon: "🎨", text: "Jacquard, intarsia and cable patterns" },
+      { icon: "📦", text: "Neat folding and gift-ready packaging" },
     ],
     image: "/images/products/sweaters.jpg",
     imageAlt: "Assortment of knit sweaters on wooden hangers",
@@ -135,9 +135,9 @@ export const products: ProductCategory[] = [
     longDescription:
       "Work wear demands durability, functionality, and compliance with safety standards. We source heavy-duty twill, ripstop, and canvas garments for construction, logistics, hospitality, and healthcare sectors — with custom branding and reflective trims.",
     features: [
-      { icon: "🦺", text: "High-visibility & reflective options" },
-      { icon: "🧵", text: "Ripstop, canvas & heavy-duty twill" },
-      { icon: "🦓", text: "Custom embroidery & heat-transfer logos" },
+      { icon: "🦺", text: "High-visibility and reflective options" },
+      { icon: "🧵", text: "Ripstop, canvas and heavy-duty twill" },
+      { icon: "🦓", text: "Custom embroidery and heat-transfer logos" },
       { icon: "✅", text: "ISO / EN compliance available" },
     ],
     image: "/images/products/work-wear.jpg",
@@ -155,10 +155,10 @@ export const products: ProductCategory[] = [
     longDescription:
       "Activewear requires technical fabrics with stretch, compression, and moisture management. We work with factories that specialise in sublimation printing, heat-sealed seams, and performance trims — delivering gym-ready, yoga-ready, and run-ready apparel.",
     features: [
-      { icon: "🏋️", text: "Compression, stretch & moisture-wicking" },
-      { icon: "🎨", text: "Sublimation printing & all-over prints" },
-      { icon: "🪡", text: "Flatlock seams & bonded hems" },
-      { icon: "♻️", text: "Recycled polyester & sustainable options" },
+      { icon: "🏋️", text: "Compression, stretch and moisture-wicking" },
+      { icon: "🎨", text: "Sublimation printing and all-over prints" },
+      { icon: "🪡", text: "Flatlock seams and bonded hems" },
+      { icon: "♻️", text: "Recycled polyester and sustainable options" },
     ],
     image: "/images/products/active-wear.jpg",
     imageAlt: "Activewear set including sports bra and leggings",

@@ -65,10 +65,10 @@ const certDetails = [
     description:
       'SEDEX (Supplier Ethical Data Exchange) is a membership organization dedicated to driving improvements in ethical and responsible business practices. SMETA is SEDEX\'s widely used social audit methodology.',
     whatItMeans:
-      'SEDEX membership means our factories participate in a platform that enables ethical supply chain management. SMETA audits provide a rigorous assessment of labour standards, health & safety, environment, and business ethics — giving you full transparency into factory practices.',
+      'SEDEX membership means our factories participate in a platform that enables ethical supply chain management. SMETA audits provide a rigorous assessment of labour standards, health and safety, environment, and business ethics — giving you full transparency into factory practices.',
     keyRequirements: [
       'Labour standards assessment',
-      'Health & safety evaluation',
+      'Health and safety evaluation',
       'Environmental impact review',
       'Business ethics assessment',
       'Transparent data sharing with buyers',
@@ -132,7 +132,7 @@ export default function CertificationsPage() {
           <Breadcrumbs items={[{ name: 'Certifications', href: '/certifications' }]} />
           <div className="mx-auto mt-8 max-w-3xl text-center">
             <Badge variant="brand" className="mb-4">
-              Quality & Compliance
+              Quality and Compliance
             </Badge>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               Our Certifications

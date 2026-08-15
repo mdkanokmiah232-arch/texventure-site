@@ -142,7 +142,7 @@ export const faqs: FAQGroup[] = [
   },
   {
     pageType: "pricing",
-    title: "Pricing & Quote Questions",
+    title: "Pricing and Quote Questions",
     description: "Questions about pricing, quotes, and payment.",
     items: [
       {

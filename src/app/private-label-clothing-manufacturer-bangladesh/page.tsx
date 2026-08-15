@@ -111,7 +111,7 @@ export default function PrivateLabelPage() {
               {[
                 {
                   icon: '🏷️',
-                  title: 'Custom Labels & Tags',
+                  title: 'Custom Labels and Tags',
                   description: 'Woven labels, printed labels, care labels, size tags, and hang tags — all customised with your brand identity.',
                 },
                 {
@@ -182,9 +182,9 @@ export default function PrivateLabelPage() {
                 <div className="mt-6 space-y-4">
                   {[
                     { step: '1', title: 'Share Your Brand Vision', desc: 'Tell us about your brand, target market, and design requirements.' },
-                    { step: '2', title: 'Select Products & Blanks', desc: 'Choose from our product range or provide your own designs.' },
+                    { step: '2', title: 'Select Products and Blanks', desc: 'Choose from our product range or provide your own designs.' },
                     { step: '3', title: 'Design Branding Elements', desc: 'We help you create labels, tags, and packaging specifications.' },
-                    { step: '4', title: 'Sample & Approve', desc: 'Review pre-production samples with your branding applied.' },
+                    { step: '4', title: 'Sample and Approve', desc: 'Review pre-production samples with your branding applied.' },
                     { step: '5', title: 'Full Production', desc: 'Manufacturing with quality control at every stage.' },
                     { step: '6', title: 'Delivered to You', desc: 'Retail-ready branded products shipped to your door.' },
                   ].map((item) => (

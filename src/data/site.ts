@@ -73,7 +73,7 @@ export const company: CompanyInfo = {
   logoUrl:
     "https://texventure.com/wp-content/uploads/2024/06/46f49d3a6517646824216463e65518bca411f2ea.png",
   foundedYear: 2024,
-  industry: "Apparel Sourcing & Manufacturing",
+  industry: "Apparel Sourcing and Manufacturing",
   headquarters: "Dhaka, Bangladesh",
 };
 
@@ -138,7 +138,7 @@ export const certifications: Certification[] = [
   },
   {
     name: "SEDEX / SMETA",
-    description: "Ethical trade audit covering labour standards, health & safety, environment, and business ethics.",
+    description: "Ethical trade audit covering labour standards, health and safety, environment, and business ethics.",
   },
   {
     name: "WRAP",
