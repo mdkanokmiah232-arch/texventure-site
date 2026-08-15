@@ -10,12 +10,12 @@ import Badge from '@/components/ui/Badge';
 import Card from '@/components/ui/Card';
 
 export const metadata: Metadata = {
-  title: 'Custom Clothing Manufacturer in Bangladesh | TexVenture',
+  title: 'Custom Clothing Manufacturer in Bangladesh',
   description:
     'TexVenture is a custom clothing manufacturer in Bangladesh offering low MOQ production from 100 pieces per style. From design to delivery — knitwear, streetwear, wovens, denim, and more.',
   alternates: { canonical: 'https://texventure.com/custom-manufacturing' },
   openGraph: {
-    title: 'Custom Clothing Manufacturer in Bangladesh | TexVenture',
+    title: 'Custom Clothing Manufacturer in Bangladesh',
     description:
       'Low MOQ custom clothing manufacturing in Bangladesh. 100 pieces per style. BSCI & OEKO-TEX certified.',
     url: 'https://texventure.com/custom-manufacturing',

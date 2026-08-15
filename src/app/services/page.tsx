@@ -8,7 +8,7 @@ import FAQ from '@/components/sections/FAQ';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Our Services — Apparel Manufacturing & Sourcing | TexVenture',
+  title: 'Our Services — Apparel Manufacturing & Sourcing',
   description:
     'Explore TexVenture\'s apparel manufacturing services: custom clothing manufacturing, low MOQ production, private label/OEM, and streetwear manufacturing. Full-service sourcing from Bangladesh.',
   path: '/services',

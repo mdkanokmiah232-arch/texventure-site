@@ -9,7 +9,7 @@ import QuoteCalculator from '@/components/forms/QuoteCalculator';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Instant Quote Calculator — Custom Clothing Pricing | TexVenture',
+  title: 'Instant Quote Calculator — Custom Clothing Pricing',
   description:
     'Get instant pricing estimates for custom clothing manufacturing in Bangladesh. Use our calculator to see per-unit costs for t-shirts, hoodies, activewear, and more — from 100 pieces.',
   path: '/instant-quote',

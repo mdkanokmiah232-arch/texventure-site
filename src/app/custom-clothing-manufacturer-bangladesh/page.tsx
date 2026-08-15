@@ -13,7 +13,7 @@ import StatsCounter from '@/components/sections/StatsCounter';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Clothing Manufacturer in Bangladesh — Custom Apparel Production | TexVenture',
+  title: 'Clothing Manufacturer in Bangladesh — Custom Apparel',
   description:
     'TexVenture is your trusted clothing manufacturer in Bangladesh. We offer custom apparel production with low MOQ from 100 pcs, competitive pricing, quality certifications, and global shipping. Start sourcing today.',
   path: '/custom-clothing-manufacturer-bangladesh',

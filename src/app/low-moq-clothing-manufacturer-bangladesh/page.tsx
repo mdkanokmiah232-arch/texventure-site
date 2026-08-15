@@ -12,7 +12,7 @@ import Testimonials from '@/components/sections/Testimonials';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Low MOQ Clothing Manufacturer Bangladesh — 100 Pieces Per Style | TexVenture',
+  title: 'Low MOQ Clothing Manufacturer Bangladesh — 100pcs/Style',
   description:
     'Looking for a low MOQ clothing manufacturer in Bangladesh? TexVenture accepts orders from just 100 pieces per style. Mix colours and sizes. Ideal for startups, capsule collections, and limited drops.',
   path: '/low-moq-clothing-manufacturer-bangladesh',

@@ -12,7 +12,7 @@ import Testimonials from '@/components/sections/Testimonials';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Private Label Clothing Manufacturer Bangladesh — OEM & White Label | TexVenture',
+  title: 'Private Label Clothing Manufacturer Bangladesh — OEM',
   description:
     'Launch your own clothing brand with TexVenture — a private label clothing manufacturer in Bangladesh. Full OEM service with custom labels, hang tags, packaging, and branding from 100 pieces.',
   path: '/private-label-clothing-manufacturer-bangladesh',

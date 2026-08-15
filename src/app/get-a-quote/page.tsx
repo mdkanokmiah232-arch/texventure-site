@@ -9,7 +9,7 @@ import QuoteForm from '@/components/forms/QuoteForm';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Get a Free Quote — Custom Clothing Manufacturing | TexVenture',
+  title: 'Get a Free Quote — Custom Clothing Manufacturing',
   description:
     'Get a free, no-obligation quote for custom clothing manufacturing in Bangladesh. Fill out the form or message us on WhatsApp — we respond within 24 hours.',
   path: '/get-a-quote',

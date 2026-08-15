@@ -12,7 +12,7 @@ import Testimonials from '@/components/sections/Testimonials';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Streetwear Manufacturer Bangladesh — Hoodies, Tees & Cargos | TexVenture',
+  title: 'Streetwear Manufacturer Bangladesh — Hoodies, Tees & Cargos',
   description:
     'TexVenture is a streetwear manufacturer in Bangladesh specialising in heavyweight hoodies, oversized tees, cargo pants, and bold graphic apparel. Premium fabrics, custom prints, drop-ready production.',
   path: '/streetwear-manufacturer-bangladesh',
