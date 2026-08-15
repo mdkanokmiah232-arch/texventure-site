@@ -284,13 +284,13 @@ export default function HomePage() {
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { name: "Knit Wear", desc: "T-shirts, polos, and tank tops in cotton and blended fabrics", href: "/products/knit-wear" },
-              { name: "Wovens", desc: "Shirts, blouses, and dresses cut from premium woven fabrics", href: "/products/wovens" },
-              { name: "Circular Knit", desc: "Jerseys and leggings for form-fitting, stretch garments", href: "/products/circular-knit" },
-              { name: "Denim", desc: "Jeans, jackets, and shorts in custom washes and finishes", href: "/products/denim" },
-              { name: "Sweaters", desc: "Pullovers and cardigans in knit and fleece constructions", href: "/products/sweaters" },
-              { name: "Work Wear", desc: "Uniforms and hi-vis garments built for durability and safety", href: "/products/work-wear" },
-              { name: "Active Wear", desc: "Gym wear and athleisure for performance and everyday comfort", href: "/products/active-wear" },
+              { name: "Knit Wear", desc: "T-shirts, polos, and tank tops crafted from premium cotton and cotton-blend fabrics", href: "/products/knit-wear" },
+              { name: "Wovens", desc: "Shirts, blouses, and dresses tailored from premium woven fabrics for everyday wear", href: "/products/wovens" },
+              { name: "Circular Knit", desc: "Jerseys and leggings engineered for a form-fitting stretch with lasting recovery", href: "/products/circular-knit" },
+              { name: "Denim", desc: "Jeans, jackets, and shorts finished with custom washes, fades, and denim treatments", href: "/products/denim" },
+              { name: "Sweaters", desc: "Pullovers and cardigans crafted from knit and fleece constructions for cozy layering", href: "/products/sweaters" },
+              { name: "Work Wear", desc: "Uniforms and hi-vis garments engineered for durability, safety, and all-day comfort", href: "/products/work-wear" },
+              { name: "Active Wear", desc: "Gym wear and athleisure crafted for performance, breathability, and daily comfort", href: "/products/active-wear" },
             ].map((cat) => (
               <Link key={cat.name} href={cat.href} className="group">
                 <Card className="p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
