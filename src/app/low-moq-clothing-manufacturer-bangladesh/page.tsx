@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import { ServiceSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
 import TrustStrip from '@/components/sections/TrustStrip';
@@ -59,8 +60,21 @@ const faqItems = [
 
 /* ─── Page Component ─── */
 export default function LowMOQPage() {
+  const serviceSchema = ServiceSchema({
+    name: 'Low MOQ Clothing Manufacturing',
+    description:
+      'Low minimum order quantity clothing manufacturing in Bangladesh starting from 100 pieces per style, ideal for startups and capsule collections.',
+    url: 'https://texventure.com/low-moq-clothing-manufacturer-bangladesh',
+    serviceType: 'Apparel Manufacturing',
+    areaServed: 'Worldwide',
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <main>
         {/* Hero */}
         <HeroSection

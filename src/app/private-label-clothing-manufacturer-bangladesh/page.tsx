@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import { ServiceSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
 import TrustStrip from '@/components/sections/TrustStrip';
@@ -59,8 +60,21 @@ const faqItems = [
 
 /* ─── Page Component ─── */
 export default function PrivateLabelPage() {
+  const serviceSchema = ServiceSchema({
+    name: 'Private Label Clothing Manufacturing',
+    description:
+      'Full private label and OEM clothing manufacturing in Bangladesh with custom labels, hang tags, and packaging, from 100 pieces per style.',
+    url: 'https://texventure.com/private-label-clothing-manufacturer-bangladesh',
+    serviceType: 'Apparel Manufacturing',
+    areaServed: 'Worldwide',
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <main>
         {/* Hero */}
         <HeroSection

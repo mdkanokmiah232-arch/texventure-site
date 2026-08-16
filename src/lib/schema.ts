@@ -144,6 +144,38 @@ export function ProductSchema(options: ProductSchemaOptions): Record<string, unk
   };
 }
 
+/* ─── Service ─── */
+interface ServiceSchemaOptions {
+  name: string;
+  description: string;
+  url?: string;
+  image?: string;
+  areaServed?: string | string[];
+  serviceType?: string;
+}
+
+/**
+ * Service schema — use on service/manufacturing capability pages.
+ */
+export function ServiceSchema(options: ServiceSchemaOptions): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: options.name,
+    description: options.description,
+    ...(options.image && { image: options.image }),
+    ...(options.url && { url: options.url }),
+    serviceType: options.serviceType || options.name,
+    provider: {
+      "@type": "Organization",
+      name: "TexVenture",
+      url: SITE_URL,
+      logo: `${SITE_URL}/logo.png`,
+    },
+    areaServed: options.areaServed || "Worldwide",
+  };
+}
+
 /* ─── BreadcrumbList ─── */
 interface BreadcrumbItem {
   name: string;

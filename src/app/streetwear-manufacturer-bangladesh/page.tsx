@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import { ServiceSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
 import TrustStrip from '@/components/sections/TrustStrip';
@@ -59,8 +60,21 @@ const faqItems = [
 
 /* ─── Page Component ─── */
 export default function StreetwearPage() {
+  const serviceSchema = ServiceSchema({
+    name: 'Streetwear Manufacturing',
+    description:
+      'Streetwear clothing manufacturing in Bangladesh — heavyweight hoodies, oversized tees, and cargo pants with premium fabrics and custom prints.',
+    url: 'https://texventure.com/streetwear-manufacturer-bangladesh',
+    serviceType: 'Apparel Manufacturing',
+    areaServed: 'Worldwide',
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <main>
         {/* Hero */}
         <HeroSection

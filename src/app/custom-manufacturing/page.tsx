@@ -7,6 +7,7 @@ import HowItWorks from '@/components/sections/HowItWorks';
 import Testimonials from '@/components/sections/Testimonials';
 import TrustStrip from '@/components/sections/TrustStrip';
 import TrustBlock from '@/components/sections/TrustBlock';
+import { ServiceSchema } from '@/lib/schema';
 import Badge from '@/components/ui/Badge';
 import Card from '@/components/ui/Card';
 
@@ -147,8 +148,21 @@ const whyUs = [
 
 /* ──────────────────────── Page Component ──────────────────────── */
 export default function CustomManufacturingPage() {
+  const serviceSchema = ServiceSchema({
+    name: 'Custom Clothing Manufacturing',
+    description:
+      'Custom clothing manufacturing in Bangladesh from 100 pieces per style, covering knitwear, streetwear, wovens, denim, and more.',
+    url: 'https://texventure.com/custom-manufacturing',
+    serviceType: 'Apparel Manufacturing',
+    areaServed: 'Worldwide',
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* ── Hero ── */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#1B2A4A] via-[#1e3357] to-[#0f2240]">
         <div className="absolute inset-0 opacity-5">
