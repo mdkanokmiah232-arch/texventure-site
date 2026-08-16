@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
 import CTABand from '@/components/sections/CTABand';
+import TrustBlock from '@/components/sections/TrustBlock';
 import { certifications } from '@/data/site';
 import { generatePageMeta } from '@/lib/metadata';
 
@@ -283,6 +284,9 @@ export default function CertificationsPage() {
           </div>
         </div>
       </section>
+
+      {/* Why Trust TexVenture */}
+      <TrustBlock />
 
       {/* CTA */}
       <CTABand

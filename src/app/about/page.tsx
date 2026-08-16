@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
+import TrustBlock from '@/components/sections/TrustBlock';
 import { company, certifications, contact } from '@/data/site';
 import { generatePageMeta } from '@/lib/metadata';
 
@@ -62,17 +63,17 @@ const teamMembers = [
   {
     name: 'Leadership Team',
     role: 'Executive Leadership',
-    description: 'Experienced professionals with decades of expertise in Bangladesh garment manufacturing and global supply chain management.',
+    description: 'Experienced professionals with 15+ years combined expertise in Bangladesh garment manufacturing and global supply chain management, having overseen production for brands across the US, UK, and EU.',
   },
   {
     name: 'Sourcing Specialists',
     role: 'Factory Relations',
-    description: 'On-the-ground experts who maintain relationships with 50+ vetted factories, ensuring quality and compliance at every step.',
+    description: 'On-the-ground experts who personally visit and maintain relationships with 50+ vetted factories across Dhaka, Chittagong, and Gazipur, ensuring quality and compliance at every step.',
   },
   {
     name: 'Quality Assurance',
     role: 'QC and Compliance',
-    description: 'Dedicated quality control team conducting in-line, end-line, and final AQL 2.5 inspections across all production lines.',
+    description: 'Dedicated quality control team conducting in-line, end-line, and final AQL 2.5 inspections across all production lines, with documented reports shared for every shipment.',
   },
 ];
 
@@ -130,6 +131,14 @@ export default function AboutPage() {
               client with the same dedication and attention to detail. Our low MOQ
               approach means startups and small brands can access the same world-class
               manufacturing as global giants.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-gray-600">
+              Every factory in our network goes through an on-site audit before we place
+              a single order with them — checking machinery capacity, compliance
+              documentation, and working conditions firsthand. Our team maintains
+              relationships across Dhaka&apos;s Uttara, Ashulia, and Gazipur
+              manufacturing belts, giving us direct visibility into cutting, sewing, and
+              finishing lines rather than relying on third-party reports.
             </p>
           </div>
           <div className="rounded-2xl bg-[#1B2A4A] p-8 text-white">
@@ -324,6 +333,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Why Trust TexVenture */}
+      <TrustBlock />
 
       {/* CTA */}
       <section className="bg-[#1B2A4A]">

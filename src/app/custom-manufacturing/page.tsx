@@ -6,6 +6,7 @@ import FAQ from '@/components/sections/FAQ';
 import HowItWorks from '@/components/sections/HowItWorks';
 import Testimonials from '@/components/sections/Testimonials';
 import TrustStrip from '@/components/sections/TrustStrip';
+import TrustBlock from '@/components/sections/TrustBlock';
 import Badge from '@/components/ui/Badge';
 import Card from '@/components/ui/Card';
 
@@ -259,9 +260,21 @@ export default function CustomManufacturingPage() {
               Our partner factories feature automated cutting, digital printing, and in-house testing labs — all
               holding BSCI, OEKO-TEX®, SEDEX, and GOTS certifications for ethical, compliant production.
             </p>
+            <p>
+              Fabric lead times typically run 5–10 days for stock cotton and poly-cotton blends, with sampling
+              completed in 7–14 days and bulk cutting starting once fit approval is signed off. We work primarily
+              with single jersey, pique, French terry, twill, and rib-knit fabrications, sourced from mills within
+              a 60km radius of Dhaka to keep transit time and cost predictable.
+            </p>
           </div>
         </div>
       </section>
+
+      {/* ── Why Trust TexVenture ── */}
+      <TrustBlock
+        headline="Our Quality Process"
+        intro="Every custom order runs through the same audited quality system, regardless of order size — from factory vetting to final AQL 2.5 inspection before your shipment leaves Bangladesh."
+      />
 
       {/* ── Why TexVenture ── */}
       <section className="bg-gray-50 py-16">
