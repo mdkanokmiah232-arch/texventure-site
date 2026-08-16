@@ -11,7 +11,7 @@ import QuoteCalculator from '@/components/forms/QuoteCalculator';
 export const metadata: Metadata = generatePageMeta({
   title: 'Instant Quote Calculator — Custom Clothing Pricing',
   description:
-    'Get instant pricing estimates for custom clothing manufacturing in Bangladesh. Use our calculator to see per-unit costs for t-shirts, hoodies, activewear, and more — from 100 pieces.',
+    "Need instant pricing for custom clothing manufacturing? Use TexVenture's calculator to see per-unit costs for t-shirts, hoodies, and activewear from 100 pcs.",
   path: '/instant-quote',
 });
 

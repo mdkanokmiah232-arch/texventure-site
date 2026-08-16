@@ -10,7 +10,7 @@ import FAQ from '@/components/sections/FAQ';
 export const metadata: Metadata = generatePageMeta({
   title: 'Our Services — Apparel Manufacturing and Sourcing',
   description:
-    'Explore TexVenture\'s apparel manufacturing services: custom clothing manufacturing, low MOQ production, private label/OEM, and streetwear manufacturing. Full-service sourcing from Bangladesh.',
+    "Explore TexVenture's apparel manufacturing services: custom clothing, low MOQ production, private label/OEM, and streetwear manufacturing from Bangladesh.",
   path: '/services',
 });
 

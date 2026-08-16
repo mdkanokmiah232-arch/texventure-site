@@ -13,7 +13,7 @@ import { generatePageMeta } from '@/lib/metadata';
 export const metadata: Metadata = generatePageMeta({
   title: 'ESG Transparency — Environmental, Social and Governance',
   description:
-    'TexVenture is committed to ESG transparency. Learn about our environmental practices, social responsibility initiatives, governance standards, and transparency commitments in Bangladesh apparel manufacturing.',
+    'TexVenture is committed to ESG transparency in Bangladesh apparel manufacturing — environmental practices, social responsibility, and governance standards.',
   path: '/esg-transparency',
 });
 

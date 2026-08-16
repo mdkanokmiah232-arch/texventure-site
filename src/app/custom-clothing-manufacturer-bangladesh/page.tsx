@@ -15,7 +15,7 @@ import StatsCounter from '@/components/sections/StatsCounter';
 export const metadata: Metadata = generatePageMeta({
   title: 'Clothing Manufacturer in Bangladesh — Custom Apparel',
   description:
-    'TexVenture is your trusted clothing manufacturer in Bangladesh. We offer custom apparel production with low MOQ from 100 pcs, competitive pricing, quality certifications, and global shipping. Start sourcing today.',
+    'Need a trusted clothing manufacturer in Bangladesh? TexVenture offers custom apparel production, low MOQ from 100 pcs, certifications, and global shipping.',
   path: '/custom-clothing-manufacturer-bangladesh',
   image: 'https://texventure.com/og-pillar.jpg',
 });

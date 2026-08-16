@@ -29,11 +29,11 @@ const homeProducts = [
 export const metadata: Metadata = {
   title: "Clothing Manufacturer in Bangladesh — TexVenture | Custom Garment Production",
   description:
-    "Leading clothing manufacturer in Bangladesh. Custom garment production from 100 pcs MOQ. Knitwear, wovens, denim, sweaters and active wear. ISO 9001 certified, global shipping.",
+    "Looking for a reliable clothing manufacturer in Bangladesh? TexVenture offers custom garment production from 100 pcs MOQ, ISO 9001 certified, global shipping.",
   openGraph: {
     title: "Clothing Manufacturer in Bangladesh — TexVenture",
     description:
-      "Leading clothing manufacturer in Bangladesh. Custom garment production from 100 pcs. ISO 9001 certified, global shipping.",
+      "Looking for a reliable clothing manufacturer in Bangladesh? Custom garment production from 100 pcs, ISO 9001 certified, global shipping.",
     url: "https://texventure.com",
   },
   alternates: {

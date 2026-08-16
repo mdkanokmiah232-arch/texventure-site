@@ -14,7 +14,7 @@ import Testimonials from '@/components/sections/Testimonials';
 export const metadata: Metadata = generatePageMeta({
   title: 'Streetwear Manufacturer Bangladesh — Hoodies, Tees and Cargos',
   description:
-    'TexVenture is a streetwear manufacturer in Bangladesh specialising in heavyweight hoodies, oversized tees, cargo pants, and bold graphic apparel. Premium fabrics, custom prints, drop-ready production.',
+    'TexVenture is a streetwear manufacturer in Bangladesh specialising in heavyweight hoodies, oversized tees, and cargo pants with drop-ready production.',
   path: '/streetwear-manufacturer-bangladesh',
   image: 'https://texventure.com/og-streetwear.jpg',
 });

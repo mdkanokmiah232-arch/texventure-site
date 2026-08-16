@@ -14,7 +14,7 @@ import ContactForm from './ContactForm';
 export const metadata: Metadata = generatePageMeta({
   title: 'Contact Us — Get a Quote for Apparel Sourcing',
   description:
-    'Contact TexVenture for apparel sourcing, garment manufacturing, and buying house services in Bangladesh. Get a quote via WhatsApp, phone, email, or our contact form.',
+    'Contact TexVenture for apparel sourcing and garment manufacturing in Bangladesh. Get a quote via WhatsApp, phone, email, or our contact form.',
   path: '/contact',
 });
 
