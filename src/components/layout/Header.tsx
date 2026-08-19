@@ -14,7 +14,7 @@ const productCategories = [
 ];
 
 const navLinks = [
-  { name: 'Custom Manufacturing', href: '/custom-manufacturing' },
+  { name: 'Custom Manufacturing', href: '/custom-clothing-manufacturer-bangladesh' },
   { name: 'Low MOQ', href: '/low-moq-clothing-manufacturer-bangladesh' },
   { name: 'Guides', href: '/guides' },
   { name: 'About', href: '/about' },
@@ -52,7 +52,7 @@ export default function Header() {
         {/* Desktop Nav */}
         <div className="hidden items-center gap-1 lg:flex">
           <Link
-            href="/custom-manufacturing"
+            href="/custom-clothing-manufacturer-bangladesh"
             className="rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-50 hover:text-[#08CCD4]"
           >
             Custom Manufacturing
@@ -135,7 +135,7 @@ export default function Header() {
       {mobileOpen && (
         <div className="border-t border-gray-100 bg-white px-4 pb-4 pt-2 lg:hidden">
           <Link
-            href="/custom-manufacturing"
+            href="/custom-clothing-manufacturer-bangladesh"
             className="block rounded-lg px-3 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#08CCD4]"
           >
             Custom Manufacturing

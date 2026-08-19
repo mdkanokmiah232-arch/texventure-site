@@ -11,7 +11,7 @@ export default function HeroSection({
   headline = 'Your Trusted Apparel Sourcing Partner in Bangladesh',
   subheadline = 'We deliver custom manufacturing, low MOQ production, and end-to-end supply chain solutions for brands worldwide. From design to delivery.',
   primaryCta = { text: 'Get a Quote', href: '/contact' },
-  secondaryCta = { text: 'View Our Process', href: '/custom-manufacturing' },
+  secondaryCta = { text: 'View Our Process', href: '/custom-clothing-manufacturer-bangladesh' },
 }: HeroSectionProps) {
   return (
     <section className="relative overflow-hidden bg-[#1B2A4A]">

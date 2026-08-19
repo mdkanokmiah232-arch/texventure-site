@@ -177,7 +177,7 @@ export default function HomePage() {
           <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5">
             {services.map((service) => {
               const serviceHrefMap: Record<string, string> = {
-                "custom-manufacturing": "/custom-manufacturing",
+                "custom-manufacturing": "/custom-clothing-manufacturer-bangladesh",
                 "low-moq": "/low-moq-clothing-manufacturer-bangladesh",
                 "private-label": "/private-label-clothing-manufacturer-bangladesh",
                 "streetwear": "/streetwear-manufacturer-bangladesh",

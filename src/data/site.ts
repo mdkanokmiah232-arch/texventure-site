@@ -115,7 +115,7 @@ export const navigation: NavItem[] = [
     label: "Services",
     href: "/services",
     children: [
-      { label: "Custom Manufacturing", href: "/custom-manufacturing" },
+      { label: "Custom Manufacturing", href: "/custom-clothing-manufacturer-bangladesh" },
       { label: "Low MOQ", href: "/low-moq-clothing-manufacturer-bangladesh" },
       { label: "Private Label", href: "/private-label-clothing-manufacturer-bangladesh" },
       { label: "Streetwear", href: "/streetwear-manufacturer-bangladesh" },
