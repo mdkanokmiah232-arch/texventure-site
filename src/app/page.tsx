@@ -99,7 +99,7 @@ export default function HomePage() {
     <>
       {/* 1. Hero Section */}
       <HeroSection
-        headline="Clothing Manufacturer in Bangladesh"
+        headline="Your Trusted Clothing Manufacturer in Bangladesh"
         subheadline="Premium garment manufacturing in Bangladesh from just 100 pieces per style. Custom clothing production, fabric sourcing, and end-to-end supply chain for brands worldwide."
         primaryCta={{ text: "Get a Quote", href: "/quote" }}
         secondaryCta={{ text: "View Products", href: "/products" }}

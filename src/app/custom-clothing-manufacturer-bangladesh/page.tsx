@@ -91,7 +91,7 @@ export default function PillarPage() {
       <main>
         {/* Hero */}
         <HeroSection
-          headline="Your Trusted Clothing Manufacturer in Bangladesh"
+          headline="Best Custom Clothing Manufacturer in Bangladesh"
           subheadline="From concept to delivery — TexVenture provides custom apparel manufacturing with low MOQs from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries."
           primaryCta={{ text: 'Get a Free Quote', href: '/get-a-quote' }}
           secondaryCta={{ text: 'Instant Quote Calculator', href: '/instant-quote' }}
