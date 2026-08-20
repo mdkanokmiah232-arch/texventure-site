@@ -76,6 +76,14 @@ export default function Header() {
             </button>
             {productsOpen && (
               <div className="absolute left-0 top-full z-50 mt-1 w-56 rounded-xl border border-gray-100 bg-white py-2 shadow-lg">
+                <Link
+                  href="/products"
+                  className="block px-4 py-2 text-sm font-semibold text-[#08CCD4] transition hover:bg-gray-50"
+                  onClick={() => setProductsOpen(false)}
+                >
+                  View All Products →
+                </Link>
+                <div className="my-1 border-t border-gray-100" />
                 {productCategories.map((cat) => (
                   <Link
                     key={cat.href}
@@ -157,6 +165,13 @@ export default function Header() {
           </button>
           {mobileProductsOpen && (
             <div className="ml-4 border-l-2 border-[#08CCD4] pl-3">
+              <Link
+                href="/products"
+                className="block rounded-lg px-3 py-2 text-sm font-semibold text-[#08CCD4] hover:bg-gray-50"
+                onClick={() => setMobileOpen(false)}
+              >
+                View All Products →
+              </Link>
               {productCategories.map((cat) => (
                 <Link
                   key={cat.href}

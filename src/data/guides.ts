@@ -220,7 +220,7 @@ Bangladesh is a powerhouse in global garment manufacturing, exporting over $45 b
 
 ### Working with TexVenture
 
-TexVenture maintains relationships with **50+ vetted factories** across Bangladesh. We handle factory selection, quality control, and logistics — giving you direct access to Bangladesh's manufacturing ecosystem without the complexity.`,
+TexVenture maintains relationships with **20+ vetted factories** across Bangladesh. We handle factory selection, quality control, and logistics — giving you direct access to Bangladesh's manufacturing ecosystem without the complexity.`,
     category: "industry",
     tags: ["Bangladesh", "manufacturers", "factory", "sourcing", "guide", "2025"],
     author: {

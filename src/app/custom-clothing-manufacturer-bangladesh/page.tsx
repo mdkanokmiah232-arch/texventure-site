@@ -102,7 +102,7 @@ export default function PillarPage() {
         <TrustStrip
           items={[
             { number: '10+', label: 'Years Experience' },
-            { number: '500+', label: 'Global Clients' },
+            { number: '8+', label: 'Global Clients' },
             { number: '1M+', label: 'Pieces / Year' },
             { number: '100', label: 'Piece Minimum MOQ' },
             { number: '30+', label: 'Countries Served' },

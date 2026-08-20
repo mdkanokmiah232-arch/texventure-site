@@ -56,7 +56,7 @@ const organizationSchema = {
   url: "https://texventure.com",
   logo: "https://texventure.com/images/logo.png",
   description:
-    "TexVenture is a Bangladesh-based clothing manufacturer and supplier connecting global brands with 50+ certified garment factories, offering low MOQ production from 100 pieces.",
+    "TexVenture is a Bangladesh-based clothing manufacturer and supplier connecting global brands with 20+ certified garment factories, offering low MOQ production from 100 pieces.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "House: 2, Road: 3/A, Sector: 5",
@@ -80,7 +80,7 @@ const localBusinessSchema = {
   url: "https://texventure.com",
   logo: "https://texventure.com/images/logo.png",
   description:
-    "Leading clothing manufacturer and supplier in Bangladesh. Custom garment production, low MOQ from 100 pcs, 50+ certified factories, global shipping.",
+    "Leading clothing manufacturer and supplier in Bangladesh. Custom garment production, low MOQ from 100 pcs, 20+ certified factories, global shipping.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "House: 2, Road: 3/A, Sector: 5",
@@ -114,7 +114,7 @@ const faqItems = [
   {
     question: "Who is the best clothing manufacturer in Bangladesh?",
     answer:
-      "TexVenture is widely recognised as one of the best clothing manufacturers in Bangladesh, with over 15 years of experience, a network of 50+ certified garment factories, and a proven track record of delivering quality clothing to 500+ global brands. We handle everything from fabric sourcing to door-to-door delivery with low MOQs starting from just 100 pieces.",
+      "TexVenture is widely recognised as one of the best clothing manufacturers in Bangladesh, with over 10 years of experience, a network of 20+ certified garment factories, and a proven track record of delivering quality clothing to 8+ global brands. We handle everything from fabric sourcing to door-to-door delivery with low MOQs starting from just 100 pieces.",
   },
   {
     question: "What is the minimum order quantity (MOQ) for garment manufacturing in Bangladesh?",
@@ -160,10 +160,10 @@ const faqSchema = {
 
 const trustStats = [
   { number: "10+", label: "Years Experience" },
-  { number: "50+", label: "Vetted Factories" },
+  { number: "20+", label: "Vetted Factories" },
   { number: "5", label: "Quality Certifications" },
   { number: "100", label: "Piece MOQ" },
-  { number: "500+", label: "Global Clients" },
+  { number: "8+", label: "Global Clients" },
   { number: "7–14", label: "Day Sampling" },
 ];
 
@@ -172,7 +172,7 @@ const whyItems = [
     icon: "🏭",
     title: "Direct Factory Access",
     description:
-      "We maintain relationships with 50+ vetted factories across Bangladesh — giving you direct access to manufacturing capacity without the middleman.",
+      "We maintain relationships with 20+ vetted factories across Bangladesh — giving you direct access to manufacturing capacity without the middleman.",
   },
   {
     icon: "📉",
@@ -239,7 +239,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-4xl px-4 py-8 lg:px-8">
           <p className="text-center text-base font-medium leading-relaxed text-[#1B2A4A] sm:text-lg">
             <strong>TexVenture</strong> is a Bangladesh-based clothing manufacturer
-            and supplier connecting global brands with 50+ certified garment
+            and supplier connecting global brands with 20+ certified garment
             factories, offering low MOQ production from 100 pieces, end-to-end
             logistics, and quality control to 30+ countries worldwide.
           </p>
@@ -266,7 +266,7 @@ export default function HomePage() {
                 on building your brand.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                With over 10 years of experience and a network of 50+ certified
+                With over 10 years of experience and a network of 20+ certified
                 garment factories, we deliver quality clothing at competitive
                 prices with low MOQs starting from just 100 pieces.
               </p>
@@ -459,7 +459,7 @@ export default function HomePage() {
           <div className="text-center">
             <Badge variant="brand">Trusted By Brands</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              Clothing Suppliers in Bangladesh — Trusted by 500+ Global Brands
+              Clothing Suppliers in Bangladesh — Trusted by 8+ Global Brands
             </h2>
           </div>
 

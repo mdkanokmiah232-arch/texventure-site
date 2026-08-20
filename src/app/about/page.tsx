@@ -14,7 +14,7 @@ import { generatePageMeta } from '@/lib/metadata';
 export const metadata: Metadata = generatePageMeta({
   title: 'About TexVenture — Your Trusted Apparel Sourcing Partner',
   description:
-    'Learn about TexVenture, a Bangladesh-based apparel sourcing and buying house connecting global brands with 50+ vetted garment factories since day one.',
+    'Learn about TexVenture, a Bangladesh-based apparel sourcing and buying house connecting global brands with 20+ vetted garment factories since day one.',
   path: '/about',
 });
 
@@ -33,7 +33,7 @@ const timeline = [
     year: '2024',
     title: 'Factory Network Established',
     description:
-      'Onboarded 50+ vetted factory partners across knitwear, wovens, denim, sweaters, activewear, and work wear.',
+      'Onboarded 20+ vetted factory partners across knitwear, wovens, denim, sweaters, activewear, and work wear.',
   },
   {
     year: '2024',
@@ -68,7 +68,7 @@ const teamMembers = [
   {
     name: 'Sourcing Specialists',
     role: 'Factory Relations',
-    description: 'On-the-ground experts who personally visit and maintain relationships with 50+ vetted factories across Dhaka, Chittagong, and Gazipur, ensuring quality and compliance at every step.',
+    description: 'On-the-ground experts who personally visit and maintain relationships with 20+ vetted factories across Dhaka, Chittagong, and Gazipur, ensuring quality and compliance at every step.',
   },
   {
     name: 'Quality Assurance',

@@ -9,7 +9,7 @@ export default function InternalLinks({ currentPage }: InternalLinksProps) {
     {
       keyword: 'Clothing Manufacturer in Bangladesh',
       href: '/',
-      description: 'Trusted clothing manufacturer & supplier in Bangladesh with 50+ certified factories',
+      description: 'Trusted clothing manufacturer & supplier in Bangladesh with 20+ certified factories',
     },
     {
       keyword: 'TexVenture',

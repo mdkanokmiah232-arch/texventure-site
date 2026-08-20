@@ -90,8 +90,8 @@ export default function LowMOQPage() {
           items={[
             { number: '100', label: 'Piece Minimum MOQ' },
             { number: '7', label: 'Product Categories' },
-            { number: '50+', label: 'Vetted Factory Partners' },
-            { number: '500+', label: 'Global Clients' },
+            { number: '20+', label: 'Vetted Factory Partners' },
+            { number: '8+', label: 'Global Clients' },
             { number: '24/7', label: 'WhatsApp Support' },
           ]}
         />

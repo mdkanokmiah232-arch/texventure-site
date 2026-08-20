@@ -89,8 +89,8 @@ export default function PrivateLabelPage() {
         <TrustStrip
           items={[
             { number: '100', label: 'Piece Minimum MOQ' },
-            { number: '50+', label: 'Vetted Factory Partners' },
-            { number: '500+', label: 'Global Clients' },
+            { number: '20+', label: 'Vetted Factory Partners' },
+            { number: '8+', label: 'Global Clients' },
             { number: '5+', label: 'Certifications Held' },
             { number: '10+', label: 'Years Experience' },
           ]}

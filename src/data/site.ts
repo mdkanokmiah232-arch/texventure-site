@@ -153,7 +153,7 @@ export const certifications: Certification[] = [
 export const stats: SiteStat[] = [
   { value: "100+", label: "MOQ (pieces per style)" },
   { value: "7", label: "Product categories" },
-  { value: "50+", label: "Vetted factory partners" },
+  { value: "20+", label: "Vetted factory partners" },
   { value: "24/7", label: "Support via WhatsApp" },
 ];
 
