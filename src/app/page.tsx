@@ -306,7 +306,7 @@ export default function HomePage() {
       <section className="bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
           <div className="text-center">
-            <Badge variant="brand">our Products</Badge>
+            <Badge variant="brand">Product Categories</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
               Clothing Manufacturers & Suppliers — What We Produce
             </h2>
@@ -318,6 +318,8 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {homeProducts.map((product) => (
+              <Link key={product.slug} href={`/products/${product.slug}`}>
                 <Card hover className="group h-full overflow-hidden border border-gray-200 transition-all duration-300 hover:border-[#08CCD4] hover:border-2">
                   <div className="h-40 overflow-hidden rounded-xl bg-gray-100">
                     <img
@@ -370,7 +372,7 @@ export default function HomePage() {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="text-center">
-            <Badge variant="brand">our all product categories</Badge>
+            <Badge variant="brand">Product Categories</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
               7 Manufacturing Categories
             </h2>
