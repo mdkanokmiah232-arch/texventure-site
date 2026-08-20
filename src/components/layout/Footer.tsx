@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 const productLinks = [
+  { name: 'All Products', href: '/products' },
   { name: 'Knit Wear', href: '/products/knit-wear' },
   { name: 'Wovens', href: '/products/wovens' },
   { name: 'Circular Knit', href: '/products/circular-knit' },
@@ -14,8 +15,18 @@ const companyLinks = [
   { name: 'About Us', href: '/about' },
   { name: 'Our Process', href: '/custom-clothing-manufacturer-bangladesh' },
   { name: 'Low MOQ', href: '/low-moq-clothing-manufacturer-bangladesh' },
+  { name: 'Private Label', href: '/private-label-clothing-manufacturer-bangladesh' },
+  { name: 'Streetwear', href: '/streetwear-manufacturer-bangladesh' },
   { name: 'Certifications', href: '/certifications' },
   { name: 'Contact', href: '/contact' },
+];
+
+const categoryLinks = [
+  { name: 'Clothing Manufacturers', href: '/' },
+  { name: 'Custom Clothing Manufacturer', href: '/custom-clothing-manufacturer-bangladesh' },
+  { name: 'Low MOQ Manufacturer', href: '/low-moq-clothing-manufacturer-bangladesh' },
+  { name: 'Private Label Manufacturer', href: '/private-label-clothing-manufacturer-bangladesh' },
+  { name: 'Streetwear Manufacturer', href: '/streetwear-manufacturer-bangladesh' },
 ];
 
 const resourceLinks = [
@@ -31,7 +42,7 @@ export default function Footer() {
     <footer className="bg-[#1B2A4A] text-white">
       {/* Main Footer */}
       <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           {/* Company Info */}
           <div>
             <Link href="/" className="inline-block">
@@ -156,6 +167,25 @@ export default function Footer() {
             </h3>
             <ul className="mt-4 space-y-2">
               {resourceLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-gray-300 transition hover:text-white"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Categories Column */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#08CCD4]">
+              Categories
+            </h3>
+            <ul className="mt-4 space-y-2">
+              {categoryLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
