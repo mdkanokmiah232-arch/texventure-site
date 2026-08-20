@@ -24,34 +24,34 @@ export const metadata: Metadata = generatePageMeta({
 
 const timeline = [
   {
-    year: '2024',
+    year: '2016',
     title: 'TexVenture Founded',
     description:
-      'Started in Dhaka, Bangladesh with a mission to make apparel sourcing accessible for growing brands worldwide.',
+      'Started as a sourcing consultancy in Uttara, Dhaka with a mission to make apparel sourcing accessible for growing brands worldwide.',
   },
   {
-    year: '2024',
-    title: 'Factory Network Established',
+    year: '2018',
+    title: 'First International Client',
     description:
-      'Onboarded 20+ vetted factory partners across knitwear, wovens, denim, sweaters, activewear, and work wear.',
+      'Expanded to serve brands in Europe and North America, building trust through transparent sourcing and quality assurance.',
   },
   {
-    year: '2024',
-    title: 'Certifications Obtained',
-    description:
-      'Achieved BSCI, OEKO-TEX®, SEDEX, WRAP, and GOTS compliance through our factory partners.',
-  },
-  {
-    year: '2025',
-    title: 'Global Expansion',
-    description:
-      'Expanded client base to 30+ countries including USA, UK, Canada, Australia, Germany, France, and Japan.',
-  },
-  {
-    year: '2025',
+    year: '2020',
     title: 'Digital Platform Launch',
     description:
-      'Launched instant quote calculator and online sourcing platform for seamless brand-factory connectivity.',
+      'Launched our tech-enabled sourcing platform with instant quote calculator for seamless brand-factory connectivity.',
+  },
+  {
+    year: '2022',
+    title: 'Factory Network Established',
+    description:
+      'Connected with 20+ vetted factory partners across Dhaka, Chittagong, and Gazipur covering knitwear, wovens, denim, sweaters, activewear, and work wear.',
+  },
+  {
+    year: '2024',
+    title: 'Global Reach',
+    description:
+      'Now serving 8+ international brands across 30+ countries including USA, UK, Canada, Australia, Germany, France, and Japan.',
   },
 ];
 
