@@ -134,7 +134,7 @@ const faqItems = [
   {
     question: "What types of clothing does TexVenture manufacture?",
     answer:
-      "TexVenture covers 7 main product categories: Knit Wear (t-shirts, polos, hoodies), Wovens (shirts, blouses, dresses), Circular Knit (seamless leggings, underwear), Denim (jeans, jackets, shorts), Sweaters (pullovers, cardigans), Work Wear (uniforms, hi-vis garments), and Activewear (leggings, sports bras, gym sets). We serve brands across all these categories with custom manufacturing solutions.",
+      "TexVenture specializes in three main categories: Women's Wear (dresses, blouses, tops, skirts, activewear), Men's Wear (t-shirts, polos, shirts, jeans, formal wear), and Kid's Wear (comfortable and durable children's clothing). We serve brands across all these categories with custom manufacturing solutions from 100 pieces MOQ.",
   },
   {
     question: "Does TexVenture work with small or startup brands?",
@@ -368,24 +368,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4b. 7 Manufacturing Categories */}
+      {/* 4b. Manufacturing Categories */}
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="text-center">
-            <Badge variant="brand">our all product categories</Badge>
+            <Badge variant="brand">our Categories</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              7 Manufacturing Categories
+              Manufacturing Categories
             </h2>
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { name: "Knit Wear", desc: "T-shirts, polos, and tank tops crafted from premium cotton and cotton-blend fabrics", href: "/products/knit-wear" },
-              { name: "Wovens", desc: "Shirts, blouses, and dresses tailored from premium woven fabrics for everyday wear", href: "/products/wovens" },
-              { name: "Circular Knit", desc: "Jerseys and leggings engineered for a form-fitting stretch with lasting recovery", href: "/products/circular-knit" },
-              { name: "Denim", desc: "Jeans, jackets, and shorts finished with custom washes, fades, and denim treatments", href: "/products/denim" },
-              { name: "Sweaters", desc: "Pullovers and cardigans crafted from knit and fleece constructions for cozy layering", href: "/products/sweaters" },
-              { name: "Work Wear", desc: "Uniforms and hi-vis garments engineered for durability, safety, and all-day comfort", href: "/products/work-wear" },
-              { name: "Active Wear", desc: "Gym wear and athleisure crafted for performance, breathability, and daily comfort", href: "/products/active-wear" },
+              { name: "Women's Wear", desc: "Dresses, blouses, tops, skirts, and activewear crafted for style and comfort", href: "/products/womens-wear" },
+              { name: "Men's Wear", desc: "T-shirts, polos, shirts, jeans, and formal wear manufactured to your spec", href: "/products/mens-wear" },
+              { name: "Kid's Wear", desc: "Comfortable, durable, and safe clothing for children of all ages", href: "/products/kids-wear" },
             ].map((cat) => (
               <Link key={cat.name} href={cat.href} className="group">
                 <Card className="p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
@@ -400,7 +396,7 @@ export default function HomePage() {
               </Link>
             ))}
 
-            {/* 8th card - CTA Contact */}
+            {/* CTA Contact */}
             <Link href="/contact" className="group">
               <Card className="flex h-full flex-col items-center justify-center p-6 text-center !bg-[#01A1AD] text-white transition-all hover:shadow-lg">
                 <h3 className="text-lg font-bold text-white">
