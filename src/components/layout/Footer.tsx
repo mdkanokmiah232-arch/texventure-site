@@ -30,6 +30,7 @@ const categoryLinks = [
 ];
 
 const resourceLinks = [
+  { name: 'Instant Pricing Calculator', href: '/instant-quote' },
   { name: 'Guides', href: '/guides' },
   { name: 'Blog', href: '/blog' },
   { name: 'Get a Quote', href: '/get-a-quote' },
