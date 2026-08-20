@@ -379,7 +379,7 @@ export default async function ProductCategoryPage({ params }: Props) {
                 href="https://wa.me/8801354316246"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#20ba5a]"
+                className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full border-2 border-[#25D366] bg-white px-6 py-3 text-sm font-semibold text-[#25D366] transition hover:bg-[#25D366]/10"
               >
                 Chat on WhatsApp
               </Link>
