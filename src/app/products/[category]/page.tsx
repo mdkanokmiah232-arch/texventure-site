@@ -274,6 +274,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             <FAQ
               headline={`${product.shortName} — Frequently Asked Questions`}
               items={productFaqs}
+              className=""
             />
           </div>
 
@@ -355,7 +356,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             </Card>
 
             {/* Contact Card */}
-            <Card className="bg-[#08CCD4]">
+            <Card className="!bg-[#08CCD4]">
               <h3 className="text-lg font-bold text-white">Need Help?</h3>
               <p className="mt-2 text-sm text-white/90">
                 Talk to our sourcing experts about your {product.shortName.toLowerCase()} requirements.

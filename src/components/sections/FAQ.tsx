@@ -10,6 +10,7 @@ interface FAQItem {
 interface FAQProps {
   headline?: string;
   items?: FAQItem[];
+  className?: string;
 }
 
 const defaultItems: FAQItem[] = [
@@ -76,6 +77,7 @@ function FAQAccordion({ question, answer }: FAQItem) {
 export default function FAQ({
   headline = 'Frequently Asked Questions',
   items = defaultItems,
+  className = '',
 }: FAQProps) {
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -96,8 +98,8 @@ export default function FAQ({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="bg-white">
-        <div className="mx-auto max-w-3xl px-4 py-16 lg:px-8">
+      <section className={className || 'bg-white'}>
+        <div className="mx-auto px-4 py-16 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
               {headline}
@@ -107,7 +109,7 @@ export default function FAQ({
             </p>
           </div>
 
-          <div className="mt-10 divide-y divide-gray-100">
+          <div className="mx-auto mt-10 max-w-3xl divide-y divide-gray-100">
             {items.map((item) => (
               <FAQAccordion key={item.question} {...item} />
             ))}
