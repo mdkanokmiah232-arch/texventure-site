@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import InternalLinks from '@/components/sections/InternalLinks';
 import { pricingConfig } from '@/data/pricing';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import CTABand from '@/components/sections/CTABand';
@@ -155,6 +156,7 @@ export default function InstantQuotePage() {
       />
 
       {/* CTA */}
+      <InternalLinks currentPage="/instant-quote" />
       <CTABand
         headline="Ready for an Exact Quote?"
         description="Our calculator gives you estimates. For accurate pricing based on your specific requirements, request a detailed quote from our team."

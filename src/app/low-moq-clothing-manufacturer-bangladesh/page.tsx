@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import InternalLinks from '@/components/sections/InternalLinks';
 import { ServiceSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
@@ -232,6 +233,7 @@ export default function LowMOQPage() {
         />
 
         {/* CTA */}
+      <InternalLinks currentPage="/low-moq-clothing-manufacturer-bangladesh" />
         <CTABand
           headline="Ready to Start with 100 Pieces?"
           description="Get a free quote for your low MOQ order. Tell us what you need — we'll handle the manufacturing, quality control, and delivery."

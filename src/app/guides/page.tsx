@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { guides } from '@/data/guides';
+import InternalLinks from '@/components/sections/InternalLinks';
 import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
 
@@ -50,6 +51,7 @@ export default function GuidesPage() {
         <div className="absolute inset-0 opacity-5">
           <div className="absolute -right-40 -top-40 h-80 w-80 rounded-full bg-[#08CCD4] blur-3xl" />
           <div className="absolute -bottom-20 -left-20 h-60 w-60 rounded-full bg-[#08CCD4] blur-3xl" />
+      <InternalLinks currentPage="/guides" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-16 text-center sm:py-24 lg:px-8">
           <Badge variant="brand" className="mb-4">

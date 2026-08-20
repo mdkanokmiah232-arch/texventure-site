@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import InternalLinks from '@/components/sections/InternalLinks';
 import { contact } from '@/data/site';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import FAQ from '@/components/sections/FAQ';
@@ -195,6 +196,7 @@ export default function GetQuotePage() {
       />
 
       {/* CTA */}
+      <InternalLinks currentPage="/get-a-quote" />
       <CTABand
         headline="Prefer to Talk Directly?"
         description="Our team is available on WhatsApp for instant responses. Message us anytime during business hours."

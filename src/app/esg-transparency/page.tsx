@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
+import InternalLinks from '@/components/sections/InternalLinks';
 import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
 import CTABand from '@/components/sections/CTABand';
@@ -339,6 +340,7 @@ export default function ESGTransparencyPage() {
       </section>
 
       {/* CTA */}
+      <InternalLinks currentPage="/esg-transparency" />
       <CTABand
         headline="Sustainable Sourcing Starts Here"
         description="Partner with TexVenture for ethically produced, environmentally responsible apparel. We're committed to transparency at every step."

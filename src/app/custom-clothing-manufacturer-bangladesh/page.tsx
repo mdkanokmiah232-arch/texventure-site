@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import InternalLinks from '@/components/sections/InternalLinks';
 import { OrganizationSchema, ServiceSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
@@ -280,6 +281,7 @@ export default function PillarPage() {
         />
 
         {/* CTA */}
+      <InternalLinks currentPage="/custom-clothing-manufacturer-bangladesh" />
         <CTABand
           headline="Ready to Start Manufacturing in Bangladesh?"
           description="Get a free, no-obligation quote within 24 hours. Share your tech pack or tell us what you need — we'll handle the rest."

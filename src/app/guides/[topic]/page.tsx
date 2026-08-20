@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import InternalLinks from '@/components/sections/InternalLinks';
 import { guides, getGuideBySlug, getAllGuideSlugs } from '@/data/guides';
 import { ArticleSchema, BreadcrumbListSchema } from '@/lib/schema';
 import Badge from '@/components/ui/Badge';
@@ -291,6 +292,7 @@ export default async function GuideDetailPage({ params }: Props) {
         </div>
 
         {/* CTA Band */}
+      <InternalLinks currentPage="/guides" />
         <CTABand
           headline="Ready to Source Your Collection?"
           description="Partner with TexVenture for reliable garment manufacturing in Bangladesh. Low MOQ, fast turnaround, and quality you can count on."

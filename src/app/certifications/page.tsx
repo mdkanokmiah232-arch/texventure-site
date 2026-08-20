@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
+import InternalLinks from '@/components/sections/InternalLinks';
 import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
 import CTABand from '@/components/sections/CTABand';
@@ -289,6 +290,7 @@ export default function CertificationsPage() {
       <TrustBlock />
 
       {/* CTA */}
+      <InternalLinks currentPage="/certifications" />
       <CTABand
         headline="Need Certified Manufacturing?"
         description="All our factory partners hold internationally recognized certifications. Talk to us about your quality and compliance requirements."

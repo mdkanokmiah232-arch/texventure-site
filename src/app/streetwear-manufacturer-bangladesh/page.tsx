@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import InternalLinks from '@/components/sections/InternalLinks';
 import { ServiceSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
@@ -235,6 +236,7 @@ export default function StreetwearPage() {
         />
 
         {/* CTA */}
+      <InternalLinks currentPage="/streetwear-manufacturer-bangladesh" />
         <CTABand
           headline="Ready to Manufacture Your Next Drop?"
           description="Premium streetwear manufacturing from Bangladesh. Heavyweight fabrics, bold graphics, and production schedules that match your drop timeline."

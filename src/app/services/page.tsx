@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import InternalLinks from '@/components/sections/InternalLinks';
 import { services } from '@/data/services';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import CTABand from '@/components/sections/CTABand';
@@ -135,6 +136,7 @@ export default function ServicesPage() {
       />
 
       {/* CTA */}
+      <InternalLinks currentPage="/services" />
       <CTABand
         headline="Not Sure Which Service You Need?"
         description="Tell us about your brand and what you're looking for. We'll recommend the right service approach and provide a free quote."

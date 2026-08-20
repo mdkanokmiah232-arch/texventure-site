@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
+import InternalLinks from '@/components/sections/InternalLinks';
 import { ServiceSchema } from '@/lib/schema';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import HeroSection from '@/components/sections/HeroSection';
@@ -223,6 +224,7 @@ export default function PrivateLabelPage() {
         />
 
         {/* CTA */}
+      <InternalLinks currentPage="/private-label-clothing-manufacturer-bangladesh" />
         <CTABand
           headline="Ready to Launch Your Own Label?"
           description="From blank styles to fully branded products — we handle everything. Get a free quote and start building your brand today."

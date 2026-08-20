@@ -306,7 +306,7 @@ export default function HomePage() {
       <section className="bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
           <div className="text-center">
-            <Badge variant="brand">Product Categories</Badge>
+            <Badge variant="brand">our Products</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
               Clothing Manufacturers & Suppliers — What We Produce
             </h2>
@@ -372,7 +372,7 @@ export default function HomePage() {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="text-center">
-            <Badge variant="brand">Product Categories</Badge>
+            <Badge variant="brand">our all product categories</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
               7 Manufacturing Categories
             </h2>

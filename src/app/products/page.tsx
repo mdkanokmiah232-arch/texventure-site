@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { products } from '@/data/products';
+import InternalLinks from '@/components/sections/InternalLinks';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
@@ -64,6 +65,7 @@ export default function ProductsIndexPage() {
         </div>
       </div>
 
+      <InternalLinks currentPage="/products" />
       <CTABand
         headline="Ready to Start Your Production?"
         description="Get a detailed production plan and pricing within 48 hours. No commitment required."
