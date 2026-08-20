@@ -227,7 +227,7 @@ export default async function ProductCategoryPage({ params }: Props) {
                 {product.features.map((feature) => (
                   <Card key={feature.text} hover>
                     <div className="flex items-start gap-3">
-                      <span className="text-2xl">{feature.icon}</span>
+                      <div className="mt-0.5 h-2 w-2 flex-shrink-0 rounded-full bg-[#08CCD4]" />
                       <p className="text-sm font-medium text-[#1B2A4A]">{feature.text}</p>
                     </div>
                   </Card>
