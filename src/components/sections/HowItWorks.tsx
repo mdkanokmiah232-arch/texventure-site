@@ -7,6 +7,7 @@ interface Step {
   title: string;
   description: string;
   href?: string;
+  ctaText?: string;
 }
 
 interface HowItWorksProps {
@@ -20,24 +21,28 @@ const defaultSteps: Step[] = [
     title: 'Share Your Design',
     description: 'Upload your tech packs, sketches, or reference samples. Tell us your target fabric, fit, and quantity.',
     href: '/get-a-quote',
+    ctaText: 'Get a Free Quote',
   },
   {
     icon: '🧵',
     title: 'Sampling & Approval',
     description: 'We produce pre-production samples within 5–7 days. You review and approve before mass production begins.',
     href: '/custom-clothing-manufacturer-bangladesh',
+    ctaText: 'Request a Sample',
   },
   {
     icon: '🏭',
     title: 'Production & Quality Control',
     description: 'Our team manages full production with inline quality control, color accuracy, and AQL 2.5 sizing checks.',
-    href: '/services',
+    href: '/get-a-quote',
+    ctaText: 'Learn About Our QC Process',
   },
   {
     icon: '🚚',
     title: 'Global Delivery',
     description: 'Finished goods are packed, shipped via air or sea, and delivered to your warehouse in 30+ countries worldwide.',
     href: '/get-a-quote',
+    ctaText: 'Get Shipping Quote',
   },
 ];
 
@@ -74,7 +79,7 @@ export default function HowItWorks({
                       {step.description}
                     </p>
                     <div className="mt-3 flex items-center gap-1 text-xs font-semibold text-[#08CCD4] sm:text-sm">
-                      Learn more
+                      {step.ctaText || 'Learn more'}
                       <svg
                         className="h-3.5 w-3.5 sm:h-4 sm:w-4"
                         fill="none"
