@@ -203,22 +203,22 @@ export default function StreetwearPage() {
           headline="Streetwear Production Process"
           steps={[
             {
-              number: '01',
+              icon: '🎨',
               title: 'Share Your Designs',
               description: 'Upload your tech packs, mood boards, or reference samples. Tell us your target fabric weight, fit, and graphics.',
             },
             {
-              number: '02',
+              icon: '🧵',
               title: 'Fabric and Print Sampling',
               description: 'We source heavyweight fabrics and produce samples with your chosen print technique. Review and approve.',
             },
             {
-              number: '03',
+              icon: '🏭',
               title: 'Production and QC',
               description: 'Full production with quality checks at every stage. We ensure construction quality, print accuracy, and consistency.',
             },
             {
-              number: '04',
+              icon: '📦',
               title: 'Drop-Ready Delivery',
               description: 'Finished goods packed and shipped to arrive before your drop date. Air, sea, or express courier options.',
             },

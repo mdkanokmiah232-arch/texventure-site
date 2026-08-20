@@ -200,22 +200,22 @@ export default function LowMOQPage() {
           headline="How Low MOQ Manufacturing Works"
           steps={[
             {
-              number: '01',
+              icon: '📋',
               title: 'Tell Us What You Need',
               description: 'Share your product idea, target quantity, and any design references. We\'ll advise on the best approach for your 100+ piece order.',
             },
             {
-              number: '02',
+              icon: '💰',
               title: 'Get a Quote and Sample',
               description: 'We provide a transparent quote and produce a pre-production sample within 5-7 days. Review and approve before production.',
             },
             {
-              number: '03',
+              icon: '🏭',
               title: 'Small-Batch Production',
               description: 'Your order goes into production with the same quality controls as large orders — AQL inspections at every stage.',
             },
             {
-              number: '04',
+              icon: '🚚',
               title: 'Delivered to Your Door',
               description: 'Finished goods are packed, inspected, and shipped via air, sea, or express courier to your warehouse worldwide.',
             },
