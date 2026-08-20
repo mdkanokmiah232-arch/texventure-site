@@ -1,5 +1,5 @@
 // =============================================================================
-// TexVenture Product Categories
+// TexVenture Product Categories — Women's Wear, Men's Wear, Kid's Wear
 // =============================================================================
 
 export interface ProductFeature {
@@ -19,6 +19,9 @@ export interface ProductCategory {
   popularItems: string[];
   leadTime: string;
   moq: string;
+  targetAudience?: string;
+  fabricOptions?: string[];
+  certifications?: string[];
 }
 
 // ---------------------------------------------------------------------------
@@ -27,144 +30,134 @@ export interface ProductCategory {
 
 export const products: ProductCategory[] = [
   {
-    slug: "knit-wear",
-    name: "Knit Wear",
-    shortName: "Knitwear",
+    slug: "womens-wear",
+    name: "Women's Wear",
+    shortName: "Women's Wear",
     description:
-      "High-quality jersey, interlock, and piqué knit garments for t-shirts, polo shirts, hoodies, and joggers.",
+      "Custom women's clothing manufacturer in Bangladesh — dresses, blouses, tops, skirts, activewear, and formal wear from 100 pieces MOQ.",
     longDescription:
-      "Our knit wear category covers the full spectrum of circular-knit jersey products. From lightweight single-jersey tees to heavyweight fleece hoodies, we source from factories equipped with modern knitting, dyeing, and finishing lines. Ideal for basics, streetwear, and athleisure brands.",
+      "TexVenture is a trusted women's wear clothing manufacturer and supplier in Bangladesh, producing high-quality garments for fashion brands across the USA, UK, Canada, Australia, Germany, France, and Japan. We specialize in manufacturing women's dresses, blouses, tops, skirts, trousers, activewear, and formal wear — all produced in our vetted network of 20+ factories across Dhaka, Chittagong, and Gazipur.\n\nAs a women's clothing sourcing partner with 10+ years of experience in Bangladesh's garment industry, we understand the nuances of women's fashion — from fabric drape and fit precision to seasonal trend responsiveness. Our factories use advanced CAD pattern-making, laser cutting, and multi-needle embroidery to deliver garments that match international quality standards.\n\nWhether you're a startup launching your first collection or an established brand scaling production, our low MOQ of just 100 pieces per style means you can test new designs without heavy inventory risk. Every order goes through our rigorous AQL 2.5 quality inspection before shipment.\n\nWomen's wear is Bangladesh's largest garment export category, and TexVenture sits at the heart of this ecosystem. We source from factories certified with BSCI, OEKO-TEX® Standard 100, SEDEX, WRAP, and GOTS — ensuring ethical production, safe working conditions, and environmentally responsible manufacturing.",
     features: [
-      { icon: "🧶", text: "Jersey, interlock, piqué, and fleece fabrics" },
-      { icon: "🎨", text: "Pantone-matched dyeing and custom washes" },
-      { icon: "🏷️", text: "Woven labels, screen print, embroidery, DTG" },
-      { icon: "📦", text: "Retail-ready packaging and poly-bagging" },
+      { icon: "👗", text: "Dresses, blouses, tops, skirts, and trousers" },
+      { icon: "🧵", text: "CAD pattern-making and precision laser cutting" },
+      { icon: "🎨", text: "Pantone-matched dyeing and custom prints" },
+      { icon: "🏷️", text: "Woven labels, screen print, embroidery, DTG, and heat transfer" },
+      { icon: "📦", text: "Retail-ready packaging with poly-bagging and hang-tags" },
+      { icon: "✅", text: "AQL 2.5 multi-point quality inspection" },
     ],
-    image: "/images/products/knit-wear.jpg",
-    imageAlt: "Folded knit t-shirts and hoodies in multiple colors",
-    popularItems: ["T-Shirts", "Polo Shirts", "Hoodies", "Sweatshirts", "Joggers"],
+    image: "/images/products/womens-wear.jpg",
+    imageAlt: "Custom women's clothing manufactured by TexVenture in Bangladesh — dresses, blouses, and activewear",
+    popularItems: [
+      "Maxi Dresses",
+      "A-Line Dresses",
+      "Blouses & Peplum Tops",
+      "Crop Tops",
+      "Midi Skirts",
+      "Palazzo Pants",
+      "Blazers",
+      "Activewear Sets",
+    ],
     leadTime: "45–60 days",
     moq: "100 pcs / style",
+    targetAudience: "Fashion brands, boutiques, e-commerce retailers, DTC brands",
+    fabricOptions: [
+      "Cotton",
+      "Polyester",
+      "Viscose",
+      "Rayon",
+      "Chiffon",
+      "Georgette",
+      "Linen",
+      "Silk blends",
+      "Recycled polyester",
+    ],
+    certifications: ["BSCI", "OEKO-TEX® Standard 100", "SEDEX", "WRAP", "GOTS"],
   },
   {
-    slug: "wovens",
-    name: "Wovens",
-    shortName: "Wovens",
+    slug: "mens-wear",
+    name: "Men's Wear",
+    shortName: "Men's Wear",
     description:
-      "Button-down shirts, blouses, dresses, and structured garments made from woven fabrics.",
+      "Custom men's clothing manufacturer in Bangladesh — t-shirts, polos, shirts, jeans, trousers, blazers, and formal wear from 100 pieces MOQ.",
     longDescription:
-      "Woven garments demand precision in cutting, stitching, and finishing. We partner with factories that specialise in poplin, twill, chambray, and linen-blend fabrics to deliver crisp, well-constructed shirts, dresses, and outerwear for casual and formal markets.",
+      "TexVenture is a leading men's wear clothing manufacturer and supplier in Bangladesh, producing premium-quality garments for global brands. We manufacture men's t-shirts, polo shirts, button-down shirts, jeans, chinos, trousers, blazers, jackets, and formal wear — all sourced from our vetted network of 20+ factories across Dhaka, Chittagong, and Gazipur.\n\nWith 10+ years of deep expertise in Bangladesh's garment industry, we understand that men's wear demands durability, consistent fit, and clean finishing. Our factory partners use automatic spreading machines, multi-needle quilting, and industrial pressing to deliver garments that meet the quality expectations of international retail chains and premium brands.\n\nFrom basic crew-neck tees to tailored formal shirts, our production capabilities cover the full spectrum of men's fashion. We work with cotton, polyester blends, denim, twill, flannel, chambray, and technical fabrics — offering Pantone-matched colors, custom washes, and a full range of embellishment options.\n\nBangladesh is the world's second-largest garment exporter, and men's wear constitutes a significant share of our factory output. TexVenture leverages this deep manufacturing ecosystem to offer competitive pricing without compromising on quality, compliance, or delivery timelines.",
     features: [
-      { icon: "👔", text: "Poplin, twill, chambray, linen and cotton blends" },
-      { icon: "✂️", text: "Precision cutting and pattern grading" },
-      { icon: "🧵", text: "French seams, flat-felled, and overlocked finishes" },
-      { icon: "📦", text: "Hang-tagging and custom packaging" },
+      { icon: "👔", text: "T-shirts, polos, shirts, jeans, trousers, and blazers" },
+      { icon: "✂️", text: "Automatic spreading and precision cutting" },
+      { icon: "🧵", text: "Industrial pressing and clean finishing" },
+      { icon: "🎨", text: "Custom washes, enzyme treatment, and stone wash" },
+      { icon: "🏷️", text: "Woven labels, screen print, embroidery, and DTG" },
+      { icon: "✅", text: "AQL 2.5 multi-point quality inspection" },
     ],
-    image: "/images/products/wovens.jpg",
-    imageAlt: "Assortment of woven shirts and blouses on hangers",
-    popularItems: ["Button-Down Shirts", "Blouses", "Shirt Dresses", "Trousers"],
-    leadTime: "50–70 days",
-    moq: "150 pcs / style",
+    image: "/images/products/mens-wear.jpg",
+    imageAlt: "Custom men's clothing manufactured by TexVenture in Bangladesh — shirts, jeans, and formal wear",
+    popularItems: [
+      "Crew Neck T-Shirts",
+      "Polo Shirts",
+      "Oxford Button-Downs",
+      "Slim Fit Jeans",
+      "Chino Pants",
+      "Casual Blazers",
+      "Denim Jackets",
+      "Formal Trousers",
+    ],
+    leadTime: "45–65 days",
+    moq: "100 pcs / style",
+    targetAudience: "Fashion brands, retail chains, corporate uniform buyers, e-commerce brands",
+    fabricOptions: [
+      "Cotton",
+      "Cotton-polyester blends",
+      "Denim",
+      "Twill",
+      "Flannel",
+      "Chambray",
+      "Linen",
+      "Technical fabrics",
+    ],
+    certifications: ["BSCI", "OEKO-TEX® Standard 100", "SEDEX", "WRAP"],
   },
   {
-    slug: "circular-knit",
-    name: "Circular Knit",
-    shortName: "Circular Knit",
+    slug: "kids-wear",
+    name: "Kid's Wear",
+    shortName: "Kid's Wear",
     description:
-      "Seamless and tubular knit products including underwear, basics, and performance innerwear.",
+      "Custom children's clothing manufacturer in Bangladesh — baby clothes, kids' t-shirts, dresses, school uniforms, and playwear from 100 pieces MOQ.",
     longDescription:
-      "Circular-knit garments are produced on seamless knitting machines, eliminating side seams for superior comfort. Perfect for underwear, leggings, base layers, and performance sportswear where stretch, fit, and breathability matter most.",
+      "TexVenture is a specialized kid's wear clothing manufacturer and supplier in Bangladesh, producing safe, comfortable, and durable children's clothing for global brands. We manufacture baby clothes, kids' t-shirts, dresses, rompers, shorts, school uniforms, playwear, and sleepwear — all produced in our BSCI and OEKO-TEX® certified factory network across Dhaka, Chittagong, and Gazipur.\n\nChildren's clothing demands the highest safety and quality standards. Every fabric we source is tested for harmful substances per OEKO-TEX® Standard 100, ensuring they're safe for sensitive skin. Our factories follow strict compliance protocols — no harmful dyes, no sharp embellishments, and reinforced stitching for active play.\n\nWith 10+ years of experience serving international kids' wear brands, we understand the unique requirements of children's garment manufacturing: soft hand-feel fabrics, flatlock seams to prevent irritation, adjustable waistbands for growing kids, and snap buttons for easy dressing. Our production covers sizes from newborn to12 years.\n\nTexVenture's low MOQ of just 100 pieces per style makes us ideal for boutique kids' brands, startup labels, and established retailers looking to source high-quality children's wear from Bangladesh at competitive prices.",
     features: [
-      { icon: "🔄", text: "Seamless and tubular construction" },
-      { icon: "💨", text: "Moisture-wicking and 4-way stretch" },
-      { icon: "🩱", text: "Ideal for underwear, leggings and base layers" },
-      { icon: "🌿", text: "Organic and recycled yarn options" },
+      { icon: "👶", text: "Newborn to12 years — full size range coverage" },
+      { icon: "🛡️", text: "OEKO-TEX® certified fabrics — safe for sensitive skin" },
+      { icon: "🧵", text: "Flatlock seams and reinforced stitching for durability" },
+      { icon: "🎨", text: "Fun prints, embroidery, and custom characters" },
+      { icon: "📦", text: "Individual poly-bagging with retail-ready packaging" },
+      { icon: "✅", text: "AQL 2.5 quality inspection with safety compliance" },
     ],
-    image: "/images/products/circular-knit.jpg",
-    imageAlt: "Seamless leggings and underwear in various colors",
-    popularItems: ["Seamless Leggings", "Underwear", "Sports Bras", "Base Layers"],
+    image: "/images/products/kids-wear.jpg",
+    imageAlt: "Custom children's clothing manufactured by TexVenture in Bangladesh — baby clothes, kids' t-shirts, and school uniforms",
+    popularItems: [
+      "Baby Rompers",
+      "Kids' T-Shirts",
+      "Girls' Dresses",
+      "Boys' Shorts",
+      "School Uniforms",
+      "Playwear Sets",
+      "Kids' Hoodies",
+      "Sleepwear",
+    ],
     leadTime: "40–55 days",
     moq: "100 pcs / style",
-  },
-  {
-    slug: "denim",
-    name: "Denim",
-    shortName: "Denim",
-    description:
-      "Raw, washed, and distressed denim jeans, jackets, and shorts manufactured to your spec.",
-    longDescription:
-      "Bangladesh is one of the world's largest denim producers. We connect you with mills and garment units that handle everything from raw selvedge to enzyme washes, sandblasting, and laser finishing — delivering on-trend denim at competitive prices.",
-    features: [
-      { icon: "👖", text: "Raw, stone-washed, acid-washed and distressed" },
-      { icon: "🔬", text: "Laser finishing and sustainable wash techniques" },
-      { icon: "📐", text: "Custom fits: slim, straight, relaxed, tapered" },
-      { icon: "♻️", text: "Water-saving laundry and eco-dyeing" },
+    targetAudience: "Kids' fashion brands, school uniform suppliers, baby clothing labels, retail chains",
+    fabricOptions: [
+      "100% Organic Cotton",
+      "Cotton jersey",
+      "Fleece",
+      "French terry",
+      "Poplin",
+      "Muslin",
+      "Interlock",
+      "Recycled polyester",
     ],
-    image: "/images/products/denim.jpg",
-    imageAlt: "Stack of denim jeans in various washes",
-    popularItems: ["Slim Jeans", "Straight-Leg Jeans", "Denim Jackets", "Denim Shorts"],
-    leadTime: "55–75 days",
-    moq: "200 pcs / style",
-  },
-  {
-    slug: "sweaters",
-    name: "Sweaters",
-    shortName: "Sweaters",
-    description:
-      "Full-fashion knit sweaters, cardigans, and knitwear in wool, cotton, and acrylic yarns.",
-    longDescription:
-      "Our sweater partners use V-bed flat-knit machines and whole-garment technology to produce fully fashioned knitwear. From chunky cable-knit sweaters to fine-gauge merino cardigans, we handle yarn sourcing, knitting, linking, and finishing.",
-    features: [
-      { icon: "🧣", text: "Full-fashion and whole-garment knitting" },
-      { icon: "🐑", text: "Wool, cotton, acrylic and blended yarns" },
-      { icon: "🎨", text: "Jacquard, intarsia and cable patterns" },
-      { icon: "📦", text: "Neat folding and gift-ready packaging" },
-    ],
-    image: "/images/products/sweaters.jpg",
-    imageAlt: "Assortment of knit sweaters on wooden hangers",
-    popularItems: ["Crew Neck Sweaters", "Cardigans", "V-Neck Pullovers", "Knit Vests"],
-    leadTime: "50–70 days",
-    moq: "150 pcs / style",
-  },
-  {
-    slug: "work-wear",
-    name: "Work Wear",
-    shortName: "Work Wear",
-    description:
-      "Durable uniforms, safety vests, cargo pants, and industrial garments built to last.",
-    longDescription:
-      "Work wear demands durability, functionality, and compliance with safety standards. We source heavy-duty twill, ripstop, and canvas garments for construction, logistics, hospitality, and healthcare sectors — with custom branding and reflective trims.",
-    features: [
-      { icon: "🦺", text: "High-visibility and reflective options" },
-      { icon: "🧵", text: "Ripstop, canvas and heavy-duty twill" },
-      { icon: "🦓", text: "Custom embroidery and heat-transfer logos" },
-      { icon: "✅", text: "ISO / EN compliance available" },
-    ],
-    image: "/images/products/work-wear.jpg",
-    imageAlt: "Work wear uniforms including jackets and cargo pants",
-    popularItems: ["Cargo Pants", "Hi-Vis Vests", "Uniform Shirts", "Coveralls"],
-    leadTime: "40–60 days",
-    moq: "200 pcs / style",
-  },
-  {
-    slug: "active-wear",
-    name: "Active Wear",
-    shortName: "Activewear",
-    description:
-      "Performance sportswear, gym clothes, yoga sets, and moisture-wicking athletic garments.",
-    longDescription:
-      "Activewear requires technical fabrics with stretch, compression, and moisture management. We work with factories that specialise in sublimation printing, heat-sealed seams, and performance trims — delivering gym-ready, yoga-ready, and run-ready apparel.",
-    features: [
-      { icon: "🏋️", text: "Compression, stretch and moisture-wicking" },
-      { icon: "🎨", text: "Sublimation printing and all-over prints" },
-      { icon: "🪡", text: "Flatlock seams and bonded hems" },
-      { icon: "♻️", text: "Recycled polyester and sustainable options" },
-    ],
-    image: "/images/products/active-wear.jpg",
-    imageAlt: "Activewear set including sports bra and leggings",
-    popularItems: ["Leggings", "Sports Bras", "Tank Tops", "Shorts", "Zip Hoodies"],
-    leadTime: "40–55 days",
-    moq: "100 pcs / style",
+    certifications: ["BSCI", "OEKO-TEX® Standard 100", "SEDEX", "WRAP", "GOTS"],
   },
 ];
 

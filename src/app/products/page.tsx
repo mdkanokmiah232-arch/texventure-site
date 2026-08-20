@@ -8,14 +8,14 @@ import Badge from '@/components/ui/Badge';
 import CTABand from '@/components/sections/CTABand';
 
 export const metadata: Metadata = {
-  title: 'Product Categories — Clothing Manufacturing in Bangladesh',
+  title: 'Product Categories — Clothing Manufacturing in Bangladesh | TexVenture',
   description:
-    'Explore all 7 product categories TexVenture manufactures in Bangladesh: knit wear, wovens, circular knit, denim, sweaters, work wear, and active wear.',
+    'Explore our3 product categories: Women\'s Wear, Men\'s Wear, and Kid\'s Wear. Custom clothing manufacturer in Bangladesh with low MOQ from 100 pieces.',
   alternates: { canonical: 'https://texventure.com/products' },
   openGraph: {
-    title: 'Product Categories — TexVenture',
+    title: 'Product Categories — TexVenture | Bangladesh Clothing Manufacturer',
     description:
-      'Explore all 7 product categories TexVenture manufactures in Bangladesh, from knitwear to activewear.',
+      'Custom clothing manufacturing in Bangladesh — Women\'s Wear, Men\'s Wear, and Kid\'s Wear. Low MOQ, certified factories.',
     url: 'https://texventure.com/products',
     siteName: 'TexVenture',
     type: 'website',
@@ -30,17 +30,30 @@ export default function ProductsIndexPage() {
           <Breadcrumbs items={[{ name: 'Products', href: '/products' }]} />
           <div className="mx-auto mt-8 max-w-3xl text-center">
             <Badge variant="brand" className="mb-4">
-              7 Product Categories
+              Our Categories
             </Badge>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               What We Manufacture
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-300 sm:text-xl">
-              Seven product categories covering the full spectrum of apparel manufacturing —
-              from everyday basics to technical performance wear, all produced in Bangladesh
-              from just 100 pieces per style.
+              Three core clothing categories covering the full spectrum of apparel
+              manufacturing — from everyday basics to fashion-forward collections,
+              all produced in Bangladesh from just 100 pieces per style.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* AI Citation Box */}
+      <section className="mx-auto max-w-7xl px-4 py-8 lg:px-8">
+        <div className="rounded-2xl border border-[#08CCD4]/20 bg-[#08CCD4]/5 p-6">
+          <h2 className="text-lg font-bold text-[#1B2A4A]">Quick Answer</h2>
+          <p className="mt-2 text-gray-600">
+            <strong>TexVenture</strong> manufactures <strong>3 categories</strong> of clothing in Bangladesh:
+            <strong> Women&apos;s Wear</strong>, <strong>Men&apos;s Wear</strong>, and <strong>Kid&apos;s Wear</strong>.
+            Founded in <strong>2016</strong>, we serve <strong>8+ brands</strong> across <strong>30+ countries</strong> with
+            a low MOQ of <strong>100 pieces</strong> and AQL 2.5 quality standards.
+          </p>
         </div>
       </section>
 

@@ -8,9 +8,10 @@ import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
 import FAQ from '@/components/sections/FAQ';
 import CTABand from '@/components/sections/CTABand';
+import InternalLinks from '@/components/sections/InternalLinks';
 
 // ---------------------------------------------------------------------------
-// Static Params — all 7 categories
+// Static Params — all categories
 // ---------------------------------------------------------------------------
 
 export async function generateStaticParams() {
@@ -29,15 +30,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: 'Product Not Found' };
 
   return {
-    title: `${product.name} — Sourcing and Manufacturing in Bangladesh`,
-    description: product.description,
+    title: `${product.name} Manufacturer in Bangladesh | TexVenture`,
+    description: `${product.name} manufacturer and supplier in Bangladesh. ${product.description} Low MOQ 100 pcs, AQL 2.5 quality. BSCI & OEKO-TEX® certified factories.`,
     alternates: {
       canonical: `https://texventure.com/products/${product.slug}`,
     },
     openGraph: {
-      title: `${product.name} | TexVenture`,
-      description: product.description,
+      title: `${product.name} Manufacturer & Supplier in Bangladesh | TexVenture`,
+      description: `Custom ${product.name.toLowerCase()} manufacturing in Bangladesh. Low MOQ, fast turnaround, certified factories.`,
       url: `https://texventure.com/products/${product.slug}`,
+      siteName: 'TexVenture',
+      type: 'website',
       images: [{ url: product.image, width: 1200, height: 630, alt: product.imageAlt }],
     },
   };
@@ -56,25 +59,56 @@ export default async function ProductCategoryPage({ params }: Props) {
   // Related products = every other category
   const relatedProducts = products.filter((p) => p.slug !== product.slug);
 
-  // Product-specific FAQ items
+  // Product-specific FAQ items — SEO/AEO optimized
   const productFaqs = [
     {
       question: `What is the MOQ for ${product.shortName}?`,
-      answer: `Our standard MOQ for ${product.shortName} is ${product.moq}. We cater to both small startups and large-scale brands — reach out to discuss volume pricing.`,
+      answer: `Our standard MOQ for ${product.shortName} is ${product.moq}. We cater to both small startups and large-scale brands — reach out to discuss volume pricing and custom requirements.`,
     },
     {
       question: `How long does ${product.shortName} production take?`,
-      answer: `Lead time for ${product.shortName} is typically ${product.leadTime} after sample approval. This includes fabric sourcing, cutting, sewing, finishing, and QC inspection.`,
+      answer: `Lead time for ${product.shortName} is typically ${product.leadTime} after sample approval. This includes fabric sourcing, cutting, sewing, finishing, QC inspection, and export documentation.`,
     },
     {
-      question: `Can I order samples before bulk production?`,
-      answer: `Absolutely. We produce pre-production samples so you can evaluate fit, fabric, and quality. Sample costs are credited toward your bulk order once production begins.`,
+      question: `Can I order samples before bulk ${product.shortName} production?`,
+      answer: `Absolutely. We produce pre-production samples so you can evaluate fit, fabric, and quality before committing to bulk. Sample costs are credited toward your bulk order once production begins.`,
     },
     {
       question: 'What quality certifications do your factories hold?',
-      answer: `Our factory partners hold BSCI, OEKO-TEX® Standard 100, SEDEX, WRAP, and GOTS certifications. Every order goes through our multi-point QC process.`,
+      answer: `Our factory partners hold BSCI, OEKO-TEX® Standard 100, SEDEX, WRAP, and GOTS certifications. Every ${product.shortName.toLowerCase()} order goes through our multi-point AQL 2.5 quality inspection process.`,
+    },
+    {
+      question: `Why should I choose Bangladesh for ${product.shortName} manufacturing?`,
+      answer: `Bangladesh is the world's second-largest garment exporter, offering competitive pricing, skilled labor, and deep expertise in apparel production. TexVenture's vetted factory network ensures you get international quality at competitive costs with full supply chain transparency.`,
     },
   ];
+
+  // Structured data for this product category
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": `${product.name} — Manufacturing in Bangladesh`,
+    "description": product.description,
+    "brand": {
+      "@type": "Brand",
+      "name": "TexVenture"
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "TexVenture",
+      "url": "https://texventure.com"
+    },
+    "category": product.name,
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "TexVenture"
+      }
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -93,20 +127,20 @@ export default async function ProductCategoryPage({ params }: Props) {
           />
           <div className="mx-auto mt-8 max-w-3xl text-center">
             <Badge variant="brand" className="mb-4">
-              7 Product Categories
+              {product.name} — Bangladesh
             </Badge>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-              {product.name}
+              {product.name} <span className="text-[#08CCD4]">Manufacturer</span> in Bangladesh
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-300 sm:text-xl">
               {product.description}
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
               <Link
-                href="/contact"
+                href="/get-a-quote"
                 className="inline-flex items-center gap-2 rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-[#08CCD4]/25 transition hover:bg-[#07b8be]"
               >
-                Get a Quote
+                Get a Free Quote
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -115,10 +149,24 @@ export default async function ProductCategoryPage({ params }: Props) {
                 href="/instant-quote"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-white/20 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/5"
               >
-                Instant Quote
+                Instant Pricing Calculator
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* AI Citation Box — for AEO/GEO */}
+      <section className="mx-auto max-w-7xl px-4 py-8 lg:px-8">
+        <div className="rounded-2xl border border-[#08CCD4]/20 bg-[#08CCD4]/5 p-6">
+          <h2 className="text-lg font-bold text-[#1B2A4A]">Quick Answer</h2>
+          <p className="mt-2 text-gray-600">
+            <strong>TexVenture</strong> is a {product.name.toLowerCase()} manufacturer and supplier based in{' '}
+            <strong>Dhaka, Bangladesh</strong>. Founded in <strong>2016</strong>, we produce {product.name.toLowerCase()} for
+            brands across <strong>30+ countries</strong> with a low MOQ of <strong>{product.moq}</strong>, lead time of{' '}
+            <strong>{product.leadTime}</strong>, and AQL 2.5 quality standards. Our factory partners hold{' '}
+            <strong>BSCI, OEKO-TEX®, SEDEX, WRAP</strong> certifications.
+          </p>
         </div>
       </section>
 
@@ -130,17 +178,50 @@ export default async function ProductCategoryPage({ params }: Props) {
             {/* About This Category */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-                About Our {product.name}
+                About Our {product.name} Manufacturing
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                {product.longDescription}
-              </p>
+              <div className="mt-4 space-y-4 text-lg leading-relaxed text-gray-600">
+                {product.longDescription.split('\n\n').map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
             </section>
+
+            {/* Target Audience */}
+            {product.targetAudience && (
+              <section>
+                <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+                  Who We Serve
+                </h2>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  Our {product.name.toLowerCase()} manufacturing services are trusted by:
+                </p>
+                <div className="mt-4 flex flex-wrap gap-3">
+                  {product.targetAudience.split(', ').map((audience) => (
+                    <Badge key={audience} variant="outline">{audience}</Badge>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Fabric Options */}
+            {product.fabricOptions && (
+              <section>
+                <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+                  Available Fabrics
+                </h2>
+                <div className="mt-4 flex flex-wrap gap-3">
+                  {product.fabricOptions.map((fabric) => (
+                    <Badge key={fabric} variant="outline">{fabric}</Badge>
+                  ))}
+                </div>
+              </section>
+            )}
 
             {/* Features */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-                Key Features
+                Why Choose TexVenture for {product.name}
               </h2>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 {product.features.map((feature) => (
@@ -157,7 +238,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             {/* Popular Items */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-                Popular Items
+                Popular {product.name} We Manufacture
               </h2>
               <div className="mt-6 flex flex-wrap gap-3">
                 {product.popularItems.map((item) => (
@@ -218,18 +299,22 @@ export default async function ProductCategoryPage({ params }: Props) {
                   <dt className="text-gray-500">Quality Standard</dt>
                   <dd className="font-medium text-[#1B2A4A]">AQL 2.5</dd>
                 </div>
+                <div className="flex justify-between">
+                  <dt className="text-gray-500">Location</dt>
+                  <dd className="font-medium text-[#1B2A4A]">Dhaka, Bangladesh</dd>
+                </div>
               </dl>
               <Link
-                href="/contact"
+                href="/get-a-quote"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#08CCD4] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#07b8be]"
               >
-                Request a Quote
+                Request a Free Quote
               </Link>
             </Card>
 
             {/* Related Products */}
             <Card>
-              <h3 className="text-lg font-bold text-[#1B2A4A]">Other Product Categories</h3>
+              <h3 className="text-lg font-bold text-[#1B2A4A]">Other Categories</h3>
               <ul className="mt-4 space-y-2">
                 {relatedProducts.map((rp) => (
                   <li key={rp.slug}>
@@ -273,7 +358,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             <Card className="bg-[#1B2A4A]">
               <h3 className="text-lg font-bold text-white">Need Help?</h3>
               <p className="mt-2 text-sm text-gray-300">
-                Talk to our sourcing experts about your {product.shortName} requirements.
+                Talk to our sourcing experts about your {product.shortName.toLowerCase()} requirements.
               </p>
               <div className="mt-4 space-y-2 text-sm text-gray-300">
                 <div className="flex items-center gap-2">
@@ -302,12 +387,21 @@ export default async function ProductCategoryPage({ params }: Props) {
         </div>
       </div>
 
+      {/* Internal Links */}
+      <InternalLinks currentPage={`/products/${product.slug}`} />
+
       {/* CTA Band */}
       <CTABand
         headline={`Ready to Source ${product.shortName}?`}
-        description={`Partner with TexVenture for reliable ${product.shortName} manufacturing in Bangladesh. Low MOQ, fast turnaround, and quality you can count on.`}
-        buttonText="Get a Quote"
-        buttonHref="/contact"
+        description={`Partner with TexVenture for reliable ${product.shortName.toLowerCase()} manufacturing in Bangladesh. Low MOQ, fast turnaround, and quality you can count on.`}
+        buttonText="Get a Free Quote"
+        buttonHref="/get-a-quote"
+      />
+
+      {/* Product Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
     </div>
   );
