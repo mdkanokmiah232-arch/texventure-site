@@ -69,20 +69,20 @@ export const company: CompanyInfo = {
   name: "TexVenture",
   tagline: "Your Gateway to Bangladesh Apparel Manufacturing",
   description:
-    "TexVenture is a trusted apparel sourcing and buying house based in Dhaka, Bangladesh. We connect growing brands worldwide with vetted factories for knitwear, wovens, denim, sweaters, and activewear — starting from just 100 pieces per style.",
+    "TexVenture is an apparel manufacturer and end-to-end supply chain sourcing solutions service provider from Dhaka, Bangladesh. We connect growing brands worldwide with vetted factories for knitwear, wovens, denim, sweaters, and activewear — starting from just 100 pieces per style.",
   logoUrl:
     "https://texventure.com/wp-content/uploads/2024/06/46f49d3a6517646824216463e65518bca411f2ea.png",
-  foundedYear: 2024,
+  foundedYear: 2016,
   industry: "Apparel Sourcing and Manufacturing",
   headquarters: "Dhaka, Bangladesh",
 };
 
 export const contact: ContactDetails = {
-  phone: "+8801805121295",
+  phone: "+8801354316246",
   email: "info@texventure.com",
   address: {
-    street: "35 Gareeb-E-Newaz Avenue, Sector 13",
-    city: "Uttara, Dhaka 1230",
+    street: "House: 2, Road: 3/A, Sector: 5",
+    city: "Uttara, Dhaka-1230",
     country: "Bangladesh",
     postalCode: "1230",
   },
@@ -93,7 +93,7 @@ export const social: SocialLink[] = [
   { platform: "Facebook", url: "https://www.facebook.com/texventure", label: "Facebook" },
   { platform: "Instagram", url: "https://www.instagram.com/texventure", label: "Instagram" },
   { platform: "LinkedIn", url: "https://www.linkedin.com/company/texventure", label: "LinkedIn" },
-  { platform: "WhatsApp", url: "https://wa.me/8801805121295", label: "WhatsApp" },
+  { platform: "WhatsApp", url: "https://wa.me/8801354316246", label: "WhatsApp" },
 ];
 
 export const navigation: NavItem[] = [

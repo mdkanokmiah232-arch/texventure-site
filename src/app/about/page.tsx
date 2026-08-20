@@ -63,7 +63,7 @@ const teamMembers = [
   {
     name: 'Leadership Team',
     role: 'Executive Leadership',
-    description: 'Experienced professionals with 15+ years combined expertise in Bangladesh garment manufacturing and global supply chain management, having overseen production for brands across the US, UK, and EU.',
+    description: 'Experienced professionals with 10+ years combined expertise in Bangladesh garment manufacturing and global supply chain management, having overseen production for brands across the US, UK, and EU.',
   },
   {
     name: 'Sourcing Specialists',
@@ -355,7 +355,7 @@ export default function AboutPage() {
               Get in Touch
             </Link>
             <Link
-              href="https://wa.me/8801805121295"
+              href="https://wa.me/8801354316246"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full border-2 border-white/30 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white/60 hover:bg-white/10"

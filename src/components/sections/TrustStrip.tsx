@@ -8,7 +8,7 @@ interface TrustStripProps {
 }
 
 const defaultItems: TrustItem[] = [
-  { number: '15+', label: 'Years Experience' },
+  { number: '10+', label: 'Years Experience' },
   { number: '50+', label: 'Vetted Factories' },
   { number: '5', label: 'Quality Certifications' },
   { number: '100', label: 'Piece MOQ' },

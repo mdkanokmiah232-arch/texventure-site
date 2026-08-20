@@ -59,17 +59,17 @@ const organizationSchema = {
     "TexVenture is a Bangladesh-based clothing manufacturer and supplier connecting global brands with 50+ certified garment factories, offering low MOQ production from 100 pieces.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "35 Gareeb-E-Newaz Ave, Sector 13",
+    streetAddress: "House: 2, Road: 3/A, Sector: 5",
     addressLocality: "Uttara, Dhaka",
     addressCountry: "BD",
     postalCode: "1230",
   },
-  telephone: "+8801805121295",
+  telephone: "+880****6246",
   email: "info@texventure.com",
   sameAs: [
     "https://www.facebook.com/texventure",
     "https://www.linkedin.com/company/texventure",
-    "https://wa.me/8801805121295",
+    "https://wa.me/8801354316246",
   ],
 };
 
@@ -83,13 +83,13 @@ const localBusinessSchema = {
     "Leading clothing manufacturer and supplier in Bangladesh. Custom garment production, low MOQ from 100 pcs, 50+ certified factories, global shipping.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "35 Gareeb-E-Newaz Ave, Sector 13",
+    streetAddress: "House: 2, Road: 3/A, Sector: 5",
     addressLocality: "Uttara",
     addressRegion: "Dhaka",
     addressCountry: "BD",
     postalCode: "1230",
   },
-  telephone: "+8801805121295",
+  telephone: "+880****6246",
   email: "info@texventure.com",
   geo: {
     "@type": "GeoCoordinates",
@@ -105,7 +105,7 @@ const localBusinessSchema = {
   sameAs: [
     "https://www.facebook.com/texventure",
     "https://www.linkedin.com/company/texventure",
-    "https://wa.me/8801805121295",
+    "https://wa.me/8801354316246",
   ],
 };
 
@@ -159,7 +159,7 @@ const faqSchema = {
 /* ─── Static Data ─── */
 
 const trustStats = [
-  { number: "15+", label: "Years Experience" },
+  { number: "10+", label: "Years Experience" },
   { number: "50+", label: "Vetted Factories" },
   { number: "5", label: "Quality Certifications" },
   { number: "100", label: "Piece MOQ" },
@@ -266,7 +266,7 @@ export default function HomePage() {
                 on building your brand.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                With over 15 years of experience and a network of 50+ certified
+                With over 10 years of experience and a network of 50+ certified
                 garment factories, we deliver quality clothing at competitive
                 prices with low MOQs starting from just 100 pieces.
               </p>
@@ -294,7 +294,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="absolute -bottom-6 -left-6 rounded-2xl bg-[#1B2A4A] p-6 text-white shadow-xl">
-                <div className="text-3xl font-bold text-[#08CCD4]">15+</div>
+                <div className="text-3xl font-bold text-[#08CCD4]">10+</div>
                 <div className="text-sm font-medium">Years Experience</div>
               </div>
             </div>

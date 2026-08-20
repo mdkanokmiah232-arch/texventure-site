@@ -34,9 +34,9 @@ export function OrganizationSchema(
     url: SITE_URL,
     logo: `${SITE_URL}/logo.png`,
     email: "info@texventure.com",
-    telephone: "+8801805121295",
+    telephone: "+8801354316246",
     address: {
-      streetAddress: "35 Gareeb-E-Newaz Avenue, Sector 13",
+      streetAddress: "House: 2, Road: 3/A, Sector: 5",
       addressLocality: "Uttara, Dhaka",
       addressRegion: "Dhaka",
       postalCode: "1230",

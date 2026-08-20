@@ -94,7 +94,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">8. Contact Us</h2>
             <p className="mt-3 leading-relaxed">
-              For questions about these Terms of Service, contact TexVenture at 35 Gareeb-E-Newaz
+              For questions about these Terms of Service, contact TexVenture at House: 2, Road: 3/A
               Avenue, Sector 13, Uttara, Dhaka 1230, Bangladesh, or via email at info@texventure.com.
             </p>
           </section>

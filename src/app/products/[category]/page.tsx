@@ -290,7 +290,7 @@ export default async function ProductCategoryPage({ params }: Props) {
                 </div>
               </div>
               <Link
-                href="https://wa.me/8801805121295"
+                href="https://wa.me/8801354316246"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#20ba5a]"
