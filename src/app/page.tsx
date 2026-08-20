@@ -10,7 +10,6 @@ import Card from "@/components/ui/Card";
 import Badge from "@/components/ui/Badge";
 
 import { company } from "@/data/site";
-import { services } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
 import { guides } from "@/data/guides";
 
@@ -299,61 +298,6 @@ export default function HomePage() {
                 <div className="text-sm font-medium">Years Experience</div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 4. Services Overview */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
-          <div className="text-center">
-            <Badge variant="brand">Our Process</Badge>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              How We Help Brands Manufacture Clothing in Bangladesh
-            </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-500">
-              From concept to delivery — our end-to-end process covers design, sampling, production, and global logistics for your brand.
-            </p>
-          </div>
-
-          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5">
-            {services.map((service) => {
-              const serviceHrefMap: Record<string, string> = {
-                "custom-manufacturing": "/custom-clothing-manufacturer-bangladesh",
-                "low-moq": "/low-moq-clothing-manufacturer-bangladesh",
-                "private-label": "/private-label-clothing-manufacturer-bangladesh",
-                "streetwear": "/streetwear-manufacturer-bangladesh",
-              };
-              const href = serviceHrefMap[service.slug] ?? "/services";
-              return (
-              <Link key={service.slug} href={href}>
-                <Card hover className="group h-full border border-gray-200 p-4 transition-all duration-300 hover:border-[#08CCD4] hover:border-2 sm:p-5">
-                  <h3 className="text-lg font-bold leading-tight text-[#1B2A4A] sm:text-xl">
-                    {service.name}
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-gray-500">
-                    {service.tagline}
-                  </p>
-                  <div className="mt-3 flex items-center gap-1 text-xs font-semibold text-[#08CCD4] sm:text-sm">
-                    Learn more
-                    <svg
-                      className="h-3.5 w-3.5 sm:h-4 sm:w-4"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17 8l4 4m0 0l-4 4m4-4H3"
-                      />
-                    </svg>
-                  </div>
-                </Card>
-              </Link>
-              );
-            })}
           </div>
         </div>
       </section>
