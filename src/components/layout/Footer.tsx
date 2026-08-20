@@ -22,11 +22,9 @@ const companyLinks = [
 ];
 
 const categoryLinks = [
-  { name: 'Clothing Manufacturers', href: '/' },
-  { name: 'Custom Clothing Manufacturer', href: '/custom-clothing-manufacturer-bangladesh' },
-  { name: 'Low MOQ Manufacturer', href: '/low-moq-clothing-manufacturer-bangladesh' },
-  { name: 'Private Label Manufacturer', href: '/private-label-clothing-manufacturer-bangladesh' },
-  { name: 'Streetwear Manufacturer', href: '/streetwear-manufacturer-bangladesh' },
+  { name: "Women's Wear", href: '/products/womens-wear' },
+  { name: "Men's Wear", href: '/products/mens-wear' },
+  { name: "Kid's Wear", href: '/products/kids-wear' },
 ];
 
 const resourceLinks = [
