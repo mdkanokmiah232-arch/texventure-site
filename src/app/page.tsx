@@ -368,51 +368,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4b. Manufacturing Categories */}
-      <section className="bg-white py-16">
-        <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <div className="text-center">
-            <Badge variant="brand">our Categories</Badge>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              Manufacturing Categories
-            </h2>
-          </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              { name: "Women's Wear", desc: "Dresses, blouses, tops, skirts, and activewear crafted for style and comfort", href: "/products/womens-wear" },
-              { name: "Men's Wear", desc: "T-shirts, polos, shirts, jeans, and formal wear manufactured to your spec", href: "/products/mens-wear" },
-              { name: "Kid's Wear", desc: "Comfortable, durable, and safe clothing for children of all ages", href: "/products/kids-wear" },
-            ].map((cat) => (
-              <Link key={cat.name} href={cat.href} className="group">
-                <Card className="p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
-                  <h3 className="text-lg font-bold text-[#1B2A4A] group-hover:text-[#08CCD4] transition">
-                    {cat.name}
-                  </h3>
-                  <p className="mt-2 text-sm text-gray-500">{cat.desc}</p>
-                  <span className="mt-3 inline-flex items-center text-sm font-medium text-[#08CCD4]">
-                    View Details →
-                  </span>
-                </Card>
-              </Link>
-            ))}
 
-            {/* CTA Contact */}
-            <Link href="/contact" className="group">
-              <Card className="flex h-full flex-col items-center justify-center p-6 text-center !bg-[#01A1AD] text-white transition-all hover:shadow-lg">
-                <h3 className="text-lg font-bold text-white">
-                  Get a Free Quote
-                </h3>
-                <p className="mt-2 text-sm text-white/80">
-                  Ready to start your next collection?
-                </p>
-                <span className="mt-3 inline-flex items-center text-sm font-medium text-white">
-                  Contact Us →
-                </span>
-              </Card>
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* 5. Why TexVenture */}
       <section className="bg-white">
