@@ -264,31 +264,21 @@ export default function AboutPage() {
       {/* Certifications */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              Quality Certifications
-            </h2>
-            <p className="mt-4 text-lg text-gray-500">
-              Verified Factory Certifications
-            </p>
-          </div>
           <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
             {[
-              { image: "/images/cert-13.png", name: "ISO 9001:2015", desc: "Quality Management System" },
-              { image: "/images/cert-14.png", name: "BSCI", desc: "Business Social Compliance" },
-              { image: "/images/cert-5.png", name: "OEKO-TEX® Std 100", desc: "Product Safety Certified" },
-              { image: "/images/cert-6.png", name: "SGS Certified", desc: "Global Inspection & Certification" },
-              { image: "https://i.postimg.cc/66y18x9C/Articles-of-Organization.webp", name: "Sedex Member", desc: "Ethical Trade Auditing" },
+              { image: "/images/cert-13.png", alt: "ISO 9001:2015 Quality Management System Certification" },
+              { image: "/images/cert-14.png", alt: "BSCI Business Social Compliance Certification" },
+              { image: "/images/cert-5.png", alt: "OEKO-TEX Standard 100 Product Safety Certification" },
+              { image: "/images/cert-6.png", alt: "SGS Global Inspection and Certification" },
+              { image: "https://i.postimg.cc/66y18x9C/Articles-of-Organization.webp", alt: "Sedex Ethical Trade Auditing Certification" },
             ].map((cert) => (
-              <div key={cert.name} className="flex flex-col items-center rounded-2xl border border-gray-100 bg-gray-50 p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
+              <div key={cert.alt} className="overflow-hidden rounded-2xl border border-gray-100 bg-gray-50 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
                 <img
                   src={cert.image}
-                  alt={`${cert.name} - ${cert.desc}`}
-                  className="h-24 w-auto object-contain"
+                  alt={cert.alt}
+                  className="h-48 w-full object-cover"
                   loading="lazy"
                 />
-                <h3 className="mt-4 text-sm font-bold text-[#1B2A4A] text-center">{cert.name}</h3>
-                <p className="mt-1 text-xs text-gray-500 text-center">{cert.desc}</p>
               </div>
             ))}
           </div>
