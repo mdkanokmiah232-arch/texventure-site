@@ -533,39 +533,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 9. Certifications */}
-      <section className="bg-white py-16">
-        <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <div className="text-center">
-            <Badge variant="brand">Certifications</Badge>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              Our Certifications
-            </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-500">
-              Our factory partners hold internationally recognized certifications for quality, safety, and ethical manufacturing.
-            </p>
-          </div>
-          <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-4">
-            {[
-              { image: "/images/cert-13.png", alt: "TexVenture Quality Certification" },
-              { image: "/images/cert-14.png", alt: "TexVenture Safety Certification" },
-              { image: "/images/cert-5.png", alt: "TexVenture Compliance Certification" },
-              { image: "/images/cert-6.png", alt: "TexVenture Standards Certification" },
-            ].map((cert) => (
-              <div key={cert.alt} className="flex items-center justify-center rounded-2xl border border-gray-100 bg-gray-50 p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
-                <img
-                  src={cert.image}
-                  alt={cert.alt}
-                  className="h-32 w-auto object-contain"
-                  loading="lazy"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* 10. FAQ Section */}
       <section className="bg-gray-50">
         <div className="mx-auto max-w-4xl px-4 py-16 lg:px-8">
           <div className="text-center">
