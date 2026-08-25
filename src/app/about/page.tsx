@@ -278,7 +278,7 @@ export default function AboutPage() {
               { image: "/images/cert-14.png", name: "BSCI", desc: "Business Social Compliance" },
               { image: "/images/cert-5.png", name: "OEKO-TEX® Std 100", desc: "Product Safety Certified" },
               { image: "/images/cert-6.png", name: "SGS Certified", desc: "Global Inspection & Certification" },
-              { image: "/images/cert-5.png", name: "Sedex Member", desc: "Ethical Trade Auditing" },
+              { image: "https://i.postimg.cc/66y18x9C/Articles-of-Organization.webp", name: "Sedex Member", desc: "Ethical Trade Auditing" },
             ].map((cert) => (
               <div key={cert.name} className="flex flex-col items-center rounded-2xl border border-gray-100 bg-gray-50 p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
                 <img
