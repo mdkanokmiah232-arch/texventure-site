@@ -15,13 +15,13 @@ import { guides } from "@/data/guides";
 
 /* ─── Home Page Product Categories (matches nav menu) ─── */
 const homeProducts = [
-  { slug: "knit-wear", name: "Knit Wear", description: "Premium jersey, interlock, and piqué knit garments — t-shirts, polos, and hoodies", image: "https://i.postimg.cc/RZ2q0vBC/t-shart.webp", alt: "Custom knit wear t-shirts manufactured in Bangladesh by TexVenture" },
-  { slug: "wovens", name: "Wovens", description: "Button-down shirts, blouses, and dresses tailored from premium woven fabrics", image: "https://i.postimg.cc/FHY7m725/hoodies.webp", alt: "Woven clothing manufacturer Bangladesh — shirts and blouses" },
-  { slug: "circular-knit", name: "Circular Knit", description: "Seamless leggings, underwear, and performance base layers with 4-way stretch", image: "https://i.postimg.cc/Dzs0JRvq/Pants-Joggers.webp", alt: "Circular knit seamless leggings and joggers produced in Bangladesh" },
-  { slug: "denim", name: "Denim", description: "Raw, washed, and distressed denim jeans, jackets, and shorts to your spec", image: "https://i.postimg.cc/6qHpxXcW/Jackets.webp", alt: "Custom denim jeans and jackets manufactured in Bangladesh" },
-  { slug: "active-wear", name: "Active Wear", description: "Performance sportswear, gym sets, yoga wear, and moisture-wicking athletic garments", image: "https://i.postimg.cc/3JRwCkrG/Activewear.webp", alt: "Activewear and sportswear manufacturer in Bangladesh" },
-  { slug: "sweaters", name: "Sweaters", description: "Full-fashion knit sweaters and cardigans in wool, cotton, and acrylic yarns", image: "https://i.postimg.cc/nVwxx0ZH/Kids.jpg", alt: "Knit sweaters and cardigans produced in Bangladesh factories" },
-  { slug: "work-wear", name: "Work Wear", description: "Durable uniforms, safety vests, and industrial garments built to last", image: "https://i.postimg.cc/NFNjvc4P/Accessories.webp", alt: "Industrial work wear uniforms and safety vests manufactured in Bangladesh" },
+  { slug: "knit-wear", name: "Knit Wear", description: "Premium jersey, interlock, and piqué knit garments — t-shirts, polos, and hoodies", image: "https://i.postimg.cc/52GmchMv/Knit-Wear.webp", alt: "Custom knit wear t-shirts manufactured in Bangladesh by TexVenture" },
+  { slug: "wovens", name: "Woven", description: "Button-down shirts, blouses, and dresses tailored from premium woven fabrics", image: "https://i.postimg.cc/HkKtGqC4/Wovens.webp", alt: "Woven clothing manufacturer Bangladesh — shirts and blouses" },
+  { slug: "circular-knit", name: "Circular Knit", description: "Seamless leggings, underwear, and performance base layers with 4-way stretch", image: "https://i.postimg.cc/BnyCWrGK/Circular-Knit.webp", alt: "Circular knit seamless leggings and joggers produced in Bangladesh" },
+  { slug: "denim", name: "Denim", description: "Raw, washed, and distressed denim jeans, jackets, and shorts to your spec", image: "https://i.postimg.cc/Sx5G0BpC/Denim.webp", alt: "Custom denim jeans and jackets manufactured in Bangladesh" },
+  { slug: "sweaters", name: "Sweaters", description: "Full-fashion knit sweaters and cardigans in wool, cotton, and acrylic yarns", image: "https://i.postimg.cc/nh518yt4/Sweaters.webp", alt: "Knit sweaters and cardigans produced in Bangladesh factories" },
+  { slug: "work-wear", name: "Work Wear", description: "Durable uniforms, safety vests, and industrial garments built to last", image: "https://i.postimg.cc/Cxt4y3VC/Work-Wear.webp", alt: "Industrial work wear uniforms and safety vests manufactured in Bangladesh" },
+  { slug: "active-wear", name: "Active Wear", description: "Performance sportswear, gym sets, yoga wear, and moisture-wicking athletic garments", image: "https://i.postimg.cc/QdPqL2r7/Active-Wear.webp", alt: "Activewear and sportswear manufacturer in Bangladesh" },
 ];
 
 /* ─── SEO Metadata ─── */
@@ -437,44 +437,7 @@ export default function HomePage() {
         }))}
       />
 
-      {/* 7b. Certifications — Verifiable */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8">
-          <div className="text-center">
-            <Badge variant="brand">Quality Certifications</Badge>
-            <h2 className="mt-4 text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-              Verified Factory Certifications
-            </h2>
-          </div>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
-            {[
-              { name: "ISO 9001:2015", desc: "Quality Management System", url: "https://www.iso.org/standard/62085.html" },
-              { name: "BSCI", desc: "Business Social Compliance", url: "https://www.amfori.org/our-solutions/bsci" },
-              { name: "OEKO-TEX® Std 100", desc: "Product Safety Certified", url: "https://www.oeko-tex.com/en/our-standards/oeko-tex-standard-100" },
-              { name: "SGS Certified", desc: "Global Inspection & Certification", url: "https://www.sgs.com/en/services/sgs-certification" },
-              { name: "Sedex Member", desc: "Ethical Trade Auditing", url: "https://www.sedex.com/" },
-            ].map((cert) => (
-              <a
-                key={cert.name}
-                href={cert.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-5 py-3 transition hover:border-[#08CCD4] hover:shadow-md"
-              >
-                <svg className="h-5 w-5 flex-shrink-0 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-                <div>
-                  <div className="text-sm font-semibold text-[#1B2A4A] group-hover:text-[#08CCD4]">{cert.name}</div>
-                  <div className="text-xs text-gray-400">{cert.desc}</div>
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* 8. Blog / Guides Preview */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
