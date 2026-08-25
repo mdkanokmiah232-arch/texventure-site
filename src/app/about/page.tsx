@@ -264,13 +264,21 @@ export default function AboutPage() {
       {/* Certifications */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
+              Our Certifications
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+              We have successfully achieved internationally recognized certifications including ISO, BSCI, OEKO-TEX, SGS, and Sedex — ensuring every garment we source meets the highest standards of quality, safety, and ethical manufacturing.
+            </p>
+          </div>
           <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
             {[
-              { image: "/images/cert-13.png", alt: "ISO 9001:2015 Quality Management System Certification" },
-              { image: "/images/cert-14.png", alt: "BSCI Business Social Compliance Certification" },
-              { image: "/images/cert-5.png", alt: "OEKO-TEX Standard 100 Product Safety Certification" },
-              { image: "/images/cert-6.png", alt: "SGS Global Inspection and Certification" },
-              { image: "https://i.postimg.cc/66y18x9C/Articles-of-Organization.webp", alt: "Sedex Ethical Trade Auditing Certification" },
+              { image: "/images/cert-13.png", alt: "ISO 9001:2015 Certification" },
+              { image: "/images/cert-14.png", alt: "BSCI Certification" },
+              { image: "/images/cert-5.png", alt: "OEKO-TEX Standard 100 Certification" },
+              { image: "/images/cert-6.png", alt: "SGS Certification" },
+              { image: "https://i.postimg.cc/66y18x9C/Articles-of-Organization.webp", alt: "Sedex Certification" },
             ].map((cert) => (
               <div key={cert.alt} className="overflow-hidden rounded-2xl border border-gray-100 bg-gray-50 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
                 <img
