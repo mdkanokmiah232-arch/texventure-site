@@ -269,32 +269,25 @@ export default function AboutPage() {
               Our Certifications
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              Our factory partners hold internationally recognized certifications.
+              Our factory partners hold internationally recognized certifications for quality, safety, and ethical manufacturing.
             </p>
           </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {certifications.map((cert) => (
-              <Card key={cert.name} hover>
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#08CCD4]/10">
-                  <svg className="h-6 w-6 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                  </svg>
-                </div>
-                <h3 className="mt-4 text-lg font-semibold text-[#1B2A4A]">{cert.name}</h3>
-                <p className="mt-2 text-sm text-gray-500">{cert.description}</p>
-              </Card>
+          <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-4">
+            {[
+              { image: "/images/cert-13.png", alt: "TexVenture Quality Certification" },
+              { image: "/images/cert-14.png", alt: "TexVenture Safety Certification" },
+              { image: "/images/cert-5.png", alt: "TexVenture Compliance Certification" },
+              { image: "/images/cert-6.png", alt: "TexVenture Standards Certification" },
+            ].map((cert) => (
+              <div key={cert.alt} className="flex items-center justify-center rounded-2xl border border-gray-100 bg-gray-50 p-6 transition-all hover:shadow-lg hover:border-[#08CCD4]/30">
+                <img
+                  src={cert.image}
+                  alt={cert.alt}
+                  className="h-32 w-auto object-contain"
+                  loading="lazy"
+                />
+              </div>
             ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Link
-              href="/certifications"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#08CCD4] hover:underline"
-            >
-              Learn more about our certifications
-              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
           </div>
         </div>
       </section>
