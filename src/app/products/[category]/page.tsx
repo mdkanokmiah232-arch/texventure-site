@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${product.name} Manufacturer in Bangladesh | TexVenture`,
-    description: `${product.name} manufacturer and supplier in Bangladesh. ${product.description} Low MOQ 100 pcs, AQL 2.5 quality. BSCI & OEKO-TEX® certified factories.`,
+    description: `${product.name} manufacturer and supplier in Bangladesh. ${product.description} Low MOQ ${product.moq}, AQL 2.5 quality. BSCI & OEKO-TEX certified factories.`,
     alternates: {
       canonical: `https://texventure.com/products/${product.slug}`,
     },
@@ -60,7 +60,7 @@ export default async function ProductCategoryPage({ params }: Props) {
   const relatedProducts = products.filter((p) => p.slug !== product.slug);
 
   // Product-specific FAQ items — SEO/AEO optimized
-  const productFaqs = [
+  const productFaqs = product.faqs || [
     {
       question: `What is the MOQ for ${product.shortName}?`,
       answer: `Our standard MOQ for ${product.shortName} is ${product.moq}. We cater to both small startups and large-scale brands — reach out to discuss volume pricing and custom requirements.`,
@@ -75,7 +75,7 @@ export default async function ProductCategoryPage({ params }: Props) {
     },
     {
       question: 'What quality certifications do your factories hold?',
-      answer: `Our factory partners hold BSCI, OEKO-TEX® Standard 100, SEDEX, WRAP, and GOTS certifications. Every ${product.shortName.toLowerCase()} order goes through our multi-point AQL 2.5 quality inspection process.`,
+      answer: `Our factory partners hold BSCI, OEKO-TEX Standard 100, SEDEX, WRAP, and GOTS certifications. Every ${product.shortName.toLowerCase()} order goes through our multi-point AQL 2.5 quality inspection process.`,
     },
     {
       question: `Why should I choose Bangladesh for ${product.shortName} manufacturing?`,
@@ -165,7 +165,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             <strong>Dhaka, Bangladesh</strong>. Founded in <strong>2016</strong>, we produce {product.name.toLowerCase()} for
             brands across <strong>30+ countries</strong> with a low MOQ of <strong>{product.moq}</strong>, lead time of{' '}
             <strong>{product.leadTime}</strong>, and AQL 2.5 quality standards. Our factory partners hold{' '}
-            <strong>BSCI, OEKO-TEX®, SEDEX, WRAP</strong> certifications.
+            <strong>BSCI, OEKO-TEX, SEDEX, WRAP</strong> certifications.
           </p>
         </div>
       </section>
@@ -175,10 +175,10 @@ export default async function ProductCategoryPage({ params }: Props) {
         <div className="grid gap-12 lg:grid-cols-3">
           {/* Left Column: Main Content */}
           <div className="lg:col-span-2 space-y-12">
-            {/* About This Category */}
+            {/* About This Category — AEO-style direct answer */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-                About Our {product.name} Manufacturing
+                Why Source {product.name} from TexVenture
               </h2>
               <div className="mt-4 space-y-4 text-lg leading-relaxed text-gray-600">
                 {product.longDescription.split('\n\n').map((para, i) => (
@@ -204,6 +204,141 @@ export default async function ProductCategoryPage({ params }: Props) {
               </section>
             )}
 
+            {/* Specifications */}
+            {product.specs && (
+              <section>
+                <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+                  {product.name} Specifications We Offer
+                </h2>
+                <div className="mt-6 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+                  <dl className="grid gap-4 sm:grid-cols-2">
+                    {product.specs.fabricWeight && (
+                      <div>
+                        <dt className="text-sm font-medium text-gray-500">Fabric Weight</dt>
+                        <dd className="mt-1 text-sm font-semibold text-[#1B2A4A]">{product.specs.fabricWeight}</dd>
+                      </div>
+                    )}
+                    {product.specs.construction && (
+                      <div>
+                        <dt className="text-sm font-medium text-gray-500">Construction</dt>
+                        <dd className="mt-1 text-sm font-semibold text-[#1B2A4A]">{product.specs.construction}</dd>
+                      </div>
+                    )}
+                    {product.specs.sizing && (
+                      <div>
+                        <dt className="text-sm font-medium text-gray-500">Sizing</dt>
+                        <dd className="mt-1 text-sm font-semibold text-[#1B2A4A]">{product.specs.sizing}</dd>
+                      </div>
+                    )}
+                    {product.specs.finishing && (
+                      <div className="sm:col-span-2">
+                        <dt className="text-sm font-medium text-gray-500">Finishing Options</dt>
+                        <dd className="mt-2 flex flex-wrap gap-2">
+                          {product.specs.finishing.map((finish) => (
+                            <Badge key={finish} variant="outline">{finish}</Badge>
+                          ))}
+                        </dd>
+                      </div>
+                    )}
+                  </dl>
+                </div>
+              </section>
+            )}
+
+            {/* MOQ, Sampling & Lead Time */}
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+                MOQ, Sampling & Lead Time
+              </h2>
+              <div className="mt-6 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+                <dl className="grid gap-4 sm:grid-cols-3">
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-[#08CCD4]">{product.moq}</div>
+                    <div className="mt-1 text-sm font-medium text-gray-500">Minimum Order</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-[#08CCD4]">5–7 days</div>
+                    <div className="mt-1 text-sm font-medium text-gray-500">Sampling Turnaround</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-[#08CCD4]">{product.leadTime}</div>
+                    <div className="mt-1 text-sm font-medium text-gray-500">Production Lead Time</div>
+                  </div>
+                </dl>
+                <div className="mt-6 rounded-lg bg-gray-50 p-4">
+                  <h3 className="text-sm font-semibold text-[#1B2A4A]">Ordering Process</h3>
+                  <ol className="mt-2 space-y-2 text-sm text-gray-600">
+                    <li className="flex items-start gap-2">
+                      <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[#08CCD4] text-xs font-bold text-white">1</span>
+                      Submit your design specifications and tech pack
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[#08CCD4] text-xs font-bold text-white">2</span>
+                      Pre-production sample in 5–7 days for approval
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[#08CCD4] text-xs font-bold text-white">3</span>
+                      Bulk production with AQL 2.5 quality inspection
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[#08CCD4] text-xs font-bold text-white">4</span>
+                      Export to 30+ countries with full documentation
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </section>
+
+            {/* Quality & Compliance */}
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+                Quality & Compliance
+              </h2>
+              <div className="mt-4 text-lg leading-relaxed text-gray-600">
+                <p>
+                  Every {product.name.toLowerCase()} order goes through our rigorous quality control process.
+                  Our factories hold the following certifications, ensuring ethical production, safe working
+                  conditions, and environmentally responsible manufacturing:
+                </p>
+              </div>
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {(product.certifications || ['BSCI', 'OEKO-TEX Standard 100', 'SEDEX', 'WRAP']).map((cert) => (
+                  <div key={cert} className="flex items-center gap-3 rounded-xl border border-gray-100 bg-white p-4 shadow-sm">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#08CCD4]/10">
+                      <svg className="h-5 w-5 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm font-semibold text-[#1B2A4A]">{cert}</div>
+                      <div className="text-xs text-gray-500">Certified factory partner</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-4 rounded-lg bg-gray-50 p-4 text-sm text-gray-600">
+                <strong>QC Process:</strong> In-line inspection during production + final AQL 2.5 randomized
+                inspection before shipment. Documented reports shared with every order.
+              </div>
+            </section>
+
+            {/* Features */}
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+                Manufacturing Capabilities
+              </h2>
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {product.features.map((feature) => (
+                  <Card key={feature.text} hover>
+                    <div className="flex items-start gap-3">
+                      <div className="mt-0.5 h-2 w-2 flex-shrink-0 rounded-full bg-[#08CCD4]" />
+                      <p className="text-sm font-medium text-[#1B2A4A]">{feature.text}</p>
+                    </div>
+                  </Card>
+                ))}
+              </div>
+            </section>
+
             {/* Fabric Options */}
             {product.fabricOptions && (
               <section>
@@ -217,23 +352,6 @@ export default async function ProductCategoryPage({ params }: Props) {
                 </div>
               </section>
             )}
-
-            {/* Features */}
-            <section>
-              <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-                Why Choose TexVenture for {product.name}
-              </h2>
-              <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                {product.features.map((feature) => (
-                  <Card key={feature.text} hover>
-                    <div className="flex items-start gap-3">
-                      <div className="mt-0.5 h-2 w-2 flex-shrink-0 rounded-full bg-[#08CCD4]" />
-                      <p className="text-sm font-medium text-[#1B2A4A]">{feature.text}</p>
-                    </div>
-                  </Card>
-                ))}
-              </div>
-            </section>
 
             {/* Popular Items */}
             <section>
@@ -249,33 +367,21 @@ export default async function ProductCategoryPage({ params }: Props) {
               </div>
             </section>
 
-            {/* Capabilities */}
-            <section>
-              <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-                Manufacturing Capabilities
-              </h2>
-              <div className="mt-6 grid gap-6 sm:grid-cols-3">
-                <div className="rounded-2xl border border-gray-100 bg-white p-6 text-center shadow-sm">
-                  <div className="text-3xl font-bold text-[#08CCD4]">{product.leadTime}</div>
-                  <div className="mt-1 text-sm font-medium text-gray-500">Lead Time</div>
-                </div>
-                <div className="rounded-2xl border border-gray-100 bg-white p-6 text-center shadow-sm">
-                  <div className="text-3xl font-bold text-[#08CCD4]">{product.moq}</div>
-                  <div className="mt-1 text-sm font-medium text-gray-500">Minimum Order</div>
-                </div>
-                <div className="rounded-2xl border border-gray-100 bg-white p-6 text-center shadow-sm">
-                  <div className="text-3xl font-bold text-[#08CCD4]">AQL 2.5</div>
-                  <div className="mt-1 text-sm font-medium text-gray-500">Quality Standard</div>
-                </div>
-              </div>
-            </section>
-
             {/* FAQ */}
             <FAQ
               headline={`${product.shortName} — Frequently Asked Questions`}
               items={productFaqs}
               className=""
             />
+
+            {/* Trust Line */}
+            <section className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+              <p className="text-sm text-gray-500">
+                Written and reviewed by <strong className="text-[#1B2A4A]">TexVenture&apos;s sourcing team</strong> —
+                with 10+ years of combined experience in Bangladesh&apos;s garment manufacturing industry.
+                All specifications and processes described reflect our actual production capabilities.
+              </p>
+            </section>
           </div>
 
           {/* Right Sidebar */}
@@ -299,6 +405,10 @@ export default async function ProductCategoryPage({ params }: Props) {
                 <div className="flex justify-between">
                   <dt className="text-gray-500">Quality Standard</dt>
                   <dd className="font-medium text-[#1B2A4A]">AQL 2.5</dd>
+                </div>
+                <div className="flex justify-between">
+                  <dt className="text-gray-500">Sampling</dt>
+                  <dd className="font-medium text-[#1B2A4A]">5–7 days</dd>
                 </div>
                 <div className="flex justify-between">
                   <dt className="text-gray-500">Location</dt>
