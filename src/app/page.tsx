@@ -440,23 +440,14 @@ export default function HomePage() {
 
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
-          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-            <div>
-              <Badge variant="brand">Sourcing Guides</Badge>
-              <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-                From the Journal
-              </h2>
-              <p className="mt-2 text-gray-500">
-                Practical guides to help you navigate apparel sourcing with
-                confidence.
-              </p>
-            </div>
-            <Link
-              href="/guides"
-              className="text-sm font-semibold text-[#08CCD4] transition hover:text-[#07b8be]"
-            >
-              View all guides →
-            </Link>
+          <div className="text-center">
+            <Badge variant="brand">Sourcing Guides</Badge>
+            <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
+              From the Journal
+            </h2>
+            <p className="mx-auto mt-2 max-w-2xl text-gray-500">
+              Practical guides to help you navigate apparel sourcing with confidence.
+            </p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
