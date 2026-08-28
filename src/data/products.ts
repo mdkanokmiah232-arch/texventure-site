@@ -29,6 +29,10 @@ export interface ProductCategory {
     finishing?: string[];
   };
   faqs?: { question: string; answer: string }[];
+  subCategories?: {
+    name: string;
+    images: { src: string; alt: string }[];
+  }[];
 }
 
 // ---------------------------------------------------------------------------
@@ -115,6 +119,51 @@ export const products: ProductCategory[] = [
       {
         question: "What finishing options are available for knit garments?",
         answer: "We offer Pantone-matched dyeing, enzyme wash, silicone softener, peach finish, brushing, and anti-pilling treatment. Decoration options include screen printing, embroidery, DTG, heat transfer, and sublimation.",
+      },
+    ],
+    subCategories: [
+      {
+        name: "Men's Knitwear",
+        images: [
+          { src: "https://i.postimg.cc/CLrNb1Mq/Men-s-Knitwear.webp", alt: "Men's Knitwear - T-shirts and Polos" },
+          { src: "https://i.postimg.cc/CLrNb1MK/Men-s-Knitwear-(2).webp", alt: "Men's Knitwear - Casual Collection" },
+          { src: "https://i.postimg.cc/gktD3JcJ/Men-s-Knitwear-(3).webp", alt: "Men's Knitwear - Premium Quality" },
+          { src: "https://i.postimg.cc/xTpRLCj8/Men-s-Knitwear-(4).webp", alt: "Men's Knitwear - Hoodies and Sweatshirts" },
+          { src: "https://i.postimg.cc/yYpP0d6W/Men-s-Knitwear-(5).webp", alt: "Men's Knitwear - Jogger Pants" },
+          { src: "https://i.postimg.cc/7YtVS6Pf/Men-s-Knitwear-(6).webp", alt: "Men's Knitwear - Formal Knit" },
+          { src: "https://i.postimg.cc/wT4VDvx1/Men-s-Knitwear-(7).webp", alt: "Men's Knitwear - Sportswear" },
+          { src: "https://i.postimg.cc/gktD3JcL/Men-s-Knitwear-(8).webp", alt: "Men's Knitwear - Summer Collection" },
+          { src: "https://i.postimg.cc/02Xf7Q5J/Men-s-Knitwear-(9).webp", alt: "Men's Knitwear - Winter Collection" },
+        ],
+      },
+      {
+        name: "Women's Knitwear",
+        images: [
+          { src: "https://i.postimg.cc/s1C3Lys7/Womens-Knit-Wear.webp", alt: "Women's Knitwear - Dresses and Tops" },
+          { src: "https://i.postimg.cc/4y9Jwnkc/Womens-Knit-Wear-(2).webp", alt: "Women's Knitwear - Casual Collection" },
+          { src: "https://i.postimg.cc/kGbnwD3W/Womens-Knit-Wear-(3).webp", alt: "Women's Knitwear - Premium Quality" },
+          { src: "https://i.postimg.cc/VvCY45Qn/Womens-Knit-Wear-(4).webp", alt: "Women's Knitwear - Activewear" },
+          { src: "https://i.postimg.cc/fkQMPZDy/Womens-Knit-Wear-(5).webp", alt: "Women's Knitwear - Lounge Collection" },
+          { src: "https://i.postimg.cc/hhRKYgcX/Womens-Knit-Wear-(6).webp", alt: "Women's Knitwear - Formal Knit" },
+          { src: "https://i.postimg.cc/Dm37NFn4/Womens-Knit-Wear-(7).webp", alt: "Women's Knitwear - Summer Collection" },
+          { src: "https://i.postimg.cc/6TxBPwtG/Womens-Knit-Wear-(8).webp", alt: "Women's Knitwear - Winter Collection" },
+          { src: "https://i.postimg.cc/RqxvY94t/Womens-Knit-Wear-(9).webp", alt: "Women's Knitwear - Trending Styles" },
+        ],
+      },
+      {
+        name: "Kids Knitwear",
+        images: [
+          { src: "https://i.postimg.cc/DyQWKpHV/Kids-Knit-Wear.webp", alt: "Kids Knitwear - T-shirts and Tops" },
+          { src: "https://i.postimg.cc/vHw1kwPp/Kids-Knit-Wear-(2).webp", alt: "Kids Knitwear - Casual Collection" },
+          { src: "https://i.postimg.cc/RVx3yxsz/Kids-Knit-Wear-(3).webp", alt: "Kids Knitwear - Playwear" },
+          { src: "https://i.postimg.cc/vHw1kwqF/Kids-Knit-Wear-(4).webp", alt: "Kids Knitwear - School Wear" },
+          { src: "https://i.postimg.cc/RVx3yxP2/Kids-Knit-Wear-(5).webp", alt: "Kids Knitwear - Baby Collection" },
+          { src: "https://i.postimg.cc/pXM94MGP/Kids-Knit-Wear-(6).webp", alt: "Kids Knitwear - Comfortable Fabrics" },
+          { src: "https://i.postimg.cc/tCG1wGSX/Kids-Knit-Wear-(7).webp", alt: "Kids Knitwear - Fun Prints" },
+          { src: "https://i.postimg.cc/SNLXp15H/Kids-Knit-Wear-(8).webp", alt: "Kids Knitwear - Summer Collection" },
+          { src: "https://i.postimg.cc/TYjyXNSF/Kids-Knit-Wear-(9).webp", alt: "Kids Knitwear - Winter Collection" },
+          { src: "https://i.postimg.cc/rFGdLZbB/Kids-Knit-Wear-(10).webp", alt: "Kids Knitwear - Complete Range" },
+        ],
       },
     ],
   },

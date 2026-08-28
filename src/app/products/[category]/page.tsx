@@ -187,6 +187,39 @@ export default async function ProductCategoryPage({ params }: Props) {
               </div>
             </section>
 
+            {/* Product Categories with Images */}
+            {product.subCategories && product.subCategories.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+                  Our {product.name} Collection
+                </h2>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  Explore our range of {product.name.toLowerCase()} across different categories:
+                </p>
+                <div className="mt-8 space-y-10">
+                  {product.subCategories.map((subCat) => (
+                    <div key={subCat.name}>
+                      <h3 className="text-xl font-bold text-[#1B2A4A] mb-4">{subCat.name}</h3>
+                      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-3">
+                        {subCat.images.map((img, idx) => (
+                          <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
+                            <div className="aspect-square overflow-hidden">
+                              <img
+                                src={img.src}
+                                alt={img.alt}
+                                className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                                loading="lazy"
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
             {/* Target Audience */}
             {product.targetAudience && (
               <section>
