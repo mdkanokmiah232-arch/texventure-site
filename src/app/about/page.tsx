@@ -332,7 +332,7 @@ export default function AboutPage() {
       <TrustBlock />
 
       {/* CTA */}
-      <section className="bg-[#1B2A4A]">
+      <section className="bg-gradient-to-r from-[#0f2240] via-[#1B2A4A] to-[#0f2240]">
         <div className="mx-auto max-w-7xl px-4 py-16 text-center lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Partner With {company.name}
