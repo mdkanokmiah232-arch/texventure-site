@@ -332,19 +332,19 @@ export default function AboutPage() {
       <TrustBlock />
 
       {/* CTA */}
-      <section className="bg-[#1B2A4A]">
+      <section className="bg-[#E8F4F5]">
         <div className="mx-auto max-w-7xl px-4 py-16 text-center lg:px-8">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
             Partner With {company.name}
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-300">
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
             Ready to source your next collection from Bangladesh? Let&apos;s talk about your
             requirements and find the perfect factory match.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#07b8be]"
+              className="inline-flex items-center justify-center rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#07B8BE]"
             >
               Get in Touch
             </Link>
@@ -352,7 +352,7 @@ export default function AboutPage() {
               href="https://wa.me/8801354316246"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-full border-2 border-white/30 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white/60 hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-full border-2 border-[#08CCD4]/30 px-8 py-3.5 text-sm font-semibold text-[#08CCD4] transition hover:border-[#08CCD4] hover:bg-[#08CCD4]/10"
             >
               Chat on WhatsApp
             </Link>
