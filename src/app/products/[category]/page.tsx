@@ -203,11 +203,11 @@ export default async function ProductCategoryPage({ params }: Props) {
                       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {subCat.images.map((img, idx) => (
                           <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
-                            <div className="aspect-square overflow-hidden">
+                            <div className="relative w-full overflow-hidden" style={{ paddingBottom: '70%' }}>
                               <img
                                 src={img.src}
                                 alt={img.alt}
-                                className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                                className="absolute inset-0 h-full w-full object-contain transition duration-300 group-hover:scale-105"
                                 loading="lazy"
                               />
                             </div>
