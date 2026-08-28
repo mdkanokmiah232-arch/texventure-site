@@ -200,7 +200,7 @@ export default async function ProductCategoryPage({ params }: Props) {
                   {product.subCategories.map((subCat) => (
                     <div key={subCat.name}>
                       <h3 className="text-xl font-bold text-[#1B2A4A] mb-4">{subCat.name}</h3>
-                      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-3">
+                      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {subCat.images.map((img, idx) => (
                           <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
                             <div className="aspect-square overflow-hidden">
@@ -210,6 +210,19 @@ export default async function ProductCategoryPage({ params }: Props) {
                                 className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
                                 loading="lazy"
                               />
+                            </div>
+                            <div className="p-4">
+                              <h4 className="text-sm font-semibold text-[#1B2A4A]">{img.alt.split(' - ')[0]}</h4>
+                              <p className="mt-1 text-xs text-gray-500">Custom manufacturing available</p>
+                              <Link
+                                href="/get-a-quote"
+                                className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-[#08CCD4] hover:underline"
+                              >
+                                Get Quote
+                                <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                </svg>
+                              </Link>
                             </div>
                           </div>
                         ))}
