@@ -352,7 +352,7 @@ export default function AboutPage() {
               href="https://wa.me/8801354316246"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-full border-2 border-[#08CCD4]/30 px-8 py-3.5 text-sm font-semibold text-[#08CCD4] transition hover:border-[#08CCD4] hover:bg-[#08CCD4]/10"
+              className="inline-flex items-center justify-center rounded-full border-2 border-[#25D366] px-8 py-3.5 text-sm font-semibold text-[#25D366] transition hover:bg-[#25D366]/10"
             >
               Chat on WhatsApp
             </Link>
