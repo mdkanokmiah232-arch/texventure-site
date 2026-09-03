@@ -187,8 +187,21 @@ export const products: ProductCategory[] = [
       { text: "Custom washes, embroidery, and screen printing" },
       { text: "AQL 2.5 multi-point quality inspection" },
     ],
-    image: "/images/products/wovens.jpg",
+    image: "https://i.postimg.cc/qvQ3jn6k/Wovens.webp",
     imageAlt: "Custom woven garments manufactured by TexVenture in Bangladesh — shirts, blouses, and trousers",
+    subCategories: [
+      {
+        name: "Wovens Collection",
+        images: [
+          { src: "https://i.postimg.cc/qvQ3jn6k/Wovens.webp", alt: "Wovens — Premium woven garments" },
+          { src: "https://i.postimg.cc/g24ZNRX1/Wovens-(2).webp", alt: "Wovens — Custom woven shirts" },
+          { src: "https://i.postimg.cc/L8v1NfYr/Wovens-(3).webp", alt: "Wovens — Woven blouses and dresses" },
+          { src: "https://i.postimg.cc/QdST05KZ/Wovens-(4).webp", alt: "Wovens — Woven trousers and chinos" },
+          { src: "https://i.postimg.cc/bwLt3bSc/Wovens-(5).webp", alt: "Wovens — Casual woven apparel" },
+          { src: "https://i.postimg.cc/7ZX2m7Jq/Wovens-(6).webp", alt: "Wovens — Formal woven garments" },
+        ],
+      },
+    ],
     popularItems: [
       "Oxford Button-Down Shirts",
       "Poplin Blouses",
