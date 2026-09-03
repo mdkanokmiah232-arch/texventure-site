@@ -156,6 +156,44 @@ export default async function ProductCategoryPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Product Categories with Images — moved above Quick Answer */}
+      {product.subCategories && product.subCategories.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 py-8 lg:px-8">
+          <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+            Our {product.name} Collection
+          </h2>
+          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {product.subCategories.map((subCat) =>
+              subCat.images.map((img, idx) => (
+                <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
+                  <div className="relative w-full overflow-hidden" style={{ paddingBottom: '70%' }}>
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      className="absolute inset-0 h-full w-full object-contain transition duration-300 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h4 className="text-sm font-semibold text-[#1B2A4A]">{product.name} Collection</h4>
+                    <p className="mt-1 text-xs text-gray-500">Custom manufacturing available</p>
+                    <Link
+                      href="/get-a-quote"
+                      className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-[#08CCD4] hover:underline"
+                    >
+                      Get Quote
+                      <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </Link>
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </section>
+      )}
+
       {/* AI Citation Box — for AEO/GEO */}
       <section className="mx-auto max-w-7xl px-4 py-8 lg:px-8">
         <div className="rounded-2xl border border-[#08CCD4]/20 bg-[#08CCD4]/5 p-6">
@@ -186,52 +224,6 @@ export default async function ProductCategoryPage({ params }: Props) {
                 ))}
               </div>
             </section>
-
-            {/* Product Categories with Images */}
-            {product.subCategories && product.subCategories.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-                  Our {product.name} Collection
-                </h2>
-                <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                  Explore our range of {product.name.toLowerCase()} across different categories:
-                </p>
-                <div className="mt-8 space-y-10">
-                  {product.subCategories.map((subCat) => (
-                    <div key={subCat.name}>
-                      <h3 className="text-xl font-bold text-[#1B2A4A] mb-4">{subCat.name}</h3>
-                      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                        {subCat.images.map((img, idx) => (
-                          <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
-                            <div className="relative w-full overflow-hidden" style={{ paddingBottom: '70%' }}>
-                              <img
-                                src={img.src}
-                                alt={img.alt}
-                                className="absolute inset-0 h-full w-full object-contain transition duration-300 group-hover:scale-105"
-                                loading="lazy"
-                              />
-                            </div>
-                            <div className="p-4">
-                              <h4 className="text-sm font-semibold text-[#1B2A4A]">{img.alt.split(' - ')[0]}</h4>
-                              <p className="mt-1 text-xs text-gray-500">Custom manufacturing available</p>
-                              <Link
-                                href="/get-a-quote"
-                                className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-[#08CCD4] hover:underline"
-                              >
-                                Get Quote
-                                <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                </svg>
-                              </Link>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
 
             {/* Target Audience */}
             {product.targetAudience && (
