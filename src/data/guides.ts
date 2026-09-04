@@ -37,13 +37,13 @@ export const guides: GuideArticle[] = [
     title: "What Is MOQ? Minimum Order Quantity Explained for Garment Manufacturing",
     excerpt:
       "MOQ (Minimum Order Quantity) is the smallest number of units a factory will produce per order. Learn how MOQs work, why they exist, and how to negotiate lower minimums for your clothing brand.",
-    content: `## What Is MOQ? Minimum Order Quantity Explained for Garment Manufacturing
+    content: `
 
 **MOQ stands for Minimum Order Quantity — it is the smallest number of units a manufacturer will produce in a single production run.** If a factory has an MOQ of 300 pieces per colour, you must order at least 300 units of that colour before the factory will begin production.
 
 At TexVenture, we field questions about MOQs from brand founders every single week. Whether you're a startup ordering your first 100 tees or an established brand scaling to 10,000 hoodies, understanding MOQs is fundamental to budgeting, planning, and maintaining a productive relationship with your factory.
 
-### Why Do Factories Have MOQs?
+## Why Do Factories Have MOQs?
 
 MOQs exist for one reason: **production economics**. Every time a factory starts a new order, there are fixed setup costs that don't change regardless of how many units are produced:
 
@@ -55,7 +55,7 @@ MOQs exist for one reason: **production economics**. Every time a factory starts
 
 A factory that accepts an order of 50 pieces absorbs the same fixed costs as one producing 5,000 — but spreads those costs across far fewer units, making the per-unit cost prohibitively high or the order outright unprofitable.
 
-### Typical MOQ Ranges by Product Category
+## Typical MOQ Ranges by Product Category
 
 MOQs vary dramatically depending on the type of garment, fabric complexity, and the factory's capacity:
 
@@ -71,7 +71,7 @@ MOQs vary dramatically depending on the type of garment, fabric complexity, and 
 
 At TexVenture, our MOQ starts at just 100 pieces per colourway — one of the lowest in the Bangladesh garment industry. We built this intentionally to serve startups and DTC brands who need quality production without massive upfront investment.
 
-### How MOQ Affects Your Per-Unit Cost
+## How MOQ Affects Your Per-Unit Cost
 
 The relationship between MOQ and unit cost is inversely proportional — as order quantity goes up, per-unit cost goes down. Here's a real-world example using a standard 380 GSM hoodie:
 
@@ -86,7 +86,7 @@ The relationship between MOQ and unit cost is inversely proportional — as orde
 
 At 100 pieces, you're paying a premium because the fixed costs (fabric setup, pattern grading, machine calibration) are distributed across fewer units. At 5,000 pieces, those same fixed costs become negligible per unit.
 
-### How to Negotiate a Lower MOQ
+## How to Negotiate a Lower MOQ
 
 If a factory's standard MOQ is higher than what you need, here are proven negotiation strategies:
 
@@ -108,7 +108,7 @@ Offering 50–100% prepayment reduces the factory's financial risk, making them 
 **6. Use a buying house or sourcing partner**
 Buying houses like TexVenture aggregate orders across multiple brands, enabling us to place larger aggregate orders with factories while each brand only commits to their portion.
 
-### MOQ vs. Sampling
+## MOQ vs. Sampling
 
 It's important to distinguish between **sample orders** and **production orders**:
 
@@ -117,7 +117,7 @@ It's important to distinguish between **sample orders** and **production orders*
 
 At TexVenture, we offer pre-production samples for $75–$100 per style (credited toward your first production order). This lets you validate quality before committing to the full MOQ.
 
-### Common MOQ Mistakes to Avoid
+## Common MOQ Mistakes to Avoid
 
 **Ordering exactly the MOQ for your first run**
 Always order slightly above the MOQ. Fabric shrinkage, QC rejects, and sampling needs can reduce your sellable units by 3–5%.
@@ -131,7 +131,7 @@ A lower MOQ doesn't mean faster production. Small orders often wait longer in th
 **Not accounting for trim minimums**
 Zippers, custom labels, and drawcords often have their own minimums (typically 500–1,000 pieces per colour). Ordering 100 hoodies with 500 minimum zippers means you're paying for excess trims.
 
-### When to Increase Your Order Quantity
+## When to Increase Your Order Quantity
 
 If you're consistently selling through your initial orders, it's time to scale up. Here are the signs:
 
@@ -142,7 +142,7 @@ If you're consistently selling through your initial orders, it's time to scale u
 
 Scaling from 300 to 1,000 pieces typically reduces per-unit costs by 12–18% — savings that go directly to your margin or can be reinvested in marketing.
 
-### Final Thoughts
+## Final Thoughts
 
 MOQs are a fact of garment manufacturing, but they don't have to be a barrier. At TexVenture, we specialise in helping brands of all sizes navigate minimum order requirements — whether you need 100 pieces for a launch collection or 10,000 for a seasonal rollout. Our factory network in Bangladesh is specifically equipped to handle flexible MOQs without compromising on quality.
 
@@ -165,13 +165,13 @@ The key is understanding what drives MOQs, negotiating strategically, and workin
     title: "How to Find a Clothing Manufacturer: The Complete 2025 Guide",
     excerpt:
       "A step-by-step guide to finding, vetting, and working with a clothing manufacturer — covering research methods, factory visits, sample testing, and contract negotiation.",
-    content: `## How to Find a Clothing Manufacturer: The Complete 2025 Guide
+    content: `
 
 **Finding the right clothing manufacturer is the single most important decision you'll make as a fashion brand.** A great manufacturer becomes a long-term partner who grows with your brand. A bad one costs you money, time, and reputation.
 
 At TexVenture, we've helped over 200 brands navigate the manufacturer selection process. We've seen founders make costly mistakes — and we've seen brands build thriving businesses on the foundation of the right manufacturing partnership. Here's everything we've learned.
 
-### Step 1: Define Your Requirements Before You Start Searching
+## Step 1: Define Your Requirements Before You Start Searching
 
 Before you contact a single factory, get crystal clear on what you need:
 
@@ -199,7 +199,7 @@ Before you contact a single factory, get crystal clear on what you need:
 
 Documenting these requirements upfront saves weeks of back-and-forth with incompatible manufacturers.
 
-### Step 2: Research Manufacturers Through Multiple Channels
+## Step 2: Research Manufacturers Through Multiple Channels
 
 The best manufacturers aren't always the easiest to find. Here's where to look:
 
@@ -224,7 +224,7 @@ The best manufacturers aren't always the easiest to find. Here's where to look:
 - Identify brands similar to yours and research their manufacturing partners
 - Many brands are transparent about their factories (check their "About" or "Sustainability" pages)
 
-### Step 3: Vet Potential Manufacturers Thoroughly
+## Step 3: Vet Potential Manufacturers Thoroughly
 
 Not every factory that responds to your inquiry is worth pursuing. Here's our 5-point vetting process:
 
@@ -246,7 +246,7 @@ How responsive is the factory? Do they answer questions thoroughly? Are they pro
 **5. Visit if possible**
 For orders above $10,000, a factory visit is strongly recommended. If travel isn't feasible, request a live video tour. At TexVenture, we conduct in-person audits of all partner factories and can provide video walkthroughs on request.
 
-### Step 4: Understand Pricing and Payment Terms
+## Step 4: Understand Pricing and Payment Terms
 
 Garment pricing can be opaque. Here's what to expect:
 
@@ -268,7 +268,7 @@ Garment pricing can be opaque. Here's what to expect:
 - Certifications required
 - Timeline (rush orders cost 15–25% more)
 
-### Step 5: Start Small, Then Scale
+## Step 5: Start Small, Then Scale
 
 Your first order is a relationship-building exercise as much as a production run. Here's our recommended approach:
 
@@ -279,7 +279,7 @@ Your first order is a relationship-building exercise as much as a production run
 
 At TexVenture, our MOQ starts at 100 pieces specifically because we believe brands should be able to test a manufacturing relationship without massive financial risk.
 
-### Common Mistakes When Finding a Manufacturer
+## Common Mistakes When Finding a Manufacturer
 
 **Choosing on price alone**
 The cheapest factory is rarely the best value. Low prices often mean compromised quality, missed deadlines, or hidden costs. A factory that charges 15% more but delivers on time and on spec saves you far more in the long run.
@@ -296,7 +296,7 @@ Always have a purchase order or contract that specifies: pricing, quantities, qu
 **Rushing the relationship**
 The best manufacturer relationships are built over multiple orders. Give the factory time to learn your quality standards and preferences.
 
-### Working with a Buying House vs. Going Direct
+## Working with a Buying House vs. Going Direct
 
 | Factor | Direct Factory | Buying House (e.g., TexVenture) |
 |--------|---------------|-------------------------------|
@@ -309,7 +309,7 @@ The best manufacturer relationships are built over multiple orders. Give the fac
 
 For most new brands, a buying house or sourcing partner provides significant value by reducing risk, lowering MOQs, and managing quality control.
 
-### Why Bangladesh Is a Top Choice for Manufacturing
+## Why Bangladesh Is a Top Choice for Manufacturing
 
 Bangladesh is the world's second-largest garment exporter with $45+ billion in annual exports. Key advantages:
 
@@ -321,7 +321,7 @@ Bangladesh is the world's second-largest garment exporter with $45+ billion in a
 
 At TexVenture, our factory network spans Dhaka, Gazipur, and Narayanganj — covering the full spectrum of garment production from basic knits to complex outerwear.
 
-### Next Steps: How to Get Started with TexVenture
+## Next Steps: How to Get Started with TexVenture
 
 Finding the right manufacturer doesn't have to be overwhelming. Here's how to start:
 
@@ -350,7 +350,7 @@ We've produced garments for 200+ brands across the US, UK, Canada, Australia, an
     title: "How Much Does It Cost to Manufacture a Hoodie in 2025?",
     excerpt:
       "A complete cost breakdown of hoodie manufacturing in 2025 — from fabric and trims to printing, shipping, and duties. Real factory data, dollar amounts, and expert tips to optimise your budget.",
-    content: `## How Much Does It Cost to Manufacture a Hoodie in 2025?
+    content: `
 
 **The short answer: it costs between $6.60 and $20.80 per unit to manufacture a hoodie in Bangladesh, depending on fabric weight, construction type, trims, and decoration.** That's the ex-factory price — before shipping, duties, or your margin.
 
@@ -358,7 +358,7 @@ We've produced over 500,000 hoodies for brands across the US, UK, Canada, Austra
 
 If you're a brand founder, sourcing manager, or startup founder trying to budget for a hoodie production run, this is the most comprehensive cost breakdown you'll find online.
 
-### Complete Cost Breakdown Per Unit
+## Complete Cost Breakdown Per Unit
 
 Here's exactly where your money goes when manufacturing a hoodie in Bangladesh:
 
@@ -373,7 +373,7 @@ Here's exactly where your money goes when manufacturing a hoodie in Bangladesh:
 
 These figures are based on production runs of 300–1,000 pieces per colourway. Larger orders (2,000+ pieces) can reduce per-unit costs by 8–15%.
 
-### Fabric Costs by GSM: The Biggest Cost Driver
+## Fabric Costs by GSM: The Biggest Cost Driver
 
 Fabric is the single largest cost component — typically 35–45% of the total unit price. Hoodie fabrics are measured in GSM (grams per square metre), and the weight directly correlates with cost:
 
@@ -393,7 +393,7 @@ Fabric is the single largest cost component — typically 35–45% of the total 
 
 We've found that the 80/20 cotton-poly blend at 380 GSM is the sweet spot for most brands — it balances cost, comfort, durability, and print quality.
 
-### Construction Types: Pullover vs. Zip-Up
+## Construction Types: Pullover vs. Zip-Up
 
 The way a hoodie is built affects both labour time and material usage. Here's how the main construction types compare:
 
@@ -407,7 +407,7 @@ The way a hoodie is built affects both labour time and material usage. Here's ho
 
 A full-zip hoodie typically costs $2.50–$4.00 more per unit than a pullover. The premium comes from two sources: the zipper hardware itself ($0.40–$0.80 for YKK metal) and the additional sewing operations required to install the zipper, finish the front panels, and add zip guards.
 
-### Trim Costs: The Details That Add Up
+## Trim Costs: The Details That Add Up
 
 Trims are the small components that make your hoodie unique — and they accumulate faster than most brands expect:
 
@@ -423,7 +423,7 @@ Trims are the small components that make your hoodie unique — and they accumul
 
 For a typical pullover hoodie with standard trims, expect $0.80–$1.50 in total trim costs. Adding custom branded hardware (embossed zipper pulls, custom eyelets, woven damask labels) can push this to $2.00–$3.00 per unit — but the brand perception lift is often worth it.
 
-### Decoration Costs: Screen Print, Embroidery, DTG, and More
+## Decoration Costs: Screen Print, Embroidery, DTG, and More
 
 How you decorate your hoodie has a massive impact on per-unit cost. Here's a detailed comparison:
 
@@ -443,7 +443,7 @@ Screen printing remains the most cost-effective option for bulk orders of 300+ u
 
 **Expert tip from our production team:** For hoodies, we recommend screen printing for the main graphic and embroidery for the chest logo. This combination looks premium without blowing your budget.
 
-### Order Quantity Pricing Tiers
+## Order Quantity Pricing Tiers
 
 Quantity is king in garment manufacturing. Here's how pricing scales based on our actual production data for a standard 380 GSM pullover hoodie:
 
@@ -459,7 +459,7 @@ At TexVenture, our MOQ starts at just 100 pieces per style — one of the lowest
 
 **The economics are clear:** jumping from 100 to 300 pieces saves 12% per unit. At 1,000 pieces, you're saving 25%. For established brands, ordering 5,000+ pieces delivers the lowest possible cost per unit.
 
-### Washing and Finishing Costs
+## Washing and Finishing Costs
 
 Specialty finishes add character to your hoodie — and cost. Here's what to budget:
 
@@ -475,7 +475,7 @@ Specialty finishes add character to your hoodie — and cost. Here's what to bud
 
 Most hoodies benefit from at least a silicone softener or enzyme wash. These treatments significantly improve the customer experience and perceived value at minimal cost.
 
-### Certification Costs
+## Certification Costs
 
 If your brand requires certified production, here's what to expect:
 
@@ -490,7 +490,7 @@ If your brand requires certified production, here's what to expect:
 
 **Important distinction:** OEKO-TEX and BSCI/SEDEX are factory-level certifications — they don't add per-unit cost to your order. GOTS and GRS are material certifications that require certified fabrics, which carry a premium.
 
-### Total Landed Cost: Beyond the Factory Gate
+## Total Landed Cost: Beyond the Factory Gate
 
 The ex-factory price is only part of the picture. Here's what adds to your total landed cost:
 
@@ -519,7 +519,7 @@ The ex-factory price is only part of the picture. Here's what adds to your total
 - Testing (CPSIA, REACH): $200–$500 per style
 - Warehousing (if needed): $0.10–$0.30/unit/month
 
-### Real-World Example: 500 Hoodies
+## Real-World Example: 500 Hoodies
 
 Let's put it all together with a realistic scenario based on one of our actual client orders:
 
@@ -544,7 +544,7 @@ Let's put it all together with a realistic scenario based on one of our actual c
 
 At a retail price of $45–$55, this leaves healthy margins for marketing, overhead, and profit.
 
-### How to Reduce Hoodie Manufacturing Costs
+## How to Reduce Hoodie Manufacturing Costs
 
 Based on our experience producing hoodies for 30+ brands, here are proven strategies to lower your per-unit cost:
 
@@ -558,7 +558,7 @@ Based on our experience producing hoodies for 30+ brands, here are proven strate
 8. **Negotiate payment terms** — offering faster payment (net-15 instead of net-30) can earn 2–3% discounts
 9. **Order during off-peak** — factories are less busy from February to April; rush season (August–November) carries premiums
 
-### Why Bangladesh for Hoodie Manufacturing?
+## Why Bangladesh for Hoodie Manufacturing?
 
 Bangladesh is the world's second-largest garment exporter, producing over $45 billion in apparel annually. For hoodie manufacturing specifically, Bangladesh offers compelling advantages:
 
@@ -591,13 +591,13 @@ At TexVenture, our factory partners in Dhaka and Gazipur specialise in fleece pr
     title: "Best Garment Manufacturers in Bangladesh (2025 Sourcing Guide)",
     excerpt:
       "A comprehensive guide to Bangladesh's garment industry — from $45B+ export stats and key manufacturing hubs to certifications, vetting processes, and how to find the right factory for your brand.",
-    content: `## Best Garment Manufacturers in Bangladesh (2025 Sourcing Guide)
+    content: `
 
 **Bangladesh is the world's second-largest garment exporter, with the industry generating over $45 billion in annual export revenue and employing more than 4 million workers.** If you're looking for a reliable, cost-effective clothing manufacturer, Bangladesh should be at the top of your list.
 
 At TexVenture, we've built our entire business around Bangladesh's garment ecosystem. We work with over 30 factory partners across Dhaka, Gazipur, and Narayanganj — and we've helped 200+ brands navigate the sourcing landscape. This guide distills everything we know into an actionable roadmap for finding the right manufacturer.
 
-### Bangladesh Garment Industry: Key Statistics
+## Bangladesh Garment Industry: Key Statistics
 
 Before diving into the sourcing process, here's the landscape you're entering:
 
@@ -614,7 +614,7 @@ Before diving into the sourcing process, here's the landscape you're entering:
 
 Bangladesh's garment industry has grown from virtually nothing in the 1980s to a $45 billion powerhouse. The country's competitive advantages — low labour costs, duty-free access to the EU, and a mature supply chain — make it an attractive destination for brands of all sizes.
 
-### Why Bangladesh? 5 Reasons with Data
+## Why Bangladesh? 5 Reasons with Data
 
 **1. Unbeatable Pricing**
 
@@ -658,7 +658,7 @@ Post-2013 Rana Plaza reforms have driven significant improvements:
 - The RMG Sustainability Council (RSC) oversees factory safety
 - Digital monitoring systems track worker safety in real-time
 
-### Key Manufacturing Areas in Bangladesh
+## Key Manufacturing Areas in Bangladesh
 
 Bangladesh's garment industry is concentrated in four major regions:
 
@@ -687,7 +687,7 @@ Bangladesh's garment industry is concentrated in four major regions:
 - **Advantages**: Direct port access (shortest logistics route), EPZ tax benefits
 - **Best for**: Export-oriented woven production, denim, heavy garments
 
-### Certifications Landscape: What to Look For
+## Certifications Landscape: What to Look For
 
 Bangladesh's factory certification landscape has improved dramatically since 2013. Here's what you need to know:
 
@@ -704,7 +704,7 @@ Bangladesh's factory certification landscape has improved dramatically since 201
 
 **What this means for you:** Most export-oriented factories in Bangladesh already hold BSCI, OEKO-TEX, and SEDEX certifications. If you need GOTS or organic certification, expect to work with a smaller subset of factories — but the pool is growing rapidly.
 
-### How to Vet a Bangladeshi Manufacturer: 5-Step Process
+## How to Vet a Bangladeshi Manufacturer: 5-Step Process
 
 **Step 1: Request a Factory Profile**
 Ask for: company history, production capacity, current client list (anonymised), certifications, and photos/video of the factory floor. A legitimate factory will provide this without hesitation.
@@ -733,7 +733,7 @@ At TexVenture, we conduct in-person audits of every factory in our network. Our 
 **Step 5: Start with a Trial Order**
 Place a small production run (100–300 pieces) to evaluate the full production cycle — communication, quality, timing, and issue resolution. This is your dress rehearsal before scaling up.
 
-### Common Pitfalls to Avoid
+## Common Pitfalls to Avoid
 
 **1. Choosing on price alone**
 The cheapest factory is rarely the best value. Low prices often mean compromised quality, missed deadlines, or hidden costs. A factory that charges 15% more but delivers on time and on spec saves you far more in the long run.
@@ -750,7 +750,7 @@ Always have a purchase order or contract specifying: pricing, quantities, qualit
 **5. Overlooking the buying house option**
 For most new brands, a buying house or sourcing partner provides significant value by reducing risk, lowering MOQs, and managing quality control. Going direct to a factory makes sense for large, established brands with in-house sourcing expertise.
 
-### Working with a Buying House vs. Going Direct
+## Working with a Buying House vs. Going Direct
 
 | Factor | Direct Factory | Buying House (e.g., TexVenture) |
 |--------|---------------|-------------------------------|
@@ -762,7 +762,7 @@ For most new brands, a buying house or sourcing partner provides significant val
 | Risk mitigation | You bear all risk | Shared risk |
 | Best for | Established brands, large orders | Startups, small-to-medium brands |
 
-### TexVenture's Factory Network
+## TexVenture's Factory Network
 
 We've built a curated network of 30+ factory partners across Bangladesh:
 
@@ -776,7 +776,7 @@ We've built a curated network of 30+ factory partners across Bangladesh:
 
 Every factory in our network has been personally audited by our sourcing team. We don't work with factories we haven't visited, inspected, and tested. This is how we maintain quality while offering some of the lowest MOQs in the industry.
 
-### The Future of Bangladesh's Garment Industry
+## The Future of Bangladesh's Garment Industry
 
 Bangladesh's garment industry is evolving rapidly. Here are the key trends shaping the next decade:
 
@@ -797,7 +797,7 @@ The new minimum wage (effective December 2023) of $113/month represents a 56% in
 
 For brand founders, these trends mean Bangladesh will become an even more attractive manufacturing destination in the coming years. The combination of competitive pricing, improving quality, and strong sustainability credentials creates a compelling value proposition that's difficult to match elsewhere.
 
-### Getting Started with TexVenture
+## Getting Started with TexVenture
 
 Finding the right manufacturer in Bangladesh doesn't have to be overwhelming. Here's how to start:
 
@@ -828,13 +828,13 @@ We've helped 200+ brands build successful manufacturing relationships in Banglad
     title: "Bangladesh vs China vs Vietnam: Where Should You Manufacture in 2025?",
     excerpt:
       "A data-driven comparison of the world's top three garment manufacturing hubs — pricing, MOQs, lead times, quality, sustainability, and trade advantages to help you choose the right country.",
-    content: `## Bangladesh vs China vs Vietnam: Where Should You Manufacture in 2025?
+    content: `
 
 **If you're deciding between Bangladesh, China, and Vietnam for garment manufacturing, here's the bottom line: Bangladesh wins on price and sustainability, China wins on speed and capability, and Vietnam wins on quality-to-cost ratio for premium products.** The right choice depends entirely on your product, budget, timeline, and brand positioning.
 
 At TexVenture, we've sourced production across all three countries for our clients. We've seen brands thrive in each market — and we've seen brands make costly mistakes by choosing the wrong manufacturing hub for their specific needs. This guide compares every critical factor with real data so you can make an informed decision.
 
-### Comprehensive Comparison: Bangladesh vs China vs Vietnam
+## Comprehensive Comparison: Bangladesh vs China vs Vietnam
 
 Here's the full picture across the factors that matter most:
 
@@ -856,7 +856,7 @@ Here's the full picture across the factors that matter most:
 | **Infrastructure** | Moderate | Excellent | Good |
 | **English proficiency** | High | Low-moderate | Moderate |
 
-### Strengths by Product Category
+## Strengths by Product Category
 
 Different manufacturing hubs excel at different product types:
 
@@ -881,7 +881,7 @@ Different manufacturing hubs excel at different product types:
 - US market access — CPTPP and potential trade benefits
 - Proximity to fabric mills — reducing lead times
 
-### Pricing Deep Dive
+## Pricing Deep Dive
 
 Let's compare real pricing across common product categories:
 
@@ -897,7 +897,7 @@ Let's compare real pricing across common product categories:
 
 **The pattern is clear:** Bangladesh is 20–35% cheaper than China and 10–20% cheaper than Vietnam across virtually every product category. However, price is only one factor — lead time, quality, and risk matter equally.
 
-### Lead Time Comparison
+## Lead Time Comparison
 
 Speed to market is critical for fashion brands. Here's how the three countries compare:
 
@@ -913,7 +913,7 @@ Speed to market is critical for fashion brands. Here's how the three countries c
 
 China's speed advantage is significant — 2–3 weeks faster on sampling and 2–4 weeks faster on production. For fast-fashion brands or trend-driven products, this can be a dealbreaker. For brands with longer planning horizons (3–6 months ahead), Bangladesh's timeline is perfectly manageable.
 
-### Quality and Consistency
+## Quality and Consistency
 
 Quality perception varies by country, but the reality is more nuanced:
 
@@ -923,7 +923,7 @@ Quality perception varies by country, but the reality is more nuanced:
 
 **Vietnam:** Consistently good quality with less variation than Bangladesh. Vietnamese factories have benefited from Japanese and Korean investment, bringing strong quality management practices. Average AQL at established factories: 2.0–2.5.
 
-### Sustainability Comparison
+## Sustainability Comparison
 
 Sustainability is increasingly important for brand positioning and consumer demand:
 
@@ -939,7 +939,7 @@ Sustainability is increasingly important for brand positioning and consumer dema
 
 Bangladesh's post-Rana Plaza reforms have made it a sustainability leader in some respects. The RMG Sustainability Council (RSC) provides industry-wide oversight, and the country's 200+ LEED-certified factories are the most of any nation. China's scale gives it an advantage in absolute renewable energy capacity, but Vietnam's smaller, newer factories often have more modern infrastructure.
 
-### Tariff and Trade Agreement Analysis
+## Tariff and Trade Agreement Analysis
 
 Trade agreements significantly impact landed cost:
 
@@ -956,7 +956,7 @@ Trade agreements significantly impact landed cost:
 
 **Key insight for EU brands:** Bangladesh and Vietnam both enjoy 0% duty access, while Chinese-made garments face 12% duty. For a $10 hoodie, that's a $1.20 per-unit cost difference at the border.
 
-### Political and Economic Risk Factors
+## Political and Economic Risk Factors
 
 | Risk Factor | Bangladesh | China | Vietnam |
 |------------|-----------|-------|---------|
@@ -969,7 +969,7 @@ Trade agreements significantly impact landed cost:
 
 China carries the highest geopolitical risk for Western brands due to ongoing US-China trade tensions and potential supply chain decoupling. Bangladesh has moderate political risk but low trade disruption risk. Vietnam is generally the most politically stable option for international manufacturing.
 
-### Decision Framework: How to Choose
+## Decision Framework: How to Choose
 
 Use this decision tree to determine the best manufacturing hub for your needs:
 
@@ -1009,7 +1009,7 @@ Use this decision tree to determine the best manufacturing hub for your needs:
 - Vietnam's modern infrastructure and good environmental practices
 - Both outperform China on sustainability perception
 
-### Real Case Studies
+## Real Case Studies
 
 **Case Study 1: US streetwear brand choosing Bangladesh**
 A Los Angeles-based streetwear brand producing 2,000 hoodies/month switched from China to Bangladesh through TexVenture. Result: 32% reduction in per-unit cost ($14.50 to $9.80), zero quality issues over 12 months, 3 additional product categories added. Total annual savings: $112,800.
@@ -1020,7 +1020,7 @@ A London-based sustainable activewear brand chose Vietnam for their premium legg
 **Case Study 3: Fast-fashion brand staying with China**
 A Miami-based fast-fashion brand producing 10,000+ units/week in 50+ styles needed speed above all else. China's 30-day production turnaround and rapid sampling (7 days) made it the only viable option despite higher costs. They accepted the 24–41.5% duty burden for the velocity advantage.
 
-### TexVenture's Recommendation
+## TexVenture's Recommendation
 
 **For most brands in 2025, Bangladesh offers the best overall value proposition.** The combination of lowest costs, zero EU duty, improving quality, and strong sustainability credentials makes it the optimal choice for brands that can plan 3–6 months ahead.
 

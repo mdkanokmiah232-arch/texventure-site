@@ -24,6 +24,15 @@ const SITE_URL = "https://texventure.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  icons: {
+    icon: [
+      { url: '/favicon.webp', type: 'image/webp', sizes: '32x32' },
+      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   title: {
     default: "TexVenture — Apparel Sourcing and Buying House in Bangladesh",
     template: "%s | TexVenture",
