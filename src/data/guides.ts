@@ -578,8 +578,8 @@ At TexVenture, our factory partners in Dhaka and Gazipur specialise in fleece pr
     author: { name: "TexVenture Sourcing Team", role: "Manufacturing & Sourcing" },
     publishedAt: "2025-01-15",
     readTimeMinutes: 12,
-    featuredImage: "/images/guides/cost-to-manufacture-a-hoodie.jpg",
-    imageAlt: "Stack of freshly manufactured hoodies on a factory table with cost breakdown infographic overlay",
+    featuredImage: "https://i.ibb.co.com/xKPZxxfx/How-Much-Does-It-Cost-to-Manufacture-a-Hoodie-in-2025.webp",
+    imageAlt: "How Much Does It Cost to Manufacture a Hoodie in 2025 — TexVenture guide showing hoodie production costs and factors",
     metaDescription: "How much does it cost to manufacture a hoodie in 2025? Complete cost breakdown with real factory data, fabric costs, trim pricing, and shipping to US/EU.",
   },
 
@@ -815,8 +815,8 @@ We've helped 200+ brands build successful manufacturing relationships in Banglad
     author: { name: "TexVenture Sourcing Team", role: "Manufacturing & Sourcing" },
     publishedAt: "2025-01-15",
     readTimeMinutes: 14,
-    featuredImage: "/images/guides/best-manufacturers-in-bangladesh.jpg",
-    imageAlt: "Aerial view of a modern garment factory complex in Gazipur, Bangladesh with green building certification",
+    featuredImage: "https://i.ibb.co.com/kVdt7njG/Best-Garment-Manufacturers-in-Bangladesh.webp",
+    imageAlt: "Best Garment Manufacturers in Bangladesh — top factories, certifications, and sourcing guide by TexVenture",
     metaDescription: "Best garment manufacturers in Bangladesh 2025. $45B+ industry, key hubs, certifications, vetting process, and how to find the right factory for your brand.",
   },
 
@@ -1037,8 +1037,8 @@ At TexVenture, our factory network in Bangladesh is optimised for knitwear, flee
     author: { name: "TexVenture Sourcing Team", role: "Manufacturing & Sourcing" },
     publishedAt: "2025-01-15",
     readTimeMinutes: 15,
-    featuredImage: "/images/guides/bangladesh-vs-china-vs-vietnam.jpg",
-    imageAlt: "Side-by-side comparison map showing Bangladesh, China, and Vietnam with garment manufacturing icons and key statistics",
+    featuredImage: "https://i.ibb.co.com/8LjhChwQ/Bangladesh-vs-China-vs-Vietnam-Where-Should-You-Manufacture-in-2026.webp",
+    imageAlt: "Bangladesh vs China vs Vietnam — Where Should You Manufacture in 2026 comparison by TexVenture",
     metaDescription: "Bangladesh vs China vs Vietnam for garment manufacturing in 2025. Compare pricing, MOQs, lead times, quality, tariffs, and sustainability with real data.",
   },
 ];
