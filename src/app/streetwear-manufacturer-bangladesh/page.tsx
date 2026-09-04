@@ -97,7 +97,7 @@ export default function StreetwearPage() {
         />
 
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <Breadcrumbs
+          <Breadcrumbs light
             items={[{ name: 'Streetwear Manufacturing', href: '/streetwear-manufacturer-bangladesh' }]}
           />
         </div>

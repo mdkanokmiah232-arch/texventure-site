@@ -91,9 +91,9 @@ export default function AboutPage() {
           <div className="absolute -bottom-20 -left-20 h-60 w-60 rounded-full bg-[#08CCD4] blur-3xl" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:py-24 lg:px-8">
-          <Breadcrumbs items={[{ name: 'About', href: '/about' }]} />
+          <Breadcrumbs light items={[{ name: 'About', href: '/about' }]} />
           <div className="mx-auto mt-8 max-w-3xl text-center">
-            <Badge variant="brand" className="mb-4">
+            <Badge variant="brand" light className="mb-4">
               Our Story
             </Badge>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">

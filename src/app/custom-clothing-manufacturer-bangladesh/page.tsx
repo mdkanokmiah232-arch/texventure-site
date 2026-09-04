@@ -111,7 +111,7 @@ export default function PillarPage() {
 
         {/* Breadcrumbs + Content */}
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <Breadcrumbs
+          <Breadcrumbs light
             items={[{ name: 'Clothing Manufacturer Bangladesh', href: '/custom-clothing-manufacturer-bangladesh' }]}
           />
         </div>

@@ -48,7 +48,7 @@ export default function BlogPage() {
       <InternalLinks currentPage="/blog" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-16 text-center sm:py-24 lg:px-8">
-          <Badge variant="brand" className="mb-4">
+          <Badge variant="brand" light className="mb-4">
             TexVenture Blog
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
@@ -69,7 +69,7 @@ export default function BlogPage() {
               <Card hover className="h-full">
                 <div className="flex flex-col h-full">
                   <div className="mb-3 flex items-center gap-2">
-                    <Badge variant="brand">
+                    <Badge variant="brand" light>
                       {categoryLabels[guide.category] ?? guide.category}
                     </Badge>
                     <span className="text-xs text-gray-400">

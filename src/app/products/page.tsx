@@ -20,9 +20,9 @@ export default function ProductsPage() {
           <div className="absolute -bottom-20 -left-20 h-60 w-60 rounded-full bg-[#08CCD4] blur-3xl" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:py-24 lg:px-8">
-          <Breadcrumbs items={[{ name: 'Products', href: '/products' }]} />
+          <Breadcrumbs light items={[{ name: 'Products', href: '/products' }]} />
           <div className="mx-auto mt-8 max-w-3xl text-center">
-            <Badge variant="brand" className="mb-4">Our Categories</Badge>
+            <Badge variant="brand" light className="mb-4">Our Categories</Badge>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               What We <span className="text-[#08CCD4]">Manufacture</span>
             </h1>

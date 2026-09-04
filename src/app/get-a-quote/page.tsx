@@ -70,7 +70,7 @@ export default function GetQuotePage() {
       </section>
 
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
-        <Breadcrumbs items={[{ name: 'Get a Quote', href: '/get-a-quote' }]} />
+        <Breadcrumbs light items={[{ name: 'Get a Quote', href: '/get-a-quote' }]} />
       </div>
 
       {/* Quote Form + Contact Info */}

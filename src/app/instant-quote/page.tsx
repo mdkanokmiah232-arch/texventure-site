@@ -66,7 +66,7 @@ export default function InstantQuotePage() {
       </section>
 
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
-        <Breadcrumbs items={[{ name: 'Instant Quote', href: '/instant-quote' }]} />
+        <Breadcrumbs light items={[{ name: 'Instant Quote', href: '/instant-quote' }]} />
       </div>
 
       {/* Calculator */}

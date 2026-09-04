@@ -65,7 +65,7 @@ export default function ServicesPage() {
       </section>
 
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
-        <Breadcrumbs items={[{ name: 'Services', href: '/services' }]} />
+        <Breadcrumbs light items={[{ name: 'Services', href: '/services' }]} />
       </div>
 
       {/* Services Grid */}
