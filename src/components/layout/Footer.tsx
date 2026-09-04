@@ -65,8 +65,8 @@ export default function Footer() {
                 <svg className="h-4 w-4 flex-shrink-0 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <a href="tel:+8801354316246" className="hover:text-[#08CCD4] transition">
-                  +8801354316246
+                <a href="tel:+8801805121295" className="hover:text-[#08CCD4] transition">
+                  +880 1805 121295
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -76,6 +76,12 @@ export default function Footer() {
                 <a href="mailto:info@texventure.com" className="hover:text-[#08CCD4] transition">
                   info@texventure.com
                 </a>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="h-4 w-4 flex-shrink-0 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span className="text-gray-300">Sun – Fri: 9:00 AM – 6:00 PM (BST)</span>
               </div>
             </div>
 
@@ -104,7 +110,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://wa.me/8801354316246"
+                href="https://wa.me/8801805121295"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-gray-300 transition hover:bg-[#08CCD4] hover:text-white"

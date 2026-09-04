@@ -47,7 +47,7 @@ const faqItems = [
 
 /* ─── Page Component ─── */
 export default function GetQuotePage() {
-  const whatsappUrl = `https://wa.me/8801354316246?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/8801805121295?text=${encodeURIComponent(
     'Hi TexVenture! I\'d like to discuss a manufacturing project.'
   )}`;
 

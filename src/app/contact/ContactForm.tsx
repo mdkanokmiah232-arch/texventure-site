@@ -43,7 +43,7 @@ export default function ContactForm() {
           For urgent inquiries, please contact us via WhatsApp.
         </p>
         <Link
-          href="https://wa.me/8801354316246?text=Hi!%20I%20just%20sent%20a%20message%20through%20your%20website."
+          href="https://wa.me/8801805121295?text=Hi!%20I%20just%20sent%20a%20message%20through%20your%20website."
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#20ba5a]"

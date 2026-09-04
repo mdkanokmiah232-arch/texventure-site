@@ -64,12 +64,12 @@ const organizationSchema = {
     addressCountry: "BD",
     postalCode: "1230",
   },
-  telephone: "+880****6246",
+  telephone: "+880 1805 121295",
   email: "info@texventure.com",
   sameAs: [
     "https://www.facebook.com/texventure",
     "https://www.linkedin.com/company/texventure",
-    "https://wa.me/8801354316246",
+    "https://wa.me/8801805121295",
   ],
 };
 
@@ -89,7 +89,7 @@ const localBusinessSchema = {
     addressCountry: "BD",
     postalCode: "1230",
   },
-  telephone: "+880****6246",
+  telephone: "+880 1805 121295",
   email: "info@texventure.com",
   geo: {
     "@type": "GeoCoordinates",
@@ -105,7 +105,7 @@ const localBusinessSchema = {
   sameAs: [
     "https://www.facebook.com/texventure",
     "https://www.linkedin.com/company/texventure",
-    "https://wa.me/8801354316246",
+    "https://wa.me/8801805121295",
   ],
 };
 

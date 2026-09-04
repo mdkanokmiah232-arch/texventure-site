@@ -349,7 +349,7 @@ export default function AboutPage() {
               Get in Touch
             </Link>
             <Link
-              href="https://wa.me/8801354316246"
+              href="https://wa.me/8801805121295"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full border-2 border-[#25D366] px-8 py-3.5 text-sm font-semibold text-[#25D366] transition hover:bg-[#25D366]/10"

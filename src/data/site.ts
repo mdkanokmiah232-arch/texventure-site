@@ -78,7 +78,7 @@ export const company: CompanyInfo = {
 };
 
 export const contact: ContactDetails = {
-  phone: "+8801354316246",
+  phone: "+8801805121295",
   email: "info@texventure.com",
   address: {
     street: "House: 2, Road: 3/A, Sector: 5",
@@ -93,7 +93,7 @@ export const social: SocialLink[] = [
   { platform: "Facebook", url: "https://www.facebook.com/texventure", label: "Facebook" },
   { platform: "Instagram", url: "https://www.instagram.com/texventure", label: "Instagram" },
   { platform: "LinkedIn", url: "https://www.linkedin.com/company/texventure", label: "LinkedIn" },
-  { platform: "WhatsApp", url: "https://wa.me/8801354316246", label: "WhatsApp" },
+  { platform: "WhatsApp", url: "https://wa.me/8801805121295", label: "WhatsApp" },
 ];
 
 export const navigation: NavItem[] = [
