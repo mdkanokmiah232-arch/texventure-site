@@ -77,7 +77,7 @@ export default function ProductsPage() {
               <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
                 {product.subCategories.flatMap((sub) => sub.images).map((img, idx) => (
                   <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
-                    <div className="relative w-full overflow-hidden" style={{ paddingBottom: '100%' }}>
+                    <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
                       <img
                         src={img.src}
                         alt={img.alt}
