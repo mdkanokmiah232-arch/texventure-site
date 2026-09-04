@@ -77,7 +77,18 @@ export default function BlogPage() {
             {sorted[0] && (
               <Link href={`/guides/${sorted[0].slug}`} className="group block">
                 <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:shadow-lg">
-                  <div className="aspect-[16/9] bg-gradient-to-br from-[#1B2A4A] to-[#0f2240] p-8 flex flex-col justify-end">
+                  <div className="relative aspect-[16/9] overflow-hidden">
+                    {sorted[0].featuredImage ? (
+                      <img
+                        src={sorted[0].featuredImage}
+                        alt={sorted[0].imageAlt || sorted[0].title}
+                        className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="absolute inset-0 bg-gradient-to-br from-[#1B2A4A] to-[#0f2240]" />
+                    )}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                    <div className="absolute bottom-0 left-0 p-8">
                     <Badge variant="brand" light className="mb-3 w-fit">
                       {categoryLabels[sorted[0].category] ?? sorted[0].category}
                     </Badge>
@@ -109,6 +120,13 @@ export default function BlogPage() {
               {sorted.slice(1).map((guide) => (
                 <Link key={guide.slug} href={`/guides/${guide.slug}`} className="group block">
                   <div className="flex h-full flex-col rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition hover:shadow-lg">
+                    {guide.featuredImage && (
+                      <img
+                        src={guide.featuredImage}
+                        alt={guide.imageAlt || guide.title}
+                        className="mb-4 aspect-[16/9] w-full rounded-xl object-cover"
+                      />
+                    )}
                     <div className="mb-3 flex items-center gap-2">
                       <Badge variant="brand" light>
                         {categoryLabels[guide.category] ?? guide.category}
