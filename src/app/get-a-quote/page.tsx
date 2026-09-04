@@ -12,7 +12,7 @@ import QuoteForm from '@/components/forms/QuoteForm';
 export const metadata: Metadata = generatePageMeta({
   title: 'Get a Free Quote — Custom Clothing Manufacturing',
   description:
-    'Get a free, no-obligation quote for custom clothing manufacturing in Bangladesh. Fill out the form or message us on WhatsApp — we respond within 24 hours.',
+    'Get a free, no-obligation quote for custom clothing <Link href="/" className="text-[#08CCD4] hover:underline">manufacturing in Bangladesh</Link>. Fill out the form or message us on WhatsApp — we respond within 24 hours.',
   path: '/get-a-quote',
 });
 
@@ -81,7 +81,7 @@ export default function GetQuotePage() {
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-bold text-[#1B2A4A]">Request a Quote</h2>
               <p className="mt-2 text-gray-500">
-                Fill out the form below and we&apos;ll open WhatsApp with your details for instant communication.
+                Fill out the form below and we&apos;ll open WhatsApp with your details for instant communication. Looking for the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link>?
               </p>
               <div className="mt-8">
                 <QuoteForm />
@@ -198,11 +198,12 @@ export default function GetQuotePage() {
       {/* CTA */}
       <InternalLinks currentPage="/get-a-quote" />
       <CTABand
-        headline="Prefer to Talk Directly?"
-        description="Our team is available on WhatsApp for instant responses. Message us anytime during business hours."
+        headline="Have Questions?"
+        description="Chat with our sourcing team directly on WhatsApp for instant answers."
         buttonText="Chat on WhatsApp"
         buttonHref={whatsappUrl}
       />
+
     </main>
   );
 }

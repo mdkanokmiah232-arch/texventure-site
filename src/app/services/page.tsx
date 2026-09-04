@@ -59,7 +59,7 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-300 sm:text-xl">
-            End-to-end apparel manufacturing solutions — from custom production to private label branding. Find the right service for your brand.
+            End-to-end apparel manufacturing solutions — from custom production to private label branding. Find the right service for your brand. Looking for the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link>?
           </p>
         </div>
       </section>
@@ -143,6 +143,7 @@ export default function ServicesPage() {
         buttonText="Get a Free Quote"
         buttonHref="/get-a-quote"
       />
+
     </main>
   );
 }

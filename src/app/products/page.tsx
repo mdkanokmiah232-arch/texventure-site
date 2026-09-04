@@ -6,7 +6,7 @@ import Badge from '@/components/ui/Badge';
 
 export const metadata: Metadata = {
   title: 'Product Categories',
-  description: 'Explore TexVenture product categories — knit wear, wovens, denim, sweaters, active wear, work wear, and circular knit manufacturing in Bangladesh.',
+  description: 'Explore TexVenture product categories — knit wear, wovens, denim, sweaters, active wear, work wear, and circular knit <Link href="/" className="text-[#08CCD4] hover:underline">manufacturing in Bangladesh</Link>.',
   alternates: { canonical: 'https://texventure.com/products' },
 };
 
@@ -38,7 +38,7 @@ export default function ProductsPage() {
         <div className="rounded-2xl border border-[#08CCD4]/20 bg-[#08CCD4]/5 p-6">
           <h2 className="text-lg font-bold text-[#1B2A4A]">Quick Answer</h2>
           <p className="mt-2 text-gray-600">
-            <strong>TexVenture</strong> manufactures <strong>7 categories</strong> of clothing in Bangladesh:
+            <strong>TexVenture</strong> manufactures <strong>7 categories</strong> of clothing as the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link>:
             <strong> knit wear</strong>, <strong>wovens</strong>, <strong>circular knit</strong>,
             <strong> denim</strong>, <strong>sweaters</strong>, <strong>work wear</strong>, and
             <strong> active wear</strong>. Founded in <strong>2016</strong>, we serve

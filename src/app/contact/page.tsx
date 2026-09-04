@@ -86,7 +86,7 @@ export default function ContactPage() {
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-300 sm:text-xl">
               Ready to start sourcing? Have questions about our products or services?
               We&apos;re here to help. Reach out through any of the channels below or
-              fill out the form.
+              fill out the form. Looking for the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link>?
             </p>
           </div>
         </div>

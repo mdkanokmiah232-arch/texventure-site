@@ -138,10 +138,12 @@ export default function CertificationsPage() {
             </Badge>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               Our Certifications
+
+
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-300 sm:text-xl">
               Our factory partners hold internationally recognized certifications that
-              ensure quality, safety, ethical practices, and environmental responsibility.
+              ensure quality, safety, ethical practices, and environmental responsibility. As the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link>, we maintain the highest standards.
             </p>
           </div>
         </div>

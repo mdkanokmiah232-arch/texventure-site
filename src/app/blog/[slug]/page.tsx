@@ -279,8 +279,11 @@ export default async function GuidePage({ params }: Props) {
               <div className="mt-10 rounded-xl !bg-[#08CCD4] p-8 text-center">
                 <h3 className="text-2xl font-bold text-white">Get a Free Quote</h3>
                 <p className="mt-3 text-sm text-white/80 max-w-md mx-auto">
-                  Ready to start your next production run? Get custom pricing for your garment order.
-                  Low MOQ from 100 pieces.
+                  Looking for the{' '}
+                  <Link href="/" className="font-semibold text-white underline decoration-white/40 underline-offset-2 transition hover:decoration-white">
+                    best garment manufacturing in Bangladesh
+                  </Link>
+                  ? Get custom pricing for your garment order. Low MOQ from 100 pieces.
                 </p>
                 <Link
                   href="/get-a-quote"
