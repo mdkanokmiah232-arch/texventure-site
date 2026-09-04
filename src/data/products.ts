@@ -382,8 +382,21 @@ export const products: ProductCategory[] = [
       { text: "Sustainable washing: ozone and e-flow technology" },
       { text: "AQL 2.5 inspection with wash consistency checks" },
     ],
-    image: "/images/products/denim.jpg",
+    image: "https://i.ibb.co.com/zhf4rXqG/Denim.webp",
     imageAlt: "Custom denim garments manufactured by TexVenture in Bangladesh — jeans, jackets, and skirts",
+    subCategories: [
+      {
+        name: "Denim Collection",
+        images: [
+          { src: "https://i.ibb.co.com/zhf4rXqG/Denim.webp", alt: "Denim — Premium denim garments" },
+          { src: "https://i.ibb.co.com/MHGG0LB/Denim-2.webp", alt: "Denim — Custom denim jeans" },
+          { src: "https://i.ibb.co.com/qLQb6kqc/Denim-3.webp", alt: "Denim — Denim jackets and outerwear" },
+          { src: "https://i.ibb.co.com/jvp6QMXJ/Denim-4.webp", alt: "Denim — Denim skirts and dresses" },
+          { src: "https://i.ibb.co.com/hxWRWS3F/Denim-5.webp", alt: "Denim — Casual denim apparel" },
+          { src: "https://i.ibb.co.com/zh8tkgBB/Denim-6.webp", alt: "Denim — Premium denim collection" },
+        ],
+      },
+    ],
     popularItems: [
       "Slim Fit Jeans",
       "Straight Leg Jeans",
