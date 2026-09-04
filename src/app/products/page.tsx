@@ -75,7 +75,7 @@ export default function ProductsPage() {
             {/* Images Grid */}
             {product.subCategories && product.subCategories.length > 0 ? (
               <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {product.subCategories.flatMap((sub) => sub.images).map((img, idx) => (
+                {product.subCategories.flatMap((sub) => sub.images).slice(0, 6).map((img, idx) => (
                   <div key={idx} className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:shadow-lg">
                     <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
                       <img
