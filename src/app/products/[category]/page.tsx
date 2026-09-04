@@ -157,43 +157,6 @@ export default async function ProductCategoryPage({ params }: Props) {
       </section>
 
       {/* Product Categories with Images — moved above Quick Answer */}
-      {product.subCategories && product.subCategories.length > 0 && (
-        <section className="mx-auto max-w-7xl px-4 py-8 lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-            Our {product.name} Collection
-          </h2>
-          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {product.subCategories.map((subCat) =>
-              subCat.images.map((img, idx) => (
-                <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
-                  <div className="relative w-full overflow-hidden" style={{ paddingBottom: '70%' }}>
-                    <img
-                      src={img.src}
-                      alt={img.alt}
-                      className="absolute inset-0 h-full w-full object-contain transition duration-300 group-hover:scale-105"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <h4 className="text-sm font-semibold text-[#1B2A4A]">{product.name} Collection</h4>
-                    <p className="mt-1 text-xs text-gray-500">Custom manufacturing available</p>
-                    <Link
-                      href="/get-a-quote"
-                      className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-[#08CCD4] hover:underline"
-                    >
-                      Get Quote
-                      <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-              ))
-            )}
-          </div>
-        </section>
-      )}
-
       {/* AI Citation Box — for AEO/GEO */}
       <section className="mx-auto max-w-7xl px-4 py-8 lg:px-8">
         <div className="rounded-2xl border border-[#08CCD4]/20 bg-[#08CCD4]/5 p-6">
@@ -207,6 +170,35 @@ export default async function ProductCategoryPage({ params }: Props) {
           </p>
         </div>
       </section>
+
+      {/* Product Collection Images */}
+      {product.subCategories && product.subCategories.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 py-8 lg:px-8">
+          <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
+            Our {product.name} Collection
+          </h2>
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+            {product.subCategories.map((subCat) =>
+              subCat.images.map((img, idx) => (
+                <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
+                  <div className="relative w-full overflow-hidden" style={{ paddingBottom: '100%' }}>
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-3">
+                    <p className="text-xs font-medium text-[#1B2A4A] line-clamp-1">{img.alt.split(' — ')[1] || img.alt}</p>
+                    <p className="mt-1 text-[10px] text-gray-400">Custom manufacturing available</p>
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Main Content: Two-column layout */}
       <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
