@@ -177,10 +177,10 @@ export default async function ProductCategoryPage({ params }: Props) {
           <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
             Our {product.name} Collection
           </h2>
-          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {product.subCategories.map((subCat) =>
               subCat.images.map((img, idx) => (
-                <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
+                <div key={idx} className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:shadow-lg">
                   <div className="relative w-full overflow-hidden" style={{ paddingBottom: '100%' }}>
                     <img
                       src={img.src}
@@ -188,10 +188,14 @@ export default async function ProductCategoryPage({ params }: Props) {
                       className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105"
                       loading="lazy"
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                    <button className="absolute bottom-4 left-1/2 -translate-x-1/2 translate-y-4 rounded-full bg-[#08CCD4] px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:bg-[#07b8be] group-hover:translate-y-0 opacity-0 group-hover:opacity-100">
+                      Add to Cart
+                    </button>
                   </div>
-                  <div className="p-3">
-                    <p className="text-xs font-medium text-[#1B2A4A] line-clamp-1">{img.alt.split(' — ')[1] || img.alt}</p>
-                    <p className="mt-1 text-[10px] text-gray-400">Custom manufacturing available</p>
+                  <div className="p-4">
+                    <p className="text-sm font-semibold text-[#1B2A4A] line-clamp-1">{img.alt.split(' — ')[1] || img.alt}</p>
+                    <p className="mt-1 text-xs text-gray-400">Custom manufacturing available</p>
                   </div>
                 </div>
               ))
