@@ -667,7 +667,21 @@ export const products: ProductCategory[] = [
       { text: "Sublimation printing and heat-sealed details" },
       { text: "AQL 2.5 inspection with stretch recovery testing" },
     ],
-    image: "/images/products/active-wear.jpg",
+    image: "https://i.ibb.co.com/RGM7rTmz/Active-Wear.webp",
+    imageAlt: "Custom activewear manufactured by TexVenture in Bangladesh — leggings, sports bras, and performance garments",
+    subCategories: [
+      {
+        name: "Active Wear Collection",
+        images: [
+          { src: "https://i.ibb.co.com/RGM7rTmz/Active-Wear.webp", alt: "Active Wear — Premium activewear" },
+          { src: "https://i.ibb.co.com/Q7Zptjwg/Active-Wear-2.webp", alt: "Active Wear — Performance garments" },
+          { src: "https://i.ibb.co.com/NgZjHzrm/Active-Wear-3.webp", alt: "Active Wear — Sports apparel" },
+          { src: "https://i.ibb.co.com/3yYKrzDy/Active-Wear-4.webp", alt: "Active Wear — Fitness wear" },
+          { src: "https://i.ibb.co.com/sJD2J4bJ/Active-Wear-5.webp", alt: "Active Wear — Athletic clothing" },
+          { src: "https://i.ibb.co.com/n86cY6X5/Active-Wear-6.webp", alt: "Active Wear — Active collection" },
+        ],
+      },
+    ],
     imageAlt: "Custom activewear manufactured by TexVenture in Bangladesh — leggings, sports bras, and performance garments",
     popularItems: [
       "High-Waist Leggings",
