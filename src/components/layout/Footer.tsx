@@ -14,8 +14,6 @@ const productLinks = [
 const companyLinks = [
   { name: 'About Us', href: '/about' },
   { name: 'Our Process', href: '/custom-clothing-manufacturer-bangladesh' },
-  { name: 'Private Label', href: '/private-label-clothing-manufacturer-bangladesh' },
-  { name: 'Streetwear', href: '/streetwear-manufacturer-bangladesh' },
   { name: 'Certifications', href: '/certifications' },
   { name: 'Contact', href: '/contact' },
 ];
@@ -28,7 +26,6 @@ const categoryLinks = [
 
 const resourceLinks = [
   { name: 'Instant Pricing Calculator', href: '/instant-quote' },
-  { name: 'Guides', href: '/guides' },
   { name: 'Blog', href: '/blog' },
   { name: 'Get a Quote', href: '/get-a-quote' },
   { name: 'Privacy Policy', href: '/privacy-policy' },
