@@ -189,12 +189,12 @@ export default async function ProductCategoryPage({ params }: Props) {
                       loading="lazy"
                     />
                   </div>
-                  <div className="p-4">
+                  <div className="p-5">
                     <p className="text-sm font-semibold text-[#1B2A4A] line-clamp-1">{img.alt.split(' — ')[1] || img.alt}</p>
                     <p className="mt-1 text-xs text-gray-400">Custom manufacturing available</p>
                     <Link
                       href={`/checkout?product=${encodeURIComponent(img.alt.split(' — ')[1] || img.alt)}&image=${encodeURIComponent(img.src)}`}
-                      className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-[#08CCD4] px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:bg-[#07b8be] hover:shadow-lg"
+                      className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-[#08CCD4] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-[#07b8be] hover:shadow-lg"
                     >
                       Add to Cart
                     </Link>
