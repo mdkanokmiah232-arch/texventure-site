@@ -56,7 +56,8 @@ export default function BlogPage() {
             <Badge variant="brand" light className="mb-4">
               TexVenture Blog
             </Badge>
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+            {/* H1 — extra large */}
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               Manufacturing <span className="text-[#08CCD4]">Insights</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-300">
@@ -80,7 +81,8 @@ export default function BlogPage() {
                     <Badge variant="brand" light className="mb-3 w-fit">
                       {categoryLabels[sorted[0].category] ?? sorted[0].category}
                     </Badge>
-                    <h2 className="text-2xl font-bold text-white sm:text-3xl group-hover:text-[#08CCD4] transition-colors">
+                    {/* Featured post H2 — bigger */}
+                    <h2 className="text-3xl font-bold text-white sm:text-4xl group-hover:text-[#08CCD4] transition-colors">
                       {sorted[0].title}
                     </h2>
                     <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-300 line-clamp-2">
@@ -115,9 +117,10 @@ export default function BlogPage() {
                         {guide.readTimeMinutes} min read
                       </span>
                     </div>
-                    <h3 className="text-lg font-bold text-[#1B2A4A] group-hover:text-[#08CCD4] transition-colors line-clamp-2">
+                    {/* Grid post H2 — bigger */}
+                    <h2 className="text-xl font-bold text-[#1B2A4A] group-hover:text-[#08CCD4] transition-colors line-clamp-2">
                       {guide.title}
-                    </h3>
+                    </h2>
                     <p className="mt-2 flex-1 text-sm leading-relaxed text-gray-500 line-clamp-3">
                       {guide.excerpt}
                     </p>

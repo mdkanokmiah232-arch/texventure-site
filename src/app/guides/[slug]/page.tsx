@@ -101,18 +101,28 @@ function renderContent(content: string) {
       continue;
     }
 
-    // Headers
+    // H4
+    if (line.startsWith('#### ')) {
+      elements.push(
+        <h4 key={`h4-${elements.length}`} className="mt-6 mb-2 text-lg font-bold text-[#1B2A4A]">
+          {line.replace('#### ', '')}
+        </h4>
+      );
+      continue;
+    }
+    // H3
     if (line.startsWith('### ')) {
       elements.push(
-        <h3 key={`h3-${elements.length}`} className="mt-8 mb-3 text-xl font-bold text-[#1B2A4A]">
+        <h3 key={`h3-${elements.length}`} className="mt-8 mb-3 text-2xl font-bold text-[#1B2A4A]">
           {line.replace('### ', '')}
         </h3>
       );
       continue;
     }
+    // H2
     if (line.startsWith('## ')) {
       elements.push(
-        <h2 key={`h2-${elements.length}`} className="mt-10 mb-4 text-2xl font-bold text-[#1B2A4A]">
+        <h2 key={`h2-${elements.length}`} className="mt-12 mb-4 text-3xl font-bold text-[#1B2A4A]">
           {line.replace('## ', '')}
         </h2>
       );
@@ -221,7 +231,8 @@ export default async function GuidePage({ params }: Props) {
             <Badge variant="brand" light className="mb-4">
               {guide.category}
             </Badge>
-            <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl leading-tight">
+            {/* H1 — extra large */}
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl leading-tight">
               {guide.title}
             </h1>
             <div className="mt-5 flex flex-wrap items-center gap-3 text-sm text-gray-300">
@@ -255,18 +266,58 @@ export default async function GuidePage({ params }: Props) {
                 {renderContent(guide.content)}
               </div>
 
-              {/* Author Box */}
+              {/* Get a Free Quote CTA — inside article */}
+              <div className="mt-10 rounded-xl !bg-[#08CCD4] p-8 text-center">
+                <h3 className="text-2xl font-bold text-white">Get a Free Quote</h3>
+                <p className="mt-3 text-sm text-white/80 max-w-md mx-auto">
+                  Ready to start your next production run? Get custom pricing for your garment order.
+                  Low MOQ from 100 pieces.
+                </p>
+                <Link
+                  href="/get-a-quote"
+                  className="mt-5 inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-[#08CCD4] transition hover:bg-gray-50 shadow-lg"
+                >
+                  Get a Free Quote
+                </Link>
+              </div>
+
+              {/* Author Box — with LinkedIn + Facebook */}
               <div className="mt-10 rounded-xl border border-gray-100 bg-gradient-to-br from-gray-50 to-white p-6">
-                <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#08CCD4]/10 text-sm font-bold text-[#08CCD4]">
+                <div className="flex items-start gap-4">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#08CCD4]/10 text-lg font-bold text-[#08CCD4]">
                     {guide.author.name.charAt(0)}
                   </div>
-                  <div>
-                    <p className="font-semibold text-[#1B2A4A]">{guide.author.name}</p>
+                  <div className="flex-1">
+                    <p className="font-bold text-[#1B2A4A] text-lg">{guide.author.name}</p>
                     <p className="text-sm text-gray-500">{guide.author.role} at TexVenture</p>
+                    {/* Social icons */}
+                    <div className="mt-3 flex items-center gap-3">
+                      <a
+                        href="https://www.linkedin.com/company/texventure"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 text-gray-500 transition hover:border-[#0077B5] hover:bg-[#0077B5]/10 hover:text-[#0077B5]"
+                        aria-label="LinkedIn"
+                      >
+                        <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://www.facebook.com/texventure"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 text-gray-500 transition hover:border-[#1877F2] hover:bg-[#1877F2]/10 hover:text-[#1877F2]"
+                        aria-label="Facebook"
+                      >
+                        <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <p className="mt-3 text-sm leading-relaxed text-gray-600">
+                <p className="mt-4 text-sm leading-relaxed text-gray-600">
                   Written and reviewed by <strong>{guide.author.name}</strong> — with hands-on experience in
                   Bangladesh&apos;s garment manufacturing industry. All specifications and pricing reflect
                   actual production data from our vetted factory network.
@@ -347,7 +398,7 @@ export default async function GuidePage({ params }: Props) {
               </div>
             </div>
 
-            {/* CTA */}
+            {/* Sidebar CTA */}
             <div className="rounded-2xl !bg-[#08CCD4] p-6 text-white shadow-sm">
               <h3 className="text-lg font-bold">Need a Quote?</h3>
               <p className="mt-2 text-sm text-white/80">
