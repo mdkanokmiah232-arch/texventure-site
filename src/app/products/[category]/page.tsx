@@ -120,13 +120,14 @@ export default async function ProductCategoryPage({ params }: Props) {
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:py-24 lg:px-8">
           <Breadcrumbs
+            light
             items={[
               { name: 'Products', href: '/products' },
               { name: product.name, href: `/products/${product.slug}` },
             ]}
           />
           <div className="mx-auto mt-8 max-w-3xl text-center">
-            <Badge variant="brand" className="mb-4">
+            <Badge variant="brand" light className="mb-4">
               {product.name} — Bangladesh
             </Badge>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">

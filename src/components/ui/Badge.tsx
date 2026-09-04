@@ -6,6 +6,7 @@ interface BadgeProps {
   children: ReactNode;
   variant?: BadgeVariant;
   className?: string;
+  light?: boolean;
 }
 
 const variantStyles: Record<BadgeVariant, string> = {
@@ -16,10 +17,19 @@ const variantStyles: Record<BadgeVariant, string> = {
   outline: 'border border-gray-200 text-gray-600',
 };
 
-export default function Badge({ children, variant = 'default', className = '' }: BadgeProps) {
+const lightVariantStyles: Record<BadgeVariant, string> = {
+  default: 'bg-white/10 text-white/80',
+  brand: 'bg-white/10 text-white border border-white/20',
+  success: 'bg-white/10 text-white/80',
+  warning: 'bg-white/10 text-white/80',
+  outline: 'border border-white/20 text-white/80',
+};
+
+export default function Badge({ children, variant = 'default', className = '', light = false }: BadgeProps) {
+  const styles = light ? lightVariantStyles[variant] : variantStyles[variant];
   return (
     <span
-      className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium ${variantStyles[variant]} ${className}`}
+      className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium ${styles} ${className}`}
     >
       {children}
     </span>
