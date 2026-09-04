@@ -458,7 +458,7 @@ export default function HomePage() {
                     <img
                       src={guide.featuredImage}
                       alt={guide.imageAlt || guide.title}
-                      className="h-40 w-full rounded-xl object-cover"
+                      className="w-full rounded-xl object-cover"
                     />
                   ) : (
                     <div className="flex h-40 items-center justify-center rounded-xl bg-gray-100">
