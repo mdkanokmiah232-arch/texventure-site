@@ -74,9 +74,9 @@ export default function ProductsPage() {
 
             {/* Images Grid */}
             {product.subCategories && product.subCategories.length > 0 ? (
-              <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+              <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {product.subCategories.flatMap((sub) => sub.images).map((img, idx) => (
-                  <div key={idx} className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition hover:shadow-md">
+                  <div key={idx} className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:shadow-lg">
                     <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
                       <img
                         src={img.src}
@@ -85,8 +85,15 @@ export default function ProductsPage() {
                         loading="lazy"
                       />
                     </div>
-                    <div className="p-3">
-                      <p className="text-xs font-medium text-[#1B2A4A] line-clamp-1">{img.alt.split(' — ')[1] || img.alt}</p>
+                    <div className="p-5">
+                      <p className="text-sm font-semibold text-[#1B2A4A] line-clamp-1">{img.alt.split(' — ')[1] || img.alt}</p>
+                      <p className="mt-1 text-xs text-gray-400">Custom manufacturing available</p>
+                      <Link
+                        href={`/checkout?product=${encodeURIComponent(img.alt.split(' — ')[1] || img.alt)}&image=${encodeURIComponent(img.src)}`}
+                        className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-[#08CCD4] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-[#07b8be] hover:shadow-lg"
+                      >
+                        Add to Cart
+                      </Link>
                     </div>
                   </div>
                 ))}
