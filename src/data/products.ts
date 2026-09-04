@@ -682,7 +682,6 @@ export const products: ProductCategory[] = [
         ],
       },
     ],
-    imageAlt: "Custom activewear manufactured by TexVenture in Bangladesh — leggings, sports bras, and performance garments",
     popularItems: [
       "High-Waist Leggings",
       "Sports Bras",
