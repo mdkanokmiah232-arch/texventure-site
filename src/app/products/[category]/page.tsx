@@ -181,7 +181,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             {product.subCategories.map((subCat) =>
               subCat.images.map((img, idx) => (
                 <div key={idx} className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:shadow-lg">
-                  <div className="relative w-full overflow-hidden" style={{ paddingBottom: '100%' }}>
+                  <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
                     <img
                       src={img.src}
                       alt={img.alt}
