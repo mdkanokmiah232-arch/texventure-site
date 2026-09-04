@@ -238,8 +238,11 @@ export default function HomePage() {
       <section className="bg-[#08CCD4]/5 border-y border-[#08CCD4]/10">
         <div className="mx-auto max-w-4xl px-4 py-8 lg:px-8">
           <p className="text-center text-base font-medium leading-relaxed text-[#1B2A4A] sm:text-lg">
-            <strong>TexVenture</strong> is a Bangladesh-based clothing manufacturer
-            and supplier connecting global brands with 20+ certified garment
+            <strong>TexVenture</strong> is a{' '}
+            <Link href="/products" className="text-[#08CCD4] underline decoration-[#08CCD4]/30 underline-offset-2 transition hover:decoration-[#08CCD4]">
+              best clothing supplier in Bangladesh
+            </Link>
+            {' '}connecting global brands with 20+ certified garment
             factories, offering low MOQ production from 100 pieces, end-to-end
             logistics, and quality control to 30+ countries worldwide.
           </p>
