@@ -467,8 +467,23 @@ export const products: ProductCategory[] = [
       { text: "Fully-fashioned and cut-and-sew construction" },
       { text: "AQL 2.5 quality inspection with wash testing" },
     ],
-    image: "/images/products/sweaters.jpg",
+    image: "https://i.postimg.cc/xCQJPBWR/Sweaters.png",
     imageAlt: "Custom sweaters manufactured by TexVenture in Bangladesh — pullovers, cardigans, and knitwear",
+    subCategories: [
+      {
+        name: "Sweaters Collection",
+        images: [
+          { src: "https://i.postimg.cc/xCQJPBWR/Sweaters.png", alt: "Sweaters Collection" },
+          { src: "https://i.postimg.cc/43VHVXFQ/Sweaters-(2).png", alt: "Sweaters Collection" },
+          { src: "https://i.postimg.cc/25hLhCXd/Sweaters-(3).png", alt: "Sweaters Collection" },
+          { src: "https://i.postimg.cc/43VHVXF6/Sweaters-(4).png", alt: "Sweaters Collection" },
+          { src: "https://i.postimg.cc/hGTQTK3b/Sweaters-(5).png", alt: "Sweaters Collection" },
+          { src: "https://i.postimg.cc/7L0J0qQ9/Sweaters-(6).png", alt: "Sweaters Collection" },
+          { src: "https://i.postimg.cc/KYB3BmsQ/Sweaters-(7).png", alt: "Sweaters Collection" },
+          { src: "https://i.postimg.cc/TwxLcBZV/Sweaters-(8).png", alt: "Sweaters Collection" },
+        ],
+      },
+    ],
     popularItems: [
       "Crew Neck Pullovers",
       "V-Neck Sweaters",
