@@ -215,9 +215,19 @@ export default async function GuidePage({ params }: Props) {
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#1B2A4A] via-[#1e3357] to-[#0f2240]">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute -right-40 -top-40 h-80 w-80 rounded-full bg-[#08CCD4] blur-3xl" />
-          <div className="absolute -bottom-20 -left-20 h-60 w-60 rounded-full bg-[#08CCD4] blur-3xl" />
+        {/* Featured image background */}
+        {guide.featuredImage && (
+          <img
+            src={guide.featuredImage}
+            alt={guide.imageAlt || guide.title}
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        )}
+        <div className={`absolute inset-0 ${guide.featuredImage ? 'bg-black/60' : ''}`}>
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute -right-40 -top-40 h-80 w-80 rounded-full bg-[#08CCD4] blur-3xl" />
+            <div className="absolute -bottom-20 -left-20 h-60 w-60 rounded-full bg-[#08CCD4] blur-3xl" />
+          </div>
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-12 sm:py-16 lg:px-8">
           <Breadcrumbs
