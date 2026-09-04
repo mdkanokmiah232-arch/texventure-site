@@ -562,8 +562,21 @@ export const products: ProductCategory[] = [
       { text: "Custom embroidery and branding" },
       { text: "AQL 2.5 quality inspection with durability testing" },
     ],
-    image: "/images/products/work-wear.jpg",
+    image: "https://i.postimg.cc/25k3bnvt/Work-Wear.webp",
     imageAlt: "Custom workwear manufactured by TexVenture in Bangladesh — uniforms, safety wear, and industrial clothing",
+    subCategories: [
+      {
+        name: "Work Wear Collection",
+        images: [
+          { src: "https://i.postimg.cc/25k3bnvt/Work-Wear.webp", alt: "Work Wear Collection" },
+          { src: "https://i.postimg.cc/cJx6gfYF/Work-Wear-(2).webp", alt: "Work Wear Collection" },
+          { src: "https://i.postimg.cc/43fn7pt5/Work-Wear-(3).webp", alt: "Work Wear Collection" },
+          { src: "https://i.postimg.cc/bvydD1b3/Work-Wear-(4).webp", alt: "Work Wear Collection" },
+          { src: "https://i.postimg.cc/7LHbGS7B/Work-Wear-(5).webp", alt: "Work Wear Collection" },
+          { src: "https://i.postimg.cc/cJx6gfY5/Work-Wear-(6).webp", alt: "Work Wear Collection" },
+        ],
+      },
+    ],
     popularItems: [
       "Safety Vests & Hi-Vis Wear",
       "Industrial Coveralls",
