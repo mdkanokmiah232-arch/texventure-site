@@ -326,21 +326,21 @@ export default async function GuidePage({ params }: Props) {
           {/* Sidebar */}
           <aside className="space-y-6">
             {/* Author Box — Sidebar */}
-            <div className="rounded-2xl border border-gray-100 bg-gradient-to-br from-gray-50 to-white p-6 shadow-sm">
+            <div className="rounded-2xl bg-gradient-to-br from-[#1B2A4A] to-[#0f2240] p-6 shadow-sm text-white">
               <div className="flex items-start gap-4">
-                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#08CCD4]/10 text-lg font-bold text-[#08CCD4]">
+                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#08CCD4]/20 text-lg font-bold text-[#08CCD4]">
                   {guide.author.name.charAt(0)}
                 </div>
                 <div className="flex-1">
-                  <p className="font-bold text-[#1B2A4A] text-lg">{guide.author.name}</p>
-                  <p className="text-sm text-gray-500">{guide.author.role} at TexVenture</p>
+                  <p className="font-bold text-white text-lg">{guide.author.name}</p>
+                  <p className="text-sm text-gray-300">{guide.author.role} at TexVenture</p>
                   {/* Social icons */}
                   <div className="mt-3 flex items-center gap-3">
                     <a
                       href="https://www.linkedin.com/company/texventure"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 text-gray-500 transition hover:border-[#0077B5] hover:bg-[#0077B5]/10 hover:text-[#0077B5]"
+                      className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white/60 transition hover:border-[#0077B5] hover:bg-[#0077B5]/20 hover:text-[#0077B5]"
                       aria-label="LinkedIn"
                     >
                       <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -351,7 +351,7 @@ export default async function GuidePage({ params }: Props) {
                       href="https://www.facebook.com/texventure"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 text-gray-500 transition hover:border-[#1877F2] hover:bg-[#1877F2]/10 hover:text-[#1877F2]"
+                      className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white/60 transition hover:border-[#1877F2] hover:bg-[#1877F2]/20 hover:text-[#1877F2]"
                       aria-label="Facebook"
                     >
                       <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -361,8 +361,8 @@ export default async function GuidePage({ params }: Props) {
                   </div>
                 </div>
               </div>
-              <p className="mt-4 text-sm leading-relaxed text-gray-600">
-                Written and reviewed by <strong>{guide.author.name}</strong> — with hands-on experience in
+              <p className="mt-4 text-sm leading-relaxed text-gray-300">
+                Written and reviewed by <strong className="text-white">{guide.author.name}</strong> — with hands-on experience in
                 Bangladesh&apos;s garment manufacturing industry. All specifications and pricing reflect
                 actual production data from our vetted factory network.
               </p>
