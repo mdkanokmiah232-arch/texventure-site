@@ -140,7 +140,7 @@ export default function PillarPage() {
                   icon: '📉',
                   title: 'Low MOQ Production',
                   description: 'Start with as few as 100 pieces per style. Perfect for startups, capsule collections, and limited drops.',
-                  link: '/low-moq-clothing-manufacturer-bangladesh',
+                  link: '/get-a-quote',
                 },
                 {
                   icon: '🏷️',
@@ -295,7 +295,7 @@ export default function PillarPage() {
             <h2 className="text-xl font-bold text-[#1B2A4A]">Explore Our Services</h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                { title: 'Low MOQ Manufacturing', desc: 'From 100 pieces per style', href: '/low-moq-clothing-manufacturer-bangladesh' },
+                { title: 'Get a Quote', desc: 'From 100 pieces per style', href: '/get-a-quote' },
                 { title: 'Private Label Manufacturing', desc: 'Your brand, our expertise', href: '/private-label-clothing-manufacturer-bangladesh' },
                 { title: 'Streetwear Manufacturing', desc: 'Built for the culture', href: '/streetwear-manufacturer-bangladesh' },
                 { title: 'Instant Quote Calculator', desc: 'Get pricing estimates in seconds', href: '/instant-quote' },

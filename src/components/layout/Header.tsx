@@ -15,8 +15,7 @@ const productCategories = [
 
 const navLinks = [
   { name: 'Custom Manufacturing', href: '/custom-clothing-manufacturer-bangladesh' },
-  { name: 'Low MOQ', href: '/low-moq-clothing-manufacturer-bangladesh' },
-  { name: 'Guides', href: '/guides' },
+  { name: 'Blog', href: '/blog' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
 ];

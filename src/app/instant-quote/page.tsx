@@ -171,7 +171,7 @@ export default function InstantQuotePage() {
           <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { title: 'Custom Manufacturing', desc: 'Your design, built to spec', href: '/custom-clothing-manufacturer-bangladesh' },
-              { title: 'Low MOQ Manufacturing', desc: 'From 100 pieces per style', href: '/low-moq-clothing-manufacturer-bangladesh' },
+              { title: 'Get a Quote', desc: 'From 100 pieces per style', href: '/get-a-quote' },
               { title: 'Private Label', desc: 'Your brand, our expertise', href: '/private-label-clothing-manufacturer-bangladesh' },
               { title: 'Streetwear', desc: 'Built for the culture', href: '/streetwear-manufacturer-bangladesh' },
             ].map((item) => (

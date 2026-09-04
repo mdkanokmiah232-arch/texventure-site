@@ -53,7 +53,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${SITE_URL}/low-moq-clothing-manufacturer-bangladesh`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,

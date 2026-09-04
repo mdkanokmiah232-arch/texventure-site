@@ -14,7 +14,6 @@ const productLinks = [
 const companyLinks = [
   { name: 'About Us', href: '/about' },
   { name: 'Our Process', href: '/custom-clothing-manufacturer-bangladesh' },
-  { name: 'Low MOQ', href: '/low-moq-clothing-manufacturer-bangladesh' },
   { name: 'Private Label', href: '/private-label-clothing-manufacturer-bangladesh' },
   { name: 'Streetwear', href: '/streetwear-manufacturer-bangladesh' },
   { name: 'Certifications', href: '/certifications' },

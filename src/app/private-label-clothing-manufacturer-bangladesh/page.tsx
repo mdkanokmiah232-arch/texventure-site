@@ -239,7 +239,7 @@ export default function PrivateLabelPage() {
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {[
                 { title: 'Custom Clothing Manufacturing', desc: 'Your design, built to spec', href: '/custom-clothing-manufacturer-bangladesh' },
-                { title: 'Low MOQ Manufacturing', desc: 'From 100 pieces per style', href: '/low-moq-clothing-manufacturer-bangladesh' },
+                { title: 'Get a Quote', desc: 'From 100 pieces per style', href: '/get-a-quote' },
                 { title: 'Instant Quote Calculator', desc: 'Get pricing estimates in seconds', href: '/instant-quote' },
               ].map((item) => (
                 <Link

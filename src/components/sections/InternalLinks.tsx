@@ -23,7 +23,7 @@ export default function InternalLinks({ currentPage }: InternalLinksProps) {
     },
     {
       keyword: 'Low MOQ Manufacturer',
-      href: '/low-moq-clothing-manufacturer-bangladesh',
+      href: '/get-a-quote',
       description: 'Start with just 100 pieces per style - perfect for startups and small brands',
     },
   ];
