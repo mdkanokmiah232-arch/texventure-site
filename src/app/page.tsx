@@ -454,9 +454,17 @@ export default function HomePage() {
             {latestGuides.map((guide) => (
               <Link key={guide.slug} href={`/guides/${guide.slug}`}>
                 <Card hover className="h-full">
-                  <div className="flex h-40 items-center justify-center rounded-xl bg-gray-100">
-                    <span className="text-4xl">📄</span>
-                  </div>
+                  {guide.featuredImage ? (
+                    <img
+                      src={guide.featuredImage}
+                      alt={guide.imageAlt || guide.title}
+                      className="h-40 w-full rounded-xl object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-40 items-center justify-center rounded-xl bg-gray-100">
+                      <span className="text-4xl">📄</span>
+                    </div>
+                  )}
                   <div className="mt-4 flex items-center gap-2">
                     <Badge variant="outline">{guide.category}</Badge>
                     <span className="text-xs text-gray-400">
