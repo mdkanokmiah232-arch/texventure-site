@@ -1,5 +1,4 @@
 import type { MetadataRoute } from 'next';
-import { getAllGuideSlugs } from '@/data/guides';
 import { getAllProductSlugs } from '@/data/products';
 
 const SITE_URL = 'https://texventure.com';
@@ -53,11 +52,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
       url: `${SITE_URL}/private-label-clothing-manufacturer-bangladesh`,
       lastModified: now,
       changeFrequency: 'monthly',
@@ -76,12 +70,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${SITE_URL}/guides`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
       url: `${SITE_URL}/blog`,
       lastModified: now,
       changeFrequency: 'weekly',
@@ -97,13 +85,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Guide pages
-  const guidePages: MetadataRoute.Sitemap = getAllGuideSlugs().map((slug) => ({
-    url: `${SITE_URL}/guides/${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
-  return [...staticPages, ...productPages, ...guidePages];
+  return [...staticPages, ...productPages];
 }
