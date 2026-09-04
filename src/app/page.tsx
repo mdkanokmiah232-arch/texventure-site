@@ -240,7 +240,7 @@ export default function HomePage() {
           <p className="text-center text-base font-medium leading-relaxed text-[#1B2A4A] sm:text-lg">
             <strong>TexVenture</strong> is a{' '}
             <Link href="/products" className="text-[#08CCD4] underline decoration-[#08CCD4]/30 underline-offset-2 transition hover:decoration-[#08CCD4]">
-              best clothing supplier in Bangladesh
+              best garment manufacturing in Bangladesh
             </Link>
             {' '}connecting global brands with 20+ certified garment
             factories, offering low MOQ production from 100 pieces, end-to-end
