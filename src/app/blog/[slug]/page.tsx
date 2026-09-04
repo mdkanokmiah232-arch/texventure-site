@@ -29,12 +29,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${guide.title} | TexVenture`,
     description: guide.metaDescription,
     alternates: {
-      canonical: `https://texventure.com/guides/${guide.slug}`,
+      canonical: `https://texventure.com/blog/${guide.slug}`,
     },
     openGraph: {
       title: guide.title,
       description: guide.excerpt,
-      url: `https://texventure.com/guides/${guide.slug}`,
+      url: `https://texventure.com/blog/${guide.slug}`,
       siteName: 'TexVenture',
       type: 'article',
       publishedTime: guide.publishedAt,
@@ -207,7 +207,7 @@ export default async function GuidePage({ params }: Props) {
     "image": guide.featuredImage,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://texventure.com/guides/${guide.slug}`
+      "@id": `https://texventure.com/blog/${guide.slug}`
     }
   };
 
@@ -224,7 +224,7 @@ export default async function GuidePage({ params }: Props) {
             light
             items={[
               { name: 'Blog', href: '/blog' },
-              { name: guide.title, href: `/guides/${guide.slug}` },
+              { name: guide.title, href: `/blog/${guide.slug}` },
             ]}
           />
           <div className="mx-auto mt-8 max-w-3xl">
@@ -294,7 +294,7 @@ export default async function GuidePage({ params }: Props) {
                 </Link>
                 <div className="flex gap-2">
                   <a
-                    href={`https://twitter.com/intent/tweet?url=https://texventure.com/guides/${guide.slug}&text=${encodeURIComponent(guide.title)}`}
+                    href={`https://twitter.com/intent/tweet?url=https://texventure.com/blog/${guide.slug}&text=${encodeURIComponent(guide.title)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-lg border border-gray-200 px-4 py-2 text-xs font-medium text-gray-600 transition hover:border-[#08CCD4] hover:text-[#08CCD4]"
@@ -302,7 +302,7 @@ export default async function GuidePage({ params }: Props) {
                     Share on X
                   </a>
                   <a
-                    href={`https://www.linkedin.com/sharing/share-offsite/?url=https://texventure.com/guides/${guide.slug}`}
+                    href={`https://www.linkedin.com/sharing/share-offsite/?url=https://texventure.com/blog/${guide.slug}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-lg border border-gray-200 px-4 py-2 text-xs font-medium text-gray-600 transition hover:border-[#08CCD4] hover:text-[#08CCD4]"
@@ -382,7 +382,7 @@ export default async function GuidePage({ params }: Props) {
                 {recentPosts.map((post) => (
                   <Link
                     key={post.slug}
-                    href={`/guides/${post.slug}`}
+                    href={`/blog/${post.slug}`}
                     className="group block"
                   >
                     <p className="text-sm font-semibold text-[#1B2A4A] line-clamp-2 transition group-hover:text-[#08CCD4]">

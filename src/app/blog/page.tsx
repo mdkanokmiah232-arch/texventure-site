@@ -75,7 +75,7 @@ export default function BlogPage() {
           <div className="lg:col-span-2">
             {/* Featured Post */}
             {sorted[0] && (
-              <Link href={`/guides/${sorted[0].slug}`} className="group block">
+              <Link href={`/blog/${sorted[0].slug}`} className="group block">
                 <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:shadow-lg">
                   <div className="relative aspect-[16/9] overflow-hidden">
                     {sorted[0].featuredImage ? (
@@ -119,7 +119,7 @@ export default function BlogPage() {
             {/* Posts Grid */}
             <div className="mt-8 grid gap-6 sm:grid-cols-2">
               {sorted.slice(1).map((guide) => (
-                <Link key={guide.slug} href={`/guides/${guide.slug}`} className="group block">
+                <Link key={guide.slug} href={`/blog/${guide.slug}`} className="group block">
                   <div className="flex h-full flex-col rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition hover:shadow-lg">
                     {guide.featuredImage && (
                       <img

@@ -452,7 +452,7 @@ export default function HomePage() {
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {latestGuides.map((guide) => (
-              <Link key={guide.slug} href={`/guides/${guide.slug}`}>
+              <Link key={guide.slug} href={`/blog/${guide.slug}`}>
                 <Card hover className="h-full">
                   {guide.featuredImage ? (
                     <img
