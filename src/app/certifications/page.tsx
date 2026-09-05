@@ -14,7 +14,7 @@ import { generatePageMeta } from '@/lib/metadata';
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = generatePageMeta({
-  title: 'Certifications — BSCI, OEKO-TEX, SEDEX, WRAP, GOTS',
+  title: 'TexVenture Certifications — BSCI, OEKO-TEX, SEDEX, GOTS',
   description:
     'Wondering what BSCI, OEKO-TEX, SEDEX, WRAP and GOTS certifications mean? TexVenture factory partners hold all five — learn what each means for your brand.',
   path: '/certifications',

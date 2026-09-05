@@ -10,9 +10,9 @@ import QuoteForm from '@/components/forms/QuoteForm';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Get a Free Quote — Custom Clothing Manufacturing',
+  title: 'TexVenture — Get a Free Quote for Custom Clothing',
   description:
-    'Get a free, no-obligation quote for custom clothing <Link href="/" className="text-[#08CCD4] hover:underline">manufacturing in Bangladesh</Link>. Fill out the form or message us on WhatsApp — we respond within 24 hours.',
+    'Get a free quote from TexVenture for custom clothing manufacturing in Bangladesh. Fill out the form or message us on WhatsApp — we respond within 24 hours.',
   path: '/get-a-quote',
 });
 

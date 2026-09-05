@@ -280,7 +280,7 @@ export default async function GuidePage({ params }: Props) {
                 <h3 className="text-2xl font-bold text-white">Get a Free Quote</h3>
                 <p className="mt-3 text-sm text-white/80 max-w-md mx-auto">
                   Looking for the{' '}
-                  <Link href="/" className="font-semibold text-white underline decoration-white/40 underline-offset-2 transition hover:decoration-white">
+                  <Link href="/" className="text-[#08CCD4] hover:underline">
                     best garment manufacturing in Bangladesh
                   </Link>
                   ? Get custom pricing for your garment order. Low MOQ from 100 pieces.

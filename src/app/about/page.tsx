@@ -191,7 +191,7 @@ export default function AboutPage() {
               Our Mission
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
-              To make world-class apparel <Link href="/" className="text-[#08CCD4] hover:underline">manufacturing in Bangladesh</Link> accessible to
+              To make world-class apparel <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link> accessible to
               brands of every size. We believe great clothing shouldn&apos;t require
               millions in orders — and we prove it with our low MOQ, transparent
               process, and unwavering commitment to quality.

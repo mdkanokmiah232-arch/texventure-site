@@ -26,13 +26,13 @@ const homeProducts = [
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = {
-  title: "Best Clothing Manufacturer & Supplier in Bangladesh | TexVenture",
+  title: "TexVenture — Best Clothing Manufacturer in Bangladesh",
   description:
-    "TexVenture is a leading clothing manufacturer & supplier in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO 9001 certified, with global shipping.",
+    "TexVenture is a leading clothing manufacturer & supplier in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO certified.",
   openGraph: {
-    title: "Best Clothing Manufacturer & Supplier in Bangladesh | TexVenture",
+    title: "TexVenture — Best Clothing Manufacturer in Bangladesh",
     description:
-      "TexVenture is a leading clothing manufacturer & supplier in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO 9001 certified, with global shipping.",
+      "TexVenture is a leading clothing manufacturer & supplier in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO certified.",
     url: "https://texventure.com",
     images: [
       {
@@ -239,7 +239,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-4xl px-4 py-8 lg:px-8">
           <p className="text-center text-base font-medium leading-relaxed text-[#1B2A4A] sm:text-lg">
             <strong>TexVenture</strong> is a{' '}
-            <Link href="/products" className="text-[#08CCD4] underline decoration-[#08CCD4]/30 underline-offset-2 transition hover:decoration-[#08CCD4]">
+            <Link href="/" className="text-[#08CCD4] hover:underline">
               best garment manufacturing in Bangladesh
             </Link>
             {' '}connecting global brands with 20+ certified garment
