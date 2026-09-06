@@ -66,7 +66,7 @@ export default function QuoteForm() {
     );
 
     // Open WhatsApp with the message
-    window.open(`https://wa.me/8801805121295?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/8801354316246?text=${whatsappMessage}`, '_blank');
 
     setSubmitted(true);
     setIsSubmitting(false);
@@ -82,7 +82,7 @@ export default function QuoteForm() {
         </p>
         <div className="mt-6">
           <a
-            href="https://wa.me/8801805121295"
+            href="https://wa.me/8801354316246"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#20bd5a]"
