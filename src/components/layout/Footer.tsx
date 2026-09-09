@@ -201,6 +201,19 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Certifications Strip */}
+      <div className="border-t border-white/10">
+        <div className="mx-auto max-w-7xl px-4 py-6 lg:px-8">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-gray-400">
+            <span>ISO 9001:2015</span>
+            <span>BSCI Compliant</span>
+            <span>OEKO-TEX Standard 100</span>
+            <span>Global SGS Certified</span>
+            <span>Sedex Member</span>
+          </div>
+        </div>
+      </div>
+
       {/* Copyright */}
       <div className="border-t border-white/10 bg-black/20">
         <div className="mx-auto max-w-7xl px-4 py-4 lg:px-8">
