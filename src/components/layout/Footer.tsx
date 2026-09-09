@@ -18,10 +18,7 @@ const companyLinks = [
   { name: 'Contact', href: '/contact' },
 ];
 
-const categoryLinks = [
-  { name: "Women's Wear", href: '/products/womens-wear' },
-  { name: "Men's Wear", href: '/products/mens-wear' },
-  { name: "Kid's Wear", href: '/products/kids-wear' },
+const categoryLinks: { name: string; href: string }[] = [
 ];
 
 const resourceLinks = [
