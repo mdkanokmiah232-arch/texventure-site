@@ -7,6 +7,11 @@ interface InternalLinksProps {
 export default function InternalLinks({ currentPage }: InternalLinksProps) {
   const links = [
     {
+      keyword: 'Best Clothing Manufacturer in Bangladesh',
+      href: '/',
+      description: 'TexVenture is a trusted apparel manufacturing partner in Bangladesh — low MOQ, certified factories, global delivery.',
+    },
+    {
       keyword: 'Clothing Manufacturer in Bangladesh',
       href: '/',
       description: 'Trusted clothing manufacturer & supplier in Bangladesh with 20+ certified factories',
