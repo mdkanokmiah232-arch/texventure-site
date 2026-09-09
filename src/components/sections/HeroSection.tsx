@@ -41,16 +41,6 @@ export default function HeroSection({
             {subheadline}
           </p>
 
-          {/* Anchor link for SEO — used across product category pages */}
-          <p className="mx-auto mt-4 max-w-2xl text-sm text-gray-400">
-            <a
-              href="/"
-              className="text-[#08CCD4] hover:underline"
-            >
-              Best Clothing Manufacturer in Bangladesh
-            </a>
-          </p>
-
           {/* CTAs */}
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
