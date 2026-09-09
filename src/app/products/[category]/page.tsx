@@ -224,7 +224,7 @@ export default async function ProductCategoryPage({ params }: Props) {
                       <>
                         {para}{' '}
                         <Link href="/" className="text-[#08CCD4] hover:underline">
-                          TexVenture — the Best Clothing Manufacturer in Bangladesh
+                          Best Clothing Manufacturer in Bangladesh
                         </Link>
                         .{' '}
                       </>
