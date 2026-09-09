@@ -47,7 +47,7 @@ export interface PricingConfig {
 
 export const pricingConfig: PricingConfig = {
   currency: "USD",
-  lastUpdated: "2025-01-01",
+  lastUpdated: "2026-01-01",
   disclaimer:
     "Prices are estimates based on standard specifications. Actual pricing may vary based on fabric choice, print techniques, trims, and order complexity. Contact us for an accurate quote.",
   productTypes: [
