@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { getAllProductSlugs } from '@/data/products';
+import { guides } from '@/data/guides';
 
 const SITE_URL = 'https://texventure.com';
 
@@ -77,6 +78,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Blog articles
+  const blogPages: MetadataRoute.Sitemap = guides.map((guide) => ({
+    url: `${SITE_URL}/blog/${guide.slug}`,
+    lastModified: new Date(guide.updatedAt || guide.publishedAt),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
   // Product pages
   const productPages: MetadataRoute.Sitemap = getAllProductSlugs().map((slug) => ({
     url: `${SITE_URL}/products/${slug}`,
@@ -85,5 +94,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...productPages];
+  return [...staticPages, ...blogPages, ...productPages];
 }
