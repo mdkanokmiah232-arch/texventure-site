@@ -10,7 +10,6 @@ import HowItWorks from '@/components/sections/HowItWorks';
 import FAQ from '@/components/sections/FAQ';
 import CTABand from '@/components/sections/CTABand';
 import Testimonials from '@/components/sections/Testimonials';
-import StatsCounter from '@/components/sections/StatsCounter';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
@@ -131,37 +130,31 @@ export default function PillarPage() {
             <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  icon: '🏭',
                   title: 'Custom Manufacturing',
                   description: 'Your designs, your specs, your branding. We produce garments exactly to your tech pack requirements.',
                   link: '/services#custom-manufacturing',
                 },
                 {
-                  icon: '📉',
                   title: 'Low MOQ Production',
                   description: 'Start with as few as 100 pieces per style. Perfect for startups, capsule collections, and limited drops.',
                   link: '/get-a-quote',
                 },
                 {
-                  icon: '🏷️',
                   title: 'Private Label / OEM',
                   description: 'Launch or expand your own label with full private label services — labels, tags, packaging, and branding.',
                   link: '/private-label-clothing-manufacturer-bangladesh',
                 },
                 {
-                  icon: '🔥',
                   title: 'Streetwear Manufacturing',
                   description: 'Premium heavyweight fabrics, bold graphics, and drop-ready production schedules for streetwear brands.',
                   link: '/streetwear-manufacturer-bangladesh',
                 },
                 {
-                  icon: '✅',
                   title: 'Quality Control',
                   description: 'Every order goes through AQL 2.5 inspection standards with in-line and end-line checks at every stage.',
                   link: '/services',
                 },
                 {
-                  icon: '🌐',
                   title: 'Global Shipping',
                   description: 'FOB, CIF, and DDP terms with sea, air, and express courier options to 30+ countries worldwide.',
                   link: '/get-a-quote',
@@ -172,7 +165,6 @@ export default function PillarPage() {
                   href={item.link}
                   className="group rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition hover:shadow-md"
                 >
-                  <div className="text-4xl">{item.icon}</div>
                   <h3 className="mt-4 text-lg font-semibold text-[#1B2A4A] group-hover:text-[#08CCD4]">
                     {item.title}
                   </h3>
@@ -267,9 +259,6 @@ export default function PillarPage() {
             </div>
           </div>
         </section>
-
-        {/* Stats */}
-        <StatsCounter />
 
         {/* Testimonials */}
         <Testimonials />
