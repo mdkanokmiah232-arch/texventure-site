@@ -16,7 +16,7 @@ import { generatePageMeta } from '@/lib/metadata';
 export const metadata: Metadata = generatePageMeta({
   title: 'TexVenture Certifications — BSCI, OEKO-TEX, SEDEX, GOTS',
   description:
-    'Wondering what BSCI, OEKO-TEX, SEDEX, WRAP and GOTS certifications mean? TexVenture factory partners hold all five — learn what each means for your brand.',
+    'TexVenture factory partners hold BSCI, OEKO-TEX, SEDEX, WRAP and GOTS certifications. Learn what each means for your brand and supply chain compliance.',
   path: '/certifications',
 });
 

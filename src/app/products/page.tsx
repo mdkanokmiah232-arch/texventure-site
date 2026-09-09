@@ -6,7 +6,7 @@ import Badge from '@/components/ui/Badge';
 
 export const metadata: Metadata = {
   title: 'TexVenture Product Categories — Garment Manufacturing',
-  description: 'Explore TexVenture product categories — knit wear, wovens, denim, sweaters, active wear, work wear, and circular knit manufacturing in Bangladesh.',
+  description: 'Explore TexVenture product categories — knit wear, denim, woven, sweaters, active wear, work wear, and circular knit manufacturing in Bangladesh.',
   alternates: { canonical: 'https://texventure.com/products' },
 };
 

@@ -28,7 +28,7 @@ const homeProducts = [
 export const metadata: Metadata = {
   title: "TexVenture — Best Clothing Manufacturer in Bangladesh",
   description:
-    "TexVenture is a leading clothing manufacturer & supplier in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO certified.",
+    "TexVenture is a leading clothing manufacturer in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO certified factories.",
   openGraph: {
     title: "TexVenture — Best Clothing Manufacturer in Bangladesh",
     description:
