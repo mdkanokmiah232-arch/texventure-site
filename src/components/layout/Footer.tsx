@@ -201,44 +201,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Certifications Strip */}
-      <div className="border-t border-white/10">
-        <div className="mx-auto max-w-7xl px-4 py-6 lg:px-8">
-          <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-gray-400">
-            <div className="flex items-center gap-2">
-              <svg className="h-5 w-5 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              <span>ISO 9001:2015</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="h-5 w-5 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              <span>BSCI Compliant</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="h-5 w-5 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              <span>OEKO-TEX Standard 100</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="h-5 w-5 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span>Global SGS Certified</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="h-5 w-5 text-[#08CCD4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              <span>Sedex Member</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Copyright */}
       <div className="border-t border-white/10 bg-black/20">
         <div className="mx-auto max-w-7xl px-4 py-4 lg:px-8">
