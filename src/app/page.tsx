@@ -26,7 +26,7 @@ const homeProducts = [
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = {
-  title: "TexVenture — Best Clothing Manufacturer in Bangladesh",
+  title: "TexVenture — Best Clothing Manufacturer in Bangladesh Since 2016",
   description:
     "TexVenture is a leading clothing manufacturer in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO certified factories.",
   openGraph: {
@@ -228,8 +228,8 @@ export default function HomePage() {
 
       {/* 1. Hero Section — H1 */}
       <HeroSection
-        headline="Trusted Clothing Manufacturer & Supplier in Bangladesh"
-        subheadline="Premium garment manufacturing in Bangladesh from just 100 pieces per style. Custom clothing production, fabric sourcing, and end-to-end supply chain for brands worldwide."
+        headline="Trusted Clothing Manufacturer in Bangladesh"
+        subheadline="TexVenture is a Bangladesh-based clothing manufacturer with over 10 years of experience. We connect your brand with 20+ ISO 9001, BSCI, and OEKO-TEX certified factories, so you get quality production with a low MOQ of just 100 pieces."
         primaryCta={{ text: "Get a Quote", href: "/quote" }}
         secondaryCta={{ text: "View Products", href: "/products" }}
       />
