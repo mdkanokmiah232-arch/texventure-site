@@ -219,7 +219,18 @@ export default async function ProductCategoryPage({ params }: Props) {
               </h2>
               <div className="mt-4 space-y-4 text-lg leading-relaxed text-gray-600">
                 {product.longDescription.split('\n\n').map((para, i) => (
-                  <p key={i}>{para}</p>
+                  <p key={i}>
+                    {i === 0 && (
+                      <>
+                        {para}{' '}
+                        <Link href="/" className="text-[#08CCD4] hover:underline">
+                          TexVenture — the Best Clothing Manufacturer in Bangladesh
+                        </Link>
+                        .{' '}
+                      </>
+                    )}
+                    {i > 0 && para}
+                  </p>
                 ))}
               </div>
             </section>
