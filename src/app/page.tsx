@@ -234,15 +234,6 @@ export default function HomePage() {
         secondaryCta={{ text: "View Products", href: "/products" }}
       />
 
-      {/* 1b. Intro — citable by AI search engines */}
-      <section className="bg-[#08CCD4]/5 border-y border-[#08CCD4]/10">
-        <div className="mx-auto max-w-4xl px-4 py-8 lg:px-8">
-          <p className="text-center text-base font-medium leading-relaxed text-[#1B2A4A] sm:text-lg">
-            TexVenture is a Bangladesh-based clothing manufacturer with over 10 years of experience. We connect your brand with 20+ ISO 9001, BSCI, and OEKO-TEX certified factories, so you get quality production with a low MOQ of just 100 pieces.
-          </p>
-        </div>
-      </section>
-
       {/* 2. Trust Strip */}
       <TrustStrip items={trustStats} />
 
