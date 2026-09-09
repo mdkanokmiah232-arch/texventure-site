@@ -17,30 +17,44 @@ interface HowItWorksProps {
 
 const defaultSteps: Step[] = [
   {
-    icon: '📋',
-    title: 'Share Your Design',
-    description: 'Upload your tech packs, sketches, or reference samples. Tell us your target fabric, fit, and quantity.',
+    icon: '1',
+    title: 'Share Your Requirements',
+    description: 'Tell us your product, quantity, fabric, and target price. We respond within 24 hours.',
     href: '/get-a-quote',
     ctaText: 'Get a Free Quote',
   },
   {
-    icon: '🧵',
-    title: 'Sampling & Approval',
-    description: 'We produce pre-production samples within 5–7 days. You review and approve before mass production begins.',
-    href: '/custom-clothing-manufacturer-bangladesh',
+    icon: '2',
+    title: 'Factory Matching',
+    description: 'We match your order to the right certified factory from our network of 20+ partners, based on your category and quantity.',
+    href: '/get-a-quote',
+    ctaText: 'Learn More',
+  },
+  {
+    icon: '3',
+    title: 'Sampling',
+    description: 'We produce a sample for your approval, typically within 5–7 days.',
+    href: '/get-a-quote',
     ctaText: 'Request a Sample',
   },
   {
-    icon: '🏭',
-    title: 'Production & Quality Control',
-    description: 'Our team manages full production with inline quality control, color accuracy, and AQL 2.5 sizing checks.',
+    icon: '4',
+    title: 'Production',
+    description: 'Once you approve the sample, full production begins, with regular updates from our team.',
     href: '/get-a-quote',
-    ctaText: 'Learn About Our QC Process',
+    ctaText: 'Start Production',
   },
   {
-    icon: '🚚',
-    title: 'Global Delivery',
-    description: 'Finished goods are packed, shipped via air or sea, and delivered to your warehouse in 30+ countries worldwide.',
+    icon: '5',
+    title: 'Quality Inspection',
+    description: 'Every order is inspected at AQL 2.5 standard before packing, with a documented report sent to you.',
+    href: '/get-a-quote',
+    ctaText: 'Learn About QC',
+  },
+  {
+    icon: '6',
+    title: 'Shipping',
+    description: 'We handle logistics to your destination, by sea, air, or express courier, across 30+ countries.',
     href: '/get-a-quote',
     ctaText: 'Get Shipping Quote',
   },
@@ -59,7 +73,7 @@ export default function HowItWorks({
             {headline}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-500">
-            From concept to delivery — our end-to-end process covers design, sampling, production, and global logistics for your brand.
+            From your first message to your goods arriving at your warehouse, here is exactly what happens.
           </p>
         </div>
 
@@ -68,7 +82,7 @@ export default function HowItWorks({
             <Link key={step.title} href={step.href || '#'}>
               <Card hover className="group h-full border border-gray-200 p-4 transition-all duration-300 hover:border-[#08CCD4] hover:border-2 sm:p-5">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#08CCD4]/10 text-2xl">
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#08CCD4] text-xl font-bold text-white">
                     {step.icon}
                   </div>
                   <div>
