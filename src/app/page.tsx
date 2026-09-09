@@ -65,7 +65,7 @@ const organizationSchema = {
     postalCode: "1230",
   },
   telephone: "+880 135 4316246",
-  email: "info@texventure.com",
+  email: "zakir@texventure.com",
   sameAs: [
     "https://www.facebook.com/texventure",
     "https://www.linkedin.com/company/texventure",
@@ -90,7 +90,7 @@ const localBusinessSchema = {
     postalCode: "1230",
   },
   telephone: "+880 135 4316246",
-  email: "info@texventure.com",
+  email: "zakir@texventure.com",
   geo: {
     "@type": "GeoCoordinates",
     latitude: 23.8676,

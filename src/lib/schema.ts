@@ -33,8 +33,8 @@ export function OrganizationSchema(
     name: "TexVenture",
     url: SITE_URL,
     logo: `${SITE_URL}/logo.png`,
-    email: "info@texventure.com",
-    telephone: "+8801354316246",
+    email: "zakir@texventure.com",
+    telephone: "+880 135 4316246",
     address: {
       streetAddress: "House: 2, Road: 3/A, Sector: 5",
       addressLocality: "Uttara, Dhaka",

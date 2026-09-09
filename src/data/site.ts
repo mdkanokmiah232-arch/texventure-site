@@ -78,15 +78,15 @@ export const company: CompanyInfo = {
 };
 
 export const contact: ContactDetails = {
-  phone: "+8801354316246",
-  email: "info@texventure.com",
+  phone: "+880 135 4316246",
+  email: "zakir@texventure.com",
   address: {
     street: "House: 2, Road: 3/A, Sector: 5",
     city: "Uttara, Dhaka-1230",
     country: "Bangladesh",
     postalCode: "1230",
   },
-  businessHours: "Sun – Thu, 9:00 AM – 6:00 PM (BST)",
+  businessHours: "Sun – Fri, 9:00 AM – 6:00 PM (BST)",
 };
 
 export const social: SocialLink[] = [

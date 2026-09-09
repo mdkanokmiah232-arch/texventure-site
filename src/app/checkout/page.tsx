@@ -41,7 +41,7 @@ function CheckoutForm() {
       `Thank you.`
     );
 
-    window.location.href = `mailto:info@texventure.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:zakir@texventure.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
 
@@ -216,7 +216,7 @@ function CheckoutForm() {
                 </button>
 
                 <p className="mt-3 text-center text-xs text-gray-400">
-                  Your inquiry will be sent to <strong>info@texventure.com</strong>. We respond within 24 hours.
+                  Your inquiry will be sent to <strong>zakir@texventure.com</strong>. We respond within 24 hours.
                 </p>
               </form>
             </div>

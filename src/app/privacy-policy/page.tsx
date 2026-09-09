@@ -83,8 +83,8 @@ export default function PrivacyPolicyPage() {
             <p className="mt-3 leading-relaxed">
               You may request access to, correction of, or deletion of your personal data by
               contacting us at{' '}
-              <a href="mailto:info@texventure.com" className="text-[#08CCD4] hover:underline">
-                info@texventure.com
+              <a href="mailto:zakir@texventure.com" className="text-[#08CCD4] hover:underline">
+                zakir@texventure.com
               </a>
               .
             </p>
@@ -95,7 +95,7 @@ export default function PrivacyPolicyPage() {
             <p className="mt-3 leading-relaxed">
               If you have questions about this Privacy Policy, contact TexVenture at 35
               Gareeb-E-Newaz Avenue, Sector 13, Uttara, Dhaka 1230, Bangladesh, or via email at
-              info@texventure.com.
+              zakir@texventure.com.
             </p>
           </section>
         </div>
