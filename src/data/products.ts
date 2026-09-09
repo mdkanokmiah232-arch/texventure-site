@@ -739,6 +739,506 @@ export const products: ProductCategory[] = [
       },
     ],
   },
+
+  // -----------------------------------------------------------------------------
+  // WOMEN'S WEAR
+  // -----------------------------------------------------------------------------
+  {
+    id: "womens-wear",
+    slug: "womens-wear",
+    name: "Women's Wear",
+    category: "womens-wear",
+    description:
+      "TexVenture is a trusted women's clothing manufacturer in Bangladesh, offering OEM/ODM woven wear, casual wear, formal wear, and ethnic wear production with a focus on quality, timely delivery, and competitive pricing for global fashion brands.",
+    products: [
+      {
+        id: "ww-batik-dress",
+        name: "Batik Wrap Dress",
+        category: "womens-wear",
+        description:
+          "Artisan batik wrap dress made from 100% cotton voile — lightweight, breathable, perfect for warm climates. Features authentic wax-resist dyeing, adjustable tie waist, and flutter sleeves. MOQ 100 pcs per color.",
+        price: 2500,
+        images: [
+          "https://www.postimg.cc/9fVJ3mMn/batik-wrap-dress.jpg",
+        ],
+        tags: ["womenswear", "batik", "wrap-dress", "cotton", "OEM"],
+        specifications: {
+          fabric: "100% Cotton Voile, 120 GSM",
+          sizes: "XS–XXL (custom sizing available)",
+          colors: "Custom colors with MOQ 100 pcs",
+          MOQ: "100 pieces per style/color",
+          leadTime: "25–35 days after sample approval",
+          packaging: "Individual polybag, master carton",
+          OEMService: "Labels, tags, packaging customization",
+        },
+        features: [
+          "100% cotton voile — lightweight & breathable",
+          "Authentic wax-resist batik dyeing",
+          "Adjustable wrap tie waist",
+          "Flutter sleeves for comfort",
+          "Suitable for resort, casual & semi-formal wear",
+        ],
+        inStock: true,
+        featured: true,
+      },
+      {
+        id: "ww-linen-blouse",
+        name: "Organic Linen Blouse",
+        category: "womens-wear",
+        description:
+          "Relaxed-fit organic linen blouse with a Mandarin collar and mother-of-pearl buttons. Perfect for sustainable fashion brands seeking refined everyday elegance. OEKO-TEX® certified fabric. MOQ 150 pcs.",
+        price: 3200,
+        images: [
+          "https://www.postimg.cc/QFjqGYRn/organic-linen-blouse.jpg",
+        ],
+        tags: ["womenswear", "linen", "blouse", "organic", "OEKO-TEX"],
+        specifications: {
+          fabric: "100% Organic Linen, 140 GSM",
+          sizes: "XS–XL (size chart provided)",
+          colors: "Natural, custom dye — MOQ 150 pcs",
+          MOQ: "150 pieces per style/color",
+          leadTime: "20–30 days after sample approval",
+          packaging: "Folded, individual polybag, barcoded",
+          OEKOProvision: "OEKO-TEX® Standard 100 fabric available",
+        },
+        features: [
+          "100% GOTS-certified organic linen",
+          "Mandarin collar with MOP buttons",
+          "Relaxed fit — easy to style",
+          "Breathable for warm climates",
+          "Suitable for resort wear and smart casual",
+        ],
+        inStock: true,
+        featured: true,
+      },
+      {
+        id: "ww-ploy-jersey-top",
+        name: "Ploy Jersey Knit Top",
+        category: "womens-wear",
+        description:
+          "Versatile piqué jersey knit top in a boxy silhouette with dropped shoulders. Made from a cotton-spandex blend with a subtle texture. Ideal for private label collections. MOQ 200 pcs.",
+        price: 1800,
+        images: [
+          "https://www.postimg.cc/4KxPBV82/ploy-jersey-top.jpg",
+        ],
+        tags: ["womenswear", "jersey", "knit", "pique", "private-label"],
+        specifications: {
+          fabric: "92% Cotton, 8% Spandex — piqué jersey",
+          sizes: "XS–XXL",
+          colors: "Solid colors, MOQ 200 pcs per color",
+          MOQ: "200 pieces per style",
+          leadTime: "18–28 days after sample approval",
+          packaging: "Flat pack, individual polybag",
+        },
+        features: [
+          "Cotton-spandex blend — soft & stretchy",
+          "Boxy silhouette with dropped shoulders",
+          "Subtle piqué texture",
+          "Easy-care, machine washable",
+          "Ideal for layering or standalone wear",
+        ],
+        inStock: true,
+        featured: false,
+      },
+      {
+        id: "ww-satin-midi-skirt",
+        name: "Bias-Cut Satin Midi Skirt",
+        category: "womens-wear",
+        description:
+          "Elegant bias-cut satin midi skirt with an elasticated waist and flowing drape. Made from recycled polyester satin — sustainable without compromising luxury. Perfect for premium women's wear lines. MOQ 100 pcs.",
+        price: 4100,
+        images: [
+          "https://www.postimg.cc/WFD6vYhK/satin-midi-skirt.jpg",
+        ],
+        tags: ["womenswear", "satin", "midi-skirt", "recycled", "premium"],
+        specifications: {
+          fabric: "100% Recycled Polyester Satin, 120 GSM",
+          sizes: "XS–XL (custom grading available)",
+          colors: "Custom colors — MOQ 100 pcs",
+          MOQ: "100 pieces per style/color",
+          leadTime: "22–32 days after sample approval",
+          packaging: "Garment on hanger or flat pack",
+          Sustainability: "GRS certified recycled polyester",
+        },
+        features: [
+          "Bias-cut for fluid movement",
+          "Recycled polyester — eco-friendly",
+          "Elasticated waist — comfortable fit",
+          "Flowing midi length",
+          "Ideal for formal events and premium retail",
+        ],
+        inStock: true,
+        featured: false,
+      },
+    ],
+    metaTitle: "Women's Clothing Manufacturer Bangladesh | OEM/ODM Woven & Knit Wear",
+    metaDescription:
+      "TexVenture is a professional women's clothing manufacturer in Bangladesh offering OEM/ODM production of batik dresses, linen blouses, knit tops, and satin skirts with OEKO-TEX® certified fabric options.",
+    features: [
+      "GOTS-certified organic cotton & linen options",
+      "OEKO-TEX® Standard 100 certified fabrics available",
+      "MOQ 100–200 pieces per style",
+      "18–35 days production lead time",
+      "BSCI, SEDEX, WRAP certified facilities",
+    ],
+    certifications: ["BSCI", "OEKO-TEX® Standard 100", "SEDEX", "WRAP", "GOTS"],
+    faqs: [
+      {
+        question: "What is your minimum order quantity for women's wear?",
+        answer: "Our MOQ for women's wear ranges from 100–200 pieces per style depending on fabric and complexity. Custom orders with unique fabrics or finishing may require higher MOQs. Contact our team for a specific quote.",
+      },
+      {
+        question: "Do you offer OEM and ODM services for women's clothing?",
+        answer: "Yes. We provide both OEM (private label) and ODM (original design manufacturer) services. For OEM, you provide the design and we manufacture. For ODM, we can suggest designs from our catalog or develop custom styles based on your brief.",
+      },
+      {
+        question: "What fabric options do you offer for women's wear?",
+        answer: "We offer cotton, linen, silk, recycled polyester, viscose, and blended fabrics. OEKO-TEX® Standard 100 and GOTS-certified organic options are available for brands focused on sustainability.",
+      },
+      {
+        question: "How do you ensure quality in women's garment production?",
+        answer: "Every order undergoes AQL 2.5 inspection including seam strength, colorfastness, and fit testing. We provide pre-production samples and in-line inspections during production to maintain consistent quality.",
+      },
+      {
+        question: "What is your typical lead time for women's wear orders?",
+        answer: "Standard lead time is 18–35 days from sample approval, depending on order volume, fabric availability, and complexity. Rush orders may be accommodated with additional fees.",
+      },
+    ],
+  },
+
+  // -----------------------------------------------------------------------------
+  // MEN'S WEAR
+  // -----------------------------------------------------------------------------
+  {
+    id: "mens-wear",
+    slug: "mens-wear",
+    name: "Men's Wear",
+    category: "mens-wear",
+    description:
+      "TexVenture is a leading men's clothing manufacturer in Bangladesh, producing formal shirts, casual shirts, trousers, polos, and jackets with precision craftsmanship and competitive pricing for international fashion brands and retailers.",
+    products: [
+      {
+        id: "mw-poplin-dress-shirt",
+        name: "Wrinkle-Free Poplin Dress Shirt",
+        category: "mens-wear",
+        description:
+          "Classic wrinkle-free cotton poplin dress shirt with a spread collar and adjustable cuffs. Made from 100% long-staple cotton with a wrinkle-resistant finish — low maintenance, professional look. MOQ 150 pcs.",
+        price: 3800,
+        images: [
+          "https://www.postimg.cc/RNhqJYbK/poplin-dress-shirt.jpg",
+        ],
+        tags: ["menswear", "dress-shirt", "poplin", "cotton", "wrinkle-free"],
+        specifications: {
+          fabric: "100% Long-staple Cotton Poplin, 120 GSM",
+          sizes: "S–3XL (custom size chart)",
+          colors: "White, light blue, custom — MOQ 150 pcs",
+          MOQ: "150 pieces per style/color",
+          leadTime: "20–30 days after sample approval",
+          packaging: "Shirtboard pack, individual polybag",
+          collarStyles: "Spread collar, semi-spread, pinpoint",
+        },
+        features: [
+          "100% long-staple cotton poplin",
+          "Wrinkle-resistant finish — low maintenance",
+          "Adjustable barrel cuffs",
+          "Reinforced collar stays",
+          "Suitable for corporate uniforms & retail",
+        ],
+        inStock: true,
+        featured: true,
+      },
+      {
+        id: "mw-camo-cargo-pants",
+        name: "Urban Cargo Trousers",
+        category: "mens-wear",
+        description:
+          "Slim-fit urban cargo trousers with six functional pockets and a D-ring attachment. Made from a cotton-nylon twill blend — durable, water-resistant, and comfortable. MOQ 150 pcs.",
+        price: 4500,
+        images: [
+          "https://www.postimg.cc/QvnHYz4v/cargo-trousers.jpg",
+        ],
+        tags: ["menswear", "cargo", "trousers", "urban", "nylon-cotton"],
+        specifications: {
+          fabric: "70% Cotton, 30% Nylon Twill, 280 GSM",
+          sizes: "28–42 (waist) — custom grading",
+          colors: "Olive, khaki, black, custom — MOQ 150 pcs",
+          MOQ: "150 pieces per style/color",
+          leadTime: "22–32 days after sample approval",
+          packaging: "Flat pack, individual polybag",
+          finishOptions: "Water-resistant coating, enzyme wash",
+        },
+        features: [
+          "Cotton-nylon twill blend — durable & water-resistant",
+          "Slim-fit silhouette",
+          "Six functional cargo pockets",
+          "D-ring attachment for keys/tools",
+          "Reinforced knee panels",
+        ],
+        inStock: true,
+        featured: true,
+      },
+      {
+        id: "mw-polo-performance",
+        name: "Performance Polo Shirt",
+        category: "mens-wear",
+        description:
+          "Moisture-wicking performance polo made from a polyester-spandex blend with UV protection. Features a self-fabric collar and three-button placket. Ideal for corporate uniforms and active lifestyle brands. MOQ 200 pcs.",
+        price: 2900,
+        images: [
+          "https://www.postimg.cc/dVJX0Qz5/performance-polo.jpg",
+        ],
+        tags: ["menswear", "polo", "performance", "moisture-wicking", "UV-protection"],
+        specifications: {
+          fabric: "92% Polyester, 8% Spandex — 150 GSM",
+          sizes: "S–3XL",
+          colors: "Solid colors, MOQ 200 pcs per color",
+          MOQ: "200 pieces per style",
+          leadTime: "18–28 days after sample approval",
+          packaging: "Flat pack, individual polybag",
+          performanceFeatures: "Moisture-wicking, UV 50+ protection",
+        },
+        features: [
+          "Polyester-spandex blend — 4-way stretch",
+          "Moisture-wicking keeps you dry",
+          "UV 50+ sun protection",
+          "Self-fabric collar — maintains shape",
+          "Three-button placket",
+        ],
+        inStock: true,
+        featured: false,
+      },
+      {
+        id: "mw-linen-formal-trousers",
+        name: "Tailored Linen Formal Trousers",
+        category: "mens-wear",
+        description:
+          "Slim-fit tailored linen trousers with a flat front and belt loops. Made from 100% European linen — naturally breathable, perfect for summer and warm climates. Unlined with a clean finish. MOQ 100 pcs.",
+        price: 5200,
+        images: [
+          "https://www.postimg.cc/xc8tLqkH/linen-trousers.jpg",
+        ],
+        tags: ["menswear", "linen", "formal", "trousers", "tailored"],
+        specifications: {
+          fabric: "100% European Linen, 180 GSM",
+          sizes: "28–42 (waist) — custom grading",
+          colors: "Natural, sand, navy, custom — MOQ 100 pcs",
+          MOQ: "100 pieces per style/color",
+          leadTime: "20–30 days after sample approval",
+          packaging: "Flat pack, garment bag",
+          OEKOProvision: "OEKO-TEX® Standard 100 linen available",
+        },
+        features: [
+          "100% European linen — naturally breathable",
+          "Slim-fit flat front design",
+          "Belt loops with interior waistband",
+          "Four pockets — two back button-through",
+          "Unlined for warm climate comfort",
+        ],
+        inStock: true,
+        featured: false,
+      },
+    ],
+    metaTitle: "Men's Clothing Manufacturer Bangladesh | OEM/ODM Shirts, Trousers & Polos",
+    metaDescription:
+      "TexVenture is a trusted men's clothing manufacturer in Bangladesh producing wrinkle-free dress shirts, cargo trousers, performance polos, and tailored linen trousers with BSCI and OEKO-TEX® certified quality.",
+    features: [
+      "Cotton, linen, and blended fabric options",
+      "OEKO-TEX® Standard 100 certified fabrics available",
+      "MOQ 100–200 pieces per style",
+      "18–32 days production lead time",
+      "BSCI, SEDEX, WRAP certified manufacturing",
+    ],
+    certifications: ["BSCI", "OEKO-TEX® Standard 100", "SEDEX", "WRAP", "GRS"],
+    faqs: [
+      {
+        question: "What men's wear categories do you manufacture?",
+        answer: "We produce a wide range of men's garments including dress shirts, casual shirts, trousers, cargo pants, chinos, polo shirts, T-shirts, jackets, blazers, and uniforms. Both woven and knit constructions are available.",
+      },
+      {
+        question: "Can you produce custom size ranges for men's wear?",
+        answer: "Yes. We provide custom size grading based on your size chart. Standard ranges from XS–3XL are common, but we can accommodate size ranges from children's to plus sizes depending on your brand requirements.",
+      },
+      {
+        question: "Do you offer fabric sourcing for men's wear?",
+        answer: "We have established relationships with fabric mills in China, Taiwan, and Bangladesh. We source cotton, linen, polyester, nylon, and blended fabrics. OEKO-TEX® and GRS-certified fabrics are available for brands with sustainability requirements.",
+      },
+      {
+        question: "What is your quality inspection process for men's garments?",
+        answer: "We follow AQL 2.5 inspection standards. Every order includes pre-production sample approval, in-line inspections during production, and final inspection before shipment. We also offer third-party inspection services.",
+      },
+      {
+        question: "Do you provide packaging and labeling services?",
+        answer: "Yes. We offer full OEM services including custom labels, care tags, hang tags, barcodes, and branded packaging. All packaging materials can be customized to your specifications.",
+      },
+    ],
+  },
+
+  // -----------------------------------------------------------------------------
+  // KIDS' WEAR
+  // -----------------------------------------------------------------------------
+  {
+    id: "kids-wear",
+    slug: "kids-wear",
+    name: "Kids' Wear",
+    category: "kids-wear",
+    description:
+      "TexVenture is a reliable kids' clothing manufacturer in Bangladesh producing safe, comfortable, and stylish garments for boys and girls aged 2–14 years. From organic cotton rompers to custom uniform sets — we prioritize softness, safety, and durability for children's clothing brands worldwide.",
+    products: [
+      {
+        id: "kw-organic-romper",
+        name: "Organic Cotton Zip Romper",
+        category: "kids-wear",
+        description:
+          "Soft one-piece zip romper for toddlers made from 100% GOTS-certified organic cotton. Features a full-length two-way zipper, snap buttons at the bottom for easy diaper changes, and contrast stitching. OEKO-TEX® certified. MOQ 150 pcs.",
+        price: 1600,
+        images: [
+          "https://www.postimg.cc/4NX6hH0v/organic-cotton-romper.jpg",
+        ],
+        tags: ["kidswear", "romper", "toddler", "organic-cotton", "GOTS"],
+        specifications: {
+          fabric: "100% GOTS-certified Organic Cotton, 160 GSM",
+          sizes: "2T–5T (with optional 6T, 7T)",
+          colors: "Pastel palette, custom — MOQ 150 pcs",
+          MOQ: "150 pieces per style/color",
+          leadTime: "20–30 days after sample approval",
+          packaging: "Individual polybag, folded",
+          safetyStandard: "OEKO-TEX® Standard 100, CPSIA compliant",
+        },
+        features: [
+          "100% GOTS-certified organic cotton",
+          "Two-way zipper — easy dressing",
+          "Snap buttons for diaper changes",
+          "Contrast stitching for visual appeal",
+          "OEKO-TEX® certified — safe for sensitive skin",
+        ],
+        inStock: true,
+        featured: true,
+      },
+      {
+        id: "kw-jersey-shorts",
+        name: "Cotton Jersey Shorts Set",
+        category: "kids-wear",
+        description:
+          "Boys' casual shorts set — soft cotton-spandex jersey shorts with an elastic waistband and a matching graphic T-shirt. Comfortable for active play and machine washable. MOQ 200 pcs.",
+        price: 2200,
+        images: [
+          "https://www.postimg.cc/8zVYhJ4v/jersey-shorts-set.jpg",
+        ],
+        tags: ["kidswear", "shorts", "set", "boys", "jersey"],
+        specifications: {
+          fabric: "95% Cotton, 5% Spandex Jersey, 180 GSM",
+          sizes: "3T–14T",
+          colors: "Solid and printed — MOQ 200 pcs per color",
+          MOQ: "200 pieces per style (shorts + tee = 1 set)",
+          leadTime: "18–28 days after sample approval",
+          packaging: "Flat pack, set polybagged together",
+          printOptions: "Screen print, embroidery available",
+        },
+        features: [
+          "Cotton-spandex jersey — soft & stretchy",
+          "Elastic waistband — stays in place",
+          "Match with graphic tee included",
+          "Screen print or embroidery options",
+          "Machine washable — easy care",
+        ],
+        inStock: true,
+        featured: true,
+      },
+      {
+        id: "kw-school-uniform",
+        name: "School Uniform Set (Boys)",
+        category: "kids-wear",
+        description:
+          "Classic boys' school uniform set: collared pique polo shirt and flat-front chino shorts. Durable, comfortable, and professionally finished. Designed to withstand daily wear and frequent washing. MOQ 200 pcs.",
+        price: 3500,
+        images: [
+          "https://www.postimg.cc/Wtd8vQKx/school-uniform-boys.jpg",
+        ],
+        tags: ["kidswear", "school-uniform", "uniform", "boys", "chino"],
+        specifications: {
+          fabric: "Polo: 65% Polyester, 35% Cotton Piqué | Shorts: 65% Polyester, 35% Cotton Twill",
+          sizes: "3T–14T (size chart provided)",
+          colors: "School-specific colors — MOQ 200 pcs",
+          MOQ: "200 pieces per style (set of 2 pieces)",
+          leadTime: "22–32 days after sample approval",
+          packaging: "Set polybag or individual packaging",
+          uniformOptions: "School crest embroidery, name tags",
+        },
+        features: [
+          "Durable poly-cotton blend",
+          "Reinforced stitching at stress points",
+          "Machine washable — retains shape",
+          "School crest and name tag embroidery available",
+          "Comfortable for all-day wear",
+        ],
+        inStock: true,
+        featured: false,
+      },
+      {
+        id: "kw-girls-tiered-dress",
+        name: "Ruffle Tiered Maxi Dress",
+        category: "kids-wear",
+        description:
+          "Adorable ruffled tiered dress for girls made from lightweight cotton-voile. Features a smocked bodice, flutter sleeves, and a flowing maxi skirt — perfect for summer parties and casual outings. MOQ 150 pcs.",
+        price: 2800,
+        images: [
+          "https://www.postimg.cc/LcMVcNqK/girls-tiered-dress.jpg",
+        ],
+        tags: ["kidswear", "dress", "girls", "cotton-voile", "tiered"],
+        specifications: {
+          fabric: "100% Cotton Voile, 110 GSM",
+          sizes: "2T–12T",
+          colors: "Floral prints, solid pastels — MOQ 150 pcs",
+          MOQ: "150 pieces per style/color",
+          leadTime: "20–30 days after sample approval",
+          packaging: "Garment on hanger or flat fold",
+          printOptions: "Rotary print, digital print available",
+        },
+        features: [
+          "100% cotton voile — lightweight & breathable",
+          "Smocked bodice — flexible fit",
+          "Flutter sleeves",
+          "Tiered maxi skirt — flowing movement",
+          "OEKO-TEX® certified fabric available",
+        ],
+        inStock: true,
+        featured: false,
+      },
+    ],
+    metaTitle: "Kids' Clothing Manufacturer Bangladesh | OEM/ODM Organic & Uniform Production",
+    metaDescription:
+      "TexVenture is a professional kids' clothing manufacturer in Bangladesh producing organic cotton rompers, jersey shorts sets, school uniforms, and girls' tiered dresses with OEKO-TEX® Standard 100 certified fabrics.",
+    features: [
+      "GOTS-certified organic cotton available",
+      "OEKO-TEX® Standard 100 certified — safe for children",
+      "MOQ 150–200 pieces per style",
+      "18–32 days production lead time",
+      "CPSIA compliant testing available",
+    ],
+    certifications: ["BSCI", "OEKO-TEX® Standard 100", "SEDEX", "WRAP", "GOTS"],
+    faqs: [
+      {
+        question: "What age groups do you produce kids' clothing for?",
+        answer: "We produce children's clothing for ages 2–14 years, including toddlers, young children, and tweens. We can accommodate both smaller size ranges and broader ranges depending on your brand's target market.",
+      },
+      {
+        question: "Are your kids' wear fabrics safe for children's skin?",
+        answer: "Yes. We use OEKO-TEX® Standard 100 certified fabrics for all children's clothing, and GOTS-certified organic cotton is available. All our kids' garments are tested for harmful substances and comply with international safety standards including CPSIA.",
+      },
+      {
+        question: "Can you produce custom school uniforms?",
+        answer: "Yes. We produce custom school uniforms with school crests, embroidered names, and specific color matching. We work with schools and uniform brands to develop durable, comfortable, and professionally finished uniforms.",
+      },
+      {
+        question: "What is your MOQ for kids' wear orders?",
+        answer: "Our standard MOQ for kids' wear ranges from 150–200 pieces per style/color depending on fabric and complexity. For school uniform sets, the MOQ is typically 200 pieces per style (2-piece set).",
+      },
+      {
+        question: "Do you offer packaging for kids' wear with swing tags?",
+        answer: "Yes. We provide full packaging solutions including swing tags, care labels, size labels, barcode stickers, and custom polybags. All packaging can be customized to reflect your brand identity.",
+      },
+    ],
+  },
 ];
 
 // ---------------------------------------------------------------------------

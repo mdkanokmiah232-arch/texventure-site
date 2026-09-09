@@ -19,6 +19,9 @@ const companyLinks = [
 ];
 
 const categoryLinks: { name: string; href: string }[] = [
+  { name: "Women's Wear", href: "/products/womens-wear" },
+  { name: "Men's Wear", href: "/products/mens-wear" },
+  { name: "Kids' Wear", href: "/products/kids-wear" },
 ];
 
 const resourceLinks = [
