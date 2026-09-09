@@ -95,6 +95,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL,
   },
+  other: {
+    "google-site-verification": "U4ZnPbB9wGs5Y0Wg8Ezr9_fQ-LZK0nYUEdt9wfgcnsg",
+  },
 };
 
 /* ─── Root Layout ─── */
