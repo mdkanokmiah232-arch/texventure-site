@@ -157,6 +157,13 @@ function renderContent(content: string) {
 
   if (inTable) flushTable();
 
+  // Append contextual internal link after all article content
+  elements.push(
+    <p key={`ctx-link-${elements.length}`} className="py-2 text-gray-600 leading-relaxed mt-6 pt-6 border-t border-gray-100">
+      Ready to start your apparel project? TexVenture is the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link> — low MOQ from 100 pieces, 20+ certified factories, global delivery.
+    </p>
+  );
+
   return elements;
 }
 
@@ -279,11 +286,7 @@ export default async function GuidePage({ params }: Props) {
               <div className="mt-10 rounded-xl !bg-[#08CCD4] p-8 text-center">
                 <h3 className="text-2xl font-bold text-white">Get a Free Quote</h3>
                 <p className="mt-3 text-sm text-white/80 max-w-md mx-auto">
-                  Looking for the{' '}
-                  <Link href="/" className="text-[#08CCD4] hover:underline">
-                    best garment manufacturing in Bangladesh
-                  </Link>
-                  ? Get custom pricing for your garment order. Low MOQ from 100 pieces.
+                  Get custom pricing for your garment order. Low MOQ from 100 pieces.
                 </p>
                 <Link
                   href="/get-a-quote"

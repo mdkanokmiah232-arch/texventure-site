@@ -159,7 +159,7 @@ export default function CertificationsPage() {
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
               In today&apos;s global market, certifications aren&apos;t just badges — they&apos;re
               your assurance that the factories producing your garments meet rigorous
-              international standards for quality, safety, and ethical practices. For
+              international standards for quality, safety, and ethical practices. As the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link>, we maintain the highest standards. For
               buyers, certifications mean:
             </p>
           </div>
@@ -292,7 +292,6 @@ export default function CertificationsPage() {
       <TrustBlock />
 
       {/* CTA */}
-      <InternalLinks currentPage="/certifications" />
       <CTABand
         headline="Need Certified Manufacturing?"
         description="All our factory partners hold internationally recognized certifications. Talk to us about your quality and compliance requirements."
