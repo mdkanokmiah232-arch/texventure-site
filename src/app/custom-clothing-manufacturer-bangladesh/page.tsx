@@ -13,7 +13,7 @@ import Testimonials from '@/components/sections/Testimonials';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Best Custom Clothing Manufacturer in Bangladesh | TexVenture',
+  title: 'Best Custom Clothing Manufacturer in Bangladesh',
   description:
     'TexVenture is a custom clothing manufacturer in Bangladesh offering low MOQ from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries.',
   path: '/custom-clothing-manufacturer-bangladesh',
