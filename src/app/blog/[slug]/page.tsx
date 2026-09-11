@@ -5,23 +5,82 @@ import Link from 'next/link';
 import { getGuideBySlug, getAllGuideSlugs, guides } from '@/data/guides';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import Badge from '@/components/ui/Badge';
+import { createClientSupabase } from '@/lib/supabase';
 
-// ---------------------------------------------------------------------------
-// Static Params
-// ---------------------------------------------------------------------------
+/* ─── Types ─────────────────────────────────────────────────────────────────── */
+
+interface DbPost {
+  id: string;
+  title: string;
+  slug: string;
+  excerpt: string;
+  content: string;
+  featured_image: string;
+  category: string;
+  tags: string[];
+  author_name: string;
+  author_role: string;
+  published_at: string;
+  updated_at: string;
+  meta_title: string;
+  meta_description: string;
+  read_time_minutes: number;
+}
+
+/* ─── Static Params ─────────────────────────────────────────────────────────── */
 
 export async function generateStaticParams() {
   return getAllGuideSlugs().map((slug) => ({ slug }));
 }
 
-// ---------------------------------------------------------------------------
-// Dynamic Metadata
-// ---------------------------------------------------------------------------
+/* ─── Data Fetching (DB with static fallback) ──────────────────────────────── */
+
+async function getPostFromDb(slug: string): Promise<DbPost | null> {
+  try {
+    const supabase = createClientSupabase();
+    const { data } = await supabase
+      .from('blog_posts')
+      .select('*')
+      .eq('slug', slug)
+      .eq('status', 'published')
+      .single();
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+/* ─── Dynamic Metadata ──────────────────────────────────────────────────────── */
 
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
+  const dbPost = await getPostFromDb(slug);
+
+  if (dbPost) {
+    return {
+      title: dbPost.meta_title || dbPost.title,
+      description: dbPost.meta_description || dbPost.excerpt,
+      alternates: {
+        canonical: `https://texventure.com/blog/${dbPost.slug}`,
+      },
+      openGraph: {
+        title: dbPost.meta_title || dbPost.title,
+        description: dbPost.meta_description || dbPost.excerpt,
+        url: `https://texventure.com/blog/${dbPost.slug}`,
+        siteName: 'TexVenture',
+        type: 'article',
+        publishedTime: dbPost.published_at,
+        authors: [dbPost.author_name],
+        images: dbPost.featured_image
+          ? [{ url: dbPost.featured_image, width: 1200, height: 630, alt: dbPost.title }]
+          : [],
+      },
+    };
+  }
+
+  // Static fallback
   const guide = getGuideBySlug(slug);
   if (!guide) return { title: 'Guide Not Found' };
 
@@ -44,9 +103,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// ---------------------------------------------------------------------------
-// Markdown Renderer
-// ---------------------------------------------------------------------------
+/* ─── Markdown Renderer ─────────────────────────────────────────────────────── */
 
 function renderContent(content: string) {
   const lines = content.split('\n');
@@ -84,10 +141,9 @@ function renderContent(content: string) {
   };
 
   for (const line of lines) {
-    // Table row
     if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
       const cells = line.split('|').filter(Boolean).map(c => c.trim());
-      if (cells.every(c => c.match(/^[-:]+$/))) continue; // separator row
+      if (cells.every(c => c.match(/^[-:]+$/))) continue;
       if (!inTable) inTable = true;
       tableRows.push(cells);
       continue;
@@ -95,13 +151,11 @@ function renderContent(content: string) {
       flushTable();
     }
 
-    // Empty line
     if (line.trim() === '') {
       elements.push(<div key={`sp-${elements.length}`} className="h-4" />);
       continue;
     }
 
-    // H4
     if (line.startsWith('#### ')) {
       elements.push(
         <h4 key={`h4-${elements.length}`} className="mt-6 mb-2 text-lg font-bold text-[#1B2A4A]">
@@ -110,7 +164,6 @@ function renderContent(content: string) {
       );
       continue;
     }
-    // H3
     if (line.startsWith('### ')) {
       elements.push(
         <h3 key={`h3-${elements.length}`} className="mt-8 mb-3 text-2xl font-bold text-[#1B2A4A]">
@@ -119,7 +172,6 @@ function renderContent(content: string) {
       );
       continue;
     }
-    // H2
     if (line.startsWith('## ')) {
       elements.push(
         <h2 key={`h2-${elements.length}`} className="mt-12 mb-4 text-3xl font-bold text-[#1B2A4A]">
@@ -129,7 +181,6 @@ function renderContent(content: string) {
       continue;
     }
 
-    // List items
     if (line.match(/^[-] /)) {
       elements.push(
         <li key={`li-${elements.length}`} className="ml-5 list-disc py-1 text-gray-600 leading-relaxed">
@@ -147,7 +198,6 @@ function renderContent(content: string) {
       continue;
     }
 
-    // Paragraph
     elements.push(
       <p key={`p-${elements.length}`} className="py-2 text-gray-600 leading-relaxed">
         {renderInline(line)}
@@ -157,7 +207,6 @@ function renderContent(content: string) {
 
   if (inTable) flushTable();
 
-  // Append contextual internal link after all article content
   elements.push(
     <p key={`ctx-link-${elements.length}`} className="py-2 text-gray-600 leading-relaxed mt-6 pt-6 border-t border-gray-100">
       Ready to start your apparel project? TexVenture is the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link> — low MOQ from 100 pieces, 20+ certified factories, global delivery.
@@ -168,7 +217,6 @@ function renderContent(content: string) {
 }
 
 function renderInline(text: string) {
-  // Bold
   const parts = text.split(/(\*\*.*?\*\*)/g);
   return parts.map((part, i) => {
     if (part.startsWith('**') && part.endsWith('**')) {
@@ -178,30 +226,43 @@ function renderInline(text: string) {
   });
 }
 
-// ---------------------------------------------------------------------------
-// Page Component
-// ---------------------------------------------------------------------------
+/* ─── Page Component ────────────────────────────────────────────────────────── */
 
 export default async function GuidePage({ params }: Props) {
   const { slug } = await params;
-  const guide = getGuideBySlug(slug);
+  const dbPost = await getPostFromDb(slug);
 
-  if (!guide) notFound();
+  // Use DB post if found, otherwise fall back to static data
+  const post = dbPost ?? getGuideBySlug(slug);
+  if (!post) notFound();
 
-  // Get categories and recent posts
+  // If using DB post, map to the format expected by the template
+  const isDbPost = !!dbPost;
+  const title = isDbPost ? dbPost.title : (post as Extract<typeof post, { title: string }>).title;
+  const excerpt = isDbPost ? dbPost.excerpt : (post as Extract<typeof post, { excerpt: string }>).excerpt;
+  const content = isDbPost ? dbPost.content : (post as Extract<typeof post, { content: string }>).content;
+  const featuredImage = isDbPost ? dbPost.featured_image : (post as Extract<typeof post, { featuredImage: string }>).featuredImage;
+  const category = isDbPost ? dbPost.category : (post as Extract<typeof post, { category: string }>).category;
+  const tags = isDbPost ? dbPost.tags : (post as Extract<typeof post, { tags: string[] }>).tags;
+  const publishedAt = isDbPost ? dbPost.published_at : (post as Extract<typeof post, { publishedAt: string }>).publishedAt;
+  const updatedAt = isDbPost ? dbPost.updated_at : (post as Extract<typeof post, { updatedAt?: string }>).updatedAt;
+  const imageAlt = isDbPost ? dbPost.title : (post as Extract<typeof post, { imageAlt: string }>).imageAlt;
+  const authorName = isDbPost ? dbPost.author_name : (post as Extract<typeof post, { author: { name: string; role: string } }>).author.name;
+  const authorRole = isDbPost ? dbPost.author_role : (post as Extract<typeof post, { author: { name: string; role: string } }>).author.role;
+  const readTimeMinutes = isDbPost ? dbPost.read_time_minutes : (post as Extract<typeof post, { readTimeMinutes: number }>).readTimeMinutes;
+
   const categories = [...new Set(guides.map(g => g.category))];
   const recentPosts = guides.filter(g => g.slug !== slug).slice(0, 4);
 
-  // Article structured data
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": guide.title,
-    "description": guide.excerpt,
+    "headline": title,
+    "description": excerpt,
     "author": {
       "@type": "Person",
-      "name": guide.author.name,
-      "jobTitle": guide.author.role,
+      "name": authorName,
+      "jobTitle": authorRole,
       "worksFor": { "@type": "Organization", "name": "TexVenture" }
     },
     "publisher": {
@@ -209,12 +270,12 @@ export default async function GuidePage({ params }: Props) {
       "name": "TexVenture",
       "url": "https://texventure.com"
     },
-    "datePublished": guide.publishedAt,
-    "dateModified": guide.updatedAt || guide.publishedAt,
-    "image": guide.featuredImage,
+    "datePublished": publishedAt,
+    "dateModified": updatedAt || publishedAt,
+    "image": featuredImage,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://texventure.com/blog/${guide.slug}`
+      "@id": `https://texventure.com/blog/${slug}`
     }
   };
 
@@ -231,32 +292,31 @@ export default async function GuidePage({ params }: Props) {
             light
             items={[
               { name: 'Blog', href: '/blog' },
-              { name: guide.title, href: `/blog/${guide.slug}` },
+              { name: title, href: `/blog/${slug}` },
             ]}
           />
           <div className="mx-auto mt-8 max-w-3xl">
             <Badge variant="brand" light className="mb-4">
-              {guide.category}
+              {category}
             </Badge>
-            {/* H1 — extra large */}
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl leading-tight">
-              {guide.title}
+              {title}
             </h1>
             <div className="mt-5 flex flex-wrap items-center gap-3 text-sm text-gray-300">
               <div className="flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#08CCD4]/20 text-xs font-bold text-[#08CCD4]">
-                  {guide.author.name.charAt(0)}
+                  {authorName.charAt(0)}
                 </div>
-                <span className="font-medium text-white">{guide.author.name}</span>
+                <span className="font-medium text-white">{authorName}</span>
               </div>
               <span className="text-gray-500">·</span>
-              <time dateTime={guide.publishedAt}>
-                {new Date(guide.publishedAt).toLocaleDateString('en-US', {
+              <time dateTime={publishedAt}>
+                {new Date(publishedAt).toLocaleDateString('en-US', {
                   year: 'numeric', month: 'long', day: 'numeric',
                 })}
               </time>
               <span className="text-gray-500">·</span>
-              <span>{guide.readTimeMinutes} min read</span>
+              <span>{readTimeMinutes} min read</span>
             </div>
           </div>
         </div>
@@ -269,20 +329,20 @@ export default async function GuidePage({ params }: Props) {
           <article className="lg:col-span-2">
             <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm sm:p-8 lg:p-10">
               {/* Featured Image */}
-              {guide.featuredImage && (
+              {featuredImage && (
                 <img
-                  src={guide.featuredImage}
-                  alt={guide.imageAlt || guide.title}
+                  src={featuredImage}
+                  alt={imageAlt}
                   className="mb-8 w-full rounded-xl object-cover"
                   style={{ aspectRatio: '16/9' }}
                 />
               )}
               {/* Article Body */}
               <div className="prose-custom">
-                {renderContent(guide.content)}
+                {renderContent(content)}
               </div>
 
-              {/* Get a Free Quote CTA — inside article */}
+              {/* Get a Free Quote CTA */}
               <div className="mt-10 rounded-xl !bg-[#08CCD4] p-8 text-center">
                 <h3 className="text-2xl font-bold text-white">Get a Free Quote</h3>
                 <p className="mt-3 text-sm text-white/80 max-w-md mx-auto">
@@ -309,7 +369,7 @@ export default async function GuidePage({ params }: Props) {
                 </Link>
                 <div className="flex gap-2">
                   <a
-                    href={`https://twitter.com/intent/tweet?url=https://texventure.com/blog/${guide.slug}&text=${encodeURIComponent(guide.title)}`}
+                    href={`https://twitter.com/intent/tweet?url=https://texventure.com/blog/${slug}&text=${encodeURIComponent(title)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-lg border border-gray-200 px-4 py-2 text-xs font-medium text-gray-600 transition hover:border-[#08CCD4] hover:text-[#08CCD4]"
@@ -317,7 +377,7 @@ export default async function GuidePage({ params }: Props) {
                     Share on X
                   </a>
                   <a
-                    href={`https://www.linkedin.com/sharing/share-offsite/?url=https://texventure.com/blog/${guide.slug}`}
+                    href={`https://www.linkedin.com/sharing/share-offsite/?url=https://texventure.com/blog/${slug}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-lg border border-gray-200 px-4 py-2 text-xs font-medium text-gray-600 transition hover:border-[#08CCD4] hover:text-[#08CCD4]"
@@ -331,16 +391,15 @@ export default async function GuidePage({ params }: Props) {
 
           {/* Sidebar */}
           <aside className="space-y-6">
-            {/* Author Box — Sidebar */}
+            {/* Author Box */}
             <div className="rounded-2xl bg-gradient-to-br from-[#1B2A4A] to-[#0f2240] p-6 shadow-sm text-white">
               <div className="flex items-start gap-4">
                 <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#08CCD4]/20 text-lg font-bold text-[#08CCD4]">
-                  {guide.author.name.charAt(0)}
+                  {authorName.charAt(0)}
                 </div>
                 <div className="flex-1">
-                  <p className="font-bold text-white text-lg">{guide.author.name}</p>
-                  <p className="text-sm text-gray-300">{guide.author.role} at TexVenture</p>
-                  {/* Social icons */}
+                  <p className="font-bold text-white text-lg">{authorName}</p>
+                  <p className="text-sm text-gray-300">{authorRole} at TexVenture</p>
                   <div className="mt-3 flex items-center gap-3">
                     <a
                       href="https://www.linkedin.com/company/texventure"
@@ -368,7 +427,7 @@ export default async function GuidePage({ params }: Props) {
                 </div>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-gray-300">
-                Written and reviewed by <strong className="text-white">{guide.author.name}</strong> — with hands-on experience in
+                Written and reviewed by <strong className="text-white">{authorName}</strong> — with hands-on experience in
                 Bangladesh&apos;s garment manufacturing industry. All specifications and pricing reflect
                 actual production data from our vetted factory network.
               </p>
