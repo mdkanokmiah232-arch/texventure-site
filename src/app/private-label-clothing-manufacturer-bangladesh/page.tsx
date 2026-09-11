@@ -90,7 +90,7 @@ export default function PrivateLabelPage() {
           items={[
             { number: '100', label: 'Piece Minimum MOQ' },
             { number: '20+', label: 'Vetted Factory Partners' },
-            { number: '8+', label: 'Global Clients' },
+            { number: '30+', label: 'Countries Served' },
             { number: '5+', label: 'Certifications Held' },
             { number: '10+', label: 'Years Experience' },
           ]}

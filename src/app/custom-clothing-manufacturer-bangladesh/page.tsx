@@ -13,9 +13,9 @@ import Testimonials from '@/components/sections/Testimonials';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'Clothing Manufacturer in Bangladesh — Custom Apparel',
+  title: 'Best Custom Clothing Manufacturer in Bangladesh | TexVenture',
   description:
-    'Need a trusted clothing manufacturer in Bangladesh? TexVenture offers custom apparel production, low MOQ from 100 pcs, certifications, and global shipping.',
+    'TexVenture is a custom clothing manufacturer in Bangladesh offering low MOQ from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries.',
   path: '/custom-clothing-manufacturer-bangladesh',
   image: 'https://texventure.com/og-pillar.jpg',
 });
@@ -101,7 +101,7 @@ export default function PillarPage() {
         <TrustStrip
           items={[
             { number: '10+', label: 'Years Experience' },
-            { number: '8+', label: 'Global Clients' },
+            { number: '30+', label: 'Countries Served' },
             { number: '1M+', label: 'Pieces / Year' },
             { number: '100', label: 'Piece Minimum MOQ' },
             { number: '30+', label: 'Countries Served' },

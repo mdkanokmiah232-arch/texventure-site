@@ -51,7 +51,7 @@ const timeline = [
     year: '2024',
     title: 'Global Reach',
     description:
-      'Now serving 8+ international brands across 30+ countries including USA, UK, Canada, Australia, Germany, France, and Japan.',
+      'Now serving clients across 30+ countries including USA, UK, Canada, Australia, Germany, France, and Japan.',
   },
 ];
 

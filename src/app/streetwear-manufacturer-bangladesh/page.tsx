@@ -92,7 +92,7 @@ export default function StreetwearPage() {
             { number: '100', label: 'Piece Minimum MOQ' },
             { number: '7+', label: 'Print Techniques' },
             { number: '20+', label: 'Vetted Factory Partners' },
-            { number: '8+', label: 'Global Clients' },
+            { number: '30+', label: 'Countries Served' },
           ]}
         />
 

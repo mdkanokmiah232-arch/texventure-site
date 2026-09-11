@@ -28,7 +28,7 @@ const homeProducts = [
 export const metadata: Metadata = {
   title: "TexVenture — Best Clothing Manufacturer in Bangladesh Since 2016",
   description:
-    "TexVenture is a leading clothing manufacturer in Bangladesh, offering custom garment production with an MOQ of 100 pcs. 10+ years of experience, ISO-certified, 20+ certifications, and 8+ global clients.",
+    "TexVenture is a leading clothing manufacturer in Bangladesh, offering custom garment production with an MOQ of 100 pcs. 10+ years of experience, ISO-certified, 20+ certifications, and serving 30+ countries worldwide.",
   openGraph: {
     title: "TexVenture — Best Clothing Manufacturer in Bangladesh",
     description:
@@ -114,7 +114,7 @@ const faqItems = [
   {
     question: "Who is the best clothing manufacturer in Bangladesh?",
     answer:
-      "TexVenture is widely recognised as one of the best clothing manufacturers in Bangladesh, with over 10 years of experience, a network of 20+ certified garment factories, and a proven track record of delivering quality clothing to 8+ global brands. We handle everything from fabric sourcing to door-to-door delivery with low MOQs starting from just 100 pieces.",
+      "TexVenture is widely recognised as one of the best clothing manufacturers in Bangladesh, with over 10 years of experience, a network of 20+ certified garment factories, and a proven track record of delivering quality clothing to 30+ countries worldwide. We handle everything from fabric sourcing to door-to-door delivery with low MOQs starting from just 100 pieces.",
   },
   {
     question: "What is the minimum order quantity (MOQ) for garment manufacturing in Bangladesh?",
@@ -163,7 +163,7 @@ const trustStats = [
   { number: "20+", label: "Vetted Factories" },
   { number: "5", label: "Quality Certifications" },
   { number: "100", label: "Piece MOQ" },
-  { number: "8+", label: "Global Clients" },
+  { number: "30+", label: "Countries Served" },
   { number: "7–14", label: "Day Sampling" },
 ];
 
@@ -399,7 +399,7 @@ export default function HomePage() {
           <div className="text-center">
             <Badge variant="brand">Trusted By Brands</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              Clothing Suppliers in Bangladesh — Trusted by 8+ Global Brands
+              Clothing Suppliers in Bangladesh — Trusted by 30+ Brands Worldwide",
             </h2>
           </div>
 
