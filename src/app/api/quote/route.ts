@@ -1,7 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy init to avoid build-time evaluation without API key
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY);
+}
 
 interface QuoteData {
   name: string;
@@ -71,7 +74,7 @@ export async function POST(req: NextRequest) {
       </div>
     `;
 
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'TexVenture Leads <leads@texventure.com>',
       to: ['zakir@texventure.com'],
       replyTo: data.email,

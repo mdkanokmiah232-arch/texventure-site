@@ -6,7 +6,7 @@ import { NextRequest } from 'next/server';
 
 export interface SessionUser {
   id: string;
-  username: string;
+  full_name: string;
   email: string;
   role: string;
 }

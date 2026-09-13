@@ -1,0 +1,9 @@
+[project]
+id = "aaimmnobtoutxrksbrdd"
+
+[project.db]
+host = "db.aaimmnobtoutxrksbrdd.supabase.co"
+port = 5432
+user = "postgres"
+password = "Auto-generated-password"
+database = "postgres"

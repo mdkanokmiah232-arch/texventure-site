@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
         featured_image: featured_image || '',
         category: category || 'manufacturing',
         tags: tags || [],
-        author_name: author_name || user.username,
+        author_name: author_name || user.full_name,
         author_role: author_role || 'Admin',
         status: status || 'draft',
         meta_title: meta_title || title,

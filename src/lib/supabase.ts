@@ -2,7 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 
 // Server-side Supabase client (uses SERVICE_ROLE_KEY — never expose to client)
 export function createServerSupabase() {
-  const url = process.env.SUPABASE_URL;
+  // Support both SUPABASE_URL (legacy) and NEXT_PUBLIC_SUPABASE_URL (preferred)
+  const url = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
   if (!url || !serviceKey) {

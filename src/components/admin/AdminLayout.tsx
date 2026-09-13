@@ -7,7 +7,7 @@ import { Toaster } from 'react-hot-toast';
 
 interface SessionUser {
   id: string;
-  username: string;
+  full_name: string;
   email: string;
   role: string;
 }
@@ -218,7 +218,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         {/* Nav */}
         <nav className="flex-1 py-3 px-2 space-y-0.5 overflow-y-auto">
           {visibleNav.map((item) => {
-            const isActive = pathname === item.href || pathname.startsWith(item.href + '/');
+            const isActive = pathname === item.href || (pathname?.startsWith(item.href + '/') ?? false);
             return (
               <Link
                 key={item.href}
@@ -242,10 +242,10 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           {sidebarOpen && user ? (
             <div className="flex items-center gap-2 mb-2">
               <div className="w-8 h-8 rounded-full bg-[#08CCD4]/20 flex items-center justify-center text-[#08CCD4] text-xs font-bold shrink-0">
-                {user.username?.[0]?.toUpperCase() || 'A'}
+                {user.full_name?.[0]?.toUpperCase() || 'A'}
               </div>
               <div className="min-w-0 flex-1">
-                <p className="text-xs font-medium text-white truncate">{user.username}</p>
+                <p className="text-xs font-medium text-white truncate">{user.full_name}</p>
                 <p className="text-[10px] text-white/40 truncate">{user.email}</p>
               </div>
             </div>
