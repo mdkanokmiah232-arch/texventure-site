@@ -53,6 +53,13 @@ export default function QuoteForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
+    // Send to email API in background
+    fetch('/api/quote', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    }).catch(err => console.error('Email API error:', err));
+
     // Build WhatsApp message
     const whatsappMessage = encodeURIComponent(
       `Hi TexVenture! I'd like a quote for:\n\n` +

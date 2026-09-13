@@ -1,10 +1,11 @@
 import type { MetadataRoute } from 'next';
+import { createClientSupabase } from '@/lib/supabase';
 import { getAllProductSlugs } from '@/data/products';
 import { guides } from '@/data/guides';
 
 const SITE_URL = 'https://texventure.com';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
   // Static pages
@@ -78,21 +79,55 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Blog articles
-  const blogPages: MetadataRoute.Sitemap = guides.map((guide) => ({
+  // Fetch blog posts from DB, fall back to static guides
+  let blogPages: MetadataRoute.Sitemap = guides.map((guide) => ({
     url: `${SITE_URL}/blog/${guide.slug}`,
     lastModified: new Date(guide.updatedAt || guide.publishedAt),
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }));
+  try {
+    const supabase = createClientSupabase();
+    const { data: dbPosts } = await supabase
+      .from('blog_posts')
+      .select('slug, updated_at, published_at')
+      .eq('status', 'published');
+    if (dbPosts && dbPosts.length > 0) {
+      blogPages = dbPosts.map((post) => ({
+        url: `${SITE_URL}/blog/${post.slug}`,
+        lastModified: new Date(post.updated_at || post.published_at),
+        changeFrequency: 'monthly' as const,
+        priority: 0.6,
+      }));
+    }
+  } catch {
+    // Use static guides as fallback
+  }
 
-  // Product pages
-  const productPages: MetadataRoute.Sitemap = getAllProductSlugs().map((slug) => ({
+  // Fetch product slugs from DB, fall back to static data
+  let productPages: MetadataRoute.Sitemap = getAllProductSlugs().map((slug) => ({
     url: `${SITE_URL}/products/${slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
+  try {
+    const supabase = createClientSupabase();
+    const { data: dbProducts } = await supabase
+      .from('products')
+      .select('slug, updated_at')
+      .eq('is_visible', true);
+    if (dbProducts && dbProducts.length > 0) {
+      productPages = dbProducts.map((product) => ({
+        url: `${SITE_URL}/products/${product.slug}`,
+        lastModified: new Date(product.updated_at || now),
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+      }));
+    }
+  } catch {
+    // Use static product slugs as fallback
+  }
 
   return [...staticPages, ...blogPages, ...productPages];
 }

@@ -22,7 +22,16 @@ export function createServerSupabase() {
 // Admin-facing client (uses ANON_KEY — safe for client-side blog reads)
 export function createClientSupabase() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+  let anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!anonKey) {
+    // Fallback: read anon key from file (for build-time use before Vercel env is set)
+    try {
+      anonKey = require('fs').readFileSync('/tmp/texventure_anon_key.txt', 'utf8').trim();
+    } catch {
+      // noop — will fail below with a clear error
+    }
+  }
 
   if (!url || !anonKey) {
     throw new Error(

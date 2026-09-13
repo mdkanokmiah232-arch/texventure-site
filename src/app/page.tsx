@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { createClientSupabase } from "@/lib/supabase";
 
 import HeroSection from "@/components/sections/HeroSection";
 import TrustStrip from "@/components/sections/TrustStrip";
@@ -156,6 +157,25 @@ const faqSchema = {
   })),
 };
 
+/* ─── Server Data Fetching (DB with static fallback) ─── */
+
+async function getHomeData() {
+  const supabase = createClientSupabase();
+  const [statsResult, featureCardsResult, brandsResult, testimonialsResult] =
+    await Promise.all([
+      supabase.from('stats').select('*').order('display_order').eq('is_visible', true),
+      supabase.from('feature_cards').select('*').order('display_order').eq('is_visible', true),
+      supabase.from('brands').select('*').order('display_order').eq('is_visible', true),
+      supabase.from('testimonials').select('*').order('display_order').eq('is_published', true),
+    ]);
+  return {
+    stats: statsResult.data || [],
+    featureCards: featureCardsResult.data || [],
+    brands: brandsResult.data || [],
+    testimonials: testimonialsResult.data || [],
+  };
+}
+
 /* ─── Static Data ─── */
 
 const trustStats = [
@@ -207,7 +227,8 @@ function getLatestGuides(count: number) {
 
 /* ─── Page Component ─── */
 
-export default function HomePage() {
+export default async function HomePage() {
+  const { stats: dbStats, featureCards: dbFeatureCards, brands: dbBrands, testimonials: dbTestimonials } = await getHomeData();
   const latestGuides = getLatestGuides(3);
 
   return (
@@ -235,7 +256,7 @@ export default function HomePage() {
       />
 
       {/* 2. Trust Strip */}
-      <TrustStrip items={trustStats} />
+      <TrustStrip items={dbStats.length > 0 ? dbStats.map((s: { value: string; label: string }) => ({ number: s.value, label: s.label })) : trustStats} />
 
       {/* 3. About TexVenture — H2 (no longer duplicate of H1) */}
       <section className="bg-white">
@@ -399,13 +420,13 @@ export default function HomePage() {
           <div className="text-center">
             <Badge variant="brand">Trusted By Brands</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              Clothing Suppliers in Bangladesh — Trusted by 30+ Brands Worldwide",
+              Clothing Suppliers in Bangladesh — Trusted by 30+ Brands Worldwide
             </h2>
           </div>
 
           {/* Client logos strip */}
           <div className="mt-10 flex flex-wrap items-center justify-center gap-8 opacity-60">
-            {["StreetVault", "Nordic Basics", "Ironwork Denim", "MoveFit Athletics", "Union Workwear", "Loop Knit Studio"].map((brand) => (
+            {(dbBrands.length > 0 ? dbBrands.map((b: { name: string }) => b.name) : ["StreetVault", "Nordic Basics", "Ironwork Denim", "MoveFit Athletics", "Union Workwear", "Loop Knit Studio"]).map((brand) => (
               <div key={brand} className="rounded-lg bg-white px-6 py-3 shadow-sm">
                 <span className="text-sm font-semibold text-[#1B2A4A]">{brand}</span>
               </div>
@@ -416,13 +437,19 @@ export default function HomePage() {
 
       <Testimonials
         headline="What Our Clients Say About Our Clothing Manufacturing"
-        testimonials={testimonials.slice(0, 3).map((t) => ({
+        testimonials={(dbTestimonials.length > 0 ? dbTestimonials.map((t: { client_name?: string; name?: string; client_role?: string; role?: string; client_company?: string; company?: string; quote?: string }) => ({
+          name: t.client_name || t.name || '',
+          role: t.client_role || t.role || '',
+          company: t.client_company || t.company || '',
+          quote: t.quote || '',
+          rating: 5,
+        })) : testimonials.slice(0, 3).map((t) => ({
           name: t.clientName,
           role: t.clientRole,
           company: t.clientCompany,
           quote: t.quote,
           rating: t.rating,
-        }))}
+        })))}
       />
 
 
