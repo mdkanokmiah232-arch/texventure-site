@@ -6,7 +6,7 @@ const MJ_SECRET = process.env.MAILJET_SECRET || '';
 const FROM_EMAIL = 'info@texventure.com';
 const FROM_NAME = 'TexVenture Website';
 
-async function sendMailjetEmail(toEmail: string, toName: string, subject: string, htmlContent: string) {
+async function sendMailjetEmail(toEmail: string, toName: string, replyTo: string, subject: string, htmlContent: string) {
   const credentials = Buffer.from(`${MJ_APIKEY}:${MJ_SECRET}`).toString('base64');
   
   const payload = {
@@ -15,6 +15,7 @@ async function sendMailjetEmail(toEmail: string, toName: string, subject: string
         From: { Email: FROM_EMAIL, Name: FROM_NAME },
         To: [{ Email: toEmail, Name: toName }],
         Bcc: [{ Email: 'mdkanokmiah232@gmail.com', Name: 'Kanok Miah' }],
+        ReplyTo: { Email: replyTo },
         Subject: subject,
         HTMLPart: htmlContent,
         CustomID: `contact_${Date.now()}`,
@@ -48,26 +49,28 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Name, email and message are required' }, { status: 400 });
     }
 
-    // Save to database
+    // Get IP from request headers
+    const forwardedFor = req.headers.get('x-forwarded-for');
+    const ip = forwardedFor ? forwardedFor.split(',')[0].trim() : 'unknown';
+
+    // Save to database - use exact column names
     const supabase = createServerSupabase();
-    const { data: dbData, error: dbError } = await supabase.from('form_submissions').insert({
+    const { error: dbError } = await supabase.from('form_submissions').insert({
       form_type: 'contact',
-      data: {
-        name,
-        email,
-        company: company || '',
-        phone: phone || '',
-        category: category || '',
-        quantity: quantity || '',
-        message,
-        submitted_at: new Date().toISOString(),
-      },
-      is_read: false,
-    }).select().single();
+      name,
+      email,
+      company: company || null,
+      phone: phone || null,
+      country: null,
+      product_type: category || null,
+      quantity: quantity || null,
+      message,
+      status: 'new',
+      ip_address: ip,
+    });
 
     if (dbError) {
       console.error('DB error:', dbError);
-      // Continue anyway - don't fail if DB write fails
     }
 
     // Send email notification
@@ -110,11 +113,15 @@ export async function POST(req: NextRequest) {
       </div>
     `;
 
-    await sendMailjetEmail('zakir@texventure.com', 'Zakir', emailSubject, emailHtml);
+    try {
+      await sendMailjetEmail('zakir@texventure.com', 'Zakir', email, emailSubject, emailHtml);
+    } catch (emailErr) {
+      console.error('Email error:', emailErr);
+    }
 
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error('Contact form error:', err);
-    return NextResponse.json({ success: true }); // Still return success to user, email is secondary
+    return NextResponse.json({ success: true }); // Still return success to user
   }
 }

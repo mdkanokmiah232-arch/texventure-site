@@ -55,21 +55,24 @@ export async function POST(req: NextRequest) {
   try {
     const data: QuoteData = await req.json();
 
-    // Save to database
+    // Get IP from request headers
+    const forwardedFor = req.headers.get('x-forwarded-for');
+    const ip = forwardedFor ? forwardedFor.split(',')[0].trim() : 'unknown';
+
+    // Save to database - use exact column names
     const supabase = createServerSupabase();
     await supabase.from('form_submissions').insert({
       form_type: 'quote',
-      data: {
-        name: data.name,
-        email: data.email,
-        company: data.company || '',
-        phone: data.phone || '',
-        product_type: data.productCategory,
-        quantity: data.quantity,
-        message: data.message || '',
-        submitted_at: new Date().toISOString(),
-      },
-      is_read: false,
+      name: data.name,
+      email: data.email,
+      company: data.company || null,
+      phone: data.phone || null,
+      country: null,
+      product_type: data.productCategory,
+      quantity: data.quantity,
+      message: data.message || null,
+      status: 'new',
+      ip_address: ip,
     });
 
     // Send email notification
@@ -121,7 +124,11 @@ export async function POST(req: NextRequest) {
       </div>
     `;
 
-    await sendMailjetEmail('zakir@texventure.com', 'Zakir', data.email, emailSubject, emailHtml);
+    try {
+      await sendMailjetEmail('zakir@texventure.com', 'Zakir', data.email, emailSubject, emailHtml);
+    } catch (emailErr) {
+      console.error('Email error:', emailErr);
+    }
 
     return NextResponse.json({ success: true });
   } catch (error) {
