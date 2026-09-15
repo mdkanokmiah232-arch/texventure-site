@@ -8,24 +8,45 @@ export async function GET() {
   try {
     const supabase = createServerSupabase();
     
-    // Try insert with no optional fields to find required columns
+    // Insert with only form_type to find other columns
     const { data: insertData, error: insertError } = await supabase
       .from('form_submissions')
-      .insert({})
+      .insert({ form_type: 'contact_test' })
       .select()
       .single();
     
     if (insertError) {
-      // Get the actual column names from the error hint
       return NextResponse.json({ 
-        error: insertError.message,
-        code: insertError.code,
-        hint: insertError.hint,
+        insert_error: insertError.message,
         details: insertError.details
       });
     }
     
-    return NextResponse.json({ success: true, data: insertData });
+    // Get ALL rows now
+    const { data: allData, error: selectError } = await supabase
+      .from('form_submissions')
+      .select('*')
+      .order('created_at', { ascending: false })
+      .limit(5);
+    
+    // Delete the test row
+    if (insertData?.id) {
+      await supabase.from('form_submissions').delete().eq('id', insertData.id);
+    }
+    
+    if (selectError) {
+      return NextResponse.json({ 
+        insert_success: insertData,
+        select_error: selectError.message
+      });
+    }
+    
+    const columns = allData && allData.length > 0 ? Object.keys(allData[0]) : [];
+    
+    return NextResponse.json({ 
+      columns,
+      sample: allData
+    });
   } catch (err: any) {
     return NextResponse.json({ error: err.message });
   }
