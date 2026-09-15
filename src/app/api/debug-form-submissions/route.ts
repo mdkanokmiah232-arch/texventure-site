@@ -22,10 +22,10 @@ export async function GET() {
       });
     }
     
-    // Now try with all expected columns
+    // Try with all expected columns
     const { data: fullData, error: fullError } = await supabase
       .from('form_submissions')
-      .select('id, form_type, data, submitted_at, is_read')
+      .select('*')
       .limit(1);
       
     if (fullError) {
