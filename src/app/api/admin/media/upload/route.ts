@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
     const fileName = `${Date.now()}-${file.name}`;
     const { data, error } = await supabase.storage.from('media').upload(fileName, buffer, { contentType: file.type });
     if (error) throw error;
-    const { data: urlData } = supabase.storage.from('media').getPublicUrl(data.Key || data.key || fileName);
+    const { data: urlData } = supabase.storage.from('media').getPublicUrl(data.path || fileName);
     const { data: dbData, error: dbError } = await supabase.from('media').insert([{ name: file.name, url: urlData.publicUrl, type: file.type, size: file.size }]).select().single();
     if (dbError) throw dbError;
     return NextResponse.json({ media: dbData });
