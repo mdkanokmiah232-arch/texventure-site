@@ -61,6 +61,21 @@ export default function AdminInboxPage() {
     } catch { toast.error('Failed to update status'); }
   }
 
+  async function handleDelete(id: string) {
+    if (!confirm('Delete this submission? This cannot be undone.')) return;
+    try {
+      const res = await fetch('/api/admin/inbox', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id }),
+      });
+      if (!res.ok) throw new Error();
+      toast.success('Deleted');
+      if (selected?.id === id) setSelected(null);
+      await loadSubmissions();
+    } catch { toast.error('Failed to delete'); }
+  }
+
   const unread = submissions.filter(s => s.status === 'new').length;
 
   return (
@@ -130,6 +145,10 @@ export default function AdminInboxPage() {
                       <button onClick={(e) => { e.stopPropagation(); updateStatus(s.id, 'replied'); }}
                         className="text-xs font-medium text-[#08CCD4] hover:underline" title="Mark as replied">
                         Mark Replied
+                      </button>
+                      <button onClick={(e) => { e.stopPropagation(); handleDelete(s.id); }}
+                        className="text-xs font-medium text-red-500 hover:underline" title="Delete this submission">
+                        Delete
                       </button>
                     </div>
                   </td>
