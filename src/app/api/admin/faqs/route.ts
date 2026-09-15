@@ -7,7 +7,7 @@ export async function GET() {
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   try {
     const supabase = createServerSupabase();
-    const { data, error } = await supabase.from('faqs').select('id, question, answer, page_path, display_order, is_published').order('created_at', { ascending: false });
+    const { data, error } = await supabase.from('faqs').select('id, question, answer, page_path, display_order, is_published');
     if (error) throw error;
     return NextResponse.json({ faqs: data || [] });
   } catch (err) {
