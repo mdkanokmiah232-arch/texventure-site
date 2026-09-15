@@ -7,7 +7,7 @@ export async function GET() {
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   try {
     const supabase = createServerSupabase();
-    const { data, error } = await supabase.from('menu').select('*').order('display_order', { ascending: true });
+    const { data, error } = await supabase.from('menu_items').select('*').order('display_order', { ascending: true });
     if (error) throw error;
     return NextResponse.json({ menu: data || [] });
   } catch (err) {

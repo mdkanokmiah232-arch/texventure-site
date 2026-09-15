@@ -7,7 +7,7 @@ export async function GET() {
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   try {
     const supabase = createServerSupabase();
-    const { data, error } = await supabase.from('seo_settings').select('*');
+    const { data, error } = await supabase.from('seo_meta').select('*');
     if (error) throw error;
     return NextResponse.json({ seo: data || [] });
   } catch (err) {

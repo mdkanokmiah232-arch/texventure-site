@@ -7,7 +7,7 @@ export async function GET(req: NextRequest, { params }: { params: { page_path: s
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   try {
     const supabase = createServerSupabase();
-    const { data, error } = await supabase.from('seo_settings').select('*').eq('page_path', (await params).page_path).single();
+    const { data, error } = await supabase.from('seo_meta').select('*').eq('page_path', (await params).page_path).single();
     if (error) throw error;
     return NextResponse.json({ seo: data });
   } catch (err) {
@@ -21,7 +21,7 @@ export async function PUT(req: NextRequest, { params }: { params: { page_path: s
   try {
     const body = await req.json();
     const supabase = createServerSupabase();
-    const { data, error } = await supabase.from('seo_settings').upsert({ page_path: (await params).page_path, ...body }).select().single();
+    const { data, error } = await supabase.from('seo_meta').upsert({ page_path: (await params).page_path, ...body }).select().single();
     if (error) throw error;
     return NextResponse.json({ seo: data });
   } catch (err) {
