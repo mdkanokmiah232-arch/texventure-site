@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, FormEvent } from 'react';
+import { useEffect, useState, FormEvent, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
@@ -33,6 +33,8 @@ export default function AdminEditBlogPage({ params }: { params: Promise<{ id: st
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
+  const [uploadingImage, setUploadingImage] = useState(false);
+  const imageInputRef = useRef<HTMLInputElement>(null);
   const [form, setForm] = useState({
     title: '',
     slug: '',
@@ -89,6 +91,48 @@ export default function AdminEditBlogPage({ params }: { params: Promise<{ id: st
 
   function set(field: string, value: string) {
     setForm((f) => ({ ...f, [field]: value }));
+  }
+
+  async function handleFeaturedImageUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    const allowedTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
+    if (!allowedTypes.includes(file.type)) {
+      alert('Invalid file type. Only JPEG, PNG, GIF, and WebP are allowed.');
+      return;
+    }
+
+    if (file.size > 10 * 1024 * 1024) {
+      alert('File too large. Max size is 10MB.');
+      return;
+    }
+
+    setUploadingImage(true);
+
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      const res = await fetch('/api/upload/image', {
+        method: 'POST',
+        body: formData,
+      });
+
+      const result = await res.json();
+
+      if (result.success && result.url) {
+        set('featured_image', result.url);
+      } else {
+        alert('Failed to upload image. Please try again.');
+      }
+    } catch (error) {
+      console.error('Upload error:', error);
+      alert('Failed to upload image.');
+    } finally {
+      setUploadingImage(false);
+      if (imageInputRef.current) imageInputRef.current.value = '';
+    }
   }
 
   async function handleSubmit(e: FormEvent) {
@@ -290,14 +334,50 @@ export default function AdminEditBlogPage({ params }: { params: Promise<{ id: st
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                Featured Image URL
+                Featured Image
               </label>
+              <input
+                type="file"
+                ref={imageInputRef}
+                onChange={handleFeaturedImageUpload}
+                accept="image/jpeg,image/png,image/gif,image/webp"
+                className="hidden"
+              />
+              <div className="flex items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => imageInputRef.current?.click()}
+                  disabled={uploadingImage}
+                  className="px-4 py-2 bg-[#08CCD4] text-white rounded-lg text-sm font-medium hover:bg-[#07b8c1] disabled:opacity-50"
+                >
+                  {uploadingImage ? 'Uploading...' : 'Upload Image'}
+                </button>
+                {form.featured_image && (
+                  <button
+                    type="button"
+                    onClick={() => set('featured_image', '')}
+                    className="px-3 py-2 bg-red-50 text-red-500 rounded-lg text-sm font-medium hover:bg-red-100"
+                  >
+                    Remove
+                  </button>
+                )}
+              </div>
+              {form.featured_image && (
+                <div className="mt-3">
+                  <img
+                    src={form.featured_image}
+                    alt="Featured"
+                    className="max-h-48 rounded-lg border border-gray-200"
+                    onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                  />
+                </div>
+              )}
               <input
                 type="url"
                 value={form.featured_image}
                 onChange={(e) => set('featured_image', e.target.value)}
-                placeholder="https://i.ibb.co.com/... or /images/..."
-                className="w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm transition focus:border-[#08CCD4] focus:outline-none focus:ring-2 focus:ring-[#08CCD4]/20"
+                placeholder="Or paste image URL here"
+                className="mt-2 w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm transition focus:border-[#08CCD4] focus:outline-none focus:ring-2 focus:ring-[#08CCD4]/20"
               />
             </div>
 
