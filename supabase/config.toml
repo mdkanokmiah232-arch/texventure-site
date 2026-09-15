@@ -1,9 +1,7 @@
-[project]
-id = "aaimmnobtoutxrksbrdd"
-
+ref=aaimmnobtoutxrksbrdd
 [project.db]
-host = "db.aaimmnobtoutxrksbrdd.supabase.co"
 port = 5432
 user = "postgres"
-password = "Auto-generated-password"
+password = "TexVentureAdmin2024!"
 database = "postgres"
+host = "db.aaimmnobtoutxrksbrdd.supabase.co"
