@@ -3,7 +3,7 @@ import { createServerSupabase } from '@/lib/supabase';
 
 const MJ_APIKEY = '1a252a8f2bc5bce171386e15ec95a754';
 const MJ_SECRET = process.env.MAILJET_SECRET || '';
-const FROM_EMAIL = 'info@texventure.com';
+const FROM_EMAIL = 'TexVenture@notifications.mailjet.com';
 const FROM_NAME = 'TexVenture Website';
 
 async function sendMailjetEmail(toEmail: string, toName: string, replyTo: string, subject: string, htmlContent: string) {
