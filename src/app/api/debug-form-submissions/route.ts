@@ -8,51 +8,24 @@ export async function GET() {
   try {
     const supabase = createServerSupabase();
     
-    // Insert a test row
+    // Try insert with no optional fields to find required columns
     const { data: insertData, error: insertError } = await supabase
       .from('form_submissions')
-      .insert({
-        name: 'Test User',
-        email: 'test@example.com',
-        message: 'Test message',
-        type: 'contact'
-      })
+      .insert({})
       .select()
       .single();
     
     if (insertError) {
+      // Get the actual column names from the error hint
       return NextResponse.json({ 
-        insert_error: insertError.message,
+        error: insertError.message,
         code: insertError.code,
+        hint: insertError.hint,
         details: insertError.details
       });
     }
     
-    // Get all rows
-    const { data: allData, error: selectError } = await supabase
-      .from('form_submissions')
-      .select('*');
-    
-    if (selectError) {
-      return NextResponse.json({ 
-        insert_success: insertData,
-        select_error: selectError.message,
-        code: selectError.code
-      });
-    }
-    
-    const columns = allData && allData.length > 0 ? Object.keys(allData[0]) : [];
-    
-    // Delete the test row
-    if (insertData?.id) {
-      await supabase.from('form_submissions').delete().eq('id', insertData.id);
-    }
-    
-    return NextResponse.json({ 
-      row_count: allData?.length || 0,
-      columns,
-      sample: allData
-    });
+    return NextResponse.json({ success: true, data: insertData });
   } catch (err: any) {
     return NextResponse.json({ error: err.message });
   }
