@@ -36,7 +36,7 @@ export default function AdminSeoPage() {
         const res = await fetch('/api/admin/seo');
         if (!res.ok) throw new Error('Failed to load');
         const data = await res.json();
-        setEntries(data.entries || []);
+        setEntries(data.seo || []);
       } catch {
         toast.error('Failed to load SEO data');
       } finally {

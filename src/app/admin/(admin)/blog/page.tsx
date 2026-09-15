@@ -29,7 +29,7 @@ export default function AdminBlogPage() {
   async function loadPosts() {
     setLoading(true);
     try {
-      const res = await fetch('/api/blog');
+      const res = await fetch('/api/admin/blog');
       if (!res.ok) throw new Error('Failed to load posts');
       const { posts: data } = await res.json();
       setPosts(data);
