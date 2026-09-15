@@ -7,7 +7,7 @@ export async function DELETE(req: NextRequest, { params }: { params: { id: strin
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   try {
     const supabase = createServerSupabase();
-    const { error } = await supabase.from('media').delete().eq('id', params.id);
+    const { error } = await supabase.from('media').delete().eq('id', (await params).id);
     if (error) throw error;
     return NextResponse.json({ success: true });
   } catch (err) {

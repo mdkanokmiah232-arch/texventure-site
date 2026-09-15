@@ -7,7 +7,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   try {
     const supabase = createServerSupabase();
-    const { data, error } = await supabase.from('admin_users').select('id, full_name, email, role, created_at').eq('id', params.id).single();
+    const { data, error } = await supabase.from('admin_users').select('id, full_name, email, role, created_at').eq('id', (await params).id).single();
     if (error) throw error;
     return NextResponse.json({ user: data });
   } catch (err) {
@@ -21,7 +21,7 @@ export async function PUT(req: NextRequest, { params }: { params: { id: string }
   try {
     const body = await req.json();
     const supabase = createServerSupabase();
-    const { data, error } = await supabase.from('admin_users').update(body).eq('id', params.id).select().single();
+    const { data, error } = await supabase.from('admin_users').update(body).eq('id', (await params).id).select().single();
     if (error) throw error;
     return NextResponse.json({ user: data });
   } catch (err) {
@@ -35,7 +35,7 @@ export async function DELETE(req: NextRequest, { params }: { params: { id: strin
   if (user.role !== 'owner') return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
   try {
     const supabase = createServerSupabase();
-    const { error } = await supabase.from('admin_users').delete().eq('id', params.id);
+    const { error } = await supabase.from('admin_users').delete().eq('id', (await params).id);
     if (error) throw error;
     return NextResponse.json({ success: true });
   } catch (err) {
