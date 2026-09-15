@@ -3,6 +3,8 @@
 import { useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
+const RichTextEditor = dynamic(() => import('@/components/admin/RichTextEditor'), { ssr: false });
 
 const CATEGORIES = ['manufacturing', 'sourcing', 'industry', 'pricing'];
 
@@ -161,12 +163,10 @@ export default function AdminNewBlogPage() {
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">Content</label>
-              <textarea
+              <RichTextEditor
                 value={form.content}
-                onChange={(e) => set('content', e.target.value)}
-                rows={20}
-                placeholder="Use Markdown: ## Heading, **bold**, - list item, | table | columns |"
-                className="w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm transition focus:border-[#08CCD4] focus:outline-none focus:ring-2 focus:ring-[#08CCD4]/20 resize-y font-mono"
+                onChange={(v) => set('content', v)}
+                placeholder="Write your blog post content..."
               />
             </div>
 
