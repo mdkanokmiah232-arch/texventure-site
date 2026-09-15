@@ -15,7 +15,8 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ posts: data || [] });
   } catch (err) {
     console.error('[GET /api/admin/blog]', err);
-    return NextResponse.json({ error: 'Failed to fetch posts' }, { status: 500 });
+    const message = err instanceof Error ? err.message : String(err);
+    return NextResponse.json({ error: 'Failed to fetch posts', details: message }, { status: 500 });
   }
 }
 
