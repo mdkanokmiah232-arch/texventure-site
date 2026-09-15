@@ -56,7 +56,7 @@ export default function AdminEditBlogPage({ params }: { params: Promise<{ id: st
 
     async function load() {
       try {
-        const res = await fetch(`/api/blog/${postId}`);
+        const res = await fetch(`/api/admin/blog/${postId}`, { credentials: 'include' });
         if (!res.ok) throw new Error('Post not found');
         const { post: p } = await res.json();
         setPost(p);
@@ -104,9 +104,10 @@ export default function AdminEditBlogPage({ params }: { params: Promise<{ id: st
         read_time_minutes: parseInt(form.read_time_minutes) || 5,
       };
 
-      const res = await fetch(`/api/blog/${postId}`, {
+      const res = await fetch(`/api/admin/blog/${postId}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
         body: JSON.stringify(payload),
       });
 

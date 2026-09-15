@@ -63,7 +63,7 @@ export default function AdminNewBlogPage() {
         read_time_minutes: parseInt(form.read_time_minutes) || 5,
       };
 
-      const res = await fetch('/api/blog', {
+      const res = await fetch('/api/admin/blog', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

@@ -53,7 +53,7 @@ export default function AdminBlogPage() {
   async function handleDelete(post: Post) {
     if (!confirm(`Delete "${post.title}"? This cannot be undone.`)) return;
     try {
-      const res = await fetch(`/api/blog/${post.id}/edit`, { method: 'DELETE' });
+      const res = await fetch(`/api/admin/blog/${post.id}/edit`, { method: 'DELETE', credentials: 'include' });
       if (!res.ok) throw new Error('Failed to delete post');
       setPosts((prev) => prev.filter((p) => p.id !== post.id));
     } catch (e: unknown) {
