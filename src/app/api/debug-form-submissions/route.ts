@@ -2,47 +2,68 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getSession } from '@/lib/auth';
 import { createServerSupabase } from '@/lib/supabase';
 
+export async function POST() {
+  const user = await getSession();
+  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  try {
+    const supabase = createServerSupabase();
+    
+    // Try insert with various possible column names
+    const testData = {
+      name: 'Debug Test',
+      email: 'debug@test.com',
+      message: 'Testing columns',
+      type: 'contact'
+    };
+    
+    // Try with form_type and data fields
+    const { data, error, status } = await supabase
+      .from('form_submissions')
+      .insert(testData)
+      .select();
+    
+    if (error) {
+      // Try to parse what columns exist
+      return NextResponse.json({
+        insert_test: 'failed',
+        error: error.message,
+        code: error.code,
+        hint: error.hint,
+        details: error.details
+      });
+    }
+    
+    return NextResponse.json({ insert_success: true, data });
+  } catch (err: any) {
+    return NextResponse.json({ error: err.message });
+  }
+}
+
 export async function GET() {
   const user = await getSession();
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   try {
     const supabase = createServerSupabase();
     
-    // Try to fetch with just id first to see if table exists
-    const { data: simpleData, error: simpleError } = await supabase
-      .from('form_submissions')
-      .select('id')
-      .limit(1);
-    
-    if (simpleError) {
-      return NextResponse.json({ 
-        step: 'select_id', 
-        error: simpleError.message,
-        details: simpleError 
-      });
-    }
-    
-    // Try with all expected columns
-    const { data: fullData, error: fullError } = await supabase
+    // Get raw rows to see actual column names
+    const { data, error } = await supabase
       .from('form_submissions')
       .select('*')
-      .limit(1);
-      
-    if (fullError) {
-      return NextResponse.json({ 
-        step: 'select_full', 
-        error: fullError.message,
-        details: fullError,
-        sample: simpleData
-      });
+      .limit(3);
+    
+    if (error) {
+      return NextResponse.json({ select_error: error.message });
     }
     
+    // Get column names from the first row
+    const columns = data && data.length > 0 ? Object.keys(data[0]) : [];
+    
     return NextResponse.json({ 
-      success: true, 
-      sample: fullData,
-      allColumns: Object.keys(fullData?.[0] || {})
+      row_count: data?.length || 0,
+      columns,
+      sample: data
     });
   } catch (err: any) {
-    return NextResponse.json({ error: err.message, stack: err.stack });
+    return NextResponse.json({ error: err.message });
   }
 }
