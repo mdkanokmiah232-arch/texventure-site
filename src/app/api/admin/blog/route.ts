@@ -8,7 +8,7 @@ export async function GET(req: NextRequest) {
   try {
     const supabase = createServerSupabase();
     const { data, error } = await supabase
-      .from('blog')
+      .from('blog_posts')
       .select('id, title, slug, status, excerpt, featured_image, category, tags, author, published_at, updated_at, created_at')
       .order('updated_at', { ascending: false });
     if (error) throw error;
@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const supabase = createServerSupabase();
-    const { data, error } = await supabase.from('blog').insert([body]).select().single();
+    const { data, error } = await supabase.from('blog_posts').insert([body]).select().single();
     if (error) throw error;
     return NextResponse.json({ post: data });
   } catch (err) {
