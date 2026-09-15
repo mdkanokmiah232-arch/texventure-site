@@ -9,7 +9,7 @@ export async function GET(req: NextRequest) {
     const supabase = createServerSupabase();
     const { data, error } = await supabase
       .from('blog_posts')
-      .select('id, title, slug, status, excerpt, featured_image, category, tags, author, published_at, updated_at, created_at')
+      .select('id, title, slug, status, excerpt, featured_image, category, tags, author_name, published_at, updated_at, created_at')
       .order('updated_at', { ascending: false });
     if (error) throw error;
     return NextResponse.json({ posts: data || [] });
