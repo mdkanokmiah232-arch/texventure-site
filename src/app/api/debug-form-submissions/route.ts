@@ -11,7 +11,7 @@ export async function GET() {
     // Insert with only form_type to find other columns
     const { data: insertData, error: insertError } = await supabase
       .from('form_submissions')
-      .insert({ form_type: 'contact_test' })
+      .insert({ form_type: 'contact' })
       .select()
       .single();
     
