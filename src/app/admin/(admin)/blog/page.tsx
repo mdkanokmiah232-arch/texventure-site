@@ -99,7 +99,6 @@ export default function AdminBlogPage() {
             <nav className="bg-white rounded-xl border border-gray-100 p-3 space-y-1">
               <SidebarLink href="/admin/dashboard">Dashboard</SidebarLink>
               <SidebarLink href="/admin/blog" active>Blog Posts</SidebarLink>
-              <SidebarLink href="/admin/pages">Pages SEO</SidebarLink>
             </nav>
           </aside>
 
