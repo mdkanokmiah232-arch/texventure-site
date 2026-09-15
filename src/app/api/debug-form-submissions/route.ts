@@ -2,66 +2,56 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getSession } from '@/lib/auth';
 import { createServerSupabase } from '@/lib/supabase';
 
-export async function POST() {
-  const user = await getSession();
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-  try {
-    const supabase = createServerSupabase();
-    
-    // Try insert with various possible column names
-    const testData = {
-      name: 'Debug Test',
-      email: 'debug@test.com',
-      message: 'Testing columns',
-      type: 'contact'
-    };
-    
-    // Try with form_type and data fields
-    const { data, error, status } = await supabase
-      .from('form_submissions')
-      .insert(testData)
-      .select();
-    
-    if (error) {
-      // Try to parse what columns exist
-      return NextResponse.json({
-        insert_test: 'failed',
-        error: error.message,
-        code: error.code,
-        hint: error.hint,
-        details: error.details
-      });
-    }
-    
-    return NextResponse.json({ insert_success: true, data });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message });
-  }
-}
-
 export async function GET() {
   const user = await getSession();
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   try {
     const supabase = createServerSupabase();
     
-    // Get raw rows to see actual column names
-    const { data, error } = await supabase
+    // Insert a test row
+    const { data: insertData, error: insertError } = await supabase
       .from('form_submissions')
-      .select('*')
-      .limit(3);
+      .insert({
+        name: 'Test User',
+        email: 'test@example.com',
+        message: 'Test message',
+        type: 'contact'
+      })
+      .select()
+      .single();
     
-    if (error) {
-      return NextResponse.json({ select_error: error.message });
+    if (insertError) {
+      return NextResponse.json({ 
+        insert_error: insertError.message,
+        code: insertError.code,
+        details: insertError.details
+      });
     }
     
-    // Get column names from the first row
-    const columns = data && data.length > 0 ? Object.keys(data[0]) : [];
+    // Get all rows
+    const { data: allData, error: selectError } = await supabase
+      .from('form_submissions')
+      .select('*');
+    
+    if (selectError) {
+      return NextResponse.json({ 
+        insert_success: insertData,
+        select_error: selectError.message,
+        code: selectError.code
+      });
+    }
+    
+    const columns = allData && allData.length > 0 ? Object.keys(allData[0]) : [];
+    
+    // Delete the test row
+    if (insertData?.id) {
+      await supabase.from('form_submissions').delete().eq('id', insertData.id);
+    }
     
     return NextResponse.json({ 
-      row_count: data?.length || 0,
+      row_count: allData?.length || 0,
       columns,
-      sample: data
+      sample: allData
     });
   } catch (err: any) {
     return NextResponse.json({ error: err.message });
