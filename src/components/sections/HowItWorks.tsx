@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import Card from '@/components/ui/Card';
+import Card from "@/components/ui/Card";
 import Badge from '@/components/ui/Badge';
 
 interface Step {
@@ -79,7 +78,7 @@ export default function HowItWorks({
 
         <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5">
           {steps.map((step) => (
-            <Link key={step.title} href={step.href || '#'}>
+            <div key={step.title}>
               <Card hover className="group h-full border border-gray-200 p-4 transition-all duration-300 hover:border-[#08CCD4] hover:border-2 sm:p-5">
                 <div className="flex items-start gap-4">
                   <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#08CCD4] text-xl font-bold text-white">
@@ -92,26 +91,10 @@ export default function HowItWorks({
                     <p className="mt-2 text-sm leading-relaxed text-gray-500">
                       {step.description}
                     </p>
-                    <div className="mt-3 flex items-center gap-1 text-xs font-semibold text-[#08CCD4] sm:text-sm">
-                      {step.ctaText || 'Learn more'}
-                      <svg
-                        className="h-3.5 w-3.5 sm:h-4 sm:w-4"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M17 8l4 4m0 0l-4 4m4-4H3"
-                        />
-                      </svg>
-                    </div>
                   </div>
                 </div>
               </Card>
-            </Link>
+            </div>
           ))}
         </div>
       </div>
