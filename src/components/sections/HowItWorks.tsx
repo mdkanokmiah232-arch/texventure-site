@@ -79,7 +79,7 @@ export default function HowItWorks({
 
         <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5">
           {steps.map((step) => (
-            <div key={step.title}>
+            <Link key={step.title} href={step.href || '#'}>
               <Card hover className="group h-full border border-gray-200 p-4 transition-all duration-300 hover:border-[#08CCD4] hover:border-2 sm:p-5">
                 <div className="flex items-start gap-4">
                   <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#08CCD4] text-xl font-bold text-white">
@@ -111,7 +111,7 @@ export default function HowItWorks({
                   </div>
                 </div>
               </Card>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
