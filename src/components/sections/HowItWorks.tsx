@@ -21,42 +21,42 @@ const defaultSteps: Step[] = [
     title: 'Share Your Requirements',
     description: 'Tell us your product, quantity, fabric, and target price. We respond within 24 hours.',
     href: '/contact',
-    ctaText: 'Get a Free Quote',
+
   },
   {
     icon: '2',
     title: 'Factory Matching',
     description: 'We match your order to the right certified factory from our network of 20+ partners, based on your category and quantity.',
     href: '/contact',
-    ctaText: 'Learn More',
+
   },
   {
     icon: '3',
     title: 'Sampling',
     description: 'We produce a sample for your approval, typically within 5–7 days.',
     href: '/contact',
-    ctaText: 'Request a Sample',
+
   },
   {
     icon: '4',
     title: 'Production',
     description: 'Once you approve the sample, full production begins, with regular updates from our team.',
     href: '/contact',
-    ctaText: 'Start Production',
+
   },
   {
     icon: '5',
     title: 'Quality Inspection',
     description: 'Every order is inspected at AQL 2.5 standard before packing, with a documented report sent to you.',
     href: '/contact',
-    ctaText: 'Learn About QC',
+
   },
   {
     icon: '6',
     title: 'Shipping',
     description: 'We handle logistics to your destination, by sea, air, or express courier, across 30+ countries.',
     href: '/contact',
-    ctaText: 'Get Shipping Quote',
+
   },
 ];
 
