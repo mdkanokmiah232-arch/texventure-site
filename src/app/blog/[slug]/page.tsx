@@ -349,7 +349,7 @@ export default async function GuidePage({ params }: Props) {
                   Get custom pricing for your garment order. Low MOQ from 100 pieces.
                 </p>
                 <Link
-                  href="/get-a-quote"
+                  href="/contact"
                   className="mt-5 inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-[#08CCD4] transition hover:bg-gray-50 shadow-lg"
                 >
                   Get a Free Quote
@@ -479,7 +479,7 @@ export default async function GuidePage({ params }: Props) {
                 Get custom pricing for your next production run. Low MOQ from 100 pieces.
               </p>
               <Link
-                href="/get-a-quote"
+                href="/contact"
                 className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#08CCD4] transition hover:bg-gray-50"
               >
                 Get a Free Quote
