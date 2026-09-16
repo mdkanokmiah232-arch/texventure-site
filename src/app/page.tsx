@@ -5,6 +5,7 @@ import { createClientSupabase } from "@/lib/supabase";
 import HeroSection from "@/components/sections/HeroSection";
 import TrustStrip from "@/components/sections/TrustStrip";
 
+import HowItWorks from "@/components/sections/HowItWorks";
 import Testimonials from "@/components/sections/Testimonials";
 import CTABand from "@/components/sections/CTABand";
 import Card from "@/components/ui/Card";
@@ -410,6 +411,9 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* 6. How It Works */}
+      <HowItWorks />
 
       {/* 7. Testimonials + Client Logos */}
       <section className="bg-gray-50">
