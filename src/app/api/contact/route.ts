@@ -1,44 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createServerSupabase } from '@/lib/supabase';
+import { Resend } from 'resend';
 
-const MJ_APIKEY = '1a252a8f2bc5bce171386e15ec95a754';
-const MJ_SECRET = process.env.MAILJET_SECRET || '';
-const FROM_EMAIL = 'info@texventure.com';
-const FROM_NAME = 'TexVenture Website';
+const RESEND_API_KEY = process.env.RESEND_API_KEY || '';
+const FROM_EMAIL = 'TexVenture <onboarding@resend.com>';
 
-async function sendMailjetEmail(toEmail: string, toName: string, replyTo: string, subject: string, htmlContent: string) {
-  const credentials = Buffer.from(`${MJ_APIKEY}:${MJ_SECRET}`).toString('base64');
+async function sendEmail(toEmail: string, toName: string, subject: string, htmlContent: string) {
+  const resend = new Resend(RESEND_API_KEY);
   
-  const payload = {
-    Messages: [
-      {
-        From: { Email: FROM_EMAIL, Name: FROM_NAME },
-        To: [{ Email: toEmail, Name: toName }],
-        Bcc: [{ Email: 'mdkanokmiah232@gmail.com', Name: 'Kanok Miah' }],
-        ReplyTo: { Email: replyTo },
-        Subject: subject,
-        HTMLPart: htmlContent,
-        CustomID: `contact_${Date.now()}`,
-      },
-    ],
-  };
-
-  const res = await fetch('https://api.mailjet.com/v3.1/send', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Basic ${credentials}`,
-    },
-    body: JSON.stringify(payload),
+  const { data, error } = await resend.emails.send({
+    from: FROM_EMAIL,
+    to: [toEmail],
+    bcc: ['mdkanokmiah232@gmail.com'],
+    subject: subject,
+    html: htmlContent,
   });
 
-  if (!res.ok) {
-    const err = await res.text();
-    console.error('Mailjet error:', err);
+  if (error) {
+    console.error('Resend error:', error);
     throw new Error('Failed to send email');
   }
 
-  return res.json();
+  return data;
 }
 
 export async function POST(req: NextRequest) {
@@ -53,7 +36,7 @@ export async function POST(req: NextRequest) {
     const forwardedFor = req.headers.get('x-forwarded-for');
     const ip = forwardedFor ? forwardedFor.split(',')[0].trim() : 'unknown';
 
-    // Save to database - use exact column names
+    // Save to database
     const supabase = createServerSupabase();
     const { error: dbError } = await supabase.from('form_submissions').insert({
       form_type: 'contact',
@@ -114,7 +97,7 @@ export async function POST(req: NextRequest) {
     `;
 
     try {
-      await sendMailjetEmail('zakir@texventure.com', 'Zakir', email, emailSubject, emailHtml);
+      await sendEmail('zakir@texventure.com', 'Zakir', emailSubject, emailHtml);
     } catch (emailErr) {
       console.error('Email error:', emailErr);
     }
@@ -122,6 +105,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error('Contact form error:', err);
-    return NextResponse.json({ success: true }); // Still return success to user
+    return NextResponse.json({ success: true });
   }
 }
