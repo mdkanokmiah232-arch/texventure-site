@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 
 function CheckoutForm() {
-  const searchParams = useSearchParams();
+  const searchParams = useSearchParams()!;
   const product = searchParams.get('product') || '';
   const image = searchParams.get('image') || '';
 

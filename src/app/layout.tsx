@@ -117,7 +117,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-screen bg-background text-foreground font-sans antialiased">
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-YHJCGQK7D4"
+          src="https://www.googletagmanager.com/gtag/js?id=G-71G6RGE213"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -125,7 +125,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-YHJCGQK7D4');
+            gtag('config', 'G-71G6RGE213');
           `}
         </Script>
         <Header />

@@ -1,0 +1,7 @@
+ref=aaimmnobtoutxrksbrdd
+[project.db]
+port = 5432
+user = "postgres"
+password = "TexVentureAdmin2024!"
+database = "postgres"
+host = "db.aaimmnobtoutxrksbrdd.supabase.co"

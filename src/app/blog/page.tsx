@@ -198,7 +198,7 @@ export default function BlogPage() {
                 Get custom manufacturing pricing. Low MOQ from 100 pieces.
               </p>
               <Link
-                href="/get-a-quote"
+                href="/contact"
                 className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#08CCD4] transition hover:bg-gray-50"
               >
                 Get a Free Quote

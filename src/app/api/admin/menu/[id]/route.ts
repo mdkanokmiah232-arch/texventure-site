@@ -1,0 +1,30 @@
+import { NextRequest, NextResponse } from 'next/server';
+import { getSession } from '@/lib/auth';
+import { createServerSupabase } from '@/lib/supabase';
+
+export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+  const user = await getSession();
+  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  try {
+    const body = await req.json();
+    const supabase = createServerSupabase();
+    const { data, error } = await supabase.from('menu_items').update(body).eq('id', (await params).id).select().single();
+    if (error) throw error;
+    return NextResponse.json({ menu: data });
+  } catch (err) {
+    return NextResponse.json({ error: 'Failed to update' }, { status: 500 });
+  }
+}
+
+export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+  const user = await getSession();
+  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  try {
+    const supabase = createServerSupabase();
+    const { error } = await supabase.from('menu_items').delete().eq('id', (await params).id);
+    if (error) throw error;
+    return NextResponse.json({ success: true });
+  } catch (err) {
+    return NextResponse.json({ error: 'Failed to delete' }, { status: 500 });
+  }
+}

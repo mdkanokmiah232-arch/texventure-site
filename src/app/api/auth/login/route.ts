@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
     const supabase = createServerSupabase();
     const { data: user, error } = await supabase
       .from('admin_users')
-      .select('id, username, email, password_hash, role')
+      .select('id, full_name, email, password_hash, role')
       .eq('email', email.toLowerCase().trim())
       .single();
 
@@ -50,7 +50,7 @@ export async function POST(req: NextRequest) {
     // Create session
     const token = await createSessionToken({
       id: user.id,
-      username: user.username,
+      full_name: user.full_name,
       email: user.email,
       role: user.role,
     });
@@ -60,7 +60,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({
       user: {
         id: user.id,
-        username: user.username,
+        full_name: user.full_name,
         email: user.email,
         role: user.role,
       },
