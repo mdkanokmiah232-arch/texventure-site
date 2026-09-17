@@ -3,7 +3,7 @@ import { createServerSupabase } from '@/lib/supabase';
 import { Resend } from 'resend';
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY || '';
-const FROM_EMAIL = 'TexVenture <onboarding@resend.com>';
+const FROM_EMAIL = 'info@texventure.com';
 
 async function sendEmail(toEmail: string, toName: string, subject: string, htmlContent: string) {
   const resend = new Resend(RESEND_API_KEY);
