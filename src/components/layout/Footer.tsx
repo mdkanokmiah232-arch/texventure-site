@@ -30,6 +30,7 @@ const resourceLinks = [
   { name: 'Get a Quote', href: '/get-a-quote' },
   { name: 'Privacy Policy', href: '/privacy-policy' },
   { name: 'Terms of Service', href: '/terms-of-service' },
+  { name: 'Refund Policy', href: '/refund-policy' },
 ];
 
 export default function Footer() {
@@ -235,6 +236,7 @@ export default function Footer() {
             <div className="flex gap-4">
               <Link href="/privacy-policy" className="hover:text-white transition">Privacy</Link>
               <Link href="/terms-of-service" className="hover:text-white transition">Terms</Link>
+              <Link href="/refund-policy" className="hover:text-white transition">Refunds</Link>
               <Link href="/sitemap.xml" className="hover:text-white transition">Sitemap</Link>
               <a href="https://kanokmiah.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
                 Design &amp; SEO by Kanok Miah
