@@ -12,7 +12,7 @@ import QuoteCalculator from '@/components/forms/QuoteCalculator';
 export const metadata: Metadata = generatePageMeta({
   title: 'Instant Quote Calculator — Custom Clothing Pricing',
   description:
-    "Need instant pricing for custom clothing manufacturing? Use TexVenture's calculator to see per-unit costs for t-shirts, hoodies, and activewear from 100 pcs.",
+    "Need instant pricing for custom clothing manufacturing? Use TEXVENTURE's calculator to see per-unit costs for t-shirts, hoodies, and activewear from 100 pcs.",
   path: '/instant-quote',
 });
 

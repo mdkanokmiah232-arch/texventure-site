@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * TexVenture CMS — Create First Admin User
+ * TEXVENTURE CMS — Create First Admin User
  * =========================================
  * Run this ONCE after you have set up your Supabase project and
  * have the DATABASE_URL and SUPABASE_SERVICE_ROLE_KEY in your environment.

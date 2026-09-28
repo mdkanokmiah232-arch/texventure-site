@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 const SITE_URL = "https://texventure.com";
-const SITE_NAME = "TexVenture";
+const SITE_NAME = "TEXVENTURE";
 const SITE_DESCRIPTION =
-  "TexVenture — Bangladesh apparel sourcing, buying house and garment manufacturing partner. Quality knitwear, wovens, denim, sweaters, active wear and work wear with MOQ from 100 pcs/style.";
+  "TEXVENTURE — Bangladesh apparel sourcing, buying house and garment manufacturing partner. Quality knitwear, wovens, denim, sweaters, active wear and work wear with MOQ from 100 pcs/style.";
 
 /* ─── Default Metadata Fields ─── */
 const defaultMetadata: Metadata = {

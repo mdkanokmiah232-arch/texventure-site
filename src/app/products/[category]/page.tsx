@@ -30,16 +30,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: 'Product Not Found' };
 
   return {
-    title: `${product.name} Manufacturer in Bangladesh | TexVenture`,
+    title: `${product.name} Manufacturer in Bangladesh | TEXVENTURE`,
     description: `${product.name} manufacturer and supplier in Bangladesh. ${product.description} Low MOQ ${product.moq}, AQL 2.5 quality. BSCI & OEKO-TEX certified factories.`,
     alternates: {
       canonical: `https://texventure.com/products/${product.slug}`,
     },
     openGraph: {
-      title: `${product.name} Manufacturer & Supplier in Bangladesh | TexVenture`,
+      title: `${product.name} Manufacturer & Supplier in Bangladesh | TEXVENTURE`,
       description: `Custom ${product.name.toLowerCase()} manufacturing in Bangladesh. Low MOQ, fast turnaround, certified factories.`,
       url: `https://texventure.com/products/${product.slug}`,
-      siteName: 'TexVenture',
+      siteName: 'TEXVENTURE',
       type: 'website',
       images: [{ url: product.image, width: 1200, height: 630, alt: product.imageAlt }],
     },
@@ -79,7 +79,7 @@ export default async function ProductCategoryPage({ params }: Props) {
     },
     {
       question: `Why should I choose Bangladesh for ${product.shortName} manufacturing?`,
-      answer: `Bangladesh is the world's second-largest garment exporter, offering competitive pricing, skilled labor, and deep expertise in apparel production. TexVenture's vetted factory network ensures you get international quality at competitive costs with full supply chain transparency.`,
+      answer: `Bangladesh is the world's second-largest garment exporter, offering competitive pricing, skilled labor, and deep expertise in apparel production. TEXVENTURE's vetted factory network ensures you get international quality at competitive costs with full supply chain transparency.`,
     },
   ];
 
@@ -91,11 +91,11 @@ export default async function ProductCategoryPage({ params }: Props) {
     "description": product.description,
     "brand": {
       "@type": "Brand",
-      "name": "TexVenture"
+      "name": "TEXVENTURE"
     },
     "manufacturer": {
       "@type": "Organization",
-      "name": "TexVenture",
+      "name": "TEXVENTURE",
       "url": "https://texventure.com"
     },
     "category": product.name,
@@ -105,7 +105,7 @@ export default async function ProductCategoryPage({ params }: Props) {
       "availability": "https://schema.org/InStock",
       "seller": {
         "@type": "Organization",
-        "name": "TexVenture"
+        "name": "TEXVENTURE"
       }
     }
   };
@@ -163,7 +163,7 @@ export default async function ProductCategoryPage({ params }: Props) {
         <div className="rounded-2xl border border-[#08CCD4]/20 bg-[#08CCD4]/5 p-6">
           <h2 className="text-lg font-bold text-[#1B2A4A]">Quick Answer</h2>
           <p className="mt-2 text-gray-600">
-            <strong>TexVenture</strong> is a {product.name.toLowerCase()} manufacturer and supplier based in{' '}
+            <strong>TEXVENTURE</strong> is a {product.name.toLowerCase()} manufacturer and supplier based in{' '}
             <strong>Dhaka, Bangladesh</strong>. Founded in <strong>2016</strong>, we produce {product.name.toLowerCase()} for
             brands across <strong>30+ countries</strong> with a low MOQ of <strong>{product.moq}</strong>, lead time of{' '}
             <strong>{product.leadTime}</strong>, and AQL 2.5 quality standards. Our factory partners hold{' '}
@@ -215,7 +215,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             {/* About This Category — AEO-style direct answer */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-[#1B2A4A] sm:text-3xl">
-                Why Source {product.name} from TexVenture
+                Why Source {product.name} from TEXVENTURE
               </h2>
               <div className="mt-4 space-y-4 text-lg leading-relaxed text-gray-600">
                 {product.longDescription.split('\n\n').map((para, i) => (
@@ -425,7 +425,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             {/* Trust Line */}
             <section className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
               <p className="text-sm text-gray-500">
-                Written and reviewed by <strong className="text-[#1B2A4A]">TexVenture&apos;s sourcing team</strong> —
+                Written and reviewed by <strong className="text-[#1B2A4A]">TEXVENTURE&apos;s sourcing team</strong> —
                 with 10+ years of combined experience in Bangladesh&apos;s garment manufacturing industry.
                 All specifications and processes described reflect our actual production capabilities.
               </p>
@@ -552,7 +552,7 @@ export default async function ProductCategoryPage({ params }: Props) {
       {/* CTA Band */}
       <CTABand
         headline={`Ready to Source ${product.shortName}?`}
-        description={`Partner with TexVenture for reliable ${product.shortName.toLowerCase()} manufacturing in Bangladesh. Low MOQ, fast turnaround, and quality you can count on.`}
+        description={`Partner with TEXVENTURE for reliable ${product.shortName.toLowerCase()} manufacturing in Bangladesh. Low MOQ, fast turnaround, and quality you can count on.`}
         buttonText="Get a Free Quote"
         buttonHref="/get-a-quote"
       />

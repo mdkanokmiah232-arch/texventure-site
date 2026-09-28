@@ -15,7 +15,7 @@ import Testimonials from '@/components/sections/Testimonials';
 export const metadata: Metadata = generatePageMeta({
   title: 'Private Label Clothing Manufacturer Bangladesh — OEM',
   description:
-    'Want to launch your own clothing brand? TexVenture is a private label manufacturer in Bangladesh offering custom labels, tags, and packaging from 100 pieces.',
+    'Want to launch your own clothing brand? TEXVENTURE is a private label manufacturer in Bangladesh offering custom labels, tags, and packaging from 100 pieces.',
   path: '/private-label-clothing-manufacturer-bangladesh',
   image: 'https://texventure.com/og-private-label.jpg',
 });

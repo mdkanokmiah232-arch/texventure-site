@@ -1,5 +1,5 @@
 -- ============================================================
--- TexVenture CMS - Initial Schema Migration
+-- TEXVENTURE CMS - Initial Schema Migration
 -- ============================================================
 -- Run this in your Supabase SQL editor to set up the database.
 

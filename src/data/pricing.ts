@@ -1,5 +1,5 @@
 // =============================================================================
-// TexVenture Instant Quote Pricing Configuration
+// TEXVENTURE Instant Quote Pricing Configuration
 // Used by the /quote calculator tool
 // =============================================================================
 

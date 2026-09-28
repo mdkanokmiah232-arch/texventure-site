@@ -136,7 +136,7 @@ export default function AdminPagesPage() {
               <div className="w-8 h-8 rounded-lg bg-[#1B2A4A] flex items-center justify-center">
                 <span className="text-[#08CCD4] font-bold text-sm">TV</span>
               </div>
-              <span className="font-bold text-[#1B2A4A]">TexVenture CMS</span>
+              <span className="font-bold text-[#1B2A4A]">TEXVENTURE CMS</span>
             </div>
             <div className="flex items-center gap-4">
               <Link href="/admin/dashboard" className="text-sm text-gray-500 hover:text-[#1B2A4A] transition">

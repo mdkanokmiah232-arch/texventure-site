@@ -9,9 +9,9 @@ import Badge from '@/components/ui/Badge';
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = {
-  title: 'Blog | TexVenture — Garment Manufacturing Insights',
+  title: 'Blog | TEXVENTURE — Garment Manufacturing Insights',
   description:
-    'Expert articles on garment manufacturing, apparel sourcing, MOQs, pricing, and the fashion supply chain — by the TexVenture sourcing team.',
+    'Expert articles on garment manufacturing, apparel sourcing, MOQs, pricing, and the fashion supply chain — by the TEXVENTURE sourcing team.',
   alternates: {
     canonical: 'https://texventure.com/blog',
   },
@@ -54,7 +54,7 @@ export default function BlogPage() {
           />
           <div className="mx-auto mt-8 max-w-3xl text-center">
             <Badge variant="brand" light className="mb-4">
-              TexVenture Blog
+              TEXVENTURE Blog
             </Badge>
             {/* H1 — extra large */}
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -187,7 +187,7 @@ export default function BlogPage() {
                 href="/about"
                 className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#08CCD4] hover:underline"
               >
-                Learn about TexVenture →
+                Learn about TEXVENTURE →
               </Link>
             </div>
 

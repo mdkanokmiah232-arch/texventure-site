@@ -105,7 +105,7 @@ export default function FAQ({
               {headline}
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              Everything you need to know about working with TexVenture.
+              Everything you need to know about working with TEXVENTURE.
             </p>
           </div>
 

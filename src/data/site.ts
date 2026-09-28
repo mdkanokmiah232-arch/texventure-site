@@ -1,5 +1,5 @@
 // =============================================================================
-// TexVenture Site-wide Data
+// TEXVENTURE Site-wide Data
 // =============================================================================
 
 export interface CompanyInfo {
@@ -66,10 +66,10 @@ export interface SiteData {
 // ---------------------------------------------------------------------------
 
 export const company: CompanyInfo = {
-  name: "TexVenture",
+  name: "TEXVENTURE",
   tagline: "Your Gateway to Bangladesh Apparel Manufacturing",
   description:
-    "TexVenture is an apparel manufacturer and end-to-end supply chain sourcing solutions service provider from Dhaka, Bangladesh. We connect growing brands worldwide with vetted factories for knitwear, wovens, denim, sweaters, and activewear — starting from just 100 pieces per style.",
+    "TEXVENTURE is an apparel manufacturer and end-to-end supply chain sourcing solutions service provider from Dhaka, Bangladesh. We connect growing brands worldwide with vetted factories for knitwear, wovens, denim, sweaters, and activewear — starting from just 100 pieces per style.",
   logoUrl:
     "https://texventure.com/wp-content/uploads/2024/06/46f49d3a6517646824216463e65518bca411f2ea.png",
   foundedYear: 2016,

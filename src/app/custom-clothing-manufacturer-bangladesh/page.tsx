@@ -15,7 +15,7 @@ import Testimonials from '@/components/sections/Testimonials';
 export const metadata: Metadata = generatePageMeta({
   title: 'Best Custom Clothing Manufacturer in Bangladesh',
   description:
-    'TexVenture is a custom clothing manufacturer in Bangladesh offering low MOQ from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries.',
+    'TEXVENTURE is a custom clothing manufacturer in Bangladesh offering low MOQ from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries.',
   path: '/custom-clothing-manufacturer-bangladesh',
   image: 'https://texventure.com/og-pillar.jpg',
 });
@@ -58,9 +58,9 @@ const faqItems = [
       'We ship globally to over 30 countries including the USA, UK, Canada, Australia, Germany, France, and Japan. We handle all export documentation, customs clearance, and freight forwarding with FOB, CIF, and DDP shipping terms available.',
   },
   {
-    question: 'How does TexVenture differ from other clothing manufacturers in Bangladesh?',
+    question: 'How does TEXVENTURE differ from other clothing manufacturers in Bangladesh?',
     answer:
-      'TexVenture acts as your on-the-ground representative in Bangladesh. We handle factory selection, quality control, logistics, and communication — giving you access to Bangladesh\'s manufacturing ecosystem without the complexity. We specialise in serving small and growing brands with low MOQs and transparent pricing.',
+      'TEXVENTURE acts as your on-the-ground representative in Bangladesh. We handle factory selection, quality control, logistics, and communication — giving you access to Bangladesh\'s manufacturing ecosystem without the complexity. We specialise in serving small and growing brands with low MOQs and transparent pricing.',
   },
 ];
 
@@ -92,7 +92,7 @@ export default function PillarPage() {
         {/* Hero */}
         <HeroSection
           headline="Best Custom Clothing Manufacturer in Bangladesh"
-          subheadline="From concept to delivery — TexVenture provides custom apparel manufacturing with low MOQs from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries."
+          subheadline="From concept to delivery — TEXVENTURE provides custom apparel manufacturing with low MOQs from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries."
           primaryCta={{ text: 'Get a Free Quote', href: '/get-a-quote' }}
           secondaryCta={{ text: 'Instant Quote Calculator', href: '/instant-quote' }}
         />
@@ -123,7 +123,7 @@ export default function PillarPage() {
                 Full-Service Clothing Manufacturing in Bangladesh
               </h2>
               <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-500">
-                TexVenture provides end-to-end apparel manufacturing solutions — from fabric sourcing and sampling to production, quality control, and door-to-door delivery. Whether you need 100 pieces or 10,000, we handle it all.
+                TEXVENTURE provides end-to-end apparel manufacturing solutions — from fabric sourcing and sampling to production, quality control, and door-to-door delivery. Whether you need 100 pieces or 10,000, we handle it all.
               </p>
             </div>
 
@@ -186,13 +186,13 @@ export default function PillarPage() {
         {/* How It Works */}
         <HowItWorks headline="How Our Manufacturing Process Works" />
 
-        {/* Why TexVenture */}
+        {/* Why TEXVENTURE */}
         <section className="bg-white">
           <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
             <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-                  Why Leading Brands Choose TexVenture
+                  Why Leading Brands Choose TEXVENTURE
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
                   We're not just a factory — we're your manufacturing partner. Here's what sets us apart from other <a href="/" className="text-[#08CCD4] hover:underline">Best Clothing Manufacturer in Bangladesh</a>.

@@ -35,11 +35,11 @@ export const metadata: Metadata = {
     ],
   },
   title: {
-    default: "TexVenture — Apparel Sourcing and Buying House in Bangladesh",
-    template: "%s | TexVenture",
+    default: "TEXVENTURE — Apparel Sourcing and Buying House in Bangladesh",
+    template: "%s | TEXVENTURE",
   },
   description:
-    "TexVenture — Premium apparel sourcing and buying house in Bangladesh. Knitwear, wovens, denim, sweaters, active wear and work wear with MOQ from 100 pcs/style.",
+    "TEXVENTURE — Premium apparel sourcing and buying house in Bangladesh. Knitwear, wovens, denim, sweaters, active wear and work wear with MOQ from 100 pcs/style.",
   keywords: [
     "apparel sourcing",
     "garment manufacturing",
@@ -55,15 +55,15 @@ export const metadata: Metadata = {
     "Bangladesh garment exporter",
     "private label apparel",
   ],
-  authors: [{ name: "TexVenture", url: SITE_URL }],
-  creator: "TexVenture",
-  publisher: "TexVenture",
+  authors: [{ name: "TEXVENTURE", url: SITE_URL }],
+  creator: "TEXVENTURE",
+  publisher: "TEXVENTURE",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: SITE_URL,
-    siteName: "TexVenture",
-    title: "TexVenture — Apparel Sourcing and Buying House in Bangladesh",
+    siteName: "TEXVENTURE",
+    title: "TEXVENTURE — Apparel Sourcing and Buying House in Bangladesh",
     description:
       "Premium apparel sourcing and buying house in Bangladesh. Knitwear, wovens, denim, sweaters, active wear and work wear.",
     images: [
@@ -71,13 +71,13 @@ export const metadata: Metadata = {
         url: `${SITE_URL}/og-default.png`,
         width: 1200,
         height: 630,
-        alt: "TexVenture — Apparel Sourcing and Buying House",
+        alt: "TEXVENTURE — Apparel Sourcing and Buying House",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TexVenture — Apparel Sourcing and Buying House in Bangladesh",
+    title: "TEXVENTURE — Apparel Sourcing and Buying House in Bangladesh",
     description:
       "Premium apparel sourcing and buying house in Bangladesh.",
     images: [`${SITE_URL}/og-default.png`],

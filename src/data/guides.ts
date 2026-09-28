@@ -1,5 +1,5 @@
 // =============================================================================
-// TexVenture Guides / Blog Article Metadata
+// TEXVENTURE Guides / Blog Article Metadata
 // =============================================================================
 
 export interface GuideAuthor {
@@ -41,7 +41,7 @@ export const guides: GuideArticle[] = [
 
 **MOQ stands for Minimum Order Quantity — it is the smallest number of units a manufacturer will produce in a single production run.** If a factory has an MOQ of 300 pieces per colour, you must order at least 300 units of that colour before the factory will begin production.
 
-At TexVenture, we field questions about MOQs from brand founders every single week. Whether you're a startup ordering your first 100 tees or an established brand scaling to 10,000 hoodies, understanding MOQs is fundamental to budgeting, planning, and maintaining a productive relationship with your factory.
+At TEXVENTURE, we field questions about MOQs from brand founders every single week. Whether you're a startup ordering your first 100 tees or an established brand scaling to 10,000 hoodies, understanding MOQs is fundamental to budgeting, planning, and maintaining a productive relationship with your factory.
 
 ## Why Do Factories Have MOQs?
 
@@ -59,7 +59,7 @@ A factory that accepts an order of 50 pieces absorbs the same fixed costs as one
 
 MOQs vary dramatically depending on the type of garment, fabric complexity, and the factory's capacity:
 
-| Product Category | Typical MOQ Range | TexVenture MOQ |
+| Product Category | Typical MOQ Range | TEXVENTURE MOQ |
 |-----------------|-------------------|----------------|
 | T-shirts & basic knits | 200–500 pcs | 100 pcs |
 | Hoodies & sweatshirts | 300–500 pcs | 100 pcs |
@@ -69,7 +69,7 @@ MOQs vary dramatically depending on the type of garment, fabric complexity, and 
 |童装 (Children's wear) | 300–500 pcs | 150 pcs |
 | Dress / formal wear | 200–500 pcs | 100 pcs |
 
-At TexVenture, our MOQ starts at just 100 pieces per colourway — one of the lowest in the Bangladesh garment industry. We built this intentionally to serve startups and DTC brands who need quality production without massive upfront investment.
+At TEXVENTURE, our MOQ starts at just 100 pieces per colourway — one of the lowest in the Bangladesh garment industry. We built this intentionally to serve startups and DTC brands who need quality production without massive upfront investment.
 
 ## How MOQ Affects Your Per-Unit Cost
 
@@ -106,7 +106,7 @@ Ordering 2–3 different styles in the same fabric can help a factory justify th
 Offering 50–100% prepayment reduces the factory's financial risk, making them more willing to accept smaller orders.
 
 **6. Use a buying house or sourcing partner**
-Buying houses like TexVenture aggregate orders across multiple brands, enabling us to place larger aggregate orders with factories while each brand only commits to their portion.
+Buying houses like TEXVENTURE aggregate orders across multiple brands, enabling us to place larger aggregate orders with factories while each brand only commits to their portion.
 
 ## MOQ vs. Sampling
 
@@ -115,7 +115,7 @@ It's important to distinguish between **sample orders** and **production orders*
 - **Sample order**: 1–5 pieces to evaluate fit, quality, and construction before committing to production. Most factories charge $50–$150 per sample.
 - **Production order**: The minimum quantity required for the actual production run (this is what MOQ refers to).
 
-At TexVenture, we offer pre-production samples for $75–$100 per style (credited toward your first production order). This lets you validate quality before committing to the full MOQ.
+At TEXVENTURE, we offer pre-production samples for $75–$100 per style (credited toward your first production order). This lets you validate quality before committing to the full MOQ.
 
 ## Common MOQ Mistakes to Avoid
 
@@ -144,12 +144,12 @@ Scaling from 300 to 1,000 pieces typically reduces per-unit costs by 12–18% �
 
 ## Final Thoughts
 
-MOQs are a fact of garment manufacturing, but they don't have to be a barrier. At TexVenture, we specialise in helping brands of all sizes navigate minimum order requirements — whether you need 100 pieces for a launch collection or 10,000 for a seasonal rollout. Our factory network in Bangladesh is specifically equipped to handle flexible MOQs without compromising on quality.
+MOQs are a fact of garment manufacturing, but they don't have to be a barrier. At TEXVENTURE, we specialise in helping brands of all sizes navigate minimum order requirements — whether you need 100 pieces for a launch collection or 10,000 for a seasonal rollout. Our factory network in Bangladesh is specifically equipped to handle flexible MOQs without compromising on quality.
 
 The key is understanding what drives MOQs, negotiating strategically, and working with a sourcing partner who can bridge the gap between your order volume and factory requirements.`,
     category: "manufacturing",
     tags: ["MOQ", "minimum order quantity", "garment manufacturing", "clothing production", "startup fashion", "order quantities"],
-    author: { name: "TexVenture Sourcing Team", role: "Manufacturing & Sourcing" },
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
     publishedAt: "2024-11-15",
     readTimeMinutes: 8,
     featuredImage: "/images/guides/what-is-moq.jpg",
@@ -169,7 +169,7 @@ The key is understanding what drives MOQs, negotiating strategically, and workin
 
 **Finding the right clothing manufacturer is the single most important decision you'll make as a fashion brand.** A great manufacturer becomes a long-term partner who grows with your brand. A bad one costs you money, time, and reputation.
 
-At TexVenture, we've helped over 200 brands navigate the manufacturer selection process. We've seen founders make costly mistakes — and we've seen brands build thriving businesses on the foundation of the right manufacturing partnership. Here's everything we've learned.
+At TEXVENTURE, we've helped over 200 brands navigate the manufacturer selection process. We've seen founders make costly mistakes — and we've seen brands build thriving businesses on the foundation of the right manufacturing partnership. Here's everything we've learned.
 
 ## Step 1: Define Your Requirements Before You Start Searching
 
@@ -218,7 +218,7 @@ The best manufacturers aren't always the easiest to find. Here's where to look:
 **Industry referrals:**
 - Ask other brand founders in your network
 - Join fashion entrepreneur communities (Reddit r/fashionbusiness, Facebook groups)
-- Work with a sourcing agent or buying house like TexVenture
+- Work with a sourcing agent or buying house like TEXVENTURE
 
 **Direct outreach:**
 - Identify brands similar to yours and research their manufacturing partners
@@ -244,7 +244,7 @@ Always order samples before committing to production. A serious factory will pro
 How responsive is the factory? Do they answer questions thoroughly? Are they proactive about flagging potential issues? Poor communication during the sampling phase guarantees worse communication during production.
 
 **5. Visit if possible**
-For orders above $10,000, a factory visit is strongly recommended. If travel isn't feasible, request a live video tour. At TexVenture, we conduct in-person audits of all partner factories and can provide video walkthroughs on request.
+For orders above $10,000, a factory visit is strongly recommended. If travel isn't feasible, request a live video tour. At TEXVENTURE, we conduct in-person audits of all partner factories and can provide video walkthroughs on request.
 
 ## Step 4: Understand Pricing and Payment Terms
 
@@ -277,7 +277,7 @@ Your first order is a relationship-building exercise as much as a production run
 3. **Evaluate results** — quality, timing, communication, issue resolution
 4. **Scale up** — if everything checks out, increase quantities for better pricing
 
-At TexVenture, our MOQ starts at 100 pieces specifically because we believe brands should be able to test a manufacturing relationship without massive financial risk.
+At TEXVENTURE, our MOQ starts at 100 pieces specifically because we believe brands should be able to test a manufacturing relationship without massive financial risk.
 
 ## Common Mistakes When Finding a Manufacturer
 
@@ -298,7 +298,7 @@ The best manufacturer relationships are built over multiple orders. Give the fac
 
 ## Working with a Buying House vs. Going Direct
 
-| Factor | Direct Factory | Buying House (e.g., TexVenture) |
+| Factor | Direct Factory | Buying House (e.g., TEXVENTURE) |
 |--------|---------------|-------------------------------|
 | MOQ | Usually higher (300–500+) | Lower (100–300) |
 | Quality control | Your responsibility | Managed by buying house |
@@ -319,9 +319,9 @@ Bangladesh is the world's second-largest garment exporter with $45+ billion in a
 - **Established infrastructure** — 4,500+ garment factories, mature supply chain
 - **Favourable trade agreements** — GSP benefits with EU, preferential access to major markets
 
-At TexVenture, our factory network spans Dhaka, Gazipur, and Narayanganj — covering the full spectrum of garment production from basic knits to complex outerwear.
+At TEXVENTURE, our factory network spans Dhaka, Gazipur, and Narayanganj — covering the full spectrum of garment production from basic knits to complex outerwear.
 
-## Next Steps: How to Get Started with TexVenture
+## Next Steps: How to Get Started with TEXVENTURE
 
 Finding the right manufacturer doesn't have to be overwhelming. Here's how to start:
 
@@ -334,7 +334,7 @@ Finding the right manufacturer doesn't have to be overwhelming. Here's how to st
 We've produced garments for 200+ brands across the US, UK, Canada, Australia, and Europe. Our team speaks your language, understands your market, and manages every detail from fabric sourcing to final inspection.`,
     category: "sourcing",
     tags: ["clothing manufacturer", "how to find manufacturer", "garment sourcing", "factory selection", "fashion startup", "manufacturing guide"],
-    author: { name: "TexVenture Sourcing Team", role: "Manufacturing & Sourcing" },
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
     publishedAt: "2024-12-01",
     readTimeMinutes: 10,
     featuredImage: "/images/guides/how-to-find-a-clothing-manufacturer.jpg",
@@ -455,7 +455,7 @@ Quantity is king in garment manufacturing. Here's how pricing scales based on ou
 | 3,000–4,999 pcs | $8.10 | 35% | $24,300–$40,500 |
 | 5,000+ pcs | $7.20 | 42% | $36,000+ |
 
-At TexVenture, our MOQ starts at just 100 pieces per style — one of the lowest in the industry. This is specifically designed for startups and DTC brands that need quality production without massive upfront investment.
+At TEXVENTURE, our MOQ starts at just 100 pieces per style — one of the lowest in the industry. This is specifically designed for startups and DTC brands that need quality production without massive upfront investment.
 
 **The economics are clear:** jumping from 100 to 300 pieces saves 12% per unit. At 1,000 pieces, you're saving 25%. For established brands, ordering 5,000+ pieces delivers the lowest possible cost per unit.
 
@@ -554,7 +554,7 @@ Based on our experience producing hoodies for 30+ brands, here are proven strate
 4. **Use screen printing over embroidery** — 50–70% cheaper for most designs
 5. **Consolidate styles** — ordering multiple colours of the same style shares setup costs
 6. **Avoid air freight** — sea freight is 5–10x cheaper than air; plan 8–12 weeks ahead
-7. **Work with a sourcing partner** — buying houses like TexVenture aggregate demand across brands, giving you factory-direct pricing without the factory minimums
+7. **Work with a sourcing partner** — buying houses like TEXVENTURE aggregate demand across brands, giving you factory-direct pricing without the factory minimums
 8. **Negotiate payment terms** — offering faster payment (net-15 instead of net-30) can earn 2–3% discounts
 9. **Order during off-peak** — factories are less busy from February to April; rush season (August–November) carries premiums
 
@@ -570,16 +570,16 @@ Bangladesh is the world's second-largest garment exporter, producing over $45 bi
 - **GSP benefits** — duty-free or reduced-duty access to EU and UK markets
 - **Skilled workforce** — over 4 million garment workers with decades of experience
 
-At TexVenture, our factory partners in Dhaka and Gazipur specialise in fleece production. We've built relationships with mills that produce the exact 380 GSM cotton-poly fleece that most brands prefer — and our volume pricing means you get the same quality at lower cost.
+At TEXVENTURE, our factory partners in Dhaka and Gazipur specialise in fleece production. We've built relationships with mills that produce the exact 380 GSM cotton-poly fleece that most brands prefer — and our volume pricing means you get the same quality at lower cost.
 
 **The bottom line:** manufacturing a hoodie in Bangladesh costs $6.60–$20.80 ex-factory depending on your specifications. For most brands, a mid-range hoodie with standard trims and screen printing comes in at $10–$12 ex-factory, or $13–$16 landed in the US. That's a cost structure that supports healthy margins at retail prices of $40–$60.`,
     category: "pricing",
     tags: ["hoodie manufacturing cost", "garment pricing", "cost breakdown", "hoodie production", "manufacturing budget", "Bangladesh manufacturing"],
-    author: { name: "TexVenture Sourcing Team", role: "Manufacturing & Sourcing" },
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
     publishedAt: "2026-01-15",
     readTimeMinutes: 12,
     featuredImage: "https://i.ibb.co.com/xKPZxxfx/How-Much-Does-It-Cost-to-Manufacture-a-Hoodie-in-2026.webp",
-    imageAlt: "How Much Does It Cost to Manufacture a Hoodie in 2026 — TexVenture guide showing hoodie production costs and factors",
+    imageAlt: "How Much Does It Cost to Manufacture a Hoodie in 2026 — TEXVENTURE guide showing hoodie production costs and factors",
     metaDescription: "How much does it cost to manufacture a hoodie in 2026? Complete cost breakdown with real factory data, fabric costs, trim pricing, and shipping to US/EU.",
   },
 
@@ -595,7 +595,7 @@ At TexVenture, our factory partners in Dhaka and Gazipur specialise in fleece pr
 
 **Bangladesh is the world's second-largest garment exporter, with the industry generating over $45 billion in annual export revenue and employing more than 4 million workers.** If you're looking for a reliable, cost-effective clothing manufacturer, Bangladesh should be at the top of your list.
 
-At TexVenture, we've built our entire business around Bangladesh's garment ecosystem. We work with over 30 factory partners across Dhaka, Gazipur, and Narayanganj — and we've helped 200+ brands navigate the sourcing landscape. This guide distills everything we know into an actionable roadmap for finding the right manufacturer.
+At TEXVENTURE, we've built our entire business around Bangladesh's garment ecosystem. We work with over 30 factory partners across Dhaka, Gazipur, and Narayanganj — and we've helped 200+ brands navigate the sourcing landscape. This guide distills everything we know into an actionable roadmap for finding the right manufacturer.
 
 ## Bangladesh Garment Industry: Key Statistics
 
@@ -673,7 +673,7 @@ Bangladesh's garment industry is concentrated in four major regions:
 - **Key areas**: Tongi, BSCIC, Konabari, Kaliakoir
 - **Advantages**: Lowest land costs, largest factory concentration, skilled workforce
 - **Best for**: High-volume knit production, hoodies, t-shirts, activewear
-- **TexVenture note**: 60% of our factory partners are based here — it's the heartland of Bangladesh's knit industry
+- **TEXVENTURE note**: 60% of our factory partners are based here — it's the heartland of Bangladesh's knit industry
 
 **Narayanganj**
 - **Specialty**: Knitwear, dyeing, fabric processing
@@ -728,7 +728,7 @@ For orders above $10,000, a factory audit is strongly recommended. Options:
 - **Third-party audit** — firms like SGS, Bureau Veritas, or Intertek conduct independent audits ($500–$1,500)
 - **Virtual audit** — live video tour of the factory floor, offices, and worker facilities
 
-At TexVenture, we conduct in-person audits of every factory in our network. Our audit checklist covers 47 points including machinery condition, worker welfare, production capacity, QC processes, and fire safety.
+At TEXVENTURE, we conduct in-person audits of every factory in our network. Our audit checklist covers 47 points including machinery condition, worker welfare, production capacity, QC processes, and fire safety.
 
 **Step 5: Start with a Trial Order**
 Place a small production run (100–300 pieces) to evaluate the full production cycle — communication, quality, timing, and issue resolution. This is your dress rehearsal before scaling up.
@@ -752,7 +752,7 @@ For most new brands, a buying house or sourcing partner provides significant val
 
 ## Working with a Buying House vs. Going Direct
 
-| Factor | Direct Factory | Buying House (e.g., TexVenture) |
+| Factor | Direct Factory | Buying House (e.g., TEXVENTURE) |
 |--------|---------------|-------------------------------|
 | MOQ | Usually higher (300–500+) | Lower (100–300) |
 | Quality control | Your responsibility | Managed by buying house |
@@ -762,7 +762,7 @@ For most new brands, a buying house or sourcing partner provides significant val
 | Risk mitigation | You bear all risk | Shared risk |
 | Best for | Established brands, large orders | Startups, small-to-medium brands |
 
-## TexVenture's Factory Network
+## TEXVENTURE's Factory Network
 
 We've built a curated network of 30+ factory partners across Bangladesh:
 
@@ -797,7 +797,7 @@ The new minimum wage (effective December 2023) of $113/month represents a 56% in
 
 For brand founders, these trends mean Bangladesh will become an even more attractive manufacturing destination in the coming years. The combination of competitive pricing, improving quality, and strong sustainability credentials creates a compelling value proposition that's difficult to match elsewhere.
 
-## Getting Started with TexVenture
+## Getting Started with TEXVENTURE
 
 Finding the right manufacturer in Bangladesh doesn't have to be overwhelming. Here's how to start:
 
@@ -812,11 +812,11 @@ We've helped 200+ brands build successful manufacturing relationships in Banglad
 **Ready to start?** Contact our sourcing team for a free consultation and quote.`,
     category: "sourcing",
     tags: ["Bangladesh manufacturers", "garment sourcing", "clothing factory", "Bangladesh garment industry", "sourcing guide", "factory selection"],
-    author: { name: "TexVenture Sourcing Team", role: "Manufacturing & Sourcing" },
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
     publishedAt: "2026-01-15",
     readTimeMinutes: 14,
     featuredImage: "https://i.ibb.co.com/kVdt7njG/Best-Garment-Manufacturers-in-Bangladesh.webp",
-    imageAlt: "Best Garment Manufacturers in Bangladesh — top factories, certifications, and sourcing guide by TexVenture",
+    imageAlt: "Best Garment Manufacturers in Bangladesh — top factories, certifications, and sourcing guide by TEXVENTURE",
     metaDescription: "Best garment manufacturers in Bangladesh 2026. $45B+ industry, key hubs, certifications, vetting process, and how to find the right factory for your brand.",
   },
 
@@ -832,7 +832,7 @@ We've helped 200+ brands build successful manufacturing relationships in Banglad
 
 **If you're deciding between Bangladesh, China, and Vietnam for garment manufacturing, here's the bottom line: Bangladesh wins on price and sustainability, China wins on speed and capability, and Vietnam wins on quality-to-cost ratio for premium products.** The right choice depends entirely on your product, budget, timeline, and brand positioning.
 
-At TexVenture, we've sourced production across all three countries for our clients. We've seen brands thrive in each market — and we've seen brands make costly mistakes by choosing the wrong manufacturing hub for their specific needs. This guide compares every critical factor with real data so you can make an informed decision.
+At TEXVENTURE, we've sourced production across all three countries for our clients. We've seen brands thrive in each market — and we've seen brands make costly mistakes by choosing the wrong manufacturing hub for their specific needs. This guide compares every critical factor with real data so you can make an informed decision.
 
 ## Comprehensive Comparison: Bangladesh vs China vs Vietnam
 
@@ -1012,7 +1012,7 @@ Use this decision tree to determine the best manufacturing hub for your needs:
 ## Real Case Studies
 
 **Case Study 1: US streetwear brand choosing Bangladesh**
-A Los Angeles-based streetwear brand producing 2,000 hoodies/month switched from China to Bangladesh through TexVenture. Result: 32% reduction in per-unit cost ($14.50 to $9.80), zero quality issues over 12 months, 3 additional product categories added. Total annual savings: $112,800.
+A Los Angeles-based streetwear brand producing 2,000 hoodies/month switched from China to Bangladesh through TEXVENTURE. Result: 32% reduction in per-unit cost ($14.50 to $9.80), zero quality issues over 12 months, 3 additional product categories added. Total annual savings: $112,800.
 
 **Case Study 2: UK sustainable brand choosing Vietnam**
 A London-based sustainable activewear brand chose Vietnam for their premium leggings line. They needed GOTS-certified organic cotton, consistent quality, and reasonable lead times. Vietnam delivered: 15% lower cost than UK manufacturing, 100% GOTS compliance, 55-day lead time to London.
@@ -1020,7 +1020,7 @@ A London-based sustainable activewear brand chose Vietnam for their premium legg
 **Case Study 3: Fast-fashion brand staying with China**
 A Miami-based fast-fashion brand producing 10,000+ units/week in 50+ styles needed speed above all else. China's 30-day production turnaround and rapid sampling (7 days) made it the only viable option despite higher costs. They accepted the 24–41.5% duty burden for the velocity advantage.
 
-## TexVenture's Recommendation
+## TEXVENTURE's Recommendation
 
 **For most brands in 2026, Bangladesh offers the best overall value proposition.** The combination of lowest costs, zero EU duty, improving quality, and strong sustainability credentials makes it the optimal choice for brands that can plan 3–6 months ahead.
 
@@ -1029,16 +1029,16 @@ However, we always recommend a blended approach for brands with diverse product 
 - **Vietnam** for premium knits and activewear
 - **China** for technical fabrics and rapid prototyping
 
-At TexVenture, our factory network in Bangladesh is optimised for knitwear, fleece, and activewear production. We handle sourcing, quality control, logistics, and communication — so you can focus on building your brand.
+At TEXVENTURE, our factory network in Bangladesh is optimised for knitwear, fleece, and activewear production. We handle sourcing, quality control, logistics, and communication — so you can focus on building your brand.
 
 **Ready to explore manufacturing in Bangladesh?** Contact our sourcing team for a free consultation. We'll match you with the right factory, provide samples, and manage the entire production process from start to finish.`,
     category: "industry",
     tags: ["Bangladesh vs China", "manufacturing comparison", "garment sourcing", "where to manufacture", "supply chain", "2026 sourcing"],
-    author: { name: "TexVenture Sourcing Team", role: "Manufacturing & Sourcing" },
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
     publishedAt: "2026-01-15",
     readTimeMinutes: 15,
     featuredImage: "https://i.ibb.co.com/8LjhChwQ/Bangladesh-vs-China-vs-Vietnam-Where-Should-You-Manufacture-in-2026.webp",
-    imageAlt: "Bangladesh vs China vs Vietnam — Where Should You Manufacture in 2026 comparison by TexVenture",
+    imageAlt: "Bangladesh vs China vs Vietnam — Where Should You Manufacture in 2026 comparison by TEXVENTURE",
     metaDescription: "Bangladesh vs China vs Vietnam for garment manufacturing in 2026. Compare pricing, MOQs, lead times, quality, tariffs, and sustainability with real data.",
   },
 ];

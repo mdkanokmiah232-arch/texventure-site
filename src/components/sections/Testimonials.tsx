@@ -16,7 +16,7 @@ const defaultTestimonials: Testimonial[] = [
     name: 'Sarah Mitchell',
     role: 'Founder',
     company: 'Nordic Apparel Co.',
-    quote: 'TexVenture made sourcing from Bangladesh incredibly easy. Their low MOQ was perfect for our launch, and the quality exceeded expectations. We now produce our entire line with them.',
+    quote: 'TEXVENTURE made sourcing from Bangladesh incredibly easy. Their low MOQ was perfect for our launch, and the quality exceeded expectations. We now produce our entire line with them.',
     rating: 5,
   },
   {
@@ -30,7 +30,7 @@ const defaultTestimonials: Testimonial[] = [
     name: 'Priya Sharma',
     role: 'Creative Director',
     company: 'EcoWear Studio',
-    quote: 'We needed sustainable fabrics and certifications. TexVenture sourced OEKO-TEX certified materials and handled all documentation. A true partner.',
+    quote: 'We needed sustainable fabrics and certifications. TEXVENTURE sourced OEKO-TEX certified materials and handled all documentation. A true partner.',
     rating: 5,
   },
 ];

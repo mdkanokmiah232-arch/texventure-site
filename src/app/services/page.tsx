@@ -9,9 +9,9 @@ import FAQ from '@/components/sections/FAQ';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'TexVenture Services — Apparel Manufacturing and Sourcing',
+  title: 'TEXVENTURE Services — Apparel Manufacturing and Sourcing',
   description:
-    "Explore TexVenture's apparel manufacturing services: custom clothing, low MOQ production, private label/OEM, and streetwear manufacturing from Bangladesh.",
+    "Explore TEXVENTURE's apparel manufacturing services: custom clothing, low MOQ production, private label/OEM, and streetwear manufacturing from Bangladesh.",
   path: '/services',
 });
 

@@ -33,7 +33,7 @@ const defaultPoints: TrustPoint[] = [
 ];
 
 export default function TrustBlock({
-  headline = 'Why Trust TexVenture',
+  headline = 'Why Trust TEXVENTURE',
   intro = 'Fifteen-plus years of combined manufacturing and sourcing experience across our leadership team, backed by a factory audit process and quality system built for accountability — not just marketing copy.',
   points = defaultPoints,
 }: TrustBlockProps) {

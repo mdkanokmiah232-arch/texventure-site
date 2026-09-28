@@ -1,5 +1,5 @@
 -- ============================================================
--- TexVenture CMS - Seed First Admin User
+-- TEXVENTURE CMS - Seed First Admin User
 -- ============================================================
 -- Run this AFTER 001_initial_schema.sql to create the first admin.
 -- Replace 'YOUR_ADMIN_EMAIL' and 'YOUR_ADMIN_PASSWORD' with real values.

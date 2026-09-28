@@ -29,7 +29,7 @@ function CheckoutForm() {
 
     const subject = encodeURIComponent(`Order Inquiry — ${product}`);
     const body = encodeURIComponent(
-      `Hello TexVenture,\n\n` +
+      `Hello TEXVENTURE,\n\n` +
       `I would like to place an order for: ${product}\n\n` +
       `Details:\n` +
       `Name: ${form.name}\n` +

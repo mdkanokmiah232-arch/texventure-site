@@ -10,9 +10,9 @@ import QuoteForm from '@/components/forms/QuoteForm';
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = generatePageMeta({
-  title: 'TexVenture — Get a Free Quote for Custom Clothing',
+  title: 'TEXVENTURE — Get a Free Quote for Custom Clothing',
   description:
-    'Get a free quote from TexVenture for custom clothing manufacturing in Bangladesh. Fill out the form or message us on WhatsApp — we respond within 24 hours.',
+    'Get a free quote from TEXVENTURE for custom clothing manufacturing in Bangladesh. Fill out the form or message us on WhatsApp — we respond within 24 hours.',
   path: '/get-a-quote',
 });
 
@@ -48,7 +48,7 @@ const faqItems = [
 /* ─── Page Component ─── */
 export default function GetQuotePage() {
   const whatsappUrl = `https://wa.me/8801354316246?text=${encodeURIComponent(
-    'Hi TexVenture! I\'d like to discuss a manufacturing project.'
+    'Hi TEXVENTURE! I\'d like to discuss a manufacturing project.'
   )}`;
 
   return (

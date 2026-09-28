@@ -1,5 +1,5 @@
 /**
- * JSON-LD structured data helpers for TexVenture.
+ * JSON-LD structured data helpers for TEXVENTURE.
  * Each function returns a plain object to embed in <script type="application/ld+json">.
  */
 
@@ -24,13 +24,13 @@ interface OrganizationOptions {
 const SITE_URL = "https://texventure.com";
 
 /**
- * Default Organization schema for TexVenture.
+ * Default Organization schema for TEXVENTURE.
  */
 export function OrganizationSchema(
   overrides: OrganizationOptions = {},
 ): Record<string, unknown> {
   const defaults: OrganizationOptions = {
-    name: "TexVenture",
+    name: "TEXVENTURE",
     url: SITE_URL,
     logo: `${SITE_URL}/logo.png`,
     email: "zakir@texventure.com",
@@ -47,7 +47,7 @@ export function OrganizationSchema(
       "https://www.linkedin.com/company/texventure",
     ],
     description:
-      "TexVenture — Bangladesh-based apparel sourcing, buying house and garment manufacturing partner serving global brands since inception.",
+      "TEXVENTURE — Bangladesh-based apparel sourcing, buying house and garment manufacturing partner serving global brands since inception.",
   };
 
   const config = { ...defaults, ...overrides };
@@ -125,7 +125,7 @@ export function ProductSchema(options: ProductSchemaOptions): Record<string, unk
     ...(options.url && { url: options.url }),
     brand: {
       "@type": "Brand",
-      name: options.brand || "TexVenture",
+      name: options.brand || "TEXVENTURE",
     },
     ...(options.category && { category: options.category }),
     ...(options.offers && {
@@ -137,7 +137,7 @@ export function ProductSchema(options: ProductSchemaOptions): Record<string, unk
         ...(options.offers.url && { url: options.offers.url }),
         seller: {
           "@type": "Organization",
-          name: "TexVenture",
+          name: "TEXVENTURE",
         },
       },
     }),
@@ -168,7 +168,7 @@ export function ServiceSchema(options: ServiceSchemaOptions): Record<string, unk
     serviceType: options.serviceType || options.name,
     provider: {
       "@type": "Organization",
-      name: "TexVenture",
+      name: "TEXVENTURE",
       url: SITE_URL,
       logo: `${SITE_URL}/logo.png`,
     },
@@ -233,12 +233,12 @@ export function ArticleSchema(options: ArticleSchemaOptions): Record<string, unk
     ...(options.dateModified && { dateModified: options.dateModified }),
     author: {
       "@type": "Organization",
-      name: options.author || "TexVenture",
+      name: options.author || "TEXVENTURE",
       url: baseUrl,
     },
     publisher: {
       "@type": "Organization",
-      name: options.publisher || "TexVenture",
+      name: options.publisher || "TEXVENTURE",
       url: baseUrl,
       logo: {
         "@type": "ImageObject",

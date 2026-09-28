@@ -9,7 +9,7 @@ export default function InternalLinks({ currentPage }: InternalLinksProps) {
     {
       keyword: 'Best Clothing Manufacturer in Bangladesh',
       href: '/',
-      description: 'TexVenture is a trusted apparel manufacturing partner in Bangladesh — low MOQ, certified factories, global delivery.',
+      description: 'TEXVENTURE is a trusted apparel manufacturing partner in Bangladesh — low MOQ, certified factories, global delivery.',
     },
     {
       keyword: 'Clothing Manufacturer in Bangladesh',
@@ -17,7 +17,7 @@ export default function InternalLinks({ currentPage }: InternalLinksProps) {
       description: 'Trusted clothing manufacturer & supplier in Bangladesh with 20+ certified factories',
     },
     {
-      keyword: 'TexVenture',
+      keyword: 'TEXVENTURE',
       href: '/about',
       description: 'Learn about our 10+ years of experience in apparel sourcing and manufacturing',
     },

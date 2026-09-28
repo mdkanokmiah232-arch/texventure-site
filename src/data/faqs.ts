@@ -1,5 +1,5 @@
 // =============================================================================
-// TexVenture FAQ Data
+// TEXVENTURE FAQ Data
 // =============================================================================
 
 export interface FAQItem {
@@ -22,12 +22,12 @@ export const faqs: FAQGroup[] = [
   {
     pageType: "general",
     title: "General Questions",
-    description: "Everything you need to know about working with TexVenture.",
+    description: "Everything you need to know about working with TEXVENTURE.",
     items: [
       {
-        question: "What is TexVenture?",
+        question: "What is TEXVENTURE?",
         answer:
-          "TexVenture is a Bangladesh-based apparel sourcing and buying house. We connect international brands — especially small and growing ones — with vetted garment factories in Bangladesh. We handle sourcing, sampling, production, quality control, and shipping.",
+          "TEXVENTURE is a Bangladesh-based apparel sourcing and buying house. We connect international brands — especially small and growing ones — with vetted garment factories in Bangladesh. We handle sourcing, sampling, production, quality control, and shipping.",
       },
       {
         question: "Why source from Bangladesh?",

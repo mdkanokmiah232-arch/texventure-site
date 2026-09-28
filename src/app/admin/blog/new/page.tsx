@@ -218,7 +218,7 @@ export default function AdminNewBlogPage() {
                   type="text"
                   value={form.author_name}
                   onChange={(e) => set('author_name', e.target.value)}
-                  placeholder="TexVenture Sourcing Team"
+                  placeholder="TEXVENTURE Sourcing Team"
                   className="w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm transition focus:border-[#08CCD4] focus:outline-none focus:ring-2 focus:ring-[#08CCD4]/20"
                 />
               </div>
@@ -259,7 +259,7 @@ export default function AdminNewBlogPage() {
                 type="text"
                 value={form.meta_title}
                 onChange={(e) => set('meta_title', e.target.value)}
-                placeholder="What Is MOQ? Minimum Order Quantity Explained | TexVenture"
+                placeholder="What Is MOQ? Minimum Order Quantity Explained | TEXVENTURE"
                 className="w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm transition focus:border-[#08CCD4] focus:outline-none focus:ring-2 focus:ring-[#08CCD4]/20"
               />
             </div>
@@ -347,7 +347,7 @@ function Header() {
             <div className="w-8 h-8 rounded-lg bg-[#1B2A4A] flex items-center justify-center">
               <span className="text-[#08CCD4] font-bold text-sm">TV</span>
             </div>
-            <span className="font-bold text-[#1B2A4A]">TexVenture CMS</span>
+            <span className="font-bold text-[#1B2A4A]">TEXVENTURE CMS</span>
           </div>
           <div className="flex items-center gap-4">
             <Link href="/admin/dashboard" className="text-sm text-gray-500 hover:text-[#1B2A4A] transition">

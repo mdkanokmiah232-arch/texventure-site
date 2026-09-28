@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description:
-    'TexVenture Terms of Service — the terms and conditions governing use of our website and our apparel manufacturing and sourcing services.',
+    'TEXVENTURE Terms of Service — the terms and conditions governing use of our website and our apparel manufacturing and sourcing services.',
   alternates: { canonical: 'https://texventure.com/terms-of-service' },
   robots: { index: true, follow: true },
 };
@@ -29,7 +29,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">1. Acceptance of Terms</h2>
             <p className="mt-3 leading-relaxed">
-              By accessing texventure.com or engaging TexVenture&apos;s apparel sourcing and
+              By accessing texventure.com or engaging TEXVENTURE&apos;s apparel sourcing and
               manufacturing services, you agree to be bound by these Terms of Service. If you do
               not agree, please do not use our website or services.
             </p>
@@ -38,7 +38,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">2. Our Services</h2>
             <p className="mt-3 leading-relaxed">
-              TexVenture acts as an apparel sourcing and buying house, connecting brands with
+              TEXVENTURE acts as an apparel sourcing and buying house, connecting brands with
               vetted garment factories in Bangladesh for custom clothing manufacturing. Minimum
               order quantities, lead times, and pricing vary by product category and are confirmed
               in writing before production begins.
@@ -77,7 +77,7 @@ export default function TermsOfServicePage() {
             <h2 className="text-xl font-bold text-[#1B2A4A]">6. Intellectual Property</h2>
             <p className="mt-3 leading-relaxed">
               All content on texventure.com — including text, images, and branding — is the
-              property of TexVenture unless otherwise noted, and may not be reproduced without
+              property of TEXVENTURE unless otherwise noted, and may not be reproduced without
               permission.
             </p>
           </section>
@@ -85,7 +85,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">7. Limitation of Liability</h2>
             <p className="mt-3 leading-relaxed">
-              TexVenture acts as a sourcing intermediary. While we vet and monitor our factory
+              TEXVENTURE acts as a sourcing intermediary. While we vet and monitor our factory
               partners closely, liability for production delays or defects is addressed on a
               per-order basis in line with agreed contractual terms.
             </p>
@@ -94,7 +94,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">8. Contact Us</h2>
             <p className="mt-3 leading-relaxed">
-              For questions about these Terms of Service, contact TexVenture at House: 2, Road: 3/A
+              For questions about these Terms of Service, contact TEXVENTURE at House: 2, Road: 3/A
               Avenue, Sector 13, Uttara, Dhaka 1230, Bangladesh, or via email at zakir@texventure.com.
             </p>
           </section>

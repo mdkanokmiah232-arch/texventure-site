@@ -55,7 +55,7 @@ export default function QuoteForm() {
 
     // Build WhatsApp message
     const whatsappMessage = encodeURIComponent(
-      `Hi TexVenture! I'd like a quote for:\n\n` +
+      `Hi TEXVENTURE! I'd like a quote for:\n\n` +
       `Name: ${formData.name}\n` +
       `Company: ${formData.company}\n` +
       `Product: ${formData.productCategory}\n` +

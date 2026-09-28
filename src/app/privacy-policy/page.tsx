@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'TexVenture Privacy Policy — how we collect, use, and protect your personal information when you use our website or engage our apparel sourcing services.',
+    'TEXVENTURE Privacy Policy — how we collect, use, and protect your personal information when you use our website or engage our apparel sourcing services.',
   alternates: { canonical: 'https://texventure.com/privacy-policy' },
   robots: { index: true, follow: true },
 };
@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">1. Introduction</h2>
             <p className="mt-3 leading-relaxed">
-              TexVenture (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is a Bangladesh-based apparel sourcing and
+              TEXVENTURE (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is a Bangladesh-based apparel sourcing and
               buying house. This Privacy Policy explains how we collect, use, disclose, and
               safeguard your information when you visit our website texventure.com or engage our
               manufacturing and sourcing services.
@@ -93,7 +93,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">7. Contact Us</h2>
             <p className="mt-3 leading-relaxed">
-              If you have questions about this Privacy Policy, contact TexVenture at 35
+              If you have questions about this Privacy Policy, contact TEXVENTURE at 35
               Gareeb-E-Newaz Avenue, Sector 13, Uttara, Dhaka 1230, Bangladesh, or via email at
               zakir@texventure.com.
             </p>

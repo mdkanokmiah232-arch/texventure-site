@@ -1,5 +1,5 @@
 // =============================================================================
-// TexVenture Product Categories — Manufacturing Categories
+// TEXVENTURE Product Categories — Manufacturing Categories
 // =============================================================================
 
 export interface ProductFeature {
@@ -50,7 +50,7 @@ export const products: ProductCategory[] = [
     description:
       "Custom knit wear manufacturer in Bangladesh — t-shirts, polos, hoodies, joggers, and knit garments from 100 pieces MOQ.",
     longDescription:
-      "TexVenture is a trusted knit wear manufacturer and supplier in Bangladesh, producing high-quality knitted garments for fashion brands across the USA, UK, Canada, Australia, Germany, France, and Japan. We specialize in manufacturing t-shirts, polo shirts, hoodies, sweatshirts, joggers, leggings, and knit dresses — all produced in our vetted network of 20+ factories across Dhaka, Chittagong, and Gazipur.\n\nBangladesh is one of the world's largest producers of knitwear, with deep expertise in circular and flat-knit construction. Our factory partners use imported circular knitting machines (Mayer & Cie, Terrot) capable of producing single jersey, interlock, rib, pique, fleece, and French terry fabrics. We source cotton, cotton-polyester blends, organic cotton, and recycled polyester — typically in the 120–280 GSM range depending on the garment type.\n\nOur knit wear production process includes CAD pattern-making, auto-spread cutting, overlock and coverstitch sewing, and industrial finishing. Every garment goes through in-line and final AQL 2.5 quality inspection before export. We offer Pantone-matched dyeing, screen printing, embroidery, DTG printing, heat transfer, and sublimation — giving you full creative control over your collection.\n\nWith a low MOQ of just 100 pieces per style and sampling turnaround of 5–7 days, TexVenture is ideal for startups, DTC brands, and established retailers looking to source quality knit wear from Bangladesh at competitive prices.",
+      "TEXVENTURE is a trusted knit wear manufacturer and supplier in Bangladesh, producing high-quality knitted garments for fashion brands across the USA, UK, Canada, Australia, Germany, France, and Japan. We specialize in manufacturing t-shirts, polo shirts, hoodies, sweatshirts, joggers, leggings, and knit dresses — all produced in our vetted network of 20+ factories across Dhaka, Chittagong, and Gazipur.\n\nBangladesh is one of the world's largest producers of knitwear, with deep expertise in circular and flat-knit construction. Our factory partners use imported circular knitting machines (Mayer & Cie, Terrot) capable of producing single jersey, interlock, rib, pique, fleece, and French terry fabrics. We source cotton, cotton-polyester blends, organic cotton, and recycled polyester — typically in the 120–280 GSM range depending on the garment type.\n\nOur knit wear production process includes CAD pattern-making, auto-spread cutting, overlock and coverstitch sewing, and industrial finishing. Every garment goes through in-line and final AQL 2.5 quality inspection before export. We offer Pantone-matched dyeing, screen printing, embroidery, DTG printing, heat transfer, and sublimation — giving you full creative control over your collection.\n\nWith a low MOQ of just 100 pieces per style and sampling turnaround of 5–7 days, TEXVENTURE is ideal for startups, DTC brands, and established retailers looking to source quality knit wear from Bangladesh at competitive prices.",
     features: [
       { text: "T-shirts, polos, hoodies, joggers, and knit dresses" },
       { text: "Circular knitting: single jersey, interlock, rib, pique, fleece" },
@@ -60,7 +60,7 @@ export const products: ProductCategory[] = [
       { text: "AQL 2.5 multi-point quality inspection" },
     ],
     image: "/images/products/knit-wear.jpg",
-    imageAlt: "Custom knit wear manufactured by TexVenture in Bangladesh — t-shirts, polos, and hoodies",
+    imageAlt: "Custom knit wear manufactured by TEXVENTURE in Bangladesh — t-shirts, polos, and hoodies",
     popularItems: [
       "Crew Neck T-Shirts",
       "V-Neck T-Shirts",
@@ -109,7 +109,7 @@ export const products: ProductCategory[] = [
         answer: "Sampling takes 5–7 days. Bulk production lead time is 45–60 days after sample approval, including fabric sourcing, cutting, sewing, finishing, AQL 2.5 QC inspection, and export documentation.",
       },
       {
-        question: "Can TexVenture handle private label knit wear orders?",
+        question: "Can TEXVENTURE handle private label knit wear orders?",
         answer: "Yes. We offer full private label services including custom woven labels, printed labels, hang tags, poly-bagging, and retail-ready packaging. Your branding specifications are applied throughout production.",
       },
       {
@@ -178,7 +178,7 @@ export const products: ProductCategory[] = [
     description:
       "Custom woven garment manufacturer in Bangladesh — shirts, blouses, dresses, trousers, and woven apparel from 100 pieces MOQ.",
     longDescription:
-      "TexVenture is a specialized woven garment manufacturer and supplier in Bangladesh, producing high-quality woven apparel for global brands. We manufacture button-down shirts, blouses, dresses, skirts, trousers, chinos, jackets, and blazers — all sourced from our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nWoven garment manufacturing requires precision in fabric handling, pattern making, and construction. Our factories use auto-spreaders, computerized cutting machines, and industrial pressing systems to deliver clean, consistent results. We work with a wide range of woven fabrics including cotton poplin, oxford, twill, chambray, linen, rayon, viscose, and polyester blends — typically in fabric weights ranging from 80 GSM (lightweight blouses) to 280 GSM (heavy trousers and jackets).\n\nWoven garments demand specific construction techniques: lockstitch sewing, buttonhole making, collar and cuff fusing, and precise pressing. Our production teams are trained in these specialized processes, ensuring garments meet the quality standards expected by international retail chains and premium brands.\n\nTexVenture's woven manufacturing covers the full spectrum from casual shirting to formal blazers. We offer custom washes, embroidery, screen printing, and a complete range of trims and accessories. Every order goes through AQL 2.5 quality inspection with documented reports shared before shipment.",
+      "TEXVENTURE is a specialized woven garment manufacturer and supplier in Bangladesh, producing high-quality woven apparel for global brands. We manufacture button-down shirts, blouses, dresses, skirts, trousers, chinos, jackets, and blazers — all sourced from our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nWoven garment manufacturing requires precision in fabric handling, pattern making, and construction. Our factories use auto-spreaders, computerized cutting machines, and industrial pressing systems to deliver clean, consistent results. We work with a wide range of woven fabrics including cotton poplin, oxford, twill, chambray, linen, rayon, viscose, and polyester blends — typically in fabric weights ranging from 80 GSM (lightweight blouses) to 280 GSM (heavy trousers and jackets).\n\nWoven garments demand specific construction techniques: lockstitch sewing, buttonhole making, collar and cuff fusing, and precise pressing. Our production teams are trained in these specialized processes, ensuring garments meet the quality standards expected by international retail chains and premium brands.\n\nTEXVENTURE's woven manufacturing covers the full spectrum from casual shirting to formal blazers. We offer custom washes, embroidery, screen printing, and a complete range of trims and accessories. Every order goes through AQL 2.5 quality inspection with documented reports shared before shipment.",
     features: [
       { text: "Shirts, blouses, dresses, skirts, trousers, and blazers" },
       { text: "Lockstitch sewing with precision collar and cuff construction" },
@@ -188,7 +188,7 @@ export const products: ProductCategory[] = [
       { text: "AQL 2.5 multi-point quality inspection" },
     ],
     image: "https://i.postimg.cc/qvQ3jn6k/Wovens.webp",
-    imageAlt: "Custom woven garments manufactured by TexVenture in Bangladesh — shirts, blouses, and trousers",
+    imageAlt: "Custom woven garments manufactured by TEXVENTURE in Bangladesh — shirts, blouses, and trousers",
     subCategories: [
       {
         name: "Wovens Collection",
@@ -273,7 +273,7 @@ export const products: ProductCategory[] = [
     description:
       "Custom circular knit manufacturer in Bangladesh — t-shirts, tanks, thermals, and tubular knit garments from 100 pieces MOQ.",
     longDescription:
-      "TexVenture is a specialized circular knit manufacturer in Bangladesh, producing tubular and seamless-style knitted garments using imported circular knitting machinery. We manufacture t-shirts, tank tops, thermal wear, undershirts, seamless knit garments, and tubular body products — all produced in our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nCircular knitting is a specialized process where fabric is knitted in a continuous tube on circular knitting machines. This produces garments with minimal seams, better drape, and higher production efficiency compared to flat-bed knitting. Our factory partners operate machines from Mayer & Cie and Terrot (Germany), capable of producing single jersey, rib, interlock, pique, and jacquard patterns.\n\nWe source yarn and fabric from Bangladesh's deep textile ecosystem, with options including 100% combed cotton, carded cotton, cotton-polyester blends, and modal. Typical fabric weights range from 120 GSM (lightweight tees) to 220 GSM (thermal and fleece). The circular knit process is particularly efficient for high-volume basics — t-shirts, tank tops, and body-con garments.\n\nTexVenture's circular knit production emphasizes consistency in gauge, color matching, and fabric hand-feel. Every production run goes through AQL 2.5 quality inspection, with documented reports on fabric weight, shrinkage, colorfastness, and pilling resistance.",
+      "TEXVENTURE is a specialized circular knit manufacturer in Bangladesh, producing tubular and seamless-style knitted garments using imported circular knitting machinery. We manufacture t-shirts, tank tops, thermal wear, undershirts, seamless knit garments, and tubular body products — all produced in our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nCircular knitting is a specialized process where fabric is knitted in a continuous tube on circular knitting machines. This produces garments with minimal seams, better drape, and higher production efficiency compared to flat-bed knitting. Our factory partners operate machines from Mayer & Cie and Terrot (Germany), capable of producing single jersey, rib, interlock, pique, and jacquard patterns.\n\nWe source yarn and fabric from Bangladesh's deep textile ecosystem, with options including 100% combed cotton, carded cotton, cotton-polyester blends, and modal. Typical fabric weights range from 120 GSM (lightweight tees) to 220 GSM (thermal and fleece). The circular knit process is particularly efficient for high-volume basics — t-shirts, tank tops, and body-con garments.\n\nTEXVENTURE's circular knit production emphasizes consistency in gauge, color matching, and fabric hand-feel. Every production run goes through AQL 2.5 quality inspection, with documented reports on fabric weight, shrinkage, colorfastness, and pilling resistance.",
     features: [
       { text: "T-shirts, tanks, thermals, and tubular garments" },
       { text: "Mayer & Cie and Terrot circular knitting machines" },
@@ -283,7 +283,7 @@ export const products: ProductCategory[] = [
       { text: "AQL 2.5 quality inspection with fabric testing" },
     ],
     image: "https://i.postimg.cc/5977XY2F/Circular-Knit.webp",
-    imageAlt: "Custom circular knit garments manufactured by TexVenture in Bangladesh — t-shirts and tank tops",
+    imageAlt: "Custom circular knit garments manufactured by TEXVENTURE in Bangladesh — t-shirts and tank tops",
     subCategories: [
       {
         name: "Circular Knit Collection",
@@ -373,7 +373,7 @@ export const products: ProductCategory[] = [
     description:
       "Custom denim manufacturer in Bangladesh — jeans, denim jackets, skirts, and denim garments from 100 pieces MOQ.",
     longDescription:
-      "TexVenture is a specialized denim manufacturer in Bangladesh, producing premium denim garments for global brands. We manufacture jeans, denim jackets, skirts, shirts, shorts, and denim dresses — all produced in our vetted factory network with dedicated denim washing and finishing facilities across Dhaka, Chittagong, and Gazipur.\n\nBangladesh is one of the world's top denim manufacturing hubs, with deep expertise in denim fabric weaving, dyeing, washing, and finishing. Our factory partners use imported looms (Toyota, Dornier) to produce denim fabrics in weights ranging from 6 oz (lightweight chambray) to 14 oz (rigid selvedge). We work with 3x1 and 2x1 twill constructions, rope dyeing and piece dyeing techniques, and a full range of indigo shades.\n\nDenim washing is where garments gain their character. Our factories operate full-service denim laundry facilities with capabilities including: stone wash, enzyme wash, bleach wash, tinting, overdyeing, laser fading, whiskering, grinding, and resin finishing. We also offer sustainable washing techniques using ozone and e-flow technology to reduce water and chemical consumption.\n\nEvery denim garment goes through AQL 2.5 quality inspection with specific attention to wash consistency, seam strength, hardware quality (rivets, buttons, zippers), and colorfastness. Our denim production covers men's, women's, and kids' styles.",
+      "TEXVENTURE is a specialized denim manufacturer in Bangladesh, producing premium denim garments for global brands. We manufacture jeans, denim jackets, skirts, shirts, shorts, and denim dresses — all produced in our vetted factory network with dedicated denim washing and finishing facilities across Dhaka, Chittagong, and Gazipur.\n\nBangladesh is one of the world's top denim manufacturing hubs, with deep expertise in denim fabric weaving, dyeing, washing, and finishing. Our factory partners use imported looms (Toyota, Dornier) to produce denim fabrics in weights ranging from 6 oz (lightweight chambray) to 14 oz (rigid selvedge). We work with 3x1 and 2x1 twill constructions, rope dyeing and piece dyeing techniques, and a full range of indigo shades.\n\nDenim washing is where garments gain their character. Our factories operate full-service denim laundry facilities with capabilities including: stone wash, enzyme wash, bleach wash, tinting, overdyeing, laser fading, whiskering, grinding, and resin finishing. We also offer sustainable washing techniques using ozone and e-flow technology to reduce water and chemical consumption.\n\nEvery denim garment goes through AQL 2.5 quality inspection with specific attention to wash consistency, seam strength, hardware quality (rivets, buttons, zippers), and colorfastness. Our denim production covers men's, women's, and kids' styles.",
     features: [
       { text: "Jeans, denim jackets, skirts, shorts, and dresses" },
       { text: "Fabric weight: 6–14 oz (200–470 GSM)" },
@@ -383,7 +383,7 @@ export const products: ProductCategory[] = [
       { text: "AQL 2.5 inspection with wash consistency checks" },
     ],
     image: "https://i.ibb.co.com/zhf4rXqG/Denim.webp",
-    imageAlt: "Custom denim garments manufactured by TexVenture in Bangladesh — jeans, jackets, and skirts",
+    imageAlt: "Custom denim garments manufactured by TEXVENTURE in Bangladesh — jeans, jackets, and skirts",
     subCategories: [
       {
         name: "Denim Collection",
@@ -471,7 +471,7 @@ export const products: ProductCategory[] = [
     description:
       "Custom sweater manufacturer in Bangladesh — knitted sweaters, cardigans, pullovers, and knitwear from 100 pieces MOQ.",
     longDescription:
-      "TexVenture is a specialized sweater manufacturer in Bangladesh, producing premium knitted sweater garments for global brands. We manufacture pullovers, cardigans, crew neck sweaters, V-neck sweaters, turtlenecks, knit vests, and sweater dresses — all produced in our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nBangladesh has a strong sweater manufacturing sector with expertise in both fully-fashioned and cut-and-sew knitwear. Our factory partners operate flat-bed knitting machines (Stoll, Shima Seiki) and hand-knitting units capable of producing complex patterns including cable knit, argyle, rib knit, and jacquard. We work with wool, acrylic, cotton, cashmere blends, and synthetic yarns.\n\nSweater manufacturing requires specialized construction techniques: linking (seaming knitted panels), full-fashioned shaping, and hand-finishing. Our production teams are skilled in these processes, producing sweaters that meet the quality standards of premium European and North American brands.\n\nWe offer yarn dyeing (package dyeing), garment dyeing, and a full range of finishing options including brushing, steaming, and anti-pilling treatment. Every sweater order goes through AQL 2.5 quality inspection with specific attention to stitch density, seam strength, and dimensional stability after washing.",
+      "TEXVENTURE is a specialized sweater manufacturer in Bangladesh, producing premium knitted sweater garments for global brands. We manufacture pullovers, cardigans, crew neck sweaters, V-neck sweaters, turtlenecks, knit vests, and sweater dresses — all produced in our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nBangladesh has a strong sweater manufacturing sector with expertise in both fully-fashioned and cut-and-sew knitwear. Our factory partners operate flat-bed knitting machines (Stoll, Shima Seiki) and hand-knitting units capable of producing complex patterns including cable knit, argyle, rib knit, and jacquard. We work with wool, acrylic, cotton, cashmere blends, and synthetic yarns.\n\nSweater manufacturing requires specialized construction techniques: linking (seaming knitted panels), full-fashioned shaping, and hand-finishing. Our production teams are skilled in these processes, producing sweaters that meet the quality standards of premium European and North American brands.\n\nWe offer yarn dyeing (package dyeing), garment dyeing, and a full range of finishing options including brushing, steaming, and anti-pilling treatment. Every sweater order goes through AQL 2.5 quality inspection with specific attention to stitch density, seam strength, and dimensional stability after washing.",
     features: [
       { text: "Pullovers, cardigans, turtlenecks, vests, and sweater dresses" },
       { text: "Flat-bed knitting: Stoll and Shima Seiki machines" },
@@ -481,7 +481,7 @@ export const products: ProductCategory[] = [
       { text: "AQL 2.5 quality inspection with wash testing" },
     ],
     image: "https://i.postimg.cc/xCQJPBWR/Sweaters.png",
-    imageAlt: "Custom sweaters manufactured by TexVenture in Bangladesh — pullovers, cardigans, and knitwear",
+    imageAlt: "Custom sweaters manufactured by TEXVENTURE in Bangladesh — pullovers, cardigans, and knitwear",
     subCategories: [
       {
         name: "Sweaters Collection",
@@ -566,7 +566,7 @@ export const products: ProductCategory[] = [
     description:
       "Custom workwear manufacturer in Bangladesh — uniforms, safety wear, industrial clothing, and corporate workwear from 100 pieces MOQ.",
     longDescription:
-      "TexVenture is a specialized workwear manufacturer in Bangladesh, producing durable, functional, and compliance-ready work garments for global brands. We manufacture uniforms, safety vests, industrial coveralls, cargo pants, hi-vis clothing, corporate workwear, and medical scrubs — all produced in our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nWorkwear manufacturing demands specific expertise in durable fabrics, reinforced construction, and compliance with international safety standards. Our factories use heavy-duty fabrics including cotton drill, cotton-polyester twill, ripstop, and FR (flame-resistant) materials. We produce garments that meet EN ISO standards for hi-vis clothing and industrial safety.\n\nConstruction techniques for workwear include double-needle stitching, bartack reinforcement at stress points, triple-needle felled seams, and heavy-duty zippers and hardware. Our production teams are trained in these industrial sewing methods, ensuring garments withstand demanding work environments.\n\nTexVenture's workwear production covers a wide range of applications: construction and mining safety wear, hospitality uniforms, medical scrubs, corporate uniforms, and industrial protective clothing. We offer custom embroidery, screen printing, reflective tape application, and ID badge attachment.",
+      "TEXVENTURE is a specialized workwear manufacturer in Bangladesh, producing durable, functional, and compliance-ready work garments for global brands. We manufacture uniforms, safety vests, industrial coveralls, cargo pants, hi-vis clothing, corporate workwear, and medical scrubs — all produced in our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nWorkwear manufacturing demands specific expertise in durable fabrics, reinforced construction, and compliance with international safety standards. Our factories use heavy-duty fabrics including cotton drill, cotton-polyester twill, ripstop, and FR (flame-resistant) materials. We produce garments that meet EN ISO standards for hi-vis clothing and industrial safety.\n\nConstruction techniques for workwear include double-needle stitching, bartack reinforcement at stress points, triple-needle felled seams, and heavy-duty zippers and hardware. Our production teams are trained in these industrial sewing methods, ensuring garments withstand demanding work environments.\n\nTEXVENTURE's workwear production covers a wide range of applications: construction and mining safety wear, hospitality uniforms, medical scrubs, corporate uniforms, and industrial protective clothing. We offer custom embroidery, screen printing, reflective tape application, and ID badge attachment.",
     features: [
       { text: "Uniforms, safety vests, coveralls, cargo pants, hi-vis wear" },
       { text: "Cotton drill, twill, ripstop, and FR fabrics" },
@@ -576,7 +576,7 @@ export const products: ProductCategory[] = [
       { text: "AQL 2.5 quality inspection with durability testing" },
     ],
     image: "https://i.postimg.cc/25k3bnvt/Work-Wear.webp",
-    imageAlt: "Custom workwear manufactured by TexVenture in Bangladesh — uniforms, safety wear, and industrial clothing",
+    imageAlt: "Custom workwear manufactured by TEXVENTURE in Bangladesh — uniforms, safety wear, and industrial clothing",
     subCategories: [
       {
         name: "Work Wear Collection",
@@ -658,7 +658,7 @@ export const products: ProductCategory[] = [
     description:
       "Custom activewear manufacturer in Bangladesh — leggings, sports bras, shorts, tracksuits, and performance garments from 100 pieces MOQ.",
     longDescription:
-      "TexVenture is a specialized activewear manufacturer in Bangladesh, producing high-performance athletic garments for global fitness and fashion brands. We manufacture leggings, sports bras, shorts, tracksuits, joggers, yoga pants, gym tops, and compression wear — all produced in our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nActivewear manufacturing requires specific expertise in performance fabrics, moisture-wicking technology, and four-way stretch construction. Our factory partners source fabrics from specialized mills producing polyester-spandex, nylon-spandex, and recycled polyester blends with moisture-wicking, quick-dry, and anti-odor properties. Typical fabric weights range from 150 GSM (lightweight tops) to 320 GSM (compression leggings).\n\nConstruction techniques for activewear include flatlock seaming (to prevent chafing), bonded seams, laser cutting, and heat-sealed pockets. Our production teams are trained in these specialized processes, ensuring garments meet the performance standards expected by fitness brands and athletes.\n\nTexVenture's activewear production covers yoga, gym, running, and athleisure categories. We offer sublimation printing, screen printing, embroidery, and custom labeling. Every order goes through AQL 2.5 quality inspection with specific attention to stretch recovery, seam strength, and colorfastness after washing.",
+      "TEXVENTURE is a specialized activewear manufacturer in Bangladesh, producing high-performance athletic garments for global fitness and fashion brands. We manufacture leggings, sports bras, shorts, tracksuits, joggers, yoga pants, gym tops, and compression wear — all produced in our vetted factory network across Dhaka, Chittagong, and Gazipur.\n\nActivewear manufacturing requires specific expertise in performance fabrics, moisture-wicking technology, and four-way stretch construction. Our factory partners source fabrics from specialized mills producing polyester-spandex, nylon-spandex, and recycled polyester blends with moisture-wicking, quick-dry, and anti-odor properties. Typical fabric weights range from 150 GSM (lightweight tops) to 320 GSM (compression leggings).\n\nConstruction techniques for activewear include flatlock seaming (to prevent chafing), bonded seams, laser cutting, and heat-sealed pockets. Our production teams are trained in these specialized processes, ensuring garments meet the performance standards expected by fitness brands and athletes.\n\nTEXVENTURE's activewear production covers yoga, gym, running, and athleisure categories. We offer sublimation printing, screen printing, embroidery, and custom labeling. Every order goes through AQL 2.5 quality inspection with specific attention to stretch recovery, seam strength, and colorfastness after washing.",
     features: [
       { text: "Leggings, sports bras, shorts, tracksuits, and compression wear" },
       { text: "Moisture-wicking, quick-dry, and anti-odor fabrics" },
@@ -668,7 +668,7 @@ export const products: ProductCategory[] = [
       { text: "AQL 2.5 inspection with stretch recovery testing" },
     ],
     image: "https://i.ibb.co.com/RGM7rTmz/Active-Wear.webp",
-    imageAlt: "Custom activewear manufactured by TexVenture in Bangladesh — leggings, sports bras, and performance garments",
+    imageAlt: "Custom activewear manufactured by TEXVENTURE in Bangladesh — leggings, sports bras, and performance garments",
     subCategories: [
       {
         name: "Active Wear Collection",
@@ -748,9 +748,9 @@ export const products: ProductCategory[] = [
     name: "Women's Wear",
     shortName: "Women's Wear",
     description:
-      "TexVenture is a trusted women's clothing manufacturer in Bangladesh, offering OEM/ODM woven wear, casual wear, formal wear, and ethnic wear production with a focus on quality, timely delivery, and competitive pricing for global fashion brands.",
+      "TEXVENTURE is a trusted women's clothing manufacturer in Bangladesh, offering OEM/ODM woven wear, casual wear, formal wear, and ethnic wear production with a focus on quality, timely delivery, and competitive pricing for global fashion brands.",
     longDescription:
-      "TexVenture is a professional women's clothing manufacturer in Bangladesh with extensive experience producing women's garments for international fashion brands. Our production capabilities cover woven wear, casual wear, formal wear, and ethnic wear — from batik dresses and linen blouses to satin skirts and knit tops.\\n\\nWe work with a wide range of fabrics including 100% cotton, organic cotton (GOTS certified), linen, silk, viscose, recycled polyester, and blended materials. All our facilities are BSCI, SEDEX, and WRAP certified, with OEKO-TEX® Standard 100 certified fabrics available for brands with chemical safety requirements.\\n\\nOur women's wear production includes CAD pattern-making, precision cutting, industrial sewing, and multi-stage finishing. Every order undergoes AQL 2.5 quality inspection including seam strength, colorfastness, and fit testing. We offer full OEM services — custom labels, hang tags, and retail-ready packaging.\\n\\nWith a low MOQ of 100–200 pieces per style and 18–35 days production lead time, TexVenture is an ideal partner for fashion brands, boutique owners, and retailers looking to source quality women's clothing from Bangladesh.",
+      "TEXVENTURE is a professional women's clothing manufacturer in Bangladesh with extensive experience producing women's garments for international fashion brands. Our production capabilities cover woven wear, casual wear, formal wear, and ethnic wear — from batik dresses and linen blouses to satin skirts and knit tops.\\n\\nWe work with a wide range of fabrics including 100% cotton, organic cotton (GOTS certified), linen, silk, viscose, recycled polyester, and blended materials. All our facilities are BSCI, SEDEX, and WRAP certified, with OEKO-TEX® Standard 100 certified fabrics available for brands with chemical safety requirements.\\n\\nOur women's wear production includes CAD pattern-making, precision cutting, industrial sewing, and multi-stage finishing. Every order undergoes AQL 2.5 quality inspection including seam strength, colorfastness, and fit testing. We offer full OEM services — custom labels, hang tags, and retail-ready packaging.\\n\\nWith a low MOQ of 100–200 pieces per style and 18–35 days production lead time, TEXVENTURE is an ideal partner for fashion brands, boutique owners, and retailers looking to source quality women's clothing from Bangladesh.",
     features: [
       { text: "GOTS-certified organic cotton & linen options" },
       { text: "OEKO-TEX® Standard 100 certified fabrics available" },
@@ -759,7 +759,7 @@ export const products: ProductCategory[] = [
       { text: "BSCI, SEDEX, WRAP certified facilities" },
     ],
     image: "/images/products/womens-wear.jpg",
-    imageAlt: "Women's clothing manufactured by TexVenture in Bangladesh — dresses, blouses, and woven garments",
+    imageAlt: "Women's clothing manufactured by TEXVENTURE in Bangladesh — dresses, blouses, and woven garments",
     popularItems: [
       "Batik Wrap Dress",
       "Organic Linen Blouse",
@@ -824,9 +824,9 @@ export const products: ProductCategory[] = [
     name: "Men's Wear",
     shortName: "Men's Wear",
     description:
-      "TexVenture is a leading men's clothing manufacturer in Bangladesh, producing formal shirts, casual shirts, trousers, polos, and jackets with precision craftsmanship and competitive pricing for international fashion brands and retailers.",
+      "TEXVENTURE is a leading men's clothing manufacturer in Bangladesh, producing formal shirts, casual shirts, trousers, polos, and jackets with precision craftsmanship and competitive pricing for international fashion brands and retailers.",
     longDescription:
-      "TexVenture is a trusted men's clothing manufacturer in Bangladesh serving fashion brands, retailers, and corporate uniform buyers worldwide. We produce a comprehensive range of men's garments including dress shirts, casual shirts, trousers, cargo pants, chinos, polo shirts, T-shirts, jackets, and blazers.\\n\\nOur factory network spans Dhaka, Chittagong, and Gazipur with specialized woven and knit production lines. We source fabrics from established mills in China, Taiwan, and Bangladesh — including cotton poplin, Oxford cloth, linen, twill, and technical fabrics. All our manufacturing facilities hold BSCI, SEDEX, and WRAP certifications.\\n\\nFor men's dress shirts and formal wear, we use precision cutting and industrial flat-bed sewing machines with multi-stage quality checkpoints. For casual and corporate uniform orders, we offer screen printing, embroidery, and custom label solutions. Every order goes through AQL 2.5 final inspection.\\n\\nWith competitive pricing, low MOQs starting at 100 pieces, and 18–32 days lead time, TexVenture is the preferred men's wear manufacturing partner for brands entering the Bangladesh sourcing market.",
+      "TEXVENTURE is a trusted men's clothing manufacturer in Bangladesh serving fashion brands, retailers, and corporate uniform buyers worldwide. We produce a comprehensive range of men's garments including dress shirts, casual shirts, trousers, cargo pants, chinos, polo shirts, T-shirts, jackets, and blazers.\\n\\nOur factory network spans Dhaka, Chittagong, and Gazipur with specialized woven and knit production lines. We source fabrics from established mills in China, Taiwan, and Bangladesh — including cotton poplin, Oxford cloth, linen, twill, and technical fabrics. All our manufacturing facilities hold BSCI, SEDEX, and WRAP certifications.\\n\\nFor men's dress shirts and formal wear, we use precision cutting and industrial flat-bed sewing machines with multi-stage quality checkpoints. For casual and corporate uniform orders, we offer screen printing, embroidery, and custom label solutions. Every order goes through AQL 2.5 final inspection.\\n\\nWith competitive pricing, low MOQs starting at 100 pieces, and 18–32 days lead time, TEXVENTURE is the preferred men's wear manufacturing partner for brands entering the Bangladesh sourcing market.",
     features: [
       { text: "Cotton, linen, and blended fabric options" },
       { text: "OEKO-TEX® Standard 100 certified fabrics available" },
@@ -835,7 +835,7 @@ export const products: ProductCategory[] = [
       { text: "BSCI, SEDEX, WRAP certified manufacturing" },
     ],
     image: "/images/products/mens-wear.jpg",
-    imageAlt: "Men's clothing manufactured by TexVenture in Bangladesh — shirts, trousers, and formal wear",
+    imageAlt: "Men's clothing manufactured by TEXVENTURE in Bangladesh — shirts, trousers, and formal wear",
     popularItems: [
       "Wrinkle-Free Poplin Dress Shirt",
       "Urban Cargo Trousers",
@@ -900,9 +900,9 @@ export const products: ProductCategory[] = [
     name: "Kids' Wear",
     shortName: "Kids' Wear",
     description:
-      "TexVenture is a reliable kids' clothing manufacturer in Bangladesh producing safe, comfortable, and stylish garments for boys and girls aged 2–14 years. From organic cotton rompers to custom uniform sets — we prioritize softness, safety, and durability for children's clothing brands worldwide.",
+      "TEXVENTURE is a reliable kids' clothing manufacturer in Bangladesh producing safe, comfortable, and stylish garments for boys and girls aged 2–14 years. From organic cotton rompers to custom uniform sets — we prioritize softness, safety, and durability for children's clothing brands worldwide.",
     longDescription:
-      "TexVenture is a professional kids' clothing manufacturer in Bangladesh with specialized expertise in children's garment production. We understand that children's clothing demands extra attention to fabric safety, durability, and comfort — and we build every order around those priorities.\\n\\nWe produce a wide range of children's garments for boys and girls aged 2–14 years including rompers, T-shirts, shorts, dresses, school uniforms, and activewear. Our fabric selection includes 100% GOTS-certified organic cotton, OEKO-TEX® Standard 100 certified materials, and CPSIA-compliant textiles safe for sensitive young skin.\\n\\nFor school uniform orders, we work with schools and uniform brands to develop durable, comfortable, and professionally finished sets with school crests, embroidered names, and custom color matching. Our production process includes reinforced stitching at stress points, colorfastness testing, and shrinkage control.\\n\\nWith a low MOQ of 150–200 pieces per style and 18–32 days lead time, TexVenture is the ideal manufacturing partner for children's clothing brands, school uniform suppliers, and retailers sourcing from Bangladesh.",
+      "TEXVENTURE is a professional kids' clothing manufacturer in Bangladesh with specialized expertise in children's garment production. We understand that children's clothing demands extra attention to fabric safety, durability, and comfort — and we build every order around those priorities.\\n\\nWe produce a wide range of children's garments for boys and girls aged 2–14 years including rompers, T-shirts, shorts, dresses, school uniforms, and activewear. Our fabric selection includes 100% GOTS-certified organic cotton, OEKO-TEX® Standard 100 certified materials, and CPSIA-compliant textiles safe for sensitive young skin.\\n\\nFor school uniform orders, we work with schools and uniform brands to develop durable, comfortable, and professionally finished sets with school crests, embroidered names, and custom color matching. Our production process includes reinforced stitching at stress points, colorfastness testing, and shrinkage control.\\n\\nWith a low MOQ of 150–200 pieces per style and 18–32 days lead time, TEXVENTURE is the ideal manufacturing partner for children's clothing brands, school uniform suppliers, and retailers sourcing from Bangladesh.",
     features: [
       { text: "GOTS-certified organic cotton available" },
       { text: "OEKO-TEX® Standard 100 certified — safe for children" },
@@ -911,7 +911,7 @@ export const products: ProductCategory[] = [
       { text: "CPSIA compliant testing available" },
     ],
     image: "/images/products/kids-wear.jpg",
-    imageAlt: "Kids' clothing manufactured by TexVenture in Bangladesh — organic cotton rompers, school uniforms, and children's wear",
+    imageAlt: "Kids' clothing manufactured by TEXVENTURE in Bangladesh — organic cotton rompers, school uniforms, and children's wear",
     popularItems: [
       "Organic Cotton Zip Romper",
       "Cotton Jersey Shorts Set",

@@ -12,9 +12,9 @@ import ContactForm from './ContactForm';
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = generatePageMeta({
-  title: 'TexVenture Contact — Get a Quote for Apparel Sourcing',
+  title: 'TEXVENTURE Contact — Get a Quote for Apparel Sourcing',
   description:
-    'Contact TexVenture for apparel sourcing and garment manufacturing in Bangladesh. Get a quote via WhatsApp, phone, email, or our contact form.',
+    'Contact TEXVENTURE for apparel sourcing and garment manufacturing in Bangladesh. Get a quote via WhatsApp, phone, email, or our contact form.',
   path: '/contact',
 });
 
@@ -146,7 +146,7 @@ export default function ContactPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   <div>
-                    <div className="font-medium text-[#1B2A4A]">TexVenture</div>
+                    <div className="font-medium text-[#1B2A4A]">TEXVENTURE</div>
                     <div>{contact.address.street}</div>
                     <div>{contact.address.city}</div>
                     <div>{contact.address.country}</div>
@@ -204,7 +204,7 @@ export default function ContactPage() {
                   href="/about"
                   className="flex items-center justify-between rounded-lg px-3 py-2 text-sm text-gray-600 transition hover:bg-gray-50 hover:text-[#08CCD4]"
                 >
-                  <span>About TexVenture</span>
+                  <span>About TEXVENTURE</span>
                   <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>

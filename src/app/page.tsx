@@ -15,7 +15,7 @@ import { guides } from "@/data/guides";
 
 /* ─── Home Page Product Categories (matches nav menu) ─── */
 const homeProducts = [
-  { slug: "knit-wear", name: "Knit Wear", description: "Premium jersey, interlock, and piqué knit garments — t-shirts, polos, and hoodies", image: "https://i.postimg.cc/52GmchMv/Knit-Wear.webp", alt: "Custom knit wear t-shirts manufactured in Bangladesh by TexVenture" },
+  { slug: "knit-wear", name: "Knit Wear", description: "Premium jersey, interlock, and piqué knit garments — t-shirts, polos, and hoodies", image: "https://i.postimg.cc/52GmchMv/Knit-Wear.webp", alt: "Custom knit wear t-shirts manufactured in Bangladesh by TEXVENTURE" },
   { slug: "wovens", name: "Woven", description: "Button-down shirts, blouses, and dresses tailored from premium woven fabrics", image: "https://i.postimg.cc/HkKtGqC4/Wovens.webp", alt: "Woven clothing manufacturer Bangladesh — shirts and blouses" },
   { slug: "circular-knit", name: "Circular Knit", description: "Seamless leggings, underwear, and performance base layers with 4-way stretch", image: "https://i.postimg.cc/BnyCWrGK/Circular-Knit.webp", alt: "Circular knit seamless leggings and joggers produced in Bangladesh" },
   { slug: "denim", name: "Denim", description: "Raw, washed, and distressed denim jeans, jackets, and shorts to your spec", image: "https://i.postimg.cc/Sx5G0BpC/Denim.webp", alt: "Custom denim jeans and jackets manufactured in Bangladesh" },
@@ -26,20 +26,20 @@ const homeProducts = [
 
 /* ─── SEO Metadata ─── */
 export const metadata: Metadata = {
-  title: "TexVenture — Best Clothing Manufacturer in Bangladesh Since 2016",
+  title: "TEXVENTURE — Best Clothing Manufacturer in Bangladesh Since 2016",
   description:
-    "TexVenture is a leading clothing manufacturer in Bangladesh, offering custom garment production with an MOQ of 100 pcs. 10+ years of experience, ISO-certified, 20+ certifications, and serving 30+ countries worldwide.",
+    "TEXVENTURE is a leading clothing manufacturer in Bangladesh, offering custom garment production with an MOQ of 100 pcs. 10+ years of experience, ISO-certified, 20+ certifications, and serving 30+ countries worldwide.",
   openGraph: {
-    title: "TexVenture — Best Clothing Manufacturer in Bangladesh",
+    title: "TEXVENTURE — Best Clothing Manufacturer in Bangladesh",
     description:
-      "TexVenture is a leading clothing manufacturer & supplier in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO certified.",
+      "TEXVENTURE is a leading clothing manufacturer & supplier in Bangladesh, offering custom garment production from 100 pcs MOQ, ISO certified.",
     url: "https://texventure.com",
     images: [
       {
         url: "https://texventure.com/images/og-homepage.jpg",
         width: 1200,
         height: 630,
-        alt: "TexVenture — Best Clothing Manufacturer & Supplier in Bangladesh",
+        alt: "TEXVENTURE — Best Clothing Manufacturer & Supplier in Bangladesh",
       },
     ],
   },
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "TexVenture",
+  name: "TEXVENTURE",
   url: "https://texventure.com",
   logo: "https://texventure.com/images/logo.png",
   description:
-    "TexVenture is a Bangladesh-based clothing manufacturer and supplier connecting global brands with 20+ certified garment factories, offering low MOQ production from 100 pieces.",
+    "TEXVENTURE is a Bangladesh-based clothing manufacturer and supplier connecting global brands with 20+ certified garment factories, offering low MOQ production from 100 pieces.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "House: 2, Road: 3/A, Sector: 5",
@@ -76,7 +76,7 @@ const organizationSchema = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "TexVenture — Clothing Manufacturer & Supplier in Bangladesh",
+  name: "TEXVENTURE — Clothing Manufacturer & Supplier in Bangladesh",
   url: "https://texventure.com",
   logo: "https://texventure.com/images/logo.png",
   description:
@@ -114,15 +114,15 @@ const faqItems = [
   {
     question: "Who is the best clothing manufacturer in Bangladesh?",
     answer:
-      "TexVenture is widely recognised as one of the best clothing manufacturers in Bangladesh, with over 10 years of experience, a network of 20+ certified garment factories, and a proven track record of delivering quality clothing to 30+ countries worldwide. We handle everything from fabric sourcing to door-to-door delivery with low MOQs starting from just 100 pieces.",
+      "TEXVENTURE is widely recognised as one of the best clothing manufacturers in Bangladesh, with over 10 years of experience, a network of 20+ certified garment factories, and a proven track record of delivering quality clothing to 30+ countries worldwide. We handle everything from fabric sourcing to door-to-door delivery with low MOQs starting from just 100 pieces.",
   },
   {
     question: "What is the minimum order quantity (MOQ) for garment manufacturing in Bangladesh?",
     answer:
-      "TexVenture offers one of the lowest MOQs in the industry — starting from just 100 pieces per style. This makes us ideal for startups, small brands, and capsule collections that don't need thousands of units to get started. Some products may have slightly different MOQs depending on fabric and complexity.",
+      "TEXVENTURE offers one of the lowest MOQs in the industry — starting from just 100 pieces per style. This makes us ideal for startups, small brands, and capsule collections that don't need thousands of units to get started. Some products may have slightly different MOQs depending on fabric and complexity.",
   },
   {
-    question: "Are TexVenture's factories certified?",
+    question: "Are TEXVENTURE's factories certified?",
     answer:
       "Yes. Our factory partners hold multiple internationally recognised certifications including ISO 9001:2015 (Quality Management), BSCI (Business Social Compliance Initiative), OEKO-TEX Standard 100 (Product Safety), SGS (Global Certification), Sedex (Ethical Trade), and GOTS (Global Organic Textile Standard). We conduct multi-point quality control including in-line inspections, end-line checks, and final AQL 2.5 inspections before shipping.",
   },
@@ -132,12 +132,12 @@ const faqItems = [
       "Sampling typically takes 5–7 business days. Once samples are approved, mass production ranges from 40 to 75 days depending on the product type, order volume, and complexity. Lead times include fabric procurement, cutting, sewing, finishing, and quality inspection. We provide regular production updates throughout the process.",
   },
   {
-    question: "What types of clothing does TexVenture manufacture?",
+    question: "What types of clothing does TEXVENTURE manufacture?",
     answer:
-      "TexVenture specializes in three main categories: Women's Wear (dresses, blouses, tops, skirts, activewear), Men's Wear (t-shirts, polos, shirts, jeans, formal wear), and Kid's Wear (comfortable and durable children's clothing). We serve brands across all these categories with custom manufacturing solutions from 100 pieces MOQ.",
+      "TEXVENTURE specializes in three main categories: Women's Wear (dresses, blouses, tops, skirts, activewear), Men's Wear (t-shirts, polos, shirts, jeans, formal wear), and Kid's Wear (comfortable and durable children's clothing). We serve brands across all these categories with custom manufacturing solutions from 100 pieces MOQ.",
   },
   {
-    question: "Does TexVenture work with small or startup brands?",
+    question: "Does TEXVENTURE work with small or startup brands?",
     answer:
       "Absolutely. We specialise in working with small and growing brands. Our low MOQ of 100 pieces per style is designed specifically for startups, capsule collections, and limited drops. We provide the same level of quality control, factory access, and end-to-end service to a 100-piece order as we do to a 10,000-piece order.",
   },
@@ -229,7 +229,7 @@ export default function HomePage() {
       {/* 1. Hero Section — H1 */}
       <HeroSection
         headline="Trusted Clothing Manufacturer in Bangladesh"
-        subheadline="TexVenture is a Bangladesh-based clothing manufacturer with over 10 years of experience. We connect your brand with 20+ ISO 9001, BSCI, and OEKO-TEX certified factories, so you get quality production with a low MOQ of just 100 pieces."
+        subheadline="TEXVENTURE is a Bangladesh-based clothing manufacturer with over 10 years of experience. We connect your brand with 20+ ISO 9001, BSCI, and OEKO-TEX certified factories, so you get quality production with a low MOQ of just 100 pieces."
         primaryCta={{ text: "Get a Quote", href: "/quote" }}
         secondaryCta={{ text: "View Products", href: "/products" }}
       />
@@ -237,17 +237,17 @@ export default function HomePage() {
       {/* 2. Trust Strip */}
       <TrustStrip items={trustStats} />
 
-      {/* 3. About TexVenture — H2 (no longer duplicate of H1) */}
+      {/* 3. About TEXVENTURE — H2 (no longer duplicate of H1) */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="order-2 lg:order-1">
-              <Badge variant="brand">About TexVenture</Badge>
+              <Badge variant="brand">About TEXVENTURE</Badge>
               <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
                 Best Garment Manufacturer in Bangladesh for Global Brands
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                TexVenture is a leading clothing manufacturer and supplier in
+                TEXVENTURE is a leading clothing manufacturer and supplier in
                 Bangladesh that connects global brands with vetted garment
                 factories. We handle everything from fabric sourcing and sampling
                 to production, quality control, and logistics — so you can focus
@@ -274,11 +274,11 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-2xl shadow-2xl">
                 <img
                   src="/images/about-texventure.webp"
-                  alt="TexVenture team at garment factory in Dhaka, Bangladesh — clothing manufacturer and supplier"
+                  alt="TEXVENTURE team at garment factory in Dhaka, Bangladesh — clothing manufacturer and supplier"
                   className="h-full w-full object-cover"
                 />
                 <div className="absolute inset-0 flex items-start justify-center pt-6">
-                  <span className="rounded-full bg-white/90 backdrop-blur px-5 py-2 text-sm font-bold text-[#1B2A4A] shadow-lg">About TexVenture</span>
+                  <span className="rounded-full bg-white/90 backdrop-blur px-5 py-2 text-sm font-bold text-[#1B2A4A] shadow-lg">About TEXVENTURE</span>
                 </div>
               </div>
               <div className="absolute -bottom-6 -left-6 rounded-2xl bg-[#1B2A4A] p-6 text-white shadow-xl">
@@ -358,7 +358,7 @@ export default function HomePage() {
 
 
 
-      {/* 5. Why TexVenture */}
+      {/* 5. Why TEXVENTURE */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
           <div className="text-center">

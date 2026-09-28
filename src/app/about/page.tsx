@@ -12,9 +12,9 @@ import { generatePageMeta } from '@/lib/metadata';
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = generatePageMeta({
-  title: 'About TexVenture — Your Trusted Apparel Sourcing Partner',
+  title: 'About TEXVENTURE — Your Trusted Apparel Sourcing Partner',
   description:
-    'Learn about TexVenture, a Bangladesh-based apparel sourcing and buying house connecting global brands with 20+ vetted garment factories since day one.',
+    'Learn about TEXVENTURE, a Bangladesh-based apparel sourcing and buying house connecting global brands with 20+ vetted garment factories since day one.',
   path: '/about',
 });
 
@@ -25,7 +25,7 @@ export const metadata: Metadata = generatePageMeta({
 const timeline = [
   {
     year: '2016',
-    title: 'TexVenture Founded',
+    title: 'TEXVENTURE Founded',
     description:
       'Started as a sourcing consultancy in Uttara, Dhaka with a mission to make apparel sourcing accessible for growing brands worldwide.',
   },
@@ -242,7 +242,7 @@ export default function AboutPage() {
             Our Team
           </h2>
           <p className="mt-4 text-lg text-gray-500">
-            The people behind TexVenture&apos;s sourcing excellence.
+            The people behind TEXVENTURE&apos;s sourcing excellence.
           </p>
         </div>
         <div className="mt-12 grid gap-8 sm:grid-cols-3">
@@ -328,7 +328,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Why Trust TexVenture */}
+      {/* Why Trust TEXVENTURE */}
       <TrustBlock />
 
       {/* CTA */}

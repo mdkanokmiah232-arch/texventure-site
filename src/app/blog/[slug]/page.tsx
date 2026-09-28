@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: dbPost.meta_title || dbPost.title,
         description: dbPost.meta_description || dbPost.excerpt,
         url: `https://texventure.com/blog/${dbPost.slug}`,
-        siteName: 'TexVenture',
+        siteName: 'TEXVENTURE',
         type: 'article',
         publishedTime: dbPost.published_at,
         authors: [dbPost.author_name],
@@ -85,7 +85,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!guide) return { title: 'Guide Not Found' };
 
   return {
-    title: `${guide.title} | TexVenture`,
+    title: `${guide.title} | TEXVENTURE`,
     description: guide.metaDescription,
     alternates: {
       canonical: `https://texventure.com/blog/${guide.slug}`,
@@ -94,7 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: guide.title,
       description: guide.excerpt,
       url: `https://texventure.com/blog/${guide.slug}`,
-      siteName: 'TexVenture',
+      siteName: 'TEXVENTURE',
       type: 'article',
       publishedTime: guide.publishedAt,
       authors: [guide.author.name],
@@ -209,7 +209,7 @@ function renderContent(content: string) {
 
   elements.push(
     <p key={`ctx-link-${elements.length}`} className="py-2 text-gray-600 leading-relaxed mt-6 pt-6 border-t border-gray-100">
-      Ready to start your apparel project? TexVenture is the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link> — low MOQ from 100 pieces, 20+ certified factories, global delivery.
+      Ready to start your apparel project? TEXVENTURE is the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link> — low MOQ from 100 pieces, 20+ certified factories, global delivery.
     </p>
   );
 
@@ -263,11 +263,11 @@ export default async function GuidePage({ params }: Props) {
       "@type": "Person",
       "name": authorName,
       "jobTitle": authorRole,
-      "worksFor": { "@type": "Organization", "name": "TexVenture" }
+      "worksFor": { "@type": "Organization", "name": "TEXVENTURE" }
     },
     "publisher": {
       "@type": "Organization",
-      "name": "TexVenture",
+      "name": "TEXVENTURE",
       "url": "https://texventure.com"
     },
     "datePublished": publishedAt,
@@ -399,7 +399,7 @@ export default async function GuidePage({ params }: Props) {
                 </div>
                 <div className="flex-1">
                   <p className="font-bold text-white text-lg">{authorName}</p>
-                  <p className="text-sm text-gray-300">{authorRole} at TexVenture</p>
+                  <p className="text-sm text-gray-300">{authorRole} at TEXVENTURE</p>
                   <div className="mt-3 flex items-center gap-3">
                     <a
                       href="https://www.linkedin.com/company/texventure"

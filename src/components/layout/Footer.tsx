@@ -43,7 +43,7 @@ export default function Footer() {
             <Link href="/" className="inline-block">
               <img
                 src="/images/logo-white.png"
-                alt="TexVenture"
+                alt="TEXVENTURE"
                 className="h-10 w-auto"
               />
             </Link>
@@ -218,7 +218,7 @@ export default function Footer() {
       <div className="border-t border-white/10 bg-black/20">
         <div className="mx-auto max-w-7xl px-4 py-4 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-2 text-xs text-gray-400 sm:flex-row">
-            <p>&copy; {new Date().getFullYear()} TexVenture. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} TEXVENTURE. All rights reserved.</p>
             <div className="flex gap-4">
               <Link href="/privacy-policy" className="hover:text-white transition">Privacy</Link>
               <Link href="/terms-of-service" className="hover:text-white transition">Terms</Link>
