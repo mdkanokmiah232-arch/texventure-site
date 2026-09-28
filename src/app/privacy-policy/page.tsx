@@ -93,8 +93,8 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">7. Contact Us</h2>
             <p className="mt-3 leading-relaxed">
-              If you have questions about this Privacy Policy, contact TEXVENTURE at 35
-              Gareeb-E-Newaz Avenue, Sector 13, Uttara, Dhaka 1230, Bangladesh, or via email at
+              If you have questions about this Privacy Policy, contact TEXVENTURE at House: 2,
+              Road: 3/A, Sector: 5, Uttara, Dhaka-1230, Bangladesh, or via email at
               zakir@texventure.com.
             </p>
           </section>
