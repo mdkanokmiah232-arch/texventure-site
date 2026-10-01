@@ -61,8 +61,11 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span>
-                  <span className="block text-xs font-semibold uppercase tracking-wider text-[#08CCD4]">US Office</span>
+                  <span className="block text-xs font-semibold uppercase tracking-wider text-[#08CCD4]">Headquarters</span>
                   6545 MARKET AVE N STE 100, CANTON OH 44721, United States
+                  <a href="tel:+17404190950" className="mt-1 block transition hover:text-[#08CCD4]">
+                    +1 7404190950
+                  </a>
                 </span>
               </div>
               <div className="flex items-start gap-2">

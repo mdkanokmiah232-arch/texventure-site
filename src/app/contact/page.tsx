@@ -146,8 +146,14 @@ export default function ContactPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   <div>
-                    <div className="text-xs font-semibold uppercase tracking-wider text-[#08CCD4]">US Office</div>
+                    <div className="text-xs font-semibold uppercase tracking-wider text-[#08CCD4]">Headquarters</div>
                     <div className="font-medium text-[#1B2A4A]">6545 MARKET AVE N STE 100, CANTON OH 44721, United States</div>
+                    <a
+                      href="tel:+17404190950"
+                      className="text-[#08CCD4] transition hover:underline"
+                    >
+                      +1 7404190950
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

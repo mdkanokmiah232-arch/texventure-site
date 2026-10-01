@@ -152,8 +152,14 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-sm text-gray-300">US Office</div>
+                  <div className="text-sm text-gray-300">Headquarters</div>
                   <div className="font-medium">6545 MARKET AVE N STE 100, CANTON OH 44721, United States</div>
+                  <a
+                    href="tel:+17404190950"
+                    className="text-sm text-[#08CCD4] transition hover:underline"
+                  >
+                    +1 7404190950
+                  </a>
                 </div>
               </div>
               <div className="flex items-center gap-3">
