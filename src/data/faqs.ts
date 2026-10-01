@@ -27,7 +27,7 @@ export const faqs: FAQGroup[] = [
       {
         question: "What is TEXVENTURE?",
         answer:
-          "TEXVENTURE is a Bangladesh-based apparel sourcing and buying house. We connect international brands — especially small and growing ones — with vetted garment factories in Bangladesh. We handle sourcing, sampling, production, quality control, and shipping.",
+          "TEXVENTURE is a USA-based apparel sourcing and buying house. We connect international brands — especially small and growing ones — with vetted garment factories in Bangladesh. We handle sourcing, sampling, production, quality control, and shipping.",
       },
       {
         question: "Why source from Bangladesh?",

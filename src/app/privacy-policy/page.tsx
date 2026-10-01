@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">1. Introduction</h2>
             <p className="mt-3 leading-relaxed">
-              TEXVENTURE (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is a Bangladesh-based apparel sourcing and
+              TEXVENTURE (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is a USA-based apparel sourcing and
               buying house. This Privacy Policy explains how we collect, use, disclose, and
               safeguard your information when you visit our website texventure.com or engage our
               manufacturing and sourcing services.

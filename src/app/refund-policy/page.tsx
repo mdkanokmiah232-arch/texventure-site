@@ -35,7 +35,7 @@ export default function RefundPolicyPage() {
               made through texventure.com or directly with our sourcing team.
             </p>
             <p className="mt-3 leading-relaxed">
-              TEXVENTURE is a Bangladesh-based apparel sourcing and buying house. Everything we
+              TEXVENTURE is a USA-based apparel sourcing and buying house. Everything we
               produce is custom-manufactured to your specification, so the stage your order has
               reached determines whether a refund is available.
             </p>

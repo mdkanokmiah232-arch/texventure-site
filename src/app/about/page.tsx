@@ -14,7 +14,7 @@ import { generatePageMeta } from '@/lib/metadata';
 export const metadata: Metadata = generatePageMeta({
   title: 'About TEXVENTURE — Your Trusted Apparel Sourcing Partner',
   description:
-    'Learn about TEXVENTURE, a Bangladesh-based apparel sourcing and buying house connecting global brands with 20+ vetted garment factories since day one.',
+    'Learn about TEXVENTURE, a USA-based apparel sourcing and buying house connecting global brands with 20+ vetted garment factories since day one.',
   path: '/about',
 });
 
