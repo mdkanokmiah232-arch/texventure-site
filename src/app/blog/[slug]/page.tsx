@@ -126,7 +126,7 @@ function renderContent(content: string) {
             <thead>
               <tr className="border-b border-gray-100 bg-gray-50">
                 {tableRows[0].map((cell, i) => (
-                  <th key={i} className="px-4 py-3 text-left font-semibold text-[#1B2A4A]">{cell}</th>
+                  <th key={i} className="px-4 py-3 text-left font-semibold text-[#1B2A4A]">{renderInline(cell)}</th>
                 ))}
               </tr>
             </thead>
@@ -134,7 +134,7 @@ function renderContent(content: string) {
               {tableRows.slice(1).map((row, ri) => (
                 <tr key={ri} className="border-b border-gray-50 last:border-0">
                   {row.map((cell, ci) => (
-                    <td key={ci} className="px-4 py-3 text-gray-600">{cell}</td>
+                    <td key={ci} className="px-4 py-3 text-gray-600">{renderInline(cell)}</td>
                   ))}
                 </tr>
               ))}
