@@ -216,7 +216,8 @@ function renderContent(content: string) {
 
   elements.push(
     <p key={`ctx-link-${elements.length}`} className="py-2 text-gray-600 leading-relaxed mt-6 pt-6 border-t border-gray-100">
-      Ready to start your apparel project? TEXVENTURE is the <Link href="/" className="text-[#08CCD4] hover:underline">best garment manufacturing in Bangladesh</Link> — low MOQ from 100 pieces, 20+ certified factories, global delivery.
+      Ready to start your apparel project? TEXVENTURE is a{' '}
+      <Link href="/" className="text-[#08CCD4] hover:underline">Clothing Manufacturer in Bangladesh</Link> — low MOQ from 100 pieces, 20+ certified factories, global delivery.
     </p>
   );
 
