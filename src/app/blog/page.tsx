@@ -9,7 +9,7 @@ import Badge from '@/components/ui/Badge';
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = {
-  title: 'Blog | TEXVENTURE — Garment Manufacturing Insights',
+  title: 'Blog — Garment Manufacturing Insights', // root layout appends " | TEXVENTURE"
   description:
     'Expert articles on garment manufacturing, apparel sourcing, MOQs, pricing, and the fashion supply chain — by the TEXVENTURE sourcing team.',
   alternates: {

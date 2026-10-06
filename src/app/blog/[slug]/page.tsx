@@ -90,7 +90,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!guide) return { title: 'Guide Not Found' };
 
   return {
-    title: `${guide.title} | TEXVENTURE`,
+    // The root layout already applies the "%s | TEXVENTURE" title template,
+    // so no manual suffix here (it would render the brand twice).
+    title: guide.title,
     description: guide.metaDescription,
     alternates: {
       canonical: `https://texventure.com/blog/${guide.slug}`,

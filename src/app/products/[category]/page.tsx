@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: 'Product Not Found' };
 
   return {
-    title: `${product.name} Manufacturer in Bangladesh | TEXVENTURE`,
+    title: `${product.name} Manufacturer in Bangladesh`, // root layout appends the brand suffix
     description: `${product.name} manufacturer and supplier in Bangladesh. ${product.description} Low MOQ ${product.moq}, AQL 2.5 quality. BSCI & OEKO-TEX certified factories.`,
     alternates: {
       canonical: `https://texventure.com/products/${product.slug}`,
