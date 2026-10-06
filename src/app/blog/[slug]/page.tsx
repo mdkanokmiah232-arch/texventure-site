@@ -44,6 +44,11 @@ async function getPostFromDb(slug: string): Promise<DbPost | null> {
       .eq('slug', slug)
       .eq('status', 'published')
       .single();
+    // A published row with an empty body would render a blank article.
+    // Treat it as missing so the static guide (src/data/guides.ts) serves instead.
+    if (!data || typeof data.content !== 'string' || !data.content.trim()) {
+      return null;
+    }
     return data;
   } catch {
     return null;
