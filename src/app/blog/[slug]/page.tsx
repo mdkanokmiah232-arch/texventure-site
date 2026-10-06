@@ -217,12 +217,43 @@ function renderContent(content: string) {
 }
 
 function renderInline(text: string) {
-  const parts = text.split(/(\*\*.*?\*\*)/g);
-  return parts.map((part, i) => {
-    if (part.startsWith('**') && part.endsWith('**')) {
-      return <strong key={i} className="font-semibold text-[#1B2A4A]">{part.slice(2, -2)}</strong>;
+  // Split out markdown links first: [anchor](/internal-or-external-url)
+  const linkPattern = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+  const tokens: Array<{ type: 'text' | 'link'; value: string; href?: string }> = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  while ((match = linkPattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      tokens.push({ type: 'text', value: text.slice(lastIndex, match.index) });
     }
-    return part;
+    tokens.push({ type: 'link', value: match[1], href: match[2] });
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) tokens.push({ type: 'text', value: text.slice(lastIndex) });
+
+  const renderBold = (input: string, keyPrefix: string) =>
+    input.split(/(\*\*.*?\*\*)/g).map((part, i) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return <strong key={`${keyPrefix}-b-${i}`} className="font-semibold text-[#1B2A4A]">{part.slice(2, -2)}</strong>;
+      }
+      return <React.Fragment key={`${keyPrefix}-t-${i}`}>{part}</React.Fragment>;
+    });
+
+  return tokens.map((token, i) => {
+    if (token.type === 'text') return <React.Fragment key={`tk-${i}`}>{renderBold(token.value, `tk${i}`)}</React.Fragment>;
+    const href = token.href || '';
+    if (href.startsWith('/')) {
+      return (
+        <Link key={`tk-${i}`} href={href} className="text-[#08CCD4] font-medium hover:underline">
+          {renderBold(token.value, `lnk${i}`)}
+        </Link>
+      );
+    }
+    return (
+      <a key={`tk-${i}`} href={href} target="_blank" rel="noopener noreferrer" className="text-[#08CCD4] font-medium hover:underline">
+        {renderBold(token.value, `lnk${i}`)}
+      </a>
+    );
   });
 }
 
@@ -278,6 +309,43 @@ export default async function GuidePage({ params }: Props) {
       "@id": `https://texventure.com/blog/${slug}`
     }
   };
+
+  /* FAQ extraction for FAQPage structured data (AEO) */
+  const faqSchema = (() => {
+    const lines = content.split('\n');
+    const start = lines.findIndex((l) => /^##\s*Frequently Asked Questions/i.test(l.trim()));
+    if (start === -1) return null;
+    const items: { question: string; answer: string }[] = [];
+    let currentQ: string | null = null;
+    let currentA: string[] = [];
+    const clean = (s: string) => s.replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').trim();
+    const flush = () => {
+      if (currentQ && currentA.length > 0) {
+        items.push({ question: currentQ, answer: currentA.join(' ').trim() });
+      }
+      currentQ = null;
+      currentA = [];
+    };
+    for (let i = start + 1; i < lines.length; i++) {
+      const line = lines[i].trim();
+      if (/^##\s/.test(line)) { flush(); break; }
+      if (/^###\s/.test(line)) { flush(); currentQ = clean(line.replace(/^###\s*/, '')); continue; }
+      if (currentQ && line && !line.startsWith('|') && !line.startsWith('- ') && !line.startsWith('* ')) {
+        currentA.push(clean(line));
+      }
+    }
+    flush();
+    if (items.length < 2) return null;
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: items.map((it) => ({
+        '@type': 'Question',
+        name: it.question,
+        acceptedAnswer: { '@type': 'Answer', text: it.answer },
+      })),
+    };
+  })();
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -494,6 +562,12 @@ export default async function GuidePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
     </div>
   );
 }
