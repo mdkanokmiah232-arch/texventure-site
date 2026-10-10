@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import InternalLinks from '@/components/sections/InternalLinks';
 import Card from '@/components/ui/Card';

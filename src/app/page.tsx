@@ -399,7 +399,7 @@ export default function HomePage() {
           <div className="text-center">
             <Badge variant="brand">Trusted By Brands</Badge>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#1B2A4A] sm:text-4xl">
-              Clothing Suppliers in Bangladesh — Trusted by 30+ Brands Worldwide",
+              Clothing Suppliers in Bangladesh — Trusted by 30+ Brands Worldwide
             </h2>
           </div>
 

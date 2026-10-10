@@ -22,10 +22,6 @@ export default function AdminBlogPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
-  useEffect(() => {
-    loadPosts();
-  }, []);
-
   async function loadPosts() {
     setLoading(true);
     try {
@@ -39,6 +35,27 @@ export default function AdminBlogPage() {
       setLoading(false);
     }
   }
+
+  // Initial load: every setState here runs after an await (never synchronously
+  // inside the effect), which keeps the react-hooks rules happy.
+  useEffect(() => {
+    let active = true;
+    (async () => {
+      try {
+        const res = await fetch('/api/blog');
+        if (!res.ok) throw new Error('Failed to load posts');
+        const { posts: data } = await res.json();
+        if (active) setPosts(data);
+      } catch (e: unknown) {
+        if (active) setError(e instanceof Error ? e.message : 'Failed to load posts');
+      } finally {
+        if (active) setLoading(false);
+      }
+    })();
+    return () => {
+      active = false;
+    };
+  }, []);
 
   async function handleTogglePublish(post: Post) {
     try {

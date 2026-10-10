@@ -282,7 +282,6 @@ export default async function GuidePage({ params }: Props) {
   const content = isDbPost ? dbPost.content : (post as Extract<typeof post, { content: string }>).content;
   const featuredImage = isDbPost ? dbPost.featured_image : (post as Extract<typeof post, { featuredImage: string }>).featuredImage;
   const category = isDbPost ? dbPost.category : (post as Extract<typeof post, { category: string }>).category;
-  const tags = isDbPost ? dbPost.tags : (post as Extract<typeof post, { tags: string[] }>).tags;
   const publishedAt = isDbPost ? dbPost.published_at : (post as Extract<typeof post, { publishedAt: string }>).publishedAt;
   const updatedAt = isDbPost ? dbPost.updated_at : (post as Extract<typeof post, { updatedAt?: string }>).updatedAt;
   const imageAlt = isDbPost ? dbPost.title : (post as Extract<typeof post, { imageAlt: string }>).imageAlt;

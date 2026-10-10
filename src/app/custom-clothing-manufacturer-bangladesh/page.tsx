@@ -195,7 +195,7 @@ export default function PillarPage() {
                   Why Leading Brands Choose TEXVENTURE
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  We're not just a factory — we're your manufacturing partner. Here's what sets us apart from other <a href="/" className="text-[#08CCD4] hover:underline">Best Clothing Manufacturer in Bangladesh</a>.
+                  We&apos;re not just a factory — we&apos;re your manufacturing partner. Here&apos;s what sets us apart from other <Link href="/" className="text-[#08CCD4] hover:underline">Best Clothing Manufacturer in Bangladesh</Link>.
                 </p>
                 <div className="mt-8 space-y-6">
                   {[

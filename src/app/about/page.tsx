@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
 import TrustBlock from '@/components/sections/TrustBlock';
-import { company, certifications, contact } from '@/data/site';
+import { company } from '@/data/site';
 import { generatePageMeta } from '@/lib/metadata';
 
 // ---------------------------------------------------------------------------

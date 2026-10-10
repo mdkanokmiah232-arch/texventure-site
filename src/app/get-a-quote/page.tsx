@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generatePageMeta } from '@/lib/metadata';
-import InternalLinks from '@/components/sections/InternalLinks';
 import { contact } from '@/data/site';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import FAQ from '@/components/sections/FAQ';

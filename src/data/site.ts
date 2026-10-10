@@ -74,7 +74,7 @@ export const company: CompanyInfo = {
     "https://texventure.com/wp-content/uploads/2024/06/46f49d3a6517646824216463e65518bca411f2ea.png",
   foundedYear: 2016,
   industry: "Apparel Sourcing and Manufacturing",
-  headquarters: "Dhaka, Bangladesh",
+  headquarters: "Canton, Ohio, USA",
 };
 
 export const contact: ContactDetails = {

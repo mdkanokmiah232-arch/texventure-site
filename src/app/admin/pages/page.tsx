@@ -38,7 +38,7 @@ const PUBLIC_ROUTES = [
 
 export default function AdminPagesPage() {
   const router = useRouter();
-  const [pages, setPages] = useState<PageSeo[]>([]);
+  const [, setPages] = useState<PageSeo[]>([]);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState<string | null>(null);
   const [saved, setSaved] = useState<string | null>(null);
