@@ -105,7 +105,7 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="mt-5 flex items-center gap-3">
               <a
-                href="https://facebook.com/texventure"
+                href="https://www.facebook.com/texventurebd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-gray-300 transition hover:bg-[#08CCD4] hover:text-white"

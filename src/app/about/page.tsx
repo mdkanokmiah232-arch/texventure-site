@@ -196,6 +196,24 @@ export default function AboutPage() {
                   <div className="font-medium">{company.industry}</div>
                 </div>
               </div>
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#08CCD4]/20">
+                  <svg className="h-5 w-5 text-[#08CCD4]" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22 12.06C22 6.505 17.523 2 12 2S2 6.505 2 12.06c0 5.02 3.657 9.185 8.438 9.94v-7.03H7.898v-2.91h2.54V9.845c0-2.522 1.492-3.915 3.777-3.915 1.094 0 2.238.197 2.238.197v2.48h-1.26c-1.243 0-1.63.778-1.63 1.577v1.887h2.773l-.443 2.91h-2.33V22c4.78-.755 8.437-4.92 8.437-9.94z" />
+                  </svg>
+                </div>
+                <div>
+                  <div className="text-sm text-gray-300">Facebook</div>
+                  <a
+                    href="https://www.facebook.com/texventurebd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-[#08CCD4] transition hover:underline"
+                  >
+                    facebook.com/texventurebd
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -90,7 +90,7 @@ export const contact: ContactDetails = {
 };
 
 export const social: SocialLink[] = [
-  { platform: "Facebook", url: "https://www.facebook.com/texventure", label: "Facebook" },
+  { platform: "Facebook", url: "https://www.facebook.com/texventurebd", label: "Facebook" },
   { platform: "Instagram", url: "https://www.instagram.com/texventure", label: "Instagram" },
   { platform: "LinkedIn", url: "https://www.linkedin.com/company/texventure", label: "LinkedIn" },
   { platform: "WhatsApp", url: "https://wa.me/8801354316246", label: "WhatsApp" },

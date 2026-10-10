@@ -488,7 +488,7 @@ export default async function GuidePage({ params }: Props) {
                       </svg>
                     </a>
                     <a
-                      href="https://www.facebook.com/texventure"
+                      href="https://www.facebook.com/texventurebd"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white/60 transition hover:border-[#1877F2] hover:bg-[#1877F2]/20 hover:text-[#1877F2]"

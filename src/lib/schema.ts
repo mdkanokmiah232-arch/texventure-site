@@ -43,7 +43,7 @@ export function OrganizationSchema(
       addressCountry: "BD",
     },
     sameAs: [
-      "https://www.facebook.com/texventure",
+      "https://www.facebook.com/texventurebd",
       "https://www.linkedin.com/company/texventure",
     ],
     description:

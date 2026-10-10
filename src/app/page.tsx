@@ -67,7 +67,7 @@ const organizationSchema = {
   telephone: "+880 135 4316246",
   email: "zakir@texventure.com",
   sameAs: [
-    "https://www.facebook.com/texventure",
+    "https://www.facebook.com/texventurebd",
     "https://www.linkedin.com/company/texventure",
     "https://wa.me/8801354316246",
   ],
@@ -103,7 +103,7 @@ const localBusinessSchema = {
     closes: "18:00",
   },
   sameAs: [
-    "https://www.facebook.com/texventure",
+    "https://www.facebook.com/texventurebd",
     "https://www.linkedin.com/company/texventure",
     "https://wa.me/8801354316246",
   ],
