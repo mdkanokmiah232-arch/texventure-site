@@ -23,6 +23,13 @@ function getJwtSecret(): Uint8Array {
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // Legacy WordPress category URLs -> current product category pages (301)
+  const legacyCategory = pathname.match(/^\/product-category\/([^/]+)\/?$/);
+  if (legacyCategory) {
+    const slug = decodeURIComponent(legacyCategory[1]);
+    return NextResponse.redirect(new URL(`/products/${slug}`, req.url), 301);
+  }
+
   // Only protect admin routes
   if (!isAdminRoute(pathname)) return NextResponse.next();
 
@@ -57,5 +64,6 @@ export async function middleware(req: NextRequest) {
 export const config = {
   matcher: [
     '/admin/:path*',
+    '/product-category/:path*',
   ],
 };
