@@ -20,10 +20,11 @@ const LEGACY_MAP: Record<string, string> = {
   '/case-studies': '/about',
   '/clients': '/about',
   '/testimonials': '/about',
-  // contact
-  '/contact-2': '/contact',
-  '/contact-us': '/contact',
-  '/careers': '/contact',
+  // contact (retired — /contact now 301s to the external quote app)
+  '/contact': 'https://quote.texventure.com/',
+  '/contact-2': 'https://quote.texventure.com/',
+  '/contact-us': 'https://quote.texventure.com/',
+  '/careers': 'https://quote.texventure.com/',
   // legal
   '/privacy': '/privacy-policy',
   '/privacy-policy-2': '/privacy-policy',
@@ -141,7 +142,7 @@ export const config = {
     '/product-category/:path*',
     '/product/:path*',
     '/product-tag/:path*',
-    '/(home|about-2|about-us|company|our-process|sample-page|buying-house|portfolio|case-studies|clients|testimonials|contact-2|contact-us|careers|privacy|privacy-policy-2|terms-conditions|tos|terms|cookies|disclaimer|returns|shipping-policy|shop|cart|my-account|lookbook|size-guide|feed|news|2024|2025|login|quote|faq|guidelines|moq|pricing|garment-manufacturing|apparel-manufacturing|custom-clothing|private-label|streetwear|esg|sustainability|quality|sitemap_index.xml|wp-sitemap.xml)',
+    '/(home|about-2|about-us|company|our-process|sample-page|buying-house|portfolio|case-studies|clients|testimonials|contact|contact-2|contact-us|careers|privacy|privacy-policy-2|terms-conditions|tos|terms|cookies|disclaimer|returns|shipping-policy|shop|cart|my-account|lookbook|size-guide|feed|news|2024|2025|login|quote|faq|guidelines|moq|pricing|garment-manufacturing|apparel-manufacturing|custom-clothing|private-label|streetwear|esg|sustainability|quality|sitemap_index.xml|wp-sitemap.xml)',
     '/category/blog',
     '/author/admin',
     '/page/2',

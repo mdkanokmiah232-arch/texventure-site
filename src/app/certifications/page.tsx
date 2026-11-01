@@ -295,7 +295,7 @@ export default function CertificationsPage() {
         headline="Need Certified Manufacturing?"
         description="All our factory partners hold internationally recognized certifications. Talk to us about your quality and compliance requirements."
         buttonText="Discuss Requirements"
-        buttonHref="/contact"
+        buttonHref="https://quote.texventure.com/"
       />
     </div>
   );

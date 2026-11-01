@@ -230,7 +230,7 @@ export default function HomePage() {
       <HeroSection
         headline="Trusted Clothing Manufacturer in Bangladesh"
         subheadline="TEXVENTURE is a Bangladesh-based clothing manufacturer with over 10 years of experience. We connect your brand with 20+ ISO 9001, BSCI, and OEKO-TEX certified factories, so you get quality production with a low MOQ of just 100 pieces."
-        primaryCta={{ text: "Get a Quote", href: "/contact" }}
+        primaryCta={{ text: "Get a Quote", href: "https://quote.texventure.com/" }}
         secondaryCta={{ text: "View Products", href: "/products" }}
       />
 
@@ -333,7 +333,7 @@ export default function HomePage() {
             ))}
 
             {/* 8th card - CTA Contact */}
-            <Link href="/contact">
+            <Link href="https://quote.texventure.com/">
               <Card hover className="flex h-full flex-col items-center justify-center !bg-[#01A1AD] text-center text-white">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-2xl text-white">
                   ✉️
@@ -514,7 +514,7 @@ export default function HomePage() {
       </section>
 
       {/* 10. CTA Band */}
-      <CTABand buttonHref="/contact" />
+      <CTABand buttonHref="https://quote.texventure.com/" />
     </>
   );
 }

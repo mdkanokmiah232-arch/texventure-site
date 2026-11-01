@@ -10,7 +10,7 @@ interface HeroSectionProps {
 export default function HeroSection({
   headline = 'Your Trusted Apparel Sourcing Partner in Bangladesh',
   subheadline = 'We deliver custom manufacturing, low MOQ production, and end-to-end supply chain solutions for brands worldwide. From design to delivery.',
-  primaryCta = { text: 'Get a Quote', href: '/contact' },
+  primaryCta = { text: 'Get a Quote', href: 'https://quote.texventure.com/' },
   secondaryCta = { text: 'View Our Process', href: '/custom-clothing-manufacturer-bangladesh' },
 }: HeroSectionProps) {
   return (

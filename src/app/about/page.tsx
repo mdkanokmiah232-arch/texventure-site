@@ -379,7 +379,7 @@ export default function AboutPage() {
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
-              href="/contact"
+              href="https://quote.texventure.com/"
               className="inline-flex items-center justify-center rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#07B8BE]"
             >
               Get in Touch

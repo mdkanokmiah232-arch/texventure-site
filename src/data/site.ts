@@ -123,7 +123,7 @@ export const navigation: NavItem[] = [
   { label: "Instant Quote", href: "/instant-quote" },
   { label: "Guides", href: "/guides" },
   { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { label: "Contact", href: "https://quote.texventure.com/" },
 ];
 
 export const certifications: Certification[] = [

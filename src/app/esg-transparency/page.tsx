@@ -344,7 +344,7 @@ export default function ESGTransparencyPage() {
         headline="Sustainable Sourcing Starts Here"
         description="Partner with TEXVENTURE for ethically produced, environmentally responsible apparel. We're committed to transparency at every step."
         buttonText="Discuss ESG Requirements"
-        buttonHref="/contact"
+        buttonHref="https://quote.texventure.com/"
       />
     </div>
   );

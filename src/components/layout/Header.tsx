@@ -17,7 +17,7 @@ const navLinks = [
   { name: 'Custom Manufacturing', href: '/custom-clothing-manufacturer-bangladesh' },
   { name: 'Blog', href: '/blog' },
   { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Contact', href: 'https://quote.texventure.com/' },
 ];
 
 export default function Header() {
@@ -113,7 +113,7 @@ export default function Header() {
         {/* CTA + Hamburger */}
         <div className="flex items-center gap-3">
           <Link
-            href="/contact"
+            href="https://quote.texventure.com/"
             className="hidden rounded-full bg-[#08CCD4] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#07b8be] hover:shadow-md sm:inline-block"
           >
             Get a Quote
@@ -199,7 +199,7 @@ export default function Header() {
 
           <div className="mt-3">
             <Link
-              href="/contact"
+              href="https://quote.texventure.com/"
               className="block w-full rounded-full bg-[#08CCD4] px-5 py-2.5 text-center text-sm font-semibold text-white shadow-sm transition hover:bg-[#07b8be]"
               onClick={() => setMobileOpen(false)}
             >

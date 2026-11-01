@@ -15,7 +15,7 @@ const companyLinks = [
   { name: 'About Us', href: '/about' },
   { name: 'Our Process', href: '/custom-clothing-manufacturer-bangladesh' },
   { name: 'Certifications', href: '/certifications' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Contact', href: 'https://quote.texventure.com/' },
 ];
 
 const categoryLinks: { name: string; href: string }[] = [

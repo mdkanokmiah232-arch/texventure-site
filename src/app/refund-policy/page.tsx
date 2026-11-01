@@ -197,8 +197,8 @@ export default function RefundPolicyPage() {
                 zakir@texventure.com
               </a>
               , or use the{' '}
-              <Link href="/contact" className="text-[#08CCD4] hover:underline">
-                contact form
+              <Link href="https://quote.texventure.com/" className="text-[#08CCD4] hover:underline">
+                quote form
               </Link>
               .
             </p>

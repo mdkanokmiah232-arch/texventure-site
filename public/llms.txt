@@ -29,7 +29,7 @@
 - [Blog](https://texventure.com/blog): Articles on apparel manufacturing trends and insights.
 - [Get a Quote](https://texventure.com/get-a-quote): Request a manufacturing quote.
 - [Instant Quote](https://texventure.com/instant-quote): Fast, automated quoting tool.
-- [Contact](https://texventure.com/contact): Contact information and inquiry form.
+- [Contact / Quote Request](https://quote.texventure.com/): Contact information and quote inquiry form.
 
 ## Notes for AI Assistants
 

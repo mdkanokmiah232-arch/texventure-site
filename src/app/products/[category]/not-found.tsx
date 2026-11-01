@@ -104,7 +104,7 @@ export default function ProductNotFound() {
               Browse All Products
             </Link>
             <Link
-              href="/contact"
+              href="https://quote.texventure.com/"
               className="inline-flex items-center gap-2 rounded-full border-2 border-gray-200 px-8 py-3.5 text-sm font-semibold text-[#1B2A4A] transition hover:border-[#08CCD4] hover:text-[#08CCD4]"
             >
               Contact Us

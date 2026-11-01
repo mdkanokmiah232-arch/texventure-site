@@ -6,7 +6,7 @@ const quickLinks = [
   { name: 'Services', href: '/services' },
   { name: 'About', href: '/about' },
   { name: 'Guides', href: '/guides' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Contact', href: 'https://quote.texventure.com/' },
   { name: 'Get a Quote', href: '/get-a-quote' },
 ];
 
