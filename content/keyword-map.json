@@ -1,0 +1,562 @@
+{
+  "note": "Central keyword map — one unique primary keyword per URL. Checked before every publish.",
+  "existingPages": {
+    "/": "clothing manufacturer in bangladesh",
+    "/custom-clothing-manufacturer-bangladesh": "custom clothing manufacturer bangladesh",
+    "/private-label-clothing-manufacturer-bangladesh": "private label clothing manufacturer",
+    "/streetwear-manufacturer-bangladesh": "streetwear manufacturer",
+    "/services": "apparel manufacturing services",
+    "/certifications": "garment factory certifications",
+    "/esg-transparency": "esg apparel manufacturing",
+    "/instant-quote": "clothing manufacturing price calculator",
+    "/blog/what-is-moq": "what is moq",
+    "/blog/how-to-find-a-clothing-manufacturer": "how to find a clothing manufacturer",
+    "/blog/cost-to-manufacture-a-hoodie": "cost to manufacture a hoodie",
+    "/blog/bangladesh-vs-china-vs-vietnam": "bangladesh vs china vs vietnam manufacturing"
+  },
+  "topics": [
+    {
+      "order": 1,
+      "slug": "tech-pack-for-clothing",
+      "cluster": "C1",
+      "primary": "tech pack for clothing",
+      "secondary": [
+        "tech pack template",
+        "tech pack meaning",
+        "clothing tech pack example",
+        "what is a tech pack"
+      ],
+      "longTail": [
+        "what should a tech pack include",
+        "how to make a tech pack for a t-shirt",
+        "tech pack vs spec sheet",
+        "tech pack for a hoodie"
+      ],
+      "intent": "Informational — pre-purchase research",
+      "angle": "No overlap with /blog/how-to-find-a-clothing-manufacturer (supplier discovery) or /services (commercial overview). No tech-pack content exists on the site."
+    },
+    {
+      "order": 2,
+      "slug": "garment-sampling-process",
+      "cluster": "C1",
+      "primary": "garment sampling process",
+      "secondary": [
+        "pre-production sample",
+        "fit sample vs pp sample",
+        "garment sampling department",
+        "sample development apparel"
+      ],
+      "longTail": [
+        "how long does garment sampling take",
+        "what is a pp sample in apparel",
+        "how many samples before bulk production"
+      ],
+      "intent": "Informational — process understanding",
+      "angle": "Existing /blog/how-to-find-a-clothing-manufacturer mentions sampling only as a vetting step; /services lists sampling as a service with no process content."
+    },
+    {
+      "order": 3,
+      "slug": "fabric-gsm-meaning",
+      "cluster": "C2",
+      "primary": "fabric gsm meaning",
+      "secondary": [
+        "fabric gsm chart",
+        "gsm to oz fabric",
+        "what is gsm in fabric"
+      ],
+      "longTail": [
+        "what gsm is good for a t-shirt",
+        "180 gsm vs 240 gsm",
+        "fabric gsm calculator"
+      ],
+      "intent": "Informational — specification literacy",
+      "angle": "Product pages list GSM in spec tables but never explain it; no article targets this query."
+    },
+    {
+      "order": 4,
+      "slug": "cost-to-manufacture-a-t-shirt",
+      "cluster": "C4",
+      "primary": "how much does it cost to manufacture a t-shirt",
+      "secondary": [
+        "t shirt manufacturing cost",
+        "cost to produce a t shirt",
+        "custom t shirt manufacturing price"
+      ],
+      "longTail": [
+        "cost per t shirt to manufacture",
+        "why are custom t shirts expensive",
+        "t shirt manufacturing cost breakdown"
+      ],
+      "intent": "Informational — pricing research",
+      "angle": "The existing hoodie cost article targets a different product and SERP; no t-shirt costing content exists."
+    },
+    {
+      "order": 5,
+      "slug": "fabric-consumption-calculation",
+      "cluster": "C1",
+      "primary": "fabric consumption calculation",
+      "secondary": [
+        "garment consumption calculation",
+        "fabric consumption formula",
+        "fabric consumption calculator"
+      ],
+      "longTail": [
+        "fabric consumption calculation for t-shirt",
+        "how to calculate fabric consumption for woven pant",
+        "fabric consumption formula in kg"
+      ],
+      "intent": "Informational — technical how-to",
+      "angle": "No formula or technical-costing content exists. /instant-quote is a price calculator, not a teaching resource — different intent."
+    },
+    {
+      "order": 6,
+      "slug": "garment-costing-sheet",
+      "cluster": "C4",
+      "primary": "garment costing sheet",
+      "secondary": [
+        "clothing manufacturing cost sheet",
+        "garment cost breakdown",
+        "apparel costing formula"
+      ],
+      "longTail": [
+        "how to calculate garment cost per piece",
+        "garment costing sheet excel",
+        "what is cmt cost in garment"
+      ],
+      "intent": "Informational — commercial calculation",
+      "angle": "/instant-quote publishes price ranges but no methodology; /blog/cost-to-manufacture-a-hoodie covers one product only."
+    },
+    {
+      "order": 7,
+      "slug": "import-clothing-from-bangladesh",
+      "cluster": "C6",
+      "primary": "import clothing from bangladesh",
+      "secondary": [
+        "sourcing from bangladesh",
+        "bangladesh garment export process",
+        "import apparel bangladesh"
+      ],
+      "longTail": [
+        "how to import clothes from bangladesh to usa",
+        "do i need a license to import clothing from bangladesh",
+        "bangladesh garment import documentation"
+      ],
+      "intent": "Informational — process",
+      "angle": "/blog/bangladesh-vs-china-vs-vietnam compares sourcing countries; this covers import execution, documentation and logistics."
+    },
+    {
+      "order": 8,
+      "slug": "garment-production-lead-time",
+      "cluster": "C1",
+      "primary": "garment production lead time",
+      "secondary": [
+        "what is lead time in garment industry",
+        "apparel lead time",
+        "production lead time formula"
+      ],
+      "longTail": [
+        "how long does it take to manufacture clothes",
+        "garment lead time by product category",
+        "why is my clothing order delayed"
+      ],
+      "intent": "Informational — planning",
+      "angle": "/blog/bangladesh-vs-china-vs-vietnam has a lead-time comparison section, but its intent is country selection; this article owns production-timeline management."
+    },
+    {
+      "order": 9,
+      "slug": "aql-inspection-meaning",
+      "cluster": "C3",
+      "primary": "aql inspection meaning",
+      "secondary": [
+        "aql 2.5",
+        "aql inspection levels",
+        "aql chart"
+      ],
+      "longTail": [
+        "what does aql 2.5 mean",
+        "aql inspection for clothing",
+        "how to read an aql chart"
+      ],
+      "intent": "Informational — standard interpretation",
+      "angle": "/certifications lists certifications only; no QC or inspection content exists."
+    },
+    {
+      "order": 10,
+      "slug": "private-label-vs-white-label",
+      "cluster": "C5",
+      "primary": "private label vs white label",
+      "secondary": [
+        "white label clothing",
+        "oem vs private label",
+        "private label meaning"
+      ],
+      "longTail": [
+        "what is the difference between private label and white label",
+        "which is better private label or white label",
+        "oem vs odm vs private label"
+      ],
+      "intent": "Informational — model comparison",
+      "angle": " /private-label-clothing-manufacturer-bangladesh is a commercial service page targeting 'private label clothing manufacturer'. This article is definitional and must avoid that phrase as its primary target."
+    },
+    {
+      "order": 11,
+      "slug": "clothing-line-startup-cost",
+      "cluster": "C5",
+      "primary": "clothing line startup cost",
+      "secondary": [
+        "cost to start a clothing brand",
+        "clothing brand startup costs",
+        "budget for clothing line"
+      ],
+      "longTail": [
+        "how much does it cost to start a clothing line",
+        "startup cost for 100 t shirts",
+        "cheapest way to start a clothing brand"
+      ],
+      "intent": "Informational — budgeting",
+      "angle": "/blog/cost-to-manufacture-a-hoodie covers unit cost of one product, not launch budget; distinct query and intent."
+    },
+    {
+      "order": 12,
+      "slug": "sourcing-agent-vs-manufacturer",
+      "cluster": "C6",
+      "primary": "clothing sourcing agent",
+      "secondary": [
+        "apparel sourcing agent",
+        "garment buying house",
+        "sourcing agent meaning"
+      ],
+      "longTail": [
+        "what does a clothing sourcing agent do",
+        "do i need a sourcing agent",
+        "sourcing agent vs factory"
+      ],
+      "intent": "Informational — model comparison",
+      "angle": "/about and /services describe the buying-house model but do not answer the comparison query."
+    },
+    {
+      "order": 13,
+      "slug": "fob-vs-cif-incoterms",
+      "cluster": "C4",
+      "primary": "fob vs cif",
+      "secondary": [
+        "incoterms for clothing",
+        "exw vs fob",
+        "cif shipping terms"
+      ],
+      "longTail": [
+        "what does fob mean for clothing",
+        "fob vs cif which is better for buyers",
+        "who pays freight under cif"
+      ],
+      "intent": "Informational — trade terms",
+      "angle": "No shipping-terms content exists; /instant-quote states pricing basis only."
+    },
+    {
+      "order": 14,
+      "slug": "jersey-vs-interlock-fabric",
+      "cluster": "C2",
+      "primary": "jersey vs interlock fabric",
+      "secondary": [
+        "interlock knit fabric",
+        "single jersey fabric",
+        "knit fabric types"
+      ],
+      "longTail": [
+        "what is interlock fabric used for",
+        "is interlock better than jersey",
+        "jersey vs interlock vs rib"
+      ],
+      "intent": "Informational — comparison",
+      "angle": "/products/knit-wear and /products/circular-knit are commercial category pages; this is a fabric-selection comparison."
+    },
+    {
+      "order": 15,
+      "slug": "loopback-vs-brushed-fleece",
+      "cluster": "C2",
+      "primary": "loopback vs brushed fleece",
+      "secondary": [
+        "brushed fleece fabric",
+        "loopback fleece",
+        "french terry vs fleece"
+      ],
+      "longTail": [
+        "what is loopback fleece",
+        "is brushed fleece warmer",
+        "fleece for hoodie manufacturing"
+      ],
+      "intent": "Informational — comparison",
+      "angle": "/blog/cost-to-manufacture-a-hoodie covers hoodie cost only; fabric structure is untouched."
+    },
+    {
+      "order": 16,
+      "slug": "garment-factory-audit-checklist",
+      "cluster": "C6",
+      "primary": "garment factory audit checklist",
+      "secondary": [
+        "factory audit checklist apparel",
+        "social compliance audit",
+        "supplier verification checklist"
+      ],
+      "longTail": [
+        "how to audit a garment factory",
+        "what to check before ordering from a factory",
+        "factory audit vs inspection"
+      ],
+      "intent": "Informational — checklist / tool",
+      "angle": "/blog/how-to-find-a-clothing-manufacturer covers vetting broadly; this is an actionable audit checklist — differentiated as a tool, not a guide."
+    },
+    {
+      "order": 17,
+      "slug": "denim-weight-oz",
+      "cluster": "C2",
+      "primary": "denim weight oz",
+      "secondary": [
+        "denim oz guide",
+        "what is 12oz denim",
+        "denim weight explained"
+      ],
+      "longTail": [
+        "what oz denim is best for jeans",
+        "10oz vs 12oz denim",
+        "denim weight for jackets"
+      ],
+      "intent": "Informational — product specification",
+      "angle": "/products/denim is commercial; no weight explainer exists."
+    },
+    {
+      "order": 18,
+      "slug": "types-of-garment-defects",
+      "cluster": "C3",
+      "primary": "types of garment defects",
+      "secondary": [
+        "garment defects list",
+        "major vs minor defects",
+        "sewing defects"
+      ],
+      "longTail": [
+        "what are the common defects in garments",
+        "major minor critical defects apparel",
+        "how to classify garment defects"
+      ],
+      "intent": "Informational — reference",
+      "angle": "No defect or QC reference content exists on the site."
+    },
+    {
+      "order": 19,
+      "slug": "screen-printing-vs-embroidery",
+      "cluster": "C5",
+      "primary": "screen printing vs embroidery",
+      "secondary": [
+        "embroidery vs printing",
+        "dtf vs screen printing",
+        "custom garment decoration methods"
+      ],
+      "longTail": [
+        "is embroidery more expensive than screen printing",
+        "which lasts longer printing or embroidery",
+        "screen printing vs embroidery for hoodies"
+      ],
+      "intent": "Informational — comparison",
+      "angle": "/streetwear-manufacturer-bangladesh is a commercial service page; this is a decoration-method comparison."
+    },
+    {
+      "order": 20,
+      "slug": "gots-vs-oeko-tex",
+      "cluster": "C7",
+      "primary": "gots vs oeko tex",
+      "secondary": [
+        "gots certification meaning",
+        "oeko tex standard 100",
+        "textile certifications comparison"
+      ],
+      "longTail": [
+        "is gots better than oeko tex",
+        "do i need gots certification",
+        "difference between gots and oeko tex"
+      ],
+      "intent": "Informational — comparison",
+      "angle": "/certifications lists both certificates in reference form; this is a decision guide. Must link up to /certifications rather than duplicate the list."
+    },
+    {
+      "order": 21,
+      "slug": "negotiate-with-clothing-manufacturer",
+      "cluster": "C4",
+      "primary": "how to negotiate with a clothing manufacturer",
+      "secondary": [
+        "manufacturer price negotiation",
+        "reduce garment cost",
+        "moq negotiation"
+      ],
+      "longTail": [
+        "how to negotiate price with a clothing manufacturer",
+        "can you negotiate manufacturing price",
+        "how to get a better quote"
+      ],
+      "intent": "Informational — tactical advice",
+      "angle": "/blog/what-is-moq contains a short 'negotiate a lower MOQ' section; this article owns price/terms negotiation and must not target MOQ keywords."
+    },
+    {
+      "order": 22,
+      "slug": "sustainable-fabrics-for-clothing-brands",
+      "cluster": "C7",
+      "primary": "sustainable fabric for clothing",
+      "secondary": [
+        "eco friendly fabric for clothing",
+        "organic cotton vs recycled polyester",
+        "sustainable textile options"
+      ],
+      "longTail": [
+        "what is the most sustainable fabric",
+        "is recycled polyester better than cotton",
+        "sustainable fabric cost comparison"
+      ],
+      "intent": "Informational — material selection",
+      "angle": "/esg-transparency covers company ESG practice, not fibre selection for a product line."
+    },
+    {
+      "order": 23,
+      "slug": "garment-payment-terms",
+      "cluster": "C4",
+      "primary": "garment payment terms",
+      "secondary": [
+        "apparel payment terms",
+        "t/t payment garment",
+        "lc payment terms"
+      ],
+      "longTail": [
+        "what payment terms do clothing manufacturers use",
+        "should i pay 30% deposit",
+        "is lc mandatory for garment import"
+      ],
+      "intent": "Informational — commercial terms",
+      "angle": "/get-a-quote collects enquiries but explains no payment structure."
+    },
+    {
+      "order": 24,
+      "slug": "pre-shipment-inspection",
+      "cluster": "C3",
+      "primary": "pre shipment inspection",
+      "secondary": [
+        "psi inspection",
+        "final random inspection",
+        "third party inspection garment"
+      ],
+      "longTail": [
+        "what is checked in a pre shipment inspection",
+        "psi vs dpi inspection",
+        "how much does a pre shipment inspection cost"
+      ],
+      "intent": "Informational — process",
+      "angle": "No existing inspection content; /certifications does not cover inspection procedures."
+    },
+    {
+      "order": 25,
+      "slug": "apparel-import-duty-usa",
+      "cluster": "C6",
+      "primary": "apparel import duty usa",
+      "secondary": [
+        "us import duty on clothing",
+        "hts code apparel",
+        "de minimis clothing import"
+      ],
+      "longTail": [
+        "what is the import duty on clothes from bangladesh",
+        "how much duty on t-shirts to usa",
+        "do i pay duty on clothing imports"
+      ],
+      "intent": "Informational — regulatory",
+      "angle": "No duty or customs content exists on the site."
+    },
+    {
+      "order": 26,
+      "slug": "clothing-size-chart",
+      "cluster": "C5",
+      "primary": "clothing size chart",
+      "secondary": [
+        "size chart template clothing",
+        "apparel size grading chart",
+        "measurement chart clothing"
+      ],
+      "longTail": [
+        "how to make a size chart for clothing brand",
+        "what measurements go in a size chart",
+        "size chart vs spec sheet"
+      ],
+      "intent": "Informational — how-to",
+      "angle": "/products/* pages show specification tables, not size-chart methodology."
+    },
+    {
+      "order": 27,
+      "slug": "golden-sample-garment",
+      "cluster": "C3",
+      "primary": "golden sample garment",
+      "secondary": [
+        "golden sample in apparel",
+        "approved sample",
+        "sealed sample"
+      ],
+      "longTail": [
+        "what is a golden sample in manufacturing",
+        "why are golden samples kept",
+        "golden sample vs reference sample"
+      ],
+      "intent": "Informational — definitional",
+      "angle": "No sampling-standard content exists; adjacent to /blog/how-to-find-a-clothing-manufacturer but a different concept."
+    },
+    {
+      "order": 28,
+      "slug": "garment-dyeing-process",
+      "cluster": "C2",
+      "primary": "garment dyeing process",
+      "secondary": [
+        "yarn dyeing",
+        "piece dyeing",
+        "garment dyed vs yarn dyed"
+      ],
+      "longTail": [
+        "what is garment dyeing",
+        "garment dyeing vs piece dyeing",
+        "is garment dyeing more expensive"
+      ],
+      "intent": "Informational — process comparison",
+      "angle": "No dyeing content exists anywhere on the site."
+    },
+    {
+      "order": 29,
+      "slug": "what-is-grading-in-clothing",
+      "cluster": "C1",
+      "primary": "what is grading in clothing",
+      "secondary": [
+        "pattern grading",
+        "grading chart clothing",
+        "size grading apparel"
+      ],
+      "longTail": [
+        "what is pattern grading in fashion",
+        "how are clothing sizes graded",
+        "grading rules for clothing sizes"
+      ],
+      "intent": "Informational — definitional",
+      "angle": "/products/* pages publish size specs but never explain grading; no informational overlap."
+    },
+    {
+      "order": 30,
+      "slug": "garment-worker-wages-bangladesh",
+      "cluster": "C7",
+      "primary": "garment worker wages bangladesh",
+      "secondary": [
+        "bangladesh minimum wage garment",
+        "apparel worker pay",
+        "living wage garment"
+      ],
+      "longTail": [
+        "what is the minimum wage in bangladesh garment factories",
+        "how much do garment workers earn in bangladesh",
+        "living wage in bangladesh apparel"
+      ],
+      "intent": "Informational — due diligence",
+      "angle": "/esg-transparency covers social practice at company level, not wage structure."
+    }
+  ]
+}

@@ -214,12 +214,17 @@ function renderContent(content: string) {
 
   if (inTable) flushTable();
 
-  elements.push(
-    <p key={`ctx-link-${elements.length}`} className="py-2 text-gray-600 leading-relaxed mt-6 pt-6 border-t border-gray-100">
-      Ready to start your apparel project? TEXVENTURE is a{' '}
-      <Link href="/" className="text-[#08CCD4] hover:underline">Clothing Manufacturer in Bangladesh</Link> — low MOQ from 100 pieces, 20+ certified factories, global delivery.
-    </p>
-  );
+  // Fallback homepage CTA for legacy posts that do not carry their own homepage link.
+  // New articles (content/queue.json) always link the homepage exactly once inside the body,
+  // so this block must not run for them — otherwise the page would carry two homepage links.
+  if (!content.includes('](/') && !content.includes('](https://texventure.com/')) {
+    elements.push(
+      <p key={`ctx-link-${elements.length}`} className="py-2 text-gray-600 leading-relaxed mt-6 pt-6 border-t border-gray-100">
+        Ready to start your apparel project? TEXVENTURE is a{' '}
+        <Link href="/" className="text-[#08CCD4] hover:underline">Clothing Manufacturer in Bangladesh</Link> — low MOQ from 100 pieces, 20+ certified factories, global delivery.
+      </p>
+    );
+  }
 
   return elements;
 }

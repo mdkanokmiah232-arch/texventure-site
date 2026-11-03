@@ -2,6 +2,8 @@
 // TEXVENTURE Guides / Blog Article Metadata
 // =============================================================================
 
+import { generatedArticles } from './generated-articles';
+
 export interface GuideAuthor {
   name: string;
   role: string;
@@ -862,6 +864,8 @@ At TEXVENTURE, our factory network in Bangladesh is optimised for knitwear, flee
     imageAlt: "Bangladesh vs China vs Vietnam — Where Should You Manufacture in 2026 comparison by TEXVENTURE",
     metaDescription: "Bangladesh vs China vs Vietnam for garment manufacturing in 2026. Compare pricing, MOQs, lead times, quality, tariffs, and sustainability with real data.",
   },
+  // Articles published by the automated queue (content/queue.json) are appended here.
+  ...generatedArticles,
 ];
 
 // ---------------------------------------------------------------------------

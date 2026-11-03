@@ -1,0 +1,677 @@
+{
+  "site": "https://texventure.com",
+  "ctaUrl": "https://quote.texventure.com/",
+  "homepageAnchors": [
+    "Clothing Manufacturer in Bangladesh",
+    "Trusted Clothing Manufacturer in Bangladesh",
+    "Best Clothing Manufacturer in Bangladesh",
+    "TEXVENTURE"
+  ],
+  "createdAt": "2026-11-03",
+  "note": "Order frozen from TEXVENTURE_30_SEO_Blog_Topic_Research.docx (priority score order). Do not re-research or reorder.",
+  "topics": [
+    {
+      "order": 1,
+      "topicId": 1,
+      "slug": "tech-pack-for-clothing",
+      "cluster": "C1",
+      "title": "Tech Pack for Clothing: What to Include and How to Build One",
+      "primaryKeyword": "tech pack for clothing",
+      "secondaryKeywords": [
+        "tech pack template",
+        "tech pack meaning",
+        "clothing tech pack example",
+        "what is a tech pack"
+      ],
+      "longTailKeywords": [
+        "what should a tech pack include",
+        "how to make a tech pack for a t-shirt",
+        "tech pack vs spec sheet",
+        "tech pack for a hoodie"
+      ],
+      "intent": "Informational — pre-purchase research",
+      "score": 88,
+      "featuredImage": "/images/about-texventure.webp",
+      "status": "queued"
+    },
+    {
+      "order": 2,
+      "topicId": 2,
+      "slug": "garment-sampling-process",
+      "cluster": "C1",
+      "title": "Garment Sampling Process: Fit, PP and TOP Samples Explained",
+      "primaryKeyword": "garment sampling process",
+      "secondaryKeywords": [
+        "pre-production sample",
+        "fit sample vs pp sample",
+        "garment sampling department",
+        "sample development apparel"
+      ],
+      "longTailKeywords": [
+        "how long does garment sampling take",
+        "what is a pp sample in apparel",
+        "how many samples before bulk production"
+      ],
+      "intent": "Informational — process understanding",
+      "score": 87,
+      "featuredImage": "/images/cat-tshirts.webp",
+      "status": "queued"
+    },
+    {
+      "order": 3,
+      "topicId": 6,
+      "slug": "fabric-gsm-meaning",
+      "cluster": "C2",
+      "title": "Fabric GSM Explained: What Fabric Weight Means for Quality and Cost",
+      "primaryKeyword": "fabric gsm meaning",
+      "secondaryKeywords": [
+        "fabric gsm chart",
+        "gsm to oz fabric",
+        "what is gsm in fabric"
+      ],
+      "longTailKeywords": [
+        "what gsm is good for a t-shirt",
+        "180 gsm vs 240 gsm",
+        "fabric gsm calculator"
+      ],
+      "intent": "Informational — specification literacy",
+      "score": 85,
+      "featuredImage": "/images/cat-hoodies.webp",
+      "status": "queued"
+    },
+    {
+      "order": 4,
+      "topicId": 16,
+      "slug": "cost-to-manufacture-a-t-shirt",
+      "cluster": "C4",
+      "title": "How Much Does It Cost to Manufacture a T-Shirt in 2026?",
+      "primaryKeyword": "how much does it cost to manufacture a t-shirt",
+      "secondaryKeywords": [
+        "t shirt manufacturing cost",
+        "cost to produce a t shirt",
+        "custom t shirt manufacturing price"
+      ],
+      "longTailKeywords": [
+        "cost per t shirt to manufacture",
+        "why are custom t shirts expensive",
+        "t shirt manufacturing cost breakdown"
+      ],
+      "intent": "Informational — pricing research",
+      "score": 84,
+      "featuredImage": "/images/pants-joggers.webp",
+      "status": "queued"
+    },
+    {
+      "order": 5,
+      "topicId": 3,
+      "slug": "fabric-consumption-calculation",
+      "cluster": "C1",
+      "title": "Fabric Consumption Calculation: Formula, Examples and Excel Method",
+      "primaryKeyword": "fabric consumption calculation",
+      "secondaryKeywords": [
+        "garment consumption calculation",
+        "fabric consumption formula",
+        "fabric consumption calculator"
+      ],
+      "longTailKeywords": [
+        "fabric consumption calculation for t-shirt",
+        "how to calculate fabric consumption for woven pant",
+        "fabric consumption formula in kg"
+      ],
+      "intent": "Informational — technical how-to",
+      "score": 83,
+      "featuredImage": "/images/hero-bg.webp",
+      "status": "queued"
+    },
+    {
+      "order": 6,
+      "topicId": 15,
+      "slug": "garment-costing-sheet",
+      "cluster": "C4",
+      "title": "Garment Costing Sheet: How to Build One That Matches Factory Quotes",
+      "primaryKeyword": "garment costing sheet",
+      "secondaryKeywords": [
+        "clothing manufacturing cost sheet",
+        "garment cost breakdown",
+        "apparel costing formula"
+      ],
+      "longTailKeywords": [
+        "how to calculate garment cost per piece",
+        "garment costing sheet excel",
+        "what is cmt cost in garment"
+      ],
+      "intent": "Informational — commercial calculation",
+      "score": 81,
+      "featuredImage": "/images/jackets.webp",
+      "status": "queued"
+    },
+    {
+      "order": 7,
+      "topicId": 24,
+      "slug": "import-clothing-from-bangladesh",
+      "cluster": "C6",
+      "title": "How to Import Clothing From Bangladesh: Step-by-Step for New Buyers",
+      "primaryKeyword": "import clothing from bangladesh",
+      "secondaryKeywords": [
+        "sourcing from bangladesh",
+        "bangladesh garment export process",
+        "import apparel bangladesh"
+      ],
+      "longTailKeywords": [
+        "how to import clothes from bangladesh to usa",
+        "do i need a license to import clothing from bangladesh",
+        "bangladesh garment import documentation"
+      ],
+      "intent": "Informational — process",
+      "score": 81,
+      "featuredImage": "/images/about-texventure.webp",
+      "status": "queued"
+    },
+    {
+      "order": 8,
+      "topicId": 5,
+      "slug": "garment-production-lead-time",
+      "cluster": "C1",
+      "title": "Garment Production Lead Time: What Actually Delays Your Order",
+      "primaryKeyword": "garment production lead time",
+      "secondaryKeywords": [
+        "what is lead time in garment industry",
+        "apparel lead time",
+        "production lead time formula"
+      ],
+      "longTailKeywords": [
+        "how long does it take to manufacture clothes",
+        "garment lead time by product category",
+        "why is my clothing order delayed"
+      ],
+      "intent": "Informational — planning",
+      "score": 80,
+      "featuredImage": "/images/about-texventure.webp",
+      "status": "queued"
+    },
+    {
+      "order": 9,
+      "topicId": 11,
+      "slug": "aql-inspection-meaning",
+      "cluster": "C3",
+      "title": "AQL Inspection Explained: What AQL 2.5 Means for Apparel Orders",
+      "primaryKeyword": "aql inspection meaning",
+      "secondaryKeywords": [
+        "aql 2.5",
+        "aql inspection levels",
+        "aql chart"
+      ],
+      "longTailKeywords": [
+        "what does aql 2.5 mean",
+        "aql inspection for clothing",
+        "how to read an aql chart"
+      ],
+      "intent": "Informational — standard interpretation",
+      "score": 79,
+      "featuredImage": "/images/cert-5.png",
+      "status": "queued"
+    },
+    {
+      "order": 10,
+      "topicId": 20,
+      "slug": "private-label-vs-white-label",
+      "cluster": "C5",
+      "title": "Private Label vs White Label vs OEM: What Brand Owners Should Choose",
+      "primaryKeyword": "private label vs white label",
+      "secondaryKeywords": [
+        "white label clothing",
+        "oem vs private label",
+        "private label meaning"
+      ],
+      "longTailKeywords": [
+        "what is the difference between private label and white label",
+        "which is better private label or white label",
+        "oem vs odm vs private label"
+      ],
+      "intent": "Informational — model comparison",
+      "score": 78,
+      "featuredImage": "/images/cat-activewear.webp",
+      "status": "queued"
+    },
+    {
+      "order": 11,
+      "topicId": 21,
+      "slug": "clothing-line-startup-cost",
+      "cluster": "C5",
+      "title": "Clothing Line Startup Costs: A Realistic Budget for 100–500 Pieces",
+      "primaryKeyword": "clothing line startup cost",
+      "secondaryKeywords": [
+        "cost to start a clothing brand",
+        "clothing brand startup costs",
+        "budget for clothing line"
+      ],
+      "longTailKeywords": [
+        "how much does it cost to start a clothing line",
+        "startup cost for 100 t shirts",
+        "cheapest way to start a clothing brand"
+      ],
+      "intent": "Informational — budgeting",
+      "score": 78,
+      "featuredImage": "/images/hoodies.webp",
+      "status": "queued"
+    },
+    {
+      "order": 12,
+      "topicId": 27,
+      "slug": "sourcing-agent-vs-manufacturer",
+      "cluster": "C6",
+      "title": "Sourcing Agent vs Manufacturer: What Does a Buying House Actually Do?",
+      "primaryKeyword": "clothing sourcing agent",
+      "secondaryKeywords": [
+        "apparel sourcing agent",
+        "garment buying house",
+        "sourcing agent meaning"
+      ],
+      "longTailKeywords": [
+        "what does a clothing sourcing agent do",
+        "do i need a sourcing agent",
+        "sourcing agent vs factory"
+      ],
+      "intent": "Informational — model comparison",
+      "score": 78,
+      "featuredImage": "/images/hero-bg.webp",
+      "status": "queued"
+    },
+    {
+      "order": 13,
+      "topicId": 17,
+      "slug": "fob-vs-cif-incoterms",
+      "cluster": "C4",
+      "title": "FOB vs CIF vs EXW: Apparel Incoterms for Clothing Buyers",
+      "primaryKeyword": "fob vs cif",
+      "secondaryKeywords": [
+        "incoterms for clothing",
+        "exw vs fob",
+        "cif shipping terms"
+      ],
+      "longTailKeywords": [
+        "what does fob mean for clothing",
+        "fob vs cif which is better for buyers",
+        "who pays freight under cif"
+      ],
+      "intent": "Informational — trade terms",
+      "score": 76,
+      "featuredImage": "/images/hero-bg.webp",
+      "status": "queued"
+    },
+    {
+      "order": 14,
+      "topicId": 7,
+      "slug": "jersey-vs-interlock-fabric",
+      "cluster": "C2",
+      "title": "Jersey vs Interlock Fabric: Which Knit Is Right for Your Product?",
+      "primaryKeyword": "jersey vs interlock fabric",
+      "secondaryKeywords": [
+        "interlock knit fabric",
+        "single jersey fabric",
+        "knit fabric types"
+      ],
+      "longTailKeywords": [
+        "what is interlock fabric used for",
+        "is interlock better than jersey",
+        "jersey vs interlock vs rib"
+      ],
+      "intent": "Informational — comparison",
+      "score": 74,
+      "featuredImage": "/images/activewear.webp",
+      "status": "queued"
+    },
+    {
+      "order": 15,
+      "topicId": 10,
+      "slug": "loopback-vs-brushed-fleece",
+      "cluster": "C2",
+      "title": "Loopback vs Brushed Fleece: Choosing Fleece for Hoodies and Sweats",
+      "primaryKeyword": "loopback vs brushed fleece",
+      "secondaryKeywords": [
+        "brushed fleece fabric",
+        "loopback fleece",
+        "french terry vs fleece"
+      ],
+      "longTailKeywords": [
+        "what is loopback fleece",
+        "is brushed fleece warmer",
+        "fleece for hoodie manufacturing"
+      ],
+      "intent": "Informational — comparison",
+      "score": 74,
+      "featuredImage": "/images/t-shirts.webp",
+      "status": "queued"
+    },
+    {
+      "order": 16,
+      "topicId": 26,
+      "slug": "garment-factory-audit-checklist",
+      "cluster": "C6",
+      "title": "Garment Factory Audit Checklist: 32 Checks Before You Place an Order",
+      "primaryKeyword": "garment factory audit checklist",
+      "secondaryKeywords": [
+        "factory audit checklist apparel",
+        "social compliance audit",
+        "supplier verification checklist"
+      ],
+      "longTailKeywords": [
+        "how to audit a garment factory",
+        "what to check before ordering from a factory",
+        "factory audit vs inspection"
+      ],
+      "intent": "Informational — checklist / tool",
+      "score": 73,
+      "featuredImage": "/images/cat-pants.webp",
+      "status": "queued"
+    },
+    {
+      "order": 17,
+      "topicId": 8,
+      "slug": "denim-weight-oz",
+      "cluster": "C2",
+      "title": "Denim Weight Guide: What 10oz, 12oz and 14oz Mean for Jeans",
+      "primaryKeyword": "denim weight oz",
+      "secondaryKeywords": [
+        "denim oz guide",
+        "what is 12oz denim",
+        "denim weight explained"
+      ],
+      "longTailKeywords": [
+        "what oz denim is best for jeans",
+        "10oz vs 12oz denim",
+        "denim weight for jackets"
+      ],
+      "intent": "Informational — product specification",
+      "score": 72,
+      "featuredImage": "/images/cat-hoodies.webp",
+      "status": "queued"
+    },
+    {
+      "order": 18,
+      "topicId": 13,
+      "slug": "types-of-garment-defects",
+      "cluster": "C3",
+      "title": "20 Common Garment Defects and How to Classify Them",
+      "primaryKeyword": "types of garment defects",
+      "secondaryKeywords": [
+        "garment defects list",
+        "major vs minor defects",
+        "sewing defects"
+      ],
+      "longTailKeywords": [
+        "what are the common defects in garments",
+        "major minor critical defects apparel",
+        "how to classify garment defects"
+      ],
+      "intent": "Informational — reference",
+      "score": 72,
+      "featuredImage": "/images/cert-6.png",
+      "status": "queued"
+    },
+    {
+      "order": 19,
+      "topicId": 23,
+      "slug": "screen-printing-vs-embroidery",
+      "cluster": "C5",
+      "title": "Screen Printing vs Embroidery: Cost, Durability and Best Use Cases",
+      "primaryKeyword": "screen printing vs embroidery",
+      "secondaryKeywords": [
+        "embroidery vs printing",
+        "dtf vs screen printing",
+        "custom garment decoration methods"
+      ],
+      "longTailKeywords": [
+        "is embroidery more expensive than screen printing",
+        "which lasts longer printing or embroidery",
+        "screen printing vs embroidery for hoodies"
+      ],
+      "intent": "Informational — comparison",
+      "score": 72,
+      "featuredImage": "/images/cat-accessories.webp",
+      "status": "queued"
+    },
+    {
+      "order": 20,
+      "topicId": 28,
+      "slug": "gots-vs-oeko-tex",
+      "cluster": "C7",
+      "title": "GOTS vs OEKO-TEX: Which Certification Do You Actually Need?",
+      "primaryKeyword": "gots vs oeko tex",
+      "secondaryKeywords": [
+        "gots certification meaning",
+        "oeko tex standard 100",
+        "textile certifications comparison"
+      ],
+      "longTailKeywords": [
+        "is gots better than oeko tex",
+        "do i need gots certification",
+        "difference between gots and oeko tex"
+      ],
+      "intent": "Informational — comparison",
+      "score": 72,
+      "featuredImage": "/images/cert-14.png",
+      "status": "queued"
+    },
+    {
+      "order": 21,
+      "topicId": 19,
+      "slug": "negotiate-with-clothing-manufacturer",
+      "cluster": "C4",
+      "title": "How to Negotiate With a Clothing Manufacturer (Without Losing Quality)",
+      "primaryKeyword": "how to negotiate with a clothing manufacturer",
+      "secondaryKeywords": [
+        "manufacturer price negotiation",
+        "reduce garment cost",
+        "moq negotiation"
+      ],
+      "longTailKeywords": [
+        "how to negotiate price with a clothing manufacturer",
+        "can you negotiate manufacturing price",
+        "how to get a better quote"
+      ],
+      "intent": "Informational — tactical advice",
+      "score": 71,
+      "featuredImage": "/images/pants-joggers.webp",
+      "status": "queued"
+    },
+    {
+      "order": 22,
+      "topicId": 29,
+      "slug": "sustainable-fabrics-for-clothing-brands",
+      "cluster": "C7",
+      "title": "Sustainable Fabrics for Clothing Brands: 10 Options Ranked by Cost",
+      "primaryKeyword": "sustainable fabric for clothing",
+      "secondaryKeywords": [
+        "eco friendly fabric for clothing",
+        "organic cotton vs recycled polyester",
+        "sustainable textile options"
+      ],
+      "longTailKeywords": [
+        "what is the most sustainable fabric",
+        "is recycled polyester better than cotton",
+        "sustainable fabric cost comparison"
+      ],
+      "intent": "Informational — material selection",
+      "score": 69,
+      "featuredImage": "/images/activewear.webp",
+      "status": "queued"
+    },
+    {
+      "order": 23,
+      "topicId": 18,
+      "slug": "garment-payment-terms",
+      "cluster": "C4",
+      "title": "Payment Terms in Garment Manufacturing: T/T, LC and Net 30 Explained",
+      "primaryKeyword": "garment payment terms",
+      "secondaryKeywords": [
+        "apparel payment terms",
+        "t/t payment garment",
+        "lc payment terms"
+      ],
+      "longTailKeywords": [
+        "what payment terms do clothing manufacturers use",
+        "should i pay 30% deposit",
+        "is lc mandatory for garment import"
+      ],
+      "intent": "Informational — commercial terms",
+      "score": 68,
+      "featuredImage": "/images/jackets.webp",
+      "status": "queued"
+    },
+    {
+      "order": 24,
+      "topicId": 12,
+      "slug": "pre-shipment-inspection",
+      "cluster": "C3",
+      "title": "Pre-Shipment Inspection: Checklist Before Your Goods Leave the Factory",
+      "primaryKeyword": "pre shipment inspection",
+      "secondaryKeywords": [
+        "psi inspection",
+        "final random inspection",
+        "third party inspection garment"
+      ],
+      "longTailKeywords": [
+        "what is checked in a pre shipment inspection",
+        "psi vs dpi inspection",
+        "how much does a pre shipment inspection cost"
+      ],
+      "intent": "Informational — process",
+      "score": 66,
+      "featuredImage": "/images/cert-13.png",
+      "status": "queued"
+    },
+    {
+      "order": 25,
+      "topicId": 25,
+      "slug": "apparel-import-duty-usa",
+      "cluster": "C6",
+      "title": "Apparel Import Duty for US Buyers: HS Codes, Rates and De Minimis",
+      "primaryKeyword": "apparel import duty usa",
+      "secondaryKeywords": [
+        "us import duty on clothing",
+        "hts code apparel",
+        "de minimis clothing import"
+      ],
+      "longTailKeywords": [
+        "what is the import duty on clothes from bangladesh",
+        "how much duty on t-shirts to usa",
+        "do i pay duty on clothing imports"
+      ],
+      "intent": "Informational — regulatory",
+      "score": 66,
+      "featuredImage": "/images/about-texventure.webp",
+      "status": "queued"
+    },
+    {
+      "order": 26,
+      "topicId": 22,
+      "slug": "clothing-size-chart",
+      "cluster": "C5",
+      "title": "How to Build a Clothing Size Chart Buyers Actually Trust",
+      "primaryKeyword": "clothing size chart",
+      "secondaryKeywords": [
+        "size chart template clothing",
+        "apparel size grading chart",
+        "measurement chart clothing"
+      ],
+      "longTailKeywords": [
+        "how to make a size chart for clothing brand",
+        "what measurements go in a size chart",
+        "size chart vs spec sheet"
+      ],
+      "intent": "Informational — how-to",
+      "score": 65,
+      "featuredImage": "/images/cat-activewear.webp",
+      "status": "queued"
+    },
+    {
+      "order": 27,
+      "topicId": 14,
+      "slug": "golden-sample-garment",
+      "cluster": "C3",
+      "title": "Golden Sample vs Approved Sample: Why It Decides Your QC Outcome",
+      "primaryKeyword": "golden sample garment",
+      "secondaryKeywords": [
+        "golden sample in apparel",
+        "approved sample",
+        "sealed sample"
+      ],
+      "longTailKeywords": [
+        "what is a golden sample in manufacturing",
+        "why are golden samples kept",
+        "golden sample vs reference sample"
+      ],
+      "intent": "Informational — definitional",
+      "score": 63,
+      "featuredImage": "/images/cert-5.png",
+      "status": "queued"
+    },
+    {
+      "order": 28,
+      "topicId": 9,
+      "slug": "garment-dyeing-process",
+      "cluster": "C2",
+      "title": "Garment Dyeing vs Yarn Dyeing: Process, Cost and Use Cases",
+      "primaryKeyword": "garment dyeing process",
+      "secondaryKeywords": [
+        "yarn dyeing",
+        "piece dyeing",
+        "garment dyed vs yarn dyed"
+      ],
+      "longTailKeywords": [
+        "what is garment dyeing",
+        "garment dyeing vs piece dyeing",
+        "is garment dyeing more expensive"
+      ],
+      "intent": "Informational — process comparison",
+      "score": 62,
+      "featuredImage": "/images/activewear.webp",
+      "status": "queued"
+    },
+    {
+      "order": 29,
+      "topicId": 4,
+      "slug": "what-is-grading-in-clothing",
+      "cluster": "C1",
+      "title": "What Is Grading in Clothing? Pattern Grading Explained for Brands",
+      "primaryKeyword": "what is grading in clothing",
+      "secondaryKeywords": [
+        "pattern grading",
+        "grading chart clothing",
+        "size grading apparel"
+      ],
+      "longTailKeywords": [
+        "what is pattern grading in fashion",
+        "how are clothing sizes graded",
+        "grading rules for clothing sizes"
+      ],
+      "intent": "Informational — definitional",
+      "score": 59,
+      "featuredImage": "/images/cat-tshirts.webp",
+      "status": "queued"
+    },
+    {
+      "order": 30,
+      "topicId": 30,
+      "slug": "garment-worker-wages-bangladesh",
+      "cluster": "C7",
+      "title": "Garment Worker Wages in Bangladesh: What Responsible Buyers Should Know",
+      "primaryKeyword": "garment worker wages bangladesh",
+      "secondaryKeywords": [
+        "bangladesh minimum wage garment",
+        "apparel worker pay",
+        "living wage garment"
+      ],
+      "longTailKeywords": [
+        "what is the minimum wage in bangladesh garment factories",
+        "how much do garment workers earn in bangladesh",
+        "living wage in bangladesh apparel"
+      ],
+      "intent": "Informational — due diligence",
+      "score": 59,
+      "featuredImage": "/images/cat-accessories.webp",
+      "status": "queued"
+    }
+  ]
+}
