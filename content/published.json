@@ -164,8 +164,19 @@
       "at": "2026-11-03T13:25:11.307Z",
       "commit": "055424b",
       "deploy": "live"
+    },
+    {
+      "order": 16,
+      "slug": "garment-factory-audit-checklist",
+      "title": "Garment Factory Audit Checklist: 32 Checks Before You Place an Order",
+      "url": "https://texventure.com/blog/garment-factory-audit-checklist",
+      "publishedAt": "2026-11-03",
+      "words": 2593,
+      "at": "2026-11-03T13:33:17.047Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T13:25:11.309Z"
+  "updatedAt": "2026-11-03T13:33:17.048Z"
 }

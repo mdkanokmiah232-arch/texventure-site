@@ -2359,4 +2359,179 @@ If the garment, market and weight are already decided, the next step is a costed
     imageAlt: "Loopback and brushed fleece swatches side by side on a factory cutting table, showing the open loop back and the raised nap surface",
     metaDescription: "Loopback fleece and brushed fleece start from the same knit. Compare warmth, weight, pilling and print behaviour before you specify hoodies or sweatshirts.",
   },
+  {
+    slug: "garment-factory-audit-checklist",
+    title: "Garment Factory Audit Checklist: 32 Checks Before You Place an Order",
+    excerpt: "A garment factory audit checklist is only useful when every line produces evidence. Here are the 32 checks, scoring weights and red flags to run before ordering.",
+    content: `Most factory audits fail at the same moment: the buyer walks a clean floor, sees a wall of framed certificates, and leaves without one piece of evidence that ties the sewing room to the order about to be placed. A garment factory audit checklist is not a tour itinerary. It is an evidence schedule, where every line either produces a document, a photograph with a reference number, or a named person and a date.
+
+The 32 checks below are the ones we work through before a factory takes an order. They assume cut and sew production from 100 pieces per style upward, that you may never visit the unit yourself, and that the quote on your desk was written by a sales office rather than by the floor that will sew the garment.
+
+## What a Factory Audit Actually Verifies
+
+An audit answers four questions in a fixed order: can this factory make the product (capability), can it make your volume inside your window (capacity), is it permitted and compliant (legal and social), and can it prove both after the goods ship (records and traceability). Skip one and the other three become decoration.
+
+Capability is not a machine count. A unit with 400 plain lockstitch machines and no bartack, flatlock or feed-of-the-arm capability cannot deliver a heavy hoodie to a good standard, however long the floor looks. Capacity is not a machine count either. It is the machine-hours the factory is willing to ring-fence for your style, net of the orders already booked into the same lines in the same month.
+
+Compliance is where most audits stop too early. A BSCI or Sedex report proves that a third party visited a factory at some point. It does not prove the report belongs to the building you are standing in, that the findings were closed, or that your order will be sewn there. Read the address on the report, then the audit date, then the corrective action status. In that order.
+
+## Audit Before Order, Inspection Before Shipment: Two Different Jobs
+
+These two activities get used interchangeably in sourcing conversations, and the confusion costs money in both directions.
+
+| Question | Factory audit | Pre-shipment inspection |
+| When it happens | Before the order is placed | When the lot is 80 to 100 percent packed |
+| What it covers | The whole unit: capacity, compliance, quality system, traceability | The goods in front of the inspector |
+| Method | Floor walk, record review, worker interviews | Random sample measured against an AQL limit |
+| Output | Scored file, corrective actions, go or no-go | Pass or fail report on one lot |
+| What it catches | Structural risk you cannot fix after the fabric is cut | Defects that already exist in the goods |
+| What it misses | Nothing yet made | Whether the factory can repeat the result next month |
+
+An inspection tells you whether this shipment is sellable. An audit tells you whether the next four shipments will be. Buyers who inspect only tend to renegotiate the same defects every season, because the cause sits in the line, not in the lot. If you want the sampling mechanics, the difference between critical, major and minor defects is set out in our guide to [AQL inspection meaning](/blog/aql-inspection-meaning).
+
+## Order of Work: Desk Review First, Then the Floor
+
+Sequence matters more than the checklist itself. Records read before the floor walk get prepared; records read after it get explained.
+
+1. Collect the legal file remotely: trade licence, incorporation certificate, export registration, and the ID number of the most recent social audit.
+2. Cross-check the factory address across the licence, the audit report, the bank details and the gate sign. Any mismatch is a stop, not a question.
+3. Send the tech pack and ask for a capacity statement per line, in pieces per day, for that specific style.
+4. Ask which processes leave the building. Washing, printing, embroidery and sample making are the usual four.
+5. Walk the floor first, with a short notice visit if the factory will accept one, and read records afterwards.
+6. Log each of the 32 checks with a photograph, a reference number and the name of the person who showed you the evidence.
+7. Close with a written scorecard and a corrective action list dated and signed, before any price is agreed.
+
+## The 32 Checks, Grouped by Audit Area
+
+### Legal and Commercial Identity (checks 1 to 5)
+
+1. **Trade licence and incorporation papers in the same legal name** as the proforma invoice. When they differ, the entity signing your purchase order is not the entity holding the export registration.
+2. **Export registration and BGMEA or BKMEA membership**, current for the year, showing the factory address that you will visit.
+3. **Address verification** across licence, audit report, bank account and gate sign. Proxy factories live in exactly this gap.
+4. **Written subcontracting disclosure** naming every outside process, the partner unit and whether that partner has its own social audit.
+5. **Capacity statement per line in pieces per day** for your style, with the number of lines and the booking calendar attached.
+
+### Labour and Social Compliance (checks 6 to 12)
+
+6. **Age verification file**: identity copies for every worker on the floor list, matched against payroll and attendance.
+7. **Working hours**: three months of attendance and overtime records against the legal weekly ceiling and the buyer code you will be measured by.
+8. **Wage records matched to bank transfers**, including overtime paid at the correct rate and any piece rate reconciliation.
+9. **Freedom of association**: a functioning workers committee, with names you can confirm without a manager in the room.
+10. **Grievance mechanism** with a log showing complaints received, how they were closed and how long it took.
+11. **Fire safety**: two marked exits per floor, unlocked during working hours, extinguishers with in-date tags, and a documented evacuation drill within the last six months.
+12. **Building and structural safety**: approved layout, declared load per floor, no unapproved extensions, and stairwells that are actually clear.
+
+### Quality System and Records (checks 13 to 18)
+
+13. **A documented quality manual and inspection plan** whose scope names this unit, whether or not the certificate is framed on the wall.
+14. **QC staffing roster**: in-line checkers per line and roving QC, as an actual headcount rather than an organisation chart.
+15. **The AQL plan plus three months of inspection reports**, with defect rates per style and per operation.
+16. **Calibrated equipment**: measuring tapes, GSM cutter, shrinkage ruler and light box, each with a calibration sticker in date.
+17. **Defect records with root cause and corrective action**, not a monthly count with no follow-through.
+18. **Sealed, signed and dated approved samples** on the rack for every running style, including the fit sample and the production standard.
+
+### Production Capability (checks 19 to 25)
+
+19. **Machine list by type and gauge**, verified by counting running and idle machines on the floor during the visit.
+20. **Line balance for your style**: operation breakdown, standard minutes per garment and daily output per line.
+21. **Special process equipment**: bartack, buttonhole, feed-of-the-arm, flatlock, overlock, snap and rivet setters, and the technicians who maintain them.
+22. **Cutting room**: CAD and marker making, spreader capacity, straight and band knife, and a cut numbering system that reaches the sewing floor.
+23. **Finishing department**: pressing, thread suction, needle detection, folding and carton packing under one roof.
+24. **Printing and embroidery**, in house or through a named partner with capacity reserved against your delivery window.
+25. **Wash and laundry access** for garment dyed or washed styles, with the partner named in writing and the turnaround time stated in days.
+
+### Materials and Traceability (checks 26 to 29)
+
+26. **Fabric store with roll and lot tags** traceable from receipt through cutting to the purchase order and dye lot.
+27. **Incoming fabric inspection on a four point system**, with a record per roll and rejected rolls physically segregated.
+28. **Trims store discipline**: thread shade bands, button and zipper lots, interlining, all issued against a per style requisition.
+29. **Test reports for the actual fabric lot**: composition, shrinkage, colourfastness, plus OEKO-TEX or GOTS certificates whose scope names the mill that wove it.
+
+### Environment and Chemical Control (checks 30 to 32)
+
+30. **Effluent treatment plant** with an operating log and a discharge permit, if washing or dyeing happens on site.
+31. **Chemical store** with material safety data sheets, secondary containment and locked access, not drums beside the generator.
+32. **Waste records** for fabric offcuts, cartons and sludge, including who buys them and how often they leave.
+
+## Scoring the 32 Checks
+
+Score each check out of two: two for documented and verified on the floor, one for present but incomplete, zero for absent. Then weight the areas, because a flat average hides the failures that matter.
+
+| Audit area | Checks | Weight | Automatic fail condition |
+| Legal and commercial | 5 | 15 percent | Address mismatch anywhere in the file |
+| Labour and compliance | 7 | 30 percent | Locked exits, or no wage records at all |
+| Quality system | 6 | 20 percent | No sealed production standard for the style |
+| Production capability | 7 | 25 percent | Missing a special machine the style requires |
+| Materials and traceability | 4 | 7 percent | No lot traceability from fabric to cut |
+| Environment and chemical | 3 | 3 percent | No safety data sheets for solvents |
+
+A factory can score 30 out of 32 and still be unbookable. If the two failures are locked fire exits and missing lot traceability, no weighting makes that acceptable, which is why the automatic fail column exists alongside the score. Treat 85 percent and above as bookable, 70 to 85 as bookable with dated corrective actions written into the purchase order, and anything under 70 as a polite no.
+
+## Red Flags That End the Conversation Early
+
+- The address on the audit report is a different building from the one you are standing in, or the report covers a sister unit.
+- The factory will not accept a short notice floor walk, only a scheduled tour with two hours of preparation.
+- Overtime records stop at the legal ceiling every single month, with no variation across a peak season.
+- Subcontracting is denied during the meeting and a partially made style in another unit's handwriting appears in the finishing room.
+- The quote is below the cost of the fabric in it, with the gap explained as a "long term relationship" rather than a specific mill price.
+- Nobody on the floor can name the buyer whose label is hanging on the sample rail.
+
+## Documents to Request Before You Book the Flight
+
+Most of the audit can be desk reviewed. Ask for these six files first, and read them before spending on a visit.
+
+| Document | What it proves | What good looks like |
+| Trade licence and incorporation | Legal identity of the contracting entity | Same name and address on both, valid for the year |
+| Export registration and association membership | Permission to export from Bangladesh | Current, with the factory address printed on it |
+| Latest social audit report | Third party compliance finding | Your building, within 12 months, corrective actions closed |
+| Quality certificate and scope | A system exists and is certified | Scope names this unit and this product type |
+| Capacity statement | Volume can be committed | Pieces per day per line, with a booking calendar |
+| Fabric test reports and certificates | Materials meet the spec | Lot level reports, chain of custody to the mill |
+
+## Turning the Audit Into Purchase Order Terms
+
+An audit that does not change the contract is a cost with no return. Three clauses carry most of the value: a subcontracting prohibition with a named exception list, a corrective action schedule with dates and a re-audit right, and payment terms that hold a balance until the first production lot clears inspection.
+
+At [TEXVENTURE](/) the 32 checks above are run as a scored file on every unit before it joins a network of 20+ vetted factories, and that score stays attached to the order through production rather than to a folder from last year.
+
+Certification scope belongs in the same conversation. A BSCI report or an ISO 9001 certificate is only useful if its scope matches the unit and the product, and if the materials certificates name the mill that supplied your lot. Our own [certification documents](/certifications) are shared at that level, unit by unit and lot by lot, because the alternative is a PDF that satisfies nobody at customs or in a retail compliance team.
+
+Run the score against the quote, not against the brochure. A factory that scores 90 and quotes eight percent above the cheapest offer is usually the cheaper order once you count the rework, the chargebacks and the second inspection. If the audit is being run on your behalf, keep the file yours: the photographs, the record copies and the corrective action log should live with you, not only with the factory. For buyers who would rather not build this function internally, our [sourcing services](/services) cover factory selection, audit and the production follow-up that keeps the file current.
+
+## Frequently Asked Questions
+
+### How long does a garment factory audit take?
+
+A single unit takes one working day on site for a full 32 check review, plus two to five days of desk review before the visit and about a week afterwards to close the report. Larger vertical units with in-house washing, printing and embroidery need two days, because the wet process and chemical stores are a separate walk.
+
+### Can a factory audit be done remotely?
+
+About 70 percent of it can. Legal documents, quality certificates, test reports, capacity statements and three months of inspection records can all be reviewed from your desk. The remaining 30 percent is the floor: exits, machine counts, store discipline and whether the sealed sample matches what is actually being sewn.
+
+### What is the difference between a factory audit and a social compliance audit?
+
+A social compliance audit is one slice of the full audit, covering labour, wages, hours, safety and worker treatment against a code such as BSCI or Sedex. A full factory audit adds capability, capacity, quality systems and material traceability, which are the parts that decide whether the order can be produced at all.
+
+### How often should a factory be re-audited?
+
+Once a year for a running supplier, and again before any order that is materially different from what the factory has made for you before. New product categories, a big step up in volume or a change of production unit all warrant a fresh look, even if the certificate on the wall is still in date.
+
+### Does a good audit score guarantee good quality?
+
+No. It raises the probability that the systems which produce good quality are in place and are used. Quality still has to be controlled per lot through in-line checking and pre-shipment inspection, and the audit is the reason those controls exist rather than the substitute for them.
+
+## Putting the Checklist to Work on Your Order
+
+The audit is the cheapest part of a sourcing decision and the most expensive one to skip. Thirty two checks, one scorecard, and a corrective action list written into the purchase order will tell you more about a factory than three seasons of samples, because samples prove what a factory can do once and records prove what it does every week.
+
+If your style is ready and you want the factory side of this handled before the price conversation, send the tech pack, target quantity and delivery window through our [factory audit and quote request](https://quote.texventure.com/) and the audit summary comes back with the costing, based on the units that can actually make the garment.`,
+    category: "sourcing",
+    tags: ["garment factory audit","factory audit checklist","social compliance audit","supplier verification"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 11,
+    featuredImage: "/images/cat-pants.webp",
+    imageAlt: "Factory auditor reading sewing line inspection records during a garment factory audit in Bangladesh",
+    metaDescription: "Run a garment factory audit checklist that produces evidence: 32 checks on capacity, compliance, quality records and traceability, plus scoring and red flags.",
+  },
 ];
