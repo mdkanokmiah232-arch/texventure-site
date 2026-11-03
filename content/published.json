@@ -43,8 +43,19 @@
       "at": "2026-11-03T10:53:37.679Z",
       "commit": "d7d85c3",
       "deploy": "live"
+    },
+    {
+      "order": 5,
+      "slug": "fabric-consumption-calculation",
+      "title": "Fabric Consumption Calculation: Formula, Examples and Excel Method",
+      "url": "https://texventure.com/blog/fabric-consumption-calculation",
+      "publishedAt": "2026-11-03",
+      "words": 2102,
+      "at": "2026-11-03T11:15:53.809Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T10:53:37.680Z"
+  "updatedAt": "2026-11-03T11:15:53.811Z"
 }

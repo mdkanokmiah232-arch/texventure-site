@@ -594,4 +594,161 @@ No. FOB covers the garment to the port, not to your warehouse. Budget separately
     imageAlt: "Costing sheet beside folded cotton t-shirts showing the fabric, trim and making charge lines of a bulk production quote",
     metaDescription: "How much does it cost to manufacture a t-shirt? A factory-side cost breakdown for 2026: fabric, trim, making charge and the levers that move your FOB price.",
   },
+  {
+    slug: "fabric-consumption-calculation",
+    title: "Fabric Consumption Calculation: Formula, Examples and Excel Method",
+    excerpt: "A factory method for fabric consumption: component areas, GSM, wastage and marker efficiency, with worked examples for knit and woven styles.",
+    content: `Fabric consumption is the first number a costing department calculates and the last one a buyer verifies. Ten grams wrong per piece on a 5,000-piece order is half a tonne of fabric nobody budgeted for, and a quote built on a guess cannot be compared with a second supplier's guess. Get the arithmetic right and every quotation you receive can be checked against a number you calculated yourself.
+
+This guide applies the method the way a factory technical team does: component by component, in centimetres and grams, then converted to kilograms per dozen for knits and metres per garment for wovens. It works through a t-shirt, a polo, a hoodie and a woven pant, and gives you the spreadsheet structure to rebuild it in Excel.
+
+## What Fabric Consumption Calculation Actually Measures
+
+Fabric consumption is the quantity of fabric one garment absorbs, stated as kilograms per dozen for knitwear and metres or yards per dozen for woven styles. It is not the weight of the finished garment. Finished weight is what remains after cutting waste is removed, trims are sewn on and the fabric has shrunk in wash; consumption is what the factory has to buy, spread, cut and pay for.
+
+Three inputs drive the result. The area of every pattern piece, summed across the garment. The weight of the fabric per square metre — GSM for knits, GSM or ounces per square yard for wovens. And the allowances stacked on top for marker waste, shrinkage and defect loss.
+
+Knit fabric is sold by weight and woven by length, so the formulas differ even though the logic does not: area times density equals weight, weight divided by usable width equals length. That relationship is enough to sanity-check any consumption figure a supplier sends.
+
+## The Core Formula for Knit Consumption
+
+For knits, consumption in grams is the total pattern area in square centimetres multiplied by GSM and divided by 10,000. That gives the weight of the panels before any allowance. For a garment made of several components, sum the area of each one:
+
+- Body front and back: body length × half chest × 2
+- Sleeves: sleeve length × half sleeve opening × 2
+- Neck rib or collar: strip length × strip width × 1
+- Pocket, placket, cuffs, hood panels: measured the same way and multiplied by cut quantity
+
+Convert to the units a factory quotes in:
+
+1. Total area in cm² ÷ 10,000 = area in m²
+2. Area in m² × GSM = fabric weight in grams per piece
+3. Grams × 12 ÷ 1,000 = kilograms per dozen
+4. Add wastage before comparing the figure to a supplier's
+
+A 180 GSM jersey tee works out near 0.19 kg before allowances, which is why a quotation always shows a little more than a hand calculation on the panels. That gap is the allowance, and it should be agreed explicitly rather than buried in one percentage.
+
+## Worked Example: a 180 GSM T-Shirt in Kilograms
+
+A men's large crew neck in 180 GSM single jersey, cut and sewn, with a ribbed neck. Measurements are half-measures from a spec sheet, sewing allowance already in the pattern.
+
+| Component | Length (cm) | Width (cm) | Cut qty | Area (cm²) |
+| Body front | 76 | 58 | 1 | 4,408 |
+| Body back | 76 | 58 | 1 | 4,408 |
+| Sleeve | 26 | 23 | 2 | 1,196 |
+| Neck rib strip | 62 | 5 | 1 | 310 |
+| **Total** | | | | **10,322** |
+
+Total area is 10,322 cm², or 1.032 m². Multiply by 180 GSM and the panels weigh 185.8 grams. Add 14 percent for marker waste, end loss and shrinkage, and the figure becomes 0.212 kg per piece, or 2.54 kg per dozen. That sits inside the 0.20 to 0.24 kg band Bangladesh knit factories typically quote at this weight, while a boxy oversized fit can push toward 0.28 kg because the body panel grows in both directions.
+
+The 14 percent is not padding. Cutting loss alone runs 6 to 10 percent on a tubular knit marker, and a 3 percent shrinkage allowance is normal for cotton jersey that has not been pre-shrunk.
+
+## Woven Consumption: From Pattern Area to Metres per Garment
+
+Woven fabric is sold by the metre or yard, so consumption must end in length rather than weight. The formula inverts: area divided by usable width, adjusted for marker efficiency.
+
+Metres per piece = total pattern area in m² ÷ (usable fabric width in m × marker efficiency)
+
+Usable width is roll width minus selvedge: a 58-inch roll is 147 cm wide, of which roughly 145 cm is usable. Marker efficiency lands between 78 and 88 percent, and lower on small sizes and on stripes or checks that must be matched at every seam.
+
+| Style | Pattern area (m²) | Usable width (m) | Marker efficiency | Consumption per piece |
+| Woven shirt, long sleeve | 2.15 | 1.45 | 82% | 1.81 m |
+| 5-pocket woven pant | 1.55 | 1.45 | 85% | 1.26 m |
+| Woven short, elastic waist | 0.95 | 1.45 | 84% | 0.78 m |
+| Lined jacket, shell only | 2.60 | 1.45 | 76% | 2.36 m |
+
+Two details move the answer more than the arithmetic does. Fabric with a directional print or a nap cannot be cut in both directions, so efficiency drops. Fabric with a repeat needs one full repeat of extra length per garment rather than a percentage, which is why matching fabrics are costed separately.
+
+## Benchmarks by Product Type
+
+A planning reference, not a quotation: medium sizes, standard fit, 14 to 16 percent allowance on knits and 80 to 86 percent marker efficiency on wovens.
+
+| Product | Fabric and weight | Consumption per piece | Per dozen |
+| Basic crew tee | 180 GSM single jersey | 0.21 kg | 2.54 kg |
+| Pique polo | 200 GSM pique | 0.22 kg | 2.61 kg |
+| Fleece hoodie | 320 GSM fleece | 0.53 kg | 6.30 kg |
+| Woven shirt | 120 GSM poplin, 58" | 1.81 m | 21.7 m |
+| Woven pant | 260 GSM twill, 58" | 1.26 m | 15.1 m |
+
+Read these as a check on plausibility. A hoodie quoted at 0.35 kg in 320 GSM fleece is not a bargain, it is a different garment: lighter fabric, a smaller hood, or no pocket. A woven pant quoted at 1.05 m is either a narrower pattern than specified or a fabric that will shrink into a shorter leg after the first wash.
+
+## Components and Allowances the Formula Forgets
+
+Body and sleeve panels are the easy part. The components that get under-counted have no obvious rectangle: hoods cut in two or three pieces, pocket bags, plackets, cuffs, waistbands, belt loops, pocketing, interlining and lining. On a five-pocket pant, pocketing can add 0.15 m per piece at a lower price than the shell, which is why it belongs on the sheet.
+
+Then come the allowances, which should be listed rather than bundled:
+
+| Allowance | Typical range | What it covers |
+| Marker and cutting waste | 6–10% knit, 12–20% woven | end loss, defects cut out, nesting gaps |
+| Shrinkage after wash | 2–4% | relaxation of cotton jersey, twill, denim |
+| Rejection and replacement | 1–3% | panels spoiled in sewing, shade rejects |
+| Sample and testing draws | 2–5 pieces per style per colour | fit, PP, TOP and lab tests |
+
+Woven waste runs higher because panels nest less efficiently and defects in a woven roll are harder to cut around. A knit allowance applied to a woven style under-orders fabric by a visible margin, and the shortfall appears when the line is running.
+
+## The Excel Method: Building a Consumption Sheet
+
+A consumption sheet is one table with a row per component and a short block of formulas underneath. Build it once and every future style costs in minutes.
+
+1. List every component in column A, including lining, pocketing, interlining and rib.
+2. Enter length and width in centimetres in columns B and C, taken from the pattern, not from the spec sheet's finished measurements.
+3. Enter cut quantity in column D.
+4. Calculate area in column E as length × width × quantity, divided by 10,000 for square metres.
+5. Enter GSM in column F for knits, or fabric width and marker efficiency for wovens.
+6. Calculate weight in column G as area × GSM, and metres in column H as area ÷ (usable width × efficiency).
+7. Sum the column and multiply by an allowance cell kept separate so it can change per fabric.
+8. Add a second block multiplying consumption by fabric price per kg or per metre, plus trims and making charge.
+
+Keep GSM, width and allowance as separate cells rather than typing numbers into formulas, so changing a fabric from 180 to 220 GSM updates the whole sheet including cost. Keep a column for the measurement source: the commonest error is a pattern length revised after costing.
+
+## From Kilograms to Cost
+
+Consumption is only useful once it meets a price. For knits, multiply kilograms per dozen by price per kilogram; for wovens, multiply metres per dozen by price per metre. Fabric is 45 to 60 percent of a knit garment's FOB price, so a 5 percent consumption error moves the total 2 to 3 percent — enough to lose an order on price or win one at a loss.
+
+The rest follows the same logic: trims from the bill of materials, making charge from the operation breakdown, then overhead and margin. A line-by-line build-up sits in our breakdown of [what it costs to manufacture a t-shirt](/blog/cost-to-manufacture-a-t-shirt), which starts from the consumption method shown here.
+
+## Five Mistakes That Move the Number the Wrong Way
+
+- **Measuring finished garments instead of pattern pieces.** Finished measurements exclude seam allowance and already include shrinkage, so consumption comes out low every time.
+- **Forgetting shrinkage on unwashed cotton.** Three percent on a 0.21 kg tee is 6 grams per piece, or 30 kg across a 5,000-piece run.
+- **Applying knit allowances to woven styles.** Woven markers waste more, and the gap is 8 to 10 percentage points, not 2.
+
+## Calculating Consumption for Your Own Tech Pack
+
+Start from the pattern, not the sample. Where no pattern exists yet, the specification should carry a measurement chart with body length, chest, sleeve length and sleeve opening, plus fabric GSM and composition — enough to build a first-pass consumption figure and a cost range. Pair that with a [fabric GSM reference](/blog/fabric-gsm-meaning) so the weight you specify is the weight you cost.
+
+The formula adapts by product family: [knitwear](/products/knit-wear) is costed in kilograms because the fabric is sold that way, while [woven bottoms and shirts](/products/wovens) are costed in metres against a marker. As a [Clothing Manufacturer in Bangladesh](/) working with more than 20 vetted factories, TEXVENTURE builds consumption per style from the pattern and confirms it against the cutting ticket before a price is issued, with minimum order quantities from 100 pieces per style.
+
+Send your tech pack, target quantity and fabric specification to the [TEXVENTURE quote desk](https://quote.texventure.com/) and the reply states the consumption basis behind the price, so you can check the kilograms and the metres yourself before committing.
+
+## Frequently Asked Questions
+
+### What is the formula for fabric consumption in kg?
+
+For knits, multiply total pattern area in square centimetres by GSM and divide by 10,000 for grams per piece, then divide by 1,000 for kilograms and multiply by 12 for a dozen. Add the wastage allowance before comparing it with a supplier's figure, since quotations include marker loss and shrinkage on the bare panel weight.
+
+### How do I calculate fabric consumption for a t-shirt?
+
+Measure body length and half chest, double them for front and back, add both sleeves and the neck rib, then apply GSM and a 12 to 16 percent allowance. A men's large crew neck in 180 GSM jersey comes to about 0.21 kg per piece, or 2.54 kg per dozen, and the same method covers any knit style.
+
+### How do I calculate fabric consumption for a woven pant?
+
+Woven consumption comes from pattern area divided by usable fabric width and marker efficiency, not from GSM. A basic five-pocket pant with about 1.55 m² of pattern area on a 58-inch roll at 85 percent efficiency consumes roughly 1.26 m per piece, plus extra length where a check must be matched.
+
+### Why is my consumption higher than the factory's?
+
+The difference is usually in what is counted. A factory sheet prices the marker it will actually lay — end loss, defects cut out, shade banding — while a hand calculation uses ideal nesting. Ask for the allowance line and marker efficiency separately and the two reconcile within a few percent.
+
+### Does higher GSM always mean higher consumption?
+
+Higher GSM increases weight for the same pattern area, but consumption also depends on area, so a heavier fabric in a compact fit can consume less than a lighter fabric in an oversized fit. Compare kilograms per piece across styles rather than GSM alone, then check both against fabric price per kilogram.`,
+    category: "manufacturing",
+    tags: ["fabric consumption calculation","garment consumption calculation","fabric consumption formula","costing sheet","bangladesh garment manufacturing"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 11,
+    featuredImage: "/images/hero-bg.webp",
+    imageAlt: "Knitted panels measured on a cutting table beside a consumption sheet listing component length, width and GSM",
+    metaDescription: "Fabric consumption calculation explained factory-side: the kg and metre formulas, worked examples for a t-shirt and woven pant, and a reusable Excel sheet.",
+  },
 ];
