@@ -15,6 +15,18 @@ const nextConfig: NextConfig = {
         destination: "https://quote.texventure.com/",
         permanent: true,
       },
+      // The in-house enquiry form was retired too — everything now runs through the
+      // external quote app. Keep old bookmarks, ads and backlinks working.
+      {
+        source: "/get-a-quote",
+        destination: "https://quote.texventure.com/",
+        permanent: true,
+      },
+      {
+        source: "/get-a-quote/",
+        destination: "https://quote.texventure.com/",
+        permanent: true,
+      },
     ];
   },
 };

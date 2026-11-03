@@ -7,7 +7,6 @@ const quickLinks = [
   { name: 'About', href: '/about' },
   { name: 'Guides', href: '/guides' },
   { name: 'Contact', href: 'https://quote.texventure.com/' },
-  { name: 'Get a Quote', href: '/get-a-quote' },
 ];
 
 export default function NotFound() {

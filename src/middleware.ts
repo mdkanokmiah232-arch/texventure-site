@@ -53,7 +53,7 @@ const LEGACY_MAP: Record<string, string> = {
   '/blog/best-manufacturers-in-bangladesh': '/',
   // misc
   '/login': '/admin/login',
-  '/quote': '/get-a-quote',
+  '/quote': 'https://quote.texventure.com/',
   '/faq': '/services',
   '/guidelines': '/services',
   '/moq': '/blog/what-is-moq',
