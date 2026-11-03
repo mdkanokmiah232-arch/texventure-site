@@ -98,8 +98,19 @@
       "at": "2026-11-03T12:05:18.559Z",
       "commit": "0bf839e",
       "deploy": "live"
+    },
+    {
+      "order": 10,
+      "slug": "private-label-vs-white-label",
+      "title": "Private Label vs White Label vs OEM: What Brand Owners Should Choose",
+      "url": "https://texventure.com/blog/private-label-vs-white-label",
+      "publishedAt": "2026-11-03",
+      "words": 2504,
+      "at": "2026-11-03T12:13:22.151Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T12:05:18.563Z"
+  "updatedAt": "2026-11-03T12:13:22.153Z"
 }
