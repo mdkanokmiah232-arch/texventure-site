@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function RefundPolicyPage() {
-  const lastUpdated = 'September 28, 2026';
+  const lastUpdated = 'November 3, 2026';
 
   return (
     <div className="min-h-screen bg-white">
@@ -35,9 +35,10 @@ export default function RefundPolicyPage() {
               made through texventure.com or directly with our sourcing team.
             </p>
             <p className="mt-3 leading-relaxed">
-              TEXVENTURE is a USA-based apparel sourcing and buying house. Everything we
-              produce is custom-manufactured to your specification, so the stage your order has
-              reached determines whether a refund is available.
+              TEXVENTURE is a Bangladesh-based apparel manufacturer with a liaison office in the
+              USA and a registered company in the USA. Everything we produce is
+              custom-manufactured to your specification, so the stage your order has reached
+              determines whether a refund is available.
             </p>
           </section>
 
@@ -46,7 +47,8 @@ export default function RefundPolicyPage() {
             <p className="mt-3 leading-relaxed">A typical order moves through these stages:</p>
             <ul className="mt-3 list-disc space-y-2 pl-6">
               <li>
-                <strong>Sampling fee</strong> — paid when you request a pre-production sample.
+                <strong>Sampling fee</strong> — paid when you request a development sample,
+                including the courier fee.
               </li>
               <li>
                 <strong>Production deposit</strong> — paid to confirm the order and release fabric
@@ -72,15 +74,16 @@ export default function RefundPolicyPage() {
                 testing, and administrative work).
               </li>
               <li>
-                <strong>Sampling failure.</strong> If we cannot deliver a sample within the
-                agreed timeframe, or the sample materially deviates from the agreed specification
-                and we cannot correct it, the sampling fee is refunded in full.
+                <strong>Sampling fee.</strong> If the sample deviates from the major agreed
+                specification and we cannot correct it, the sampling fee is refunded in full. When
+                you place the bulk order for a particular style based on the design, the sample
+                fee is also refundable, except the courier charges.
               </li>
               <li>
                 <strong>Non-conforming goods.</strong> If delivered units do not match the
                 approved specification or fail the agreed quality standard, and we cannot repair
                 or remake them in a reasonable time, we refund the proportion of the order value
-                covering the affected units.
+                covering the affected units, and you need to return those goods to us.
               </li>
               <li>
                 <strong>Duplicate or incorrect charges.</strong> Any amount charged in error is
@@ -97,8 +100,9 @@ export default function RefundPolicyPage() {
                 cannot be cancelled or refunded.
               </li>
               <li>
-                Minor variations in colour, shade, texture, or measurement that fall within
-                normal industry tolerance are not defects and are not refundable.
+                Minor variations in colour, shade, texture, or measurement that fall within normal
+                industry tolerance are not defects and are not refundable. We follow the AQL 2.5
+                method.
               </li>
               <li>
                 A sample that was produced, approved, and signed off by you defines the
@@ -119,9 +123,12 @@ export default function RefundPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-[#1B2A4A]">5. Quality Claims</h2>
             <p className="mt-3 leading-relaxed">
-              Inspect your order on arrival. To raise a quality claim, contact us within{' '}
-              <strong>14 days</strong> of receiving the goods and include your order reference,
-              photographs of the issue, and the quantity affected.
+              Inspect your order before ex-factory. To raise a quality claim, contact us within{' '}
+              <strong>2 days</strong> of receiving the goods and include your order reference,
+              unboxing video, photographs, videos of the issue, and the quantity affected.
+            </p>
+            <p className="mt-3 leading-relaxed">
+              An unboxing video is mandatory to claim any refund.
             </p>
             <p className="mt-3 leading-relaxed">
               Claims are assessed against the approved sample and the agreed inspection
@@ -135,8 +142,9 @@ export default function RefundPolicyPage() {
             <h2 className="text-xl font-bold text-[#1B2A4A]">6. Shipping Damage or Loss</h2>
             <p className="mt-3 leading-relaxed">
               Report visible damage or a shortfall in shipment within{' '}
-              <strong>48 hours</strong> of delivery, with photographs of the packaging and the
-              goods. We will support you in filing a claim with the carrier or its insurer.
+              <strong>48 hours</strong> of delivery, with an unboxing video and photographs of the
+              packaging and the goods. We will support you in filing a claim with the carrier or
+              its insurer.
             </p>
             <p className="mt-3 leading-relaxed">
               Claims for concealed damage or total loss must be raised as soon as the issue is
@@ -156,11 +164,13 @@ export default function RefundPolicyPage() {
             <ul className="mt-3 list-disc space-y-2 pl-6">
               <li>Your order or invoice reference.</li>
               <li>The payment date, amount, and method used.</li>
-              <li>The reason for the request, with supporting photographs where relevant.</li>
+              <li>
+                The reason for the request, with supporting videos and photographs where relevant.
+              </li>
             </ul>
             <p className="mt-3 leading-relaxed">
               We acknowledge every request within <strong>3 business days</strong> and confirm
-              the decision within <strong>10 business days</strong> of receiving the required
+              the decision within <strong>15 business days</strong> of receiving the required
               information.
             </p>
           </section>
@@ -169,7 +179,7 @@ export default function RefundPolicyPage() {
             <h2 className="text-xl font-bold text-[#1B2A4A]">8. How Refunds Are Paid</h2>
             <p className="mt-3 leading-relaxed">
               Approved refunds are issued to the original payment method within{' '}
-              <strong>10 business days</strong> of approval. Where a refund must be sent by
+              <strong>30 business days</strong> of approval. Where a refund must be sent by
               international bank transfer, intermediary and transfer fees are deducted from the
               refund amount.
             </p>
