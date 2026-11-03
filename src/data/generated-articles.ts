@@ -561,7 +561,7 @@ Against China, Bangladesh competes on labour-intensive construction and volume c
 
 A range tells you whether a quote is plausible. It does not tell you what your t-shirt costs. For a firm number you need a tech pack with a measurement chart, a fabric specification with GSM and composition, a trim list, a print or embroidery placement with dimensions, a target quantity per colourway, and a delivery window. With those six inputs a factory costs the garment to the line rather than to the category.
 
-For an indicative figure before you commit to a supplier, run your specification through the [instant quote tool](/instant-quote) and hold quotations against the result. When you want a factory-side costing with fabric consumption, trim pricing and making charge broken out, send the pack to [TEXVENTURE's quote desk](https://quote.texventure.com/) with your target quantity and ship window, so the answer comes back as a price rather than another range.
+For an indicative figure before you commit to a supplier, run your specification through the quote form and hold factory quotations against the result. When you want a factory-side costing with fabric consumption, trim pricing and making charge broken out, send the pack to [TEXVENTURE's quote desk](https://quote.texventure.com/) with your target quantity and ship window, so the answer comes back as a price rather than another range.
 
 ## Frequently Asked Questions
 
@@ -867,7 +867,7 @@ Negotiation follows the same logic. Ask for the three lines that carry the most 
 
 Four checks before a sheet goes to a factory or a board. Does every line have a stated basis, so someone else could rebuild it? Do the percentages sum to a hundred, and does the margin base match the quote? Is the quantity per colourway or per style? And is the export cost on the correct Incoterm, with freight handled consistently on both sides?
 
-For an indicative band to test the result against, the [instant quote tool](/instant-quote) gives a starting range by product and quantity, and the [t-shirt manufacturing cost breakdown](/blog/cost-to-manufacture-a-t-shirt) shows the same arithmetic on a single product in more detail.
+For an indicative band to test the result against, a live factory quote gives a starting range by product and quantity, and the [t-shirt manufacturing cost breakdown](/blog/cost-to-manufacture-a-t-shirt) shows the same arithmetic on a single product in more detail.
 
 If you would rather hand the build-up to the people who run the lines, send your tech pack, target quantity and ship window to [TEXVENTURE's costing desk](https://quote.texventure.com/) and ask for a garment costing sheet with fabric, trim and making charge itemised, so the reply arrives as something you can audit rather than a single FOB number.
 

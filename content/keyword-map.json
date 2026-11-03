@@ -8,7 +8,7 @@
     "/services": "apparel manufacturing services",
     "/certifications": "garment factory certifications",
     "/esg-transparency": "esg apparel manufacturing",
-    "/instant-quote": "clothing manufacturing price calculator",
+    "https://quote.texventure.com/": "clothing manufacturing price calculator",
     "/blog/what-is-moq": "what is moq",
     "/blog/how-to-find-a-clothing-manufacturer": "how to find a clothing manufacturer",
     "/blog/cost-to-manufacture-a-hoodie": "cost to manufacture a hoodie",
@@ -106,7 +106,7 @@
         "fabric consumption formula in kg"
       ],
       "intent": "Informational — technical how-to",
-      "angle": "No formula or technical-costing content exists. /instant-quote is a price calculator, not a teaching resource — different intent."
+      "angle": "No formula or technical-costing content exists. the quote tool is a price calculator, not a teaching resource — different intent."
     },
     {
       "order": 6,
@@ -124,7 +124,7 @@
         "what is cmt cost in garment"
       ],
       "intent": "Informational — commercial calculation",
-      "angle": "/instant-quote publishes price ranges but no methodology; /blog/cost-to-manufacture-a-hoodie covers one product only."
+      "angle": "the quote tool publishes price ranges but no methodology; /blog/cost-to-manufacture-a-hoodie covers one product only."
     },
     {
       "order": 7,
@@ -250,7 +250,7 @@
         "who pays freight under cif"
       ],
       "intent": "Informational — trade terms",
-      "angle": "No shipping-terms content exists; /instant-quote states pricing basis only."
+      "angle": "No shipping-terms content exists; the quote tool states pricing basis only."
     },
     {
       "order": 14,

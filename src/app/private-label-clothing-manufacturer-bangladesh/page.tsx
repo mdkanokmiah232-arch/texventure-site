@@ -240,7 +240,7 @@ export default function PrivateLabelPage() {
               {[
                 { title: 'Custom Clothing Manufacturing', desc: 'Your design, built to spec', href: '/custom-clothing-manufacturer-bangladesh' },
                 { title: 'Get a Quote', desc: 'From 100 pieces per style', href: '/get-a-quote' },
-                { title: 'Instant Quote Calculator', desc: 'Get pricing estimates in seconds', href: '/instant-quote' },
+                { title: 'Instant Quote Calculator', desc: 'Get pricing estimates in seconds', href: 'https://quote.texventure.com/' },
               ].map((item) => (
                 <Link
                   key={item.title}

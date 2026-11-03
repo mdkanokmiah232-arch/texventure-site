@@ -111,7 +111,7 @@ function validate(a, topic, state) {
 
   // 5. no invented URLs
   const existing = new Set([
-    '/', '/about', '/services', '/certifications', '/esg-transparency', '/get-a-quote', '/instant-quote',
+    '/', '/about', '/services', '/certifications', '/esg-transparency', '/get-a-quote',
     '/private-label-clothing-manufacturer-bangladesh', '/streetwear-manufacturer-bangladesh',
     '/custom-clothing-manufacturer-bangladesh', '/blog',
     '/products/knit-wear', '/products/wovens', '/products/circular-knit', '/products/denim',
@@ -252,6 +252,12 @@ async function main() {
   const mode = process.argv.includes('--publish') ? 'publish'
     : process.argv.includes('--stage') ? 'stage'
     : process.argv.includes('--status') ? 'status' : 'validate';
+
+  if (process.argv.includes('--rebuild')) {
+    const n = buildTs();
+    console.log(`[rebuild] generated-articles.ts rebuilt with ${n} article(s)`);
+    return;
+  }
 
   if (process.argv.includes('--recheck')) {
     const state = loadState();

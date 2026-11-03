@@ -25,7 +25,6 @@ const PUBLIC_ROUTES = [
   { path: '/services', label: 'Services' },
   { path: '/certifications', label: 'Certifications' },
   { path: '/get-a-quote', label: 'Get a Quote' },
-  { path: '/instant-quote', label: 'Instant Quote' },
   { path: '/checkout', label: 'Checkout' },
   { path: '/privacy-policy', label: 'Privacy Policy' },
   { path: '/terms-of-service', label: 'Terms of Service' },

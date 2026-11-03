@@ -57,7 +57,7 @@ const LEGACY_MAP: Record<string, string> = {
   '/faq': '/services',
   '/guidelines': '/services',
   '/moq': '/blog/what-is-moq',
-  '/pricing': '/instant-quote',
+  '/pricing': 'https://quote.texventure.com/',
   '/garment-manufacturing': '/custom-clothing-manufacturer-bangladesh',
   '/apparel-manufacturing': '/custom-clothing-manufacturer-bangladesh',
   '/custom-clothing': '/custom-clothing-manufacturer-bangladesh',

@@ -120,7 +120,7 @@ export const navigation: NavItem[] = [
       { label: "Streetwear", href: "/streetwear-manufacturer-bangladesh" },
     ],
   },
-  { label: "Instant Quote", href: "/instant-quote" },
+  { label: "Instant Quote", href: "https://quote.texventure.com/" },
   { label: "Guides", href: "/guides" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "https://quote.texventure.com/" },

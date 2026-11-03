@@ -94,7 +94,7 @@ export default function PillarPage() {
           headline="Best Custom Clothing Manufacturer in Bangladesh"
           subheadline="From concept to delivery — TEXVENTURE provides custom apparel manufacturing with low MOQs from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries."
           primaryCta={{ text: 'Get a Free Quote', href: '/get-a-quote' }}
-          secondaryCta={{ text: 'Instant Quote Calculator', href: '/instant-quote' }}
+          secondaryCta={{ text: 'Instant Quote Calculator', href: 'https://quote.texventure.com/' }}
         />
 
         {/* Trust Strip */}
@@ -287,7 +287,7 @@ export default function PillarPage() {
                 { title: 'Get a Quote', desc: 'From 100 pieces per style', href: '/get-a-quote' },
                 { title: 'Private Label Manufacturing', desc: 'Your brand, our expertise', href: '/private-label-clothing-manufacturer-bangladesh' },
                 { title: 'Streetwear Manufacturing', desc: 'Built for the culture', href: '/streetwear-manufacturer-bangladesh' },
-                { title: 'Instant Quote Calculator', desc: 'Get pricing estimates in seconds', href: '/instant-quote' },
+                { title: 'Instant Quote Calculator', desc: 'Get pricing estimates in seconds', href: 'https://quote.texventure.com/' },
               ].map((item) => (
                 <Link
                   key={item.title}

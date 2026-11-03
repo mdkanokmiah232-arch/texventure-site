@@ -1,7 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      // The in-house instant quote calculator was retired in favour of the
+      // external quote app. Keep the old URL working for bookmarks and backlinks.
+      {
+        source: "/instant-quote",
+        destination: "https://quote.texventure.com/",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

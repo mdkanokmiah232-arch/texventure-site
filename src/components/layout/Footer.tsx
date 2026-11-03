@@ -25,7 +25,7 @@ const categoryLinks: { name: string; href: string }[] = [
 ];
 
 const resourceLinks = [
-  { name: 'Instant Pricing Calculator', href: '/instant-quote' },
+  { name: 'Instant Pricing Calculator', href: 'https://quote.texventure.com/' },
   { name: 'Blog', href: '/blog' },
   { name: 'Get a Quote', href: 'https://quote.texventure.com' },
   { name: 'Privacy Policy', href: '/privacy-policy' },

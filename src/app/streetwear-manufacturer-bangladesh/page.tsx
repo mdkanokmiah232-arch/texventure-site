@@ -82,7 +82,7 @@ export default function StreetwearPage() {
           headline="Streetwear Manufacturer in Bangladesh"
           subheadline="Premium heavyweight fabrics, bold graphics, and drop-ready production. We manufacture hoodies, oversized tees, cargo pants, and statement pieces for streetwear brands worldwide."
           primaryCta={{ text: 'Manufacture Streetwear', href: '/get-a-quote' }}
-          secondaryCta={{ text: 'See Pricing Estimates', href: '/instant-quote' }}
+          secondaryCta={{ text: 'See Pricing Estimates', href: 'https://quote.texventure.com/' }}
         />
 
         {/* Trust Strip */}

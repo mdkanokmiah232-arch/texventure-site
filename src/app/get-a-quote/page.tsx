@@ -164,7 +164,7 @@ export default function GetQuotePage() {
                 <h3 className="text-lg font-semibold text-[#1B2A4A]">🔧 Quick Tools</h3>
                 <div className="mt-4 space-y-3">
                   <Link
-                    href="/instant-quote"
+                    href="https://quote.texventure.com/"
                     className="flex items-center gap-2 text-sm text-[#08CCD4] hover:underline"
                   >
                     <span>💰</span> Instant Quote Calculator
