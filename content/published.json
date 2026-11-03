@@ -87,8 +87,19 @@
       "at": "2026-11-03T11:45:13.686Z",
       "commit": "64b223b",
       "deploy": "live"
+    },
+    {
+      "order": 9,
+      "slug": "aql-inspection-meaning",
+      "title": "AQL Inspection Explained: What AQL 2.5 Means for Apparel Orders",
+      "url": "https://texventure.com/blog/aql-inspection-meaning",
+      "publishedAt": "2026-11-03",
+      "words": 2604,
+      "at": "2026-11-03T12:05:18.559Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T11:45:13.688Z"
+  "updatedAt": "2026-11-03T12:05:18.563Z"
 }
