@@ -2197,4 +2197,166 @@ If you are weighing both options for an upcoming knit programme, send the style,
     imageAlt: "Two rolls of cotton knit fabric, light jersey beside denser interlock, compared side by side on a cutting table before garment sampling",
     metaDescription: "Jersey vs interlock fabric compared by structure, stretch, spirality, opacity and knit cost, with GSM specs and a product-fit table for apparel buyers.",
   },
+  {
+    slug: "loopback-vs-brushed-fleece",
+    title: "Loopback vs Brushed Fleece: Choosing Fleece for Hoodies and Sweats",
+    excerpt: "Loopback and brushed fleece begin as the same loop pile knit, but one keeps its open loops and the other is raised into a nap. Here is how warmth and pilling change.",
+    content: `Two swatches of the same colour, both sold as hoodie fleece, can behave like different fabrics after one wash. One comes back soft with its surface intact. The other pills across the chest, mats under the arms and loses the bloom that made the sample feel premium. One was loopback, one was brushed, and the difference is decided on the knitting machine and again on the raising line, long before a panel is cut.
+
+Both are quoted as if they were interchangeable. They share a family resemblance, because both begin as a loop pile knit, but they differ in structure, finishing route, weight, warmth per gram, print behaviour and the way they fail in the wash. What follows is written from the knitting, brushing and cutting side of a Bangladesh factory.
+
+## What Loopback Fleece Actually Is
+
+Loopback is a weft knit with a three yarn structure, knitted on a circular machine. A face yarn shows on the outside, a finer tie yarn binds the structure, and a coarser loop yarn is tucked so that its loops stand proud on the reverse. The loops are left intact. Nothing is cut and nothing is raised, which is why the back of a good loopback reads as a neat, open grid rather than a fuzzy surface.
+
+The name is British trade usage. In Bangladeshi paperwork the same fabric appears as loop back terry, loop pile or terry fleece, and it is what European buyers call French terry. Structurally it sits in the same family as [single jersey and interlock](/blog/jersey-vs-interlock-fabric), on the same circular machine platform used for the jersey and terry in our [circular knit fabrics](/products/circular-knit) range.
+
+Three consequences follow on the cutting table.
+
+- It is stable to cut. There is no nap, so panels can be nested in any direction without a shading risk between body and sleeves.
+- It breathes. The open loop back traps far less air than a raised nap, so 300 GSM loopback wears cooler than 300 GSM brushed fleece.
+- It holds shape. The loops act as a cushion rather than a compacted layer, so shoulders and elbows recover better.
+
+Typical apparel weights run 240 to 320 GSM for hoodie bodies, with 180 to 220 GSM for summer terry crews and 380 to 450 GSM for heavy winter hoodies. Composition is usually 100% cotton, or cotton with a small polyester or elastane content for recovery.
+
+## What Brushed Fleece Actually Is
+
+Brushed fleece starts as the same loop pile structure. The difference is a separate finishing pass: the fabric is run through a raising machine, where counter rotating cylinders covered in fine wire card clothing lift fibres out of the yarn and lay them into a nap on one face, or on both. The result is the dense, soft, directional pile that consumers recognise as the inside of a hoodie.
+
+Two consequences matter commercially. First, brushing removes fibre. A greige body knitted at 320 GSM can finish at 295 to 305 GSM after raising, so a specification that only states greige weight is not a specification at all. The number that governs warmth, hand feel and cost is finished weight after brushing, and it belongs in the purchase order that way. Second, brushing is directional. The nap lies one way, so every panel in a marker must be cut in the same direction, or body and sleeves shade differently in daylight.
+
+Brushed fleece is normally a blend, most often 80/20 or 60/40 cotton polyester, because polyester fibres raise more readily and hold loft through washing. A 100% cotton brushed fleece is possible and feels drier, but needs more care in finishing to stop the nap matting. Note the distinction from polar fleece: a 100% filament polyester knit raised on both faces, with no cotton loop structure behind it. It is a different product and should never be specified on a tech pack simply as fleece.
+
+Typical finished weights are 280 to 400 GSM, with 320 to 360 GSM the working range for a winter hoodie and 260 to 300 GSM for a lighter sweatshirt. Because the nap traps air, brushed fleece returns more warmth per gram than loopback at the same finished weight.
+
+## Loopback vs Brushed Fleece Side by Side
+
+| Property | Loopback (French terry) | Brushed fleece |
+| Structure | Three yarn loop pile, loops intact | Loop pile with the back raised into nap |
+| Reverse surface | Visible open loop grid | Dense directional pile |
+| Typical finished weight | 240 to 320 GSM | 280 to 400 GSM |
+| Hand feel | Dry, structured, lightly textured | Soft, dense, warm on contact |
+| Warmth at equal weight | Lower | Clearly higher |
+| Breathability | Better, suits three season wear | Lower, suits cold weather |
+| Cut direction | Any direction | One way nap layout required |
+| Print surface | Textured, needs heavier ink deposit | Smooth pile, takes puff and high density well |
+| Embroidery | Clean stitch definition | Nap can swallow fine detail |
+| Pilling risk | Low to moderate | Moderate to high without an anti pill finish |
+| Main cost driver | Yarn and knitting time | Extra raising pass plus fibre loss |
+| Best fit | Joggers, three season hoodies, garment dye | Winter hoodies, heavy crews, lounge sets |
+
+Read the table as trade offs, not a ranking. A 300 GSM loopback hoodie sold in a market with a long mild autumn will outsell a 360 GSM brushed hoodie that is too warm to wear for eight months, and neither fabric is the better one in the abstract.
+
+## Warmth, Breathability and the Weight Trap
+
+The most common sourcing error here is comparing fabrics at the same GSM and assuming they wear the same. At 320 GSM, brushed fleece feels roughly one weight class warmer than loopback, because the raised nap holds a layer of still air. Buyers who want loopback drape at brushed warmth usually end up at 380 to 420 GSM loopback, which is a heavier, stiffer garment and a different design brief.
+
+The opposite trap is over specifying loft. Asking for 400 GSM brushed fleece to get a really warm hoodie produces fabric that is bulky in the seams, slow to dry and prone to matting at the elbows. Past roughly 380 GSM, added weight mostly adds bulk rather than warmth, because the nap compresses under its own thickness. If you need to pin down what a weight actually means on a spec sheet, this explanation of [what GSM means in fabric](/blog/fabric-gsm-meaning) covers how finished weight is measured and why greige weight misleads.
+
+If warmth is the real requirement, the levers in order of effect are structure first, finished weight second, composition third, surface finish last. The only reliable comparison is physical: both fabrics in the same colour, same finished weight, washed three times at 40 degrees, then measured for width, length and surface change at the chest and cuff. That test costs a week and settles an argument that otherwise runs all season.
+
+## How Each Fleece Fails on the Sewing Floor
+
+| Defect | Loopback | Brushed fleece |
+| Needle lines and barre | Appears when yarn lot changes | Brushing amplifies it into visible streaks |
+| Snagging and loop pulls | Loops catch on Velcro, zips and rough trims | Less snagging, but the nap crushes and marks |
+| Shade variation | Low, because there is no nap | High, across nap direction and brushing batches |
+| Pilling | Moderate at cuffs and underarms | High at underarms, cuffs and inner thigh |
+| Surface matting | Not applicable | Common after repeated home washing |
+| Seam bulk | Moderate at flatlock seams | Heavy, needs allowance and needle control |
+| Shrinkage and skew | 4 to 7% on cotton if not compacted | 2 to 5% depending on blend and finish |
+
+Needle lines are the first thing to control. A machine slightly out of adjustment, or a yarn lot with a different twist, leaves faint vertical lines in the greige. In loopback they often disappear after compacting and dyeing. In brushed fleece the raising machine pulls different amounts of fibre from denser and looser columns, and a faint line becomes a visible stripe. This is why brushing trials must run on the bulk fabric, not on a sample from another lot.
+
+Shade variation is procedural. Because the nap is directional, two panels cut from the same roll in opposite directions can read as two shades. The fix is a one way marker, a note on the cutting sheet and a check at the spreading table. A factory that cuts fleece bidirectionally to save fabric will eventually ship a sleeve to body mismatch, and the claim is expensive.
+
+Pilling generates the most complaints. Brushed fleece pills because brushing exposes short fibres that are only loosely held in the yarn. An anti pill finish, a tighter knit, longer staple cotton or a higher polyester content all reduce it, and a pilling test to ISO 12945-2 with a minimum grade of 4 after 2000 rubs is a reasonable commercial standard. Loopback pilling concentrates at cuffs and underarms, where a grade 3 to 4 result is normal for untreated cotton terry.
+
+## Choosing Fleece by Garment
+
+The garment usually decides the fabric, and the decision is easier once the end use is written down.
+
+- Winter hoodie for a cold market: 340 to 380 GSM brushed fleece, 80/20 cotton polyester, brushed inside only, with a jersey or loopback hood lining so the hood does not become a sauna.
+- Three season or college hoodie: 300 to 340 GSM loopback, 100% cotton, compacted. This is the version that survives garment dyeing and print programmes.
+- Crewneck sweatshirt: 280 to 320 GSM loopback for a vintage hand, 320 to 360 GSM brushed for a soft, warm hand. Rib 2x2 with elastane at cuffs and hem either way.
+- Joggers and sweatpants: loopback, almost always. Brushed fleece pills badly at the inner thigh on a garment that rubs against itself all day, and the bulk makes a flat drawcord channel harder to achieve.
+- Kids and baby: brushed fleece feels softer on first touch but pills faster and is washed far more often. A 260 to 280 GSM loopback with a soft finish is usually more durable.
+- Lounge and athleisure sets: brushed fleece at 280 to 320 GSM, often with a peached face and a raised back.
+
+Garment dyeing deserves its own note. Loopback takes garment dye well because there is no nap to crush, and the loop structure gives a slightly uneven, lived in colour that sells in premium casual ranges. Brushed fleece is usually dyed in the piece before brushing, because a garment dye bath after raising mats the nap.
+
+## Trims and Construction That Decide the Final Hand Feel
+
+Fabric is half of the hand feel. The same roll can produce a hoodie that feels premium or cheap depending on how it is sewn and finished.
+
+- Needle and stitch choice. Use a ballpoint needle sized for the fabric weight and keep stitch density consistent. Too dense a stitch compresses the nap along every seam and leaves a ridge.
+- Seam type. Flatlock and coverstitch are standard on fleece, but allowance and differential feed must be set for the bulk. A poorly set coverstitch on brushed fleece makes a wavy hem that no pressing will fix.
+- Rib quality. A 2x2 rib with 3 to 5% elastane recovers; a 1x1 rib without elastane stretches out at the cuff within a month. Keep rib weight within about 10% of the body weight.
+- Hood construction. A double layer hood in body fabric is heavy and warm; a single layer hood with a jersey lining is lighter, cheaper and easier to keep flat at the seam.
+- Washing and finishing. Enzymatic wash and silicone softener change hand feel more than most buyers expect. An unwashed loopback and a softened loopback of the same weight feel like two fabrics.
+- Compacting. Tubular cotton fleece that is not compacted shrinks 4 to 7% on the first wash. Compacting costs money per kilogram and saves the order from a fit complaint.
+
+These are the details our [apparel manufacturing services](/services) cover at the sampling stage, because a trim change made after bulk cutting is the expensive version of the same decision.
+
+## Cost, MOQ and What Actually Moves the Price
+
+Fleece pricing is driven by four things in this order: finished weight, composition, brushing and finishing, then colour and order size.
+
+Weight dominates because fleece is sold by the kilogram and consumed by the metre. Moving a hoodie body from 300 to 360 GSM adds about a fifth to fabric consumption on the same pattern, and that is usually the largest line on the costing sheet. Composition is second: cotton rich blends cost more than polyester heavy ones, and long staple or organic cotton raises the yarn cost again. Brushing adds a separate pass through the raising line plus the fibre it removes, so a brushed body usually costs more per piece than loopback at the same finished weight, even though both started as the same knit.
+
+For buyers sourcing through a [Best Clothing Manufacturer in Bangladesh](/), the practical questions are less about rate per kilogram and more about capacity. Raising lines are a bottleneck in peak season, because every fleece programme in the country wants brushing in the same eight weeks before winter shipping. Booking the brushing slot at the same time as the knitting slot, rather than after fabric approval, is what keeps a hoodie programme on schedule.
+
+MOQ is the other constraint. At TEXVENTURE, MOQ starts from 100 pieces per style, low enough to run loopback and brushed versions of the same hoodie in the same colourway and compare them in market before committing to a full range. Production runs across 20+ vetted factories, so the fabric route can be matched to the factory with the right machines rather than the one that happens to be free.
+
+## Writing the Fleece Spec Into a Tech Pack
+
+Ambiguity in the fabric section is the most common cause of bulk fabric that does not match the sample. A fleece specification should answer these questions in writing.
+
+1. Name the structure in trade terms, for example loop back terry or brushed fleece, and state the face and back construction.
+2. State finished weight after brushing or compacting, with a tolerance of plus or minus 5%, and say that greige weight is not the acceptance criterion.
+3. Give composition with tolerance, for example 80% cotton 20% polyester plus or minus 3%, and name any recycled or organic content with its certification.
+4. Specify shrinkage after three home washes at 40 degrees, typically 5% maximum in length and 4% in width for compacted cotton fleece.
+5. Specify pilling grade and method, for example grade 4 minimum to ISO 12945-2 after 2000 rubs on brushed fleece.
+6. State colourfastness to wash, rub and light, and the shade standard being matched.
+7. State the finish: anti pill, silicone or peached, and whether the fabric is compacted.
+8. For brushed fleece, state nap direction, the one way cutting requirement and brushing batch consistency across the order.
+
+Add a physical standard to every tech pack: a signed hanger swatch of the approved bulk fabric, kept by buyer and factory, with weight and shrinkage results written on the back. When a dispute about hand feel arises eighteen months later, that swatch is the whole argument.
+
+## Frequently Asked Questions
+
+### Is loopback fleece the same as French terry?
+
+Yes in practice. Loopback is the British trade name and French terry is the name most European and American buyers use for the same three yarn loop pile structure. Suppliers also use terry loosely for lighter single sided fabrics, so confirm back construction and finished weight rather than relying on the label.
+
+### Is brushed fleece warmer than loopback?
+
+At the same finished weight, yes, noticeably. The raised nap traps a layer of still air against the body, which is what makes brushed fleece feel warm on contact. A 300 GSM brushed fleece wears like a 340 to 360 GSM loopback, but it is less breathable and slower to dry.
+
+### Which fleece prints better?
+
+Brushed fleece gives a smoother, more uniform surface for puff print, high density and thick plastisol, because the nap holds the ink film evenly. Loopback prints well too, but the loop texture shows through thin deposits, so fine half tones need a heavier ink or discharge print. Embroidery is the reverse case: loopback holds crisp stitch definition while a long nap can swallow small lettering.
+
+### Does brushed fleece pill more than loopback?
+
+Yes. Brushing exposes short fibres that are only loosely anchored in the yarn, and those are the fibres that ball up under abrasion. An anti pill finish, a tighter knit and a higher polyester content all reduce it. Loopback pilling is lower overall and mostly limited to cuffs and underarms.
+
+### Can I order both fabrics in the same colourway?
+
+Yes, and it is worth doing. Running loopback and brushed versions of the same hoodie in one colour lets you test warmth, hand feel and pilling in market before committing a range to one structure. It also gives the factory a cleaner shade match, because both fabrics can be dyed from the same yarn lot.
+
+## Ordering Fleece Samples You Can Compare
+
+The fastest way to settle loopback against brushed is to hold both in the same colour, at the same finished weight, and put them through three washes. Ask for a hanger swatch of each with GSM, composition, shrinkage and pilling grade written on the card, plus a cut piece for a wash test at your end. That pack turns a subjective argument about hand feel into a decision you can defend to a buyer and a factory.
+
+If the garment, market and weight are already decided, the next step is a costed quote rather than another swatch round. Send the style, target weight, composition and quantity through our [fleece and hoodie quote form](https://quote.texventure.com/) and the fabric route, brushing slot and MOQ come back against your actual brief.`,
+    category: "manufacturing",
+    tags: ["loopback fleece","brushed fleece","fleece fabric","hoodie manufacturing"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 15,
+    featuredImage: "/images/t-shirts.webp",
+    imageAlt: "Loopback and brushed fleece swatches side by side on a factory cutting table, showing the open loop back and the raised nap surface",
+    metaDescription: "Loopback fleece and brushed fleece start from the same knit. Compare warmth, weight, pilling and print behaviour before you specify hoodies or sweatshirts.",
+  },
 ];

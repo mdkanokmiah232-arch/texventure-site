@@ -153,8 +153,19 @@
       "at": "2026-11-03T13:12:44.639Z",
       "commit": "a815e2a",
       "deploy": "live"
+    },
+    {
+      "order": 15,
+      "slug": "loopback-vs-brushed-fleece",
+      "title": "Loopback vs Brushed Fleece: Choosing Fleece for Hoodies and Sweats",
+      "url": "https://texventure.com/blog/loopback-vs-brushed-fleece",
+      "publishedAt": "2026-11-03",
+      "words": 2957,
+      "at": "2026-11-03T13:25:11.307Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T13:12:44.640Z"
+  "updatedAt": "2026-11-03T13:25:11.309Z"
 }
