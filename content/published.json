@@ -219,8 +219,19 @@
       "at": "2026-11-03T14:13:23.573Z",
       "commit": "dc6dd1b",
       "deploy": "live"
+    },
+    {
+      "order": 21,
+      "slug": "negotiate-with-clothing-manufacturer",
+      "title": "How to Negotiate With a Clothing Manufacturer (Without Losing Quality)",
+      "url": "https://texventure.com/blog/negotiate-with-clothing-manufacturer",
+      "publishedAt": "2026-11-03",
+      "words": 2120,
+      "at": "2026-11-03T15:15:21.059Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T14:13:23.575Z"
+  "updatedAt": "2026-11-03T15:15:21.060Z"
 }
