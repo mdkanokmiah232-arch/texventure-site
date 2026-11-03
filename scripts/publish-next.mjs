@@ -333,7 +333,7 @@ async function main() {
     rec.commit = commit;
     writeJson(P.state, s2);
     sh('git add content/published.json');
-    sh('git commit -q -m "log: ${topic.slug} ${commit}"');
+    sh(`git commit -q -m ${JSON.stringify(`log: ${topic.slug} ${commit}`)}`);
     pushWithRetry();
 
     const phrase = words(article.excerpt).slice(0, 6).join(' ');
