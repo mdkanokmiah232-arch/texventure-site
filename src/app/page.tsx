@@ -197,10 +197,11 @@ const whyItems = [
 /* ─── Page Component ─── */
 
 export default function HomePage() {
-  // Homepage Journal: pinned to the two guides requested by the client.
+  // Homepage Journal: three pinned guides (two client-specified + the flagship tech pack guide).
   const latestGuides = [
     "bangladesh-vs-china-vs-vietnam",
     "cost-to-manufacture-a-hoodie",
+    "tech-pack-for-clothing",
   ]
     .map((slug) => guides.find((g) => g.slug === slug))
     .filter((g): g is (typeof guides)[number] => Boolean(g));
