@@ -460,7 +460,7 @@ Yes, within limits. Loop length on the knitting machine can be adjusted to raise
   {
     slug: "cost-to-manufacture-a-t-shirt",
     title: "How Much Does It Cost to Manufacture a T-Shirt in 2026?",
-    excerpt: "A factory-side breakdown of what a t-shirt costs to manufacture in 2026, from fabric consumption and trim to making charge and the lines most quotes leave out.",
+    excerpt: "A factory costing breakdown of what a t-shirt costs to manufacture in 2026, from fabric consumption and trim to making charge and the lines most quotes leave out.",
     content: `A t-shirt is the simplest garment in most sourcing programmes and the one buyers most often mis-budget. The quoted price looks like a single number, but behind it sits a build-up that starts with yarn count on a knitting machine and ends with a carton on a container. When a buyer asks how much it costs to manufacture a t-shirt, the honest answer is a range, and the useful answer is the arithmetic behind it.
 
 This guide does that arithmetic the way a factory costing department does it: fabric consumption first, then trim, then making charge, then the exclusions nobody mentions at the quotation stage. It gives indicative market ranges you can sanity-check a quote against, isolates the levers that actually move the per-piece number, and explains why two factories can cost the same tech pack and still land far apart.
