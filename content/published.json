@@ -197,8 +197,19 @@
       "at": "2026-11-03T13:54:59.372Z",
       "commit": "a0af204",
       "deploy": "live"
+    },
+    {
+      "order": 19,
+      "slug": "screen-printing-vs-embroidery",
+      "title": "Screen Printing vs Embroidery: Cost, Durability and Best Use Cases",
+      "url": "https://texventure.com/blog/screen-printing-vs-embroidery",
+      "publishedAt": "2026-11-03",
+      "words": 2266,
+      "at": "2026-11-03T14:03:58.115Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T13:54:59.373Z"
+  "updatedAt": "2026-11-03T14:03:58.116Z"
 }

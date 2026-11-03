@@ -2827,4 +2827,165 @@ Compare the unit against the approved sample and written tolerance, measure anyt
     imageAlt: "Inspector measuring a side seam against a tolerance chart on a garment factory inspection table",
     metaDescription: "Types of garment defects explained factory-side: 20 defects that fill inspection reports, the critical, major and minor classes, and how to grade each one fast.",
   },
+  {
+    slug: "screen-printing-vs-embroidery",
+    title: "Screen Printing vs Embroidery: Cost, Durability and Best Use Cases",
+    excerpt: "Screen printing wins on volume cost and flat graphics, embroidery wins on durability and premium feel. Here is how the two compare at the factory end, by quantity and fabric.",
+    content: `Most decoration arguments start with a price and end with a complaint. A brand gets a screen print quote, decides it is cheaper, runs 800 hoodies, then finds the chest print cracking at wash six and the front panel feeling like a plastic sheet. Or it pays for embroidery on a lightweight tee and the fabric puckers around a 9,000 stitch logo, because nobody weighed the thread against the jersey.
+
+The method is not the variable: fabric, artwork, quantity and wear expectation are, and the two methods sit at opposite ends of each. Screen printing pushes ink through a stencil onto a surface. Embroidery sews thread through it. One is cheap at volume and flat; the other is costly at small volume and dimensional.
+
+What follows is the factory floor comparison — how each is costed, how each ages, where DTF now sits between them, and how to decide per style instead of per brand. For buyers sourcing through a [Best Clothing Manufacturer in Bangladesh](/), the real test is which decoration holds consistent across a 100 piece run and a 5,000 piece run.
+
+## What Screen Printing and Embroidery Do Differently
+
+Screen printing builds a stencil per colour: mesh stretched, emulsion coated, artwork burned in, ink pushed through with a squeegee. Every colour needs its own screen, a pass through the dryer and its own registration tolerance. That is why a one colour chest print is cheap and a six colour photographic print is not — you pay for screens and passes, not ink.
+
+Embroidery builds a stitch path. Artwork is digitised into needle movements, loaded on a multi head machine, and hooped fabric is stitched under tension. Cost sits in digitising, stitch count and machine minutes. A 12 head machine produces 12 pieces at once, which is why per piece cost falls steeply from 50 to 500 pieces and then flattens.
+
+The physical difference matters more than the accounting. Print sits on the surface as a layer. Embroidery penetrates it, adding weight, thickness and a raised edge. On a 160 GSM jersey those outcomes are not interchangeable. On 400 GSM fleece they are.
+
+| Attribute | Screen printing | Embroidery |
+|---|---|---|
+| How the design is made | Ink through a mesh stencil, one screen per colour | Thread stitched along a digitised path |
+| Setup per order | Screen burning and registration per colour | Digitising plus machine setup per head |
+| Cost driver | Colour count and piece count | Stitch count and machine minutes |
+| Colour range | Near unlimited with mixing | Limited to the thread chart |
+| Surface effect | Flat, opaque, matte or gloss | Raised, textured, tonal |
+| Fragility | Can crack, fade or peel if cured badly | Abrasion resistant, can snag on loops |
+
+## The Cost Structure Behind Each Method
+
+A decoration quote looks like one number but is four or five lines stacked, and knowing the lines lets you argue price without attacking margin.
+
+For print: a screen charge per colour, ink and additives, machine time per pass, drying and curing energy, and the strike off. Screens are one time setup, which is why small orders look expensive per piece. Ink is trivial next to labour and curing; on plastisol the dryer, not the press, caps throughput.
+
+For embroidery: digitising, thread consumption, backing, machine time per 1,000 stitches, and trimming labour. Digitising follows the design, not the order size. Backing is where cheap quotes hide — cut away on a stretch knit costs more and performs far better than the tear away a low bid quietly assumes.
+
+| Cost element | Screen printing | Embroidery |
+|---|---|---|
+| One time setup | Screen per colour, typically USD 20 to 60 each in Bangladesh | Digitising, typically USD 10 to 40 per design |
+| Per piece variable | Ink, press time, curing | Thread, backing, machine minutes |
+| Quantity sensitivity | High below 100 pieces, low above 500 | High below 100 pieces, low above 300 |
+| Colour escalation | Linear, one screen per colour | None, thread changes only |
+| Size escalation | Ink volume and screen size | Stitch count rises with area |
+| Hidden cost risk | Cure and wash fastness | Backing grade and hoop marks |
+
+## What Each Method Costs at Different Quantities
+
+The ranges below are what buyers typically see in Bangladesh for one position on a mid weight cotton tee, before freight and duty — planning ranges, not a quotation.
+
+| Order quantity | Print, 1 colour | Print, 3 colour | Embroidery, left chest |
+|---|---|---|---|
+| 50 pieces | Setup dominates, highest per piece | Three setups, very high per piece | Digitising dominates, moderate |
+| 100 pieces | Low per piece | Moderate per piece | Moderate per piece |
+| 500 pieces | Very low per piece | Low per piece | Low per piece |
+| 2,000 pieces | Lowest per piece | Low, screens amortised | Low, machine bound |
+| 10,000 pieces | Ink and press time only | Still colour bound | Machine capacity is the limit |
+
+Three patterns repeat. At 50 to 100 pieces embroidery often beats a three colour print, because digitising is one charge and screens are three. Above 500 pieces a one or two colour print is almost always the cheapest decoration available. Embroidery cost stops falling once machine hours bind, while print cost keeps falling with volume — so if a style starts at 100 pieces but will scale, take print now and negotiate screens free on reorder.
+
+## Durability: How Each Decoration Ages
+
+Durability is not one property. Print fails by cracking, peeling, fading or losing opacity. Embroidery fails by snagging, pilling around the stitch field, or distorting the panel through tension.
+
+A correctly cured plastisol or water based print on a stable knit survives repeated domestic washing; the usual failure is under curing, which shows as edge cracking within the first ten washes. Stretch is the second enemy: print on high elastane jersey flexes with the fabric and fatigues even when the cure was right, and a thick deposit fails sooner than a thin one.
+
+Embroidery does not crack. Its weakness is abrasion in the wrong direction and snagging on looped fabric. On loopback fleece a stitch field can catch on the loops and pull; on brushed fleece the risk drops. Under a bag strap or seatbelt, embroidery outlasts print by a wide margin.
+
+| Failure mode | Screen printing | Embroidery |
+|---|---|---|
+| Cracking | Common if under cured or on high stretch fabric | Not applicable |
+| Peeling | Possible on coated or low surface energy fabric | Not applicable |
+| Fading | Gradual with chlorine and UV exposure | Minimal, thread colour is stable |
+| Snagging | Not applicable | Real risk on looped knits |
+| Distortion | Shrinkage mismatch between ink and fabric | Panel puckering from hoop tension |
+
+## Hand Feel, Weight and Drape
+
+A print adds a film. Even soft water based ink changes the drape of a lightweight garment, and a thick plastisol block on a 140 GSM tee turns a breathable summer shirt into something that does not move. Buyers approve that print on a flat swatch and never wear it.
+
+Embroidery adds mass in a small area. A 6,000 stitch left chest logo on fine jersey pulls the panel slightly and can telegraph through to the inside surface, which matters on an unlined garment worn against skin. On a polo or hoodie the same stitch field is unremarkable.
+
+Judge decoration on a sewn, washed sample worn for an hour, not a flat strike off. Print on 180 GSM and above behaves predictably; below that, keep the area small, use a soft base, and expect it to show from inside after a few washes.
+
+## Where DTF and Other Methods Fit
+
+Direct to film removed the screen cost and the colour ceiling at once. No screen, full colour, applied with a heat press, so a 30 piece run with a photographic graphic becomes viable. The trade is hand and elongation: a DTF film sits on top of the fabric, thicker than water based ink, and its durability depends almost entirely on press temperature, pressure and adhesive powder quality. Badly applied DTF fails at the edges within a few washes.
+
+The others fill narrower gaps. Sublimation works only on polyester and leaves no hand, so it defaults to performance wear and all over prints. Vinyl suits names and numbers in small runs. Printed transfers print a sheet then heat apply it, which suits position variants at low volume. Chenille and applique belong on varsity style outerwear.
+
+DTF has not replaced print at volume, nor embroidery on premium logos. It took the low volume, high colour middle that used to be a bad compromise.
+
+## Best Use Cases by Garment Type
+
+| Garment | Usually better | Why |
+|---|---|---|
+| Heavyweight tee, 220 GSM and up | Screen printing | Fabric carries the ink film, lowest cost per piece |
+| Lightweight tee, under 160 GSM | Small embroidery or soft print | Heavy ink destroys drape |
+| Hoodie, 320 to 400 GSM | Embroidery logo, print for back graphics | Holds both, see [loopback vs brushed fleece](/blog/loopback-vs-brushed-fleece) |
+| Polo and corporate wear | Embroidery | Repeat orders and thread matching |
+| Cap and headwear | Embroidery or panel print | Curved surfaces hoop and press differently |
+| Workwear and uniform | Embroidery for identity, print for info | Industrial washing favours thread |
+| Kids wear | Soft print or small embroidery | Comfort and skin contact dominate |
+| Activewear | Sublimation or soft print | Stretch rules out heavy films |
+| Denim jacket back | Print or large embroidery | Panel weight decides |
+| Tote and accessory | Screen printing | Flat panels, high volume, low cost |
+
+## Artwork, Placement and Tech Pack Requirements
+
+Both methods are decided in the [tech pack](/blog/tech-pack-for-clothing), not on the press. Print needs vector artwork with spot colours separated, a print area in millimetres, ink type, mesh expectation and a cure standard. Embroidery needs vector artwork, a stitch count estimate, thread references against a physical chart, backing specification and finished size in millimetres.
+
+Two mistakes cost real money: approving artwork on screen instead of on a sewn sample, which hides registration error on a six colour print; and specifying embroidery by size without a stitch count, which lets a supplier quote a 4,000 stitch file for a design that needs 11,000 and then deliver a thin, gappy logo.
+
+Placement needs numbers. A left chest logo sits a fixed distance from placket and shoulder seam, expressed as a tolerance, not a photograph. Centre chest prints reference the collar, not the body, because panels shift in cutting. Put tolerances in the approval sheet and the in line check becomes objective.
+
+Inks and threads carry compliance weight too. For EU or US destinations they should come with current test reports, and the factory's chemical management system matters as much as print quality — the ground our [certifications](/certifications) cover, with documentation held per order.
+
+## Running Both in One Order: The Production Sequence
+
+Most real orders use both: a printed back graphic and an embroidered chest logo on the same hoodie. Sequencing them badly means panels get pressed twice and marks appear.
+
+1. Lock the decoration brief in the tech pack: artwork, sizes, placements, tolerances, ink and thread references.
+2. Confirm fabric weight and stretch for every panel the decoration touches, since the same print behaves differently on 180 GSM jersey and 400 GSM fleece.
+3. Approve a strike off for print and a sewn out sample for embroidery, both on production fabric.
+4. Wash the approved sample at least three times and inspect before bulk release; this prevents most durability claims.
+5. Cut and sew first, then decorate, so shrinkage has already happened.
+6. Run embroidery before print where both are used, because hooping a printed panel marks the ink and pressing an embroidered panel flattens the stitch.
+7. Inspect decoration in line for registration, coverage, stitch density, backing and puckering, on the same plan used for the garment.
+8. Cure or press to recorded parameters, log temperature and time, and keep the log with the order file.
+9. Pack with the print face protected and note handling requirements for the stitch field on the carton.
+
+This preparation is where a sourcing partner earns its fee, because it happens before bulk rather than after a complaint. If you are planning a decorated style and want the factory view on method, quantity and cost before committing, [send your artwork and target quantity for a quote](https://quote.texventure.com/) and the recommendation comes back per position rather than per brand.
+
+## Frequently Asked Questions
+
+### Is embroidery more expensive than screen printing?
+
+At low quantities often yes for large designs, but a single colour left chest logo at 100 pieces is frequently cheaper in embroidery, because digitising is one charge while print needs a screen per colour. Above roughly 500 pieces a one or two colour print is usually lower cost.
+
+### Which lasts longer, printing or embroidery?
+
+Embroidery generally outlasts print under abrasion, industrial washing and heavy wear, because thread does not crack or peel. A correctly cured print on a stable knit performs well in domestic washing, while an under cured print or one on high stretch fabric can fail within ten washes.
+
+### Screen printing or embroidery for hoodies?
+
+Embroidery suits the chest logo and small branding, print suits large back and sleeve graphics where a big flat image is wanted. On brushed or loopback fleece both hold well; the deciders are artwork size, colour count and whether the panel is looped, which raises snagging risk for stitches.
+
+### Does DTF replace screen printing?
+
+It replaces print for low volume, multi colour work where screen setup dominates the price, and removes the colour ceiling at small runs. It does not win on volume cost, and its film adds more hand than water based ink, so premium heavyweight programmes still lean on screen printing.
+
+### How many colours can embroidery reproduce?
+
+Embroidery is limited by the thread chart rather than by a fixed number, and each extra colour adds a thread change and machine time. Gradients and photographic artwork cannot be reproduced in thread, so those designs belong with print or DTF even when the rest of the order is embroidered.`,
+    category: "sourcing",
+    tags: ["screen printing vs embroidery","garment decoration","embroidery cost","dtf vs screen printing","custom garment decoration"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 9,
+    featuredImage: "/images/cat-accessories.webp",
+    imageAlt: "Close up of a screen printed chest graphic beside an embroidered logo on a 400 GSM fleece hoodie panel",
+    metaDescription: "Screen printing vs embroidery compared factory side: cost structure, per piece cost by quantity, durability, hand feel and the best use by garment type.",
+  },
 ];
