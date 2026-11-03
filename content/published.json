@@ -131,8 +131,19 @@
       "at": "2026-11-03T12:52:03.859Z",
       "commit": "3a8fd99",
       "deploy": "live"
+    },
+    {
+      "order": 13,
+      "slug": "fob-vs-cif-incoterms",
+      "title": "FOB vs CIF vs EXW: Apparel Incoterms for Clothing Buyers",
+      "url": "https://texventure.com/blog/fob-vs-cif-incoterms",
+      "publishedAt": "2026-11-03",
+      "words": 2298,
+      "at": "2026-11-03T13:05:04.712Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T12:52:03.861Z"
+  "updatedAt": "2026-11-03T13:05:04.713Z"
 }

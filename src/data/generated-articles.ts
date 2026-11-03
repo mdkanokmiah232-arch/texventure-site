@@ -1867,4 +1867,149 @@ Typical industry practice is a commission in the mid single digits to around ten
     imageAlt: "Two garment merchandisers reviewing an order status sheet on a Dhaka factory floor beside racks of cut fabric and finished knitwear samples",
     metaDescription: "Sourcing agent vs manufacturer compared: what a buying house actually does, how each fee model is paid, scope gaps, and which model fits your order size.",
   },
+  {
+    slug: "fob-vs-cif-incoterms",
+    title: "FOB vs CIF vs EXW: Apparel Incoterms for Clothing Buyers",
+    excerpt: "Three quotes for the same garment are not comparable until you know who pays export clearance, freight and insurance, and where risk actually passes.",
+    content: `Three suppliers quote the same polo shirt at three prices, and the gap is often not the sewing cost. One quote is EXW Dhaka, one is FOB Chattogram, one is CIF Rotterdam, and each bundles a different set of services. Until the three sit on the same term, the numbers cannot be compared.
+
+Incoterms do not change what a garment costs to make. They change who books which service, who carries the risk while the container moves, and which origin documents you can actually get from a factory in Bangladesh. This guide covers the three terms apparel buyers meet most often, with the port-level detail that decides which one is usable.
+
+## What an Incoterm Decides and What It Leaves Open
+
+Incoterms 2020, published by the International Chamber of Commerce, is a set of eleven delivery rules. Each fixes four things: where the seller delivers, where risk transfers, which costs each side pays, and which customs formalities each side clears. A named place is mandatory in every rule.
+
+They do not fix price, payment method, title, quality standards, inspection rights or governing law. A contract naming FOB Chattogram and nothing else leaves payment entirely to the rest of the document. Read an Incoterm as a logistics clause, not a sales contract.
+
+Only FOB, CFR and CIF are written for sea and inland waterway freight; the rest are multimodal, which matters when cargo moves by air to a buyer's airport.
+
+## EXW: The Cheapest Quote Most Buyers Cannot Use
+
+Ex Works puts the goods at the factory gate, not even loaded onto the truck. The buyer handles export clearance, loading, inland transport, port handling, ocean freight, insurance and import. On paper the unit price is the lowest of any term because almost nothing is included.
+
+In Bangladesh, EXW collides with how export actually works. The exporter of record has to be a local entity, with proceeds repatriated through a bank against an EXP form, bonded warehouse and back-to-back letter of credit facilities running through a utilisation declaration, and duty-free origin claims issued in the exporter's name. A foreign buyer cannot practically step into that role, and a factory selling EXW may not be able to produce the documents your customs broker and bank will demand. The mechanics are worth reading once in detail, as set out in [importing clothing from Bangladesh](/blog/import-clothing-from-bangladesh).
+
+There is a risk gap as well. Under EXW the goods are the buyer's responsibility the moment they are available at the factory, including while they are being lifted, so loading damage in a congested yard is the buyer's claim to make. EXW survives in narrow niches: courier samples and buyers who already own a licensed entity in Bangladesh. Where the aim is to control freight from the first mile, FCA is the better instrument.
+
+## FOB Chattogram: The Working Default
+
+Free On Board is the term most Bangladesh garment exports are priced on. The seller clears export customs, hauls the goods to port, pays origin terminal handling and loads them on board the vessel. Risk passes when the goods are on board at the named port. The buyer pays ocean freight, insurance, destination charges and import clearance.
+
+For the buyer, FOB has one large advantage: transparency. You nominate the forwarder, you see the freight invoice, and origin charges appear as separate lines instead of disappearing into a unit price. That separation is what makes two factory quotes comparable and what makes a landed cost estimate possible before you commit.
+
+Naming matters more than buyers expect. The port is Chattogram, formerly Chittagong, and the quote should read FOB Chattogram, with the terminal specified if cargo is consolidated. Air shipments are the common error: there is no FOB airport, and an air booking belongs on FCA Dhaka. Buyers placing FOB orders with a [Clothing Manufacturer in Bangladesh](/) usually learn this when the forwarder asks for the right term on the air waybill.
+
+## CIF and CFR: Freight Paid, Risk Not Delivered
+
+Cost and Freight adds the main carriage, so the seller pays to move the container to the named destination port. CIF adds marine insurance on top. Buyers read CIF Rotterdam as delivered to Rotterdam and then discover two things.
+
+First, risk does not follow the freight. Under CIF the goods become the buyer's risk when they are on board at the origin port. If the container is damaged in the Indian Ocean, the buyer owns the loss and claims on the policy, not on the factory. The seller's obligation is to ship conforming goods and tender the right documents, not to deliver them intact.
+
+Second, the cover is thin. CIF requires only minimum insurance, which in Incoterms 2020 means Institute Cargo Clauses C: major casualties such as sinking, stranding, fire and collision. Theft, water damage from a leaking container and handling damage typically fall outside it. A buyer who wants broad cover has to agree Clauses A by name and expect the cost to land in the price.
+
+CIF also leaves destination charges with the buyer: terminal handling at destination, release fees, demurrage and detention if clearance is slow. Those are capable of turning a CIF quote that looked cheaper than FOB into the more expensive option.
+
+## EXW vs FOB vs CIF in One Table
+
+| Cost or duty | EXW | FOB | CIF |
+|---|---|---|---|
+| Export customs clearance | Buyer | Seller | Seller |
+| Loading at the factory | Buyer | Seller | Seller |
+| Inland haulage to port | Buyer | Seller | Seller |
+| Origin terminal handling | Buyer | Seller | Seller |
+| Loading on board the vessel | Buyer | Seller | Seller |
+| Ocean freight | Buyer | Buyer | Seller |
+| Marine insurance | Buyer | Buyer | Seller, minimum Clauses C |
+| Destination terminal and release fees | Buyer | Buyer | Buyer |
+| Import clearance and duty | Buyer | Buyer | Buyer |
+| Where risk passes | At the factory, unloaded | On board at origin | On board at origin |
+| Fits which buyer | Local deals and couriers | Most apparel orders | Buyers without freight contracts |
+
+The diagonal reading is the useful one. CIF moves two rows from buyer to seller, freight and insurance, and moves no risk at all. That is the whole commercial difference between FOB and CIF, and why a CIF number should be compared with an FOB number plus a freight and insurance estimate, never with the FOB number alone.
+
+The same three terms can be read from the invoice instead of the duty list, which is where most quote comparisons go wrong.
+
+| Line in the quote | EXW | FOB | CIF |
+|---|---|---|---|
+| Garment ex-factory cost | Included | Included | Included |
+| Inland and origin port charges | Invoiced to buyer | Included | Included |
+| Export documentation | Excluded | Included | Included |
+| Ocean freight | Excluded | Excluded | Included, prepaid |
+| Marine insurance | Excluded | Excluded | Included, minimum cover |
+| Destination charges | Excluded | Excluded | Usually excluded |
+| Bill of lading wording | To buyer | Freight collect | Freight prepaid |
+| Exposure if freight rates move | None for the factory | Buyer | Seller until expiry |
+
+A quote is only a quote for the services listed on it. Two FOB prices for the same polo diverge when one factory has absorbed origin terminal handling and the other has not, because the difference reappears at the port as a forwarder invoice. Ask for the ex-factory and FOB price separately, whether the order is [woven apparel](/products/wovens) or knit, and treat the gap as the real origin logistics cost. The same structure sits behind every line of a [garment costing sheet](/blog/garment-costing-sheet), which is why cost breakdowns and term comparisons should be built together.
+
+## Risk, Insurance and the Claim You Cannot Make
+
+The CIF trap is easiest to see in an actual claim. A container arrives with cartons water-damaged after a hatch leak. The buyer paid for CIF, so the buyer assumes the policy covers it. Under Clauses C the loss may fall outside cover, and the buyer finds out once the goods are in the warehouse and the carrier's time bar is running.
+
+Three habits prevent it. Agree the insurance clause by name in the contract rather than writing the word insurance and hoping. Have the certificate before the vessel sails, with insured value, clause set and claim payable at destination on its face. And keep the risk point in view: under CIF, a buyer who wants cover from origin to their own warehouse is buying a cargo policy, whatever the seller arranges.
+
+Payment sits in its own clause. Freight prepaid under CIF often travels inside the export letter of credit, while FOB freight is billed to the buyer's forwarder and never appears in the banking documents, so mixing the two creates discrepancies at document examination.
+
+## The Documents Each Term Produces
+
+- **EXW:** commercial invoice and packing list, and little else. No export declaration, no utilisation declaration, no origin certificate in the exporter's name, which is why banks and brokers push back.
+- **FOB:** commercial invoice, packing list, utilisation declaration, EXP form, on-board bill of lading marked freight collect, certificate of origin for GSP or EBA claims, and any inspection certificate the buyer ordered.
+- **CIF:** the same set with a freight prepaid bill of lading, an insurance certificate attached, and the freight invoice when the credit calls for it.
+
+The detail that causes most delays is bill of lading wording. A credit specifying FOB Chattogram normally requires an on-board, freight collect bill. A CIF shipment produces a freight prepaid bill instead, and the mismatch becomes a discrepancy even when the goods are exactly as ordered. Fix the term in the sales contract before the letter of credit is opened, not after the amendment charges start.
+
+## FCA, DAP and DDP: When the Standard Three Fail
+
+Incoterms 2020 recommends FCA for containerised cargo, because a container handed to a carrier at a terminal is not on board until much later, and FOB leaves a gap in responsibility at the terminal gate. FCA also carries an optional mechanism for an on-board bill of lading when a credit demands one, which removes the usual objection from documentary credit departments.
+
+DAP puts the seller's risk at the named destination, with the buyer clearing import. DDP goes further and makes the seller the importer of record. That is rarely workable for a Bangladeshi factory shipping into the European Union or the United States, since it requires local tax registration, an importer number or customs bond, and accountability for duty and product compliance in a jurisdiction the factory does not operate in. When a supplier offers DDP, ask which entity clears customs. The answer is usually a forwarder acting as importer, with its fee buried in the unit price.
+
+## A Term Checklist Before You Sign
+
+1. Match the term to the mode: FOB, CFR or CIF for sea, FCA for air and multimodal.
+2. Write the named place in full, including terminal or airport, in the contract and the letter of credit.
+3. Decide who nominates the forwarder, and record it in the contract rather than an email thread.
+4. Name the insurance clause, Clauses A for broad cover or Clauses C if you accept the minimum.
+5. List the destination charges and state who pays each one.
+6. Confirm that the bill of lading wording the term produces matches the credit.
+7. Ask for the ex-factory and FOB price separately so origin logistics stay visible.
+8. Keep title and payment in their own clauses, because Incoterms cover neither.
+
+## Choosing a Term With TEXVENTURE
+
+TEXVENTURE quotes apparel on FOB Chattogram as standard and prices EXW, CIF or DAP on request, with origin charges itemised so the comparison becomes arithmetic rather than trust. The unit price covers materials, make and origin logistics; freight is either your forwarder's invoice or a line we book and show separately. Compliance files behind [the certifications](/certifications) held by each factory are available for your import file, and inspection is arranged before the container leaves.
+
+Send the tech pack, the destination port and the term your bank expects through [the landed cost quote request](https://quote.texventure.com/), and the reply will name the term, the port and everything that sits outside the price.
+
+## Frequently Asked Questions
+
+### What does FOB mean for a clothing order?
+
+FOB means the factory delivers the goods on board the vessel at the named port, usually Chattogram, and clears export customs. Everything after that, ocean freight, insurance, destination charges and import duty, belongs to the buyer. The unit price therefore covers the garment, inland transport and origin port handling, and nothing beyond the ship.
+
+### Is CIF better than FOB for clothing buyers?
+
+CIF is simpler for a buyer with no freight contract, because one number covers goods, freight and insurance. It is rarely cheaper and it does not shift risk, since risk still passes at the origin port. Buyers with volume, or a forwarder they trust, usually get better control and lower total cost on FOB.
+
+### Who pays freight under CIF?
+
+The seller pays the main carriage to the named destination port, which is why a CIF bill of lading is marked freight prepaid. The buyer still pays destination terminal handling, release fees, demurrage and inland delivery from the port. Those charges sit outside the CIF price and are the usual reason a CIF quote stops looking cheaper.
+
+### Can a Bangladesh factory sell on EXW terms?
+
+Technically yes, practically it creates problems. Export clearance, the EXP form, the utilisation declaration and origin certificates all run through a Bangladeshi exporter of record, so a foreign buyer cannot easily stand in that position. Most factories quote FOB Chattogram or FCA instead, and buyers who want early control of freight should ask for FCA.
+
+### Does the Incoterm change the garment price?
+
+No, the cost of making the garment is the same on every term. What changes is which services are bundled into the number you see, so an EXW price is lower and a CIF price higher for the identical shirt. Comparing terms without normalising for freight, insurance and origin charges is the most common quoting error in apparel sourcing.
+`,
+    category: "pricing",
+    tags: ["incoterms for clothing","fob vs cif","exw shipping terms","apparel import freight terms"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 10,
+    featuredImage: "/images/hero-bg.webp",
+    imageAlt: "Cartons of finished knitwear stacked on a pallet at a Chattogram garment factory export dock waiting for container loading",
+    metaDescription: "FOB vs CIF and EXW compared for apparel buyers: who pays export clearance, freight and insurance, where risk passes, and which documents each term produces.",
+  },
 ];
