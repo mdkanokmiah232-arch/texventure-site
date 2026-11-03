@@ -10,6 +10,11 @@ const nextConfig: NextConfig = {
         destination: "https://quote.texventure.com/",
         permanent: true,
       },
+      {
+        source: "/instant-quote/",
+        destination: "https://quote.texventure.com/",
+        permanent: true,
+      },
     ];
   },
 };
