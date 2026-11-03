@@ -241,9 +241,6 @@ export default function Footer() {
               <Link href="/terms-of-service" className="hover:text-white transition">Terms</Link>
               <Link href="/refund-policy" className="hover:text-white transition">Refunds</Link>
               <Link href="/sitemap.xml" className="hover:text-white transition">Sitemap</Link>
-              <a href="https://kanokmiah.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                Design &amp; SEO by Kanok Miah
-              </a>
             </div>
           </div>
         </div>
