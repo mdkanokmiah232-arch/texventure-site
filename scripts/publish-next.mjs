@@ -199,6 +199,21 @@ ${parts.join('\n')}
 }
 
 /* ------------------------------- publish -------------------------------- */
+function pushWithRetry(branch = 'main', tries = 3) {
+  for (let i = 1; i <= tries; i++) {
+    try {
+      execSync(`git push origin ${branch}`, { cwd: ROOT, stdio: 'pipe', encoding: 'utf8' });
+      return true;
+    } catch (e) {
+      const msg = (e.stderr || e.message || '').toString().trim().split('\n').pop();
+      console.error(`[git] push attempt ${i} failed: ${msg}`);
+      if (i === tries) return false;
+      execSync('sleep 5');
+    }
+  }
+  return false;
+}
+
 function acquireLock() {
   if (fs.existsSync(P.lock)) {
     const lock = readJson(P.lock, {});
@@ -237,6 +252,19 @@ async function main() {
   const mode = process.argv.includes('--publish') ? 'publish'
     : process.argv.includes('--stage') ? 'stage'
     : process.argv.includes('--status') ? 'status' : 'validate';
+
+  if (process.argv.includes('--recheck')) {
+    const state = loadState();
+    const last = state.published[state.published.length - 1];
+    if (!last) { console.log('[recheck] nothing published yet'); return; }
+    const f = articlePath(last.slug);
+    const phrase = fs.existsSync(f) ? words(readJson(f).excerpt).slice(0, 6).join(' ') : '';
+    const dep = await verifyDeploy(last.slug, phrase);
+    last.deploy = dep.ok ? 'live' : 'unverified';
+    writeJson(P.state, state);
+    console.log(`[recheck] ${last.slug}: ${last.deploy}`);
+    return;
+  }
 
   if (mode === 'status') {
     const queue = readJson(P.queue);
@@ -296,7 +324,7 @@ async function main() {
     const msg = `blog: publish #${topic.order} "${article.title}"`;
     sh(`git commit -q -m ${JSON.stringify(msg)}`);
     const commit = sh('git rev-parse --short HEAD', { quiet: true }).trim();
-    sh('git push origin main');
+    if (!pushWithRetry()) { console.error('[git] push failed after retries'); process.exit(6); }
     console.log(`[git] pushed ${commit}`);
 
     // record commit
@@ -305,8 +333,8 @@ async function main() {
     rec.commit = commit;
     writeJson(P.state, s2);
     sh('git add content/published.json');
-    sh(`git commit -q -m "log: ${topic.slug} ${commit}"`);
-    sh('git push origin main');
+    sh('git commit -q -m "log: ${topic.slug} ${commit}"');
+    pushWithRetry();
 
     const phrase = words(article.excerpt).slice(0, 6).join(' ');
     const dep = await verifyDeploy(topic.slug, phrase);
