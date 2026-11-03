@@ -3710,4 +3710,138 @@ If you want the next order built around a written inspection plan instead of a v
     imageAlt: "Quality inspector opening export cartons on a factory floor to count packed garments and check shipping marks before shipment",
     metaDescription: "Pre shipment inspection explained for apparel buyers: what the inspector checks, PSI versus DPI, sample size, booking timing, cost and what a fail means.",
   },
+  {
+    slug: "apparel-import-duty-usa",
+    title: "Apparel Import Duty for US Buyers: HS Codes, Rates and De Minimis",
+    excerpt: "US apparel duty is not one number. Classification, customs value and de minimis rules decide what you actually pay at the border.",
+    content: `An apparel import duty is not a single rate you look up once and write into a costing sheet. It is the output of four decisions: how the garment is classified in the Harmonized Tariff Schedule, what customs value you declare, which country the goods were made in, and which additional trade actions apply to that country on the day the ship loads. Change any one of those and the amount owed at the border changes, sometimes by more than the factory's margin.
+
+This is written for buyers costing a first US programme, or reconciling a duty bill that came in higher than the quote. It covers how duty is assessed, how chapters 61 and 62 get read, what happened to the 800 dollar de minimis threshold, and how to build a landed cost you can defend.
+
+## How US Apparel Duty Is Actually Assessed
+
+Almost every garment entering the United States is charged an ad valorem duty, a percentage of customs value rather than a fixed amount per piece. An error in value and an error in rate therefore multiply instead of cancelling.
+
+Customs value for apparel is normally transaction value, the price actually paid or payable. Under US rules, international freight and insurance are excluded when identified separately on the invoice. Buyers who also source from the EU get caught out here, since European valuation generally works on a delivered basis, which is why [FOB and CIF terms](/blog/fob-vs-cif-incoterms) matter for duty as well as risk. An FOB price and the US customs value are often close but not identical: foreign inland freight to the port, buying commissions, and anything the buyer supplies free can move the number.
+
+The rest is procedural. The importer of record, usually the brand rather than the factory, is legally liable for the declaration. A customs bond is required, single entry or continuous, and ocean cargo needs an Importer Security Filing before loading. The entry summary is filed after release, and duty, the merchandise processing fee and any additional duties are paid then, a few weeks after the goods land.
+
+## Classifying Garments in Chapters 61 and 62
+
+Classification is the part buyers most often leave to the factory, and it is the part that sets the rate. The tariff does not classify by product name or line-sheet label. It classifies by construction, fibre, garment type and gender, in that order.
+
+The first fork is knitted versus woven: chapter 61 for knitted and crocheted, chapter 62 for woven. A bonded knit that looks woven still classifies as knit. The second fork is fibre, then garment type, then gender and age, men's or boys' against women's or girls'. There is no unisex category in the tariff, so a unisex hoodie must still be assigned to one side.
+
+| Garment | Typical heading | Approximate Column 1 General rate |
+|---|---|---|
+| Men's cotton knitted T-shirt | 6109.10 | around 16.5 percent |
+| Cotton knitted pullovers and cardigans | 6110.20 | around 16.5 percent |
+| Men's cotton woven trousers | 6203.42 | around 16.6 percent |
+| Men's cotton woven shirts | 6205.20 | around 19.7 percent |
+| Women's cotton woven dresses | 6204.42 | roughly 8 to 15 percent |
+| Synthetic knitted performance tops | 6109.90, 6110.30 | wide bands, often 14 to 32 percent |
+
+Treat those as orientation only. The rate attaches to the ten-digit statistical line, not the four-digit heading, and lines inside one heading can differ. The authority is the current Harmonized Tariff Schedule published by the US International Trade Commission, plus any chapter 99 subheadings in force. A classification right in principle but wrong at the ten-digit level still produces a wrong duty bill, which is why the process starts from [a complete tech pack](/blog/tech-pack-for-clothing): fibre percentage, knit structure and construction detail are exactly what the classifier reads.
+
+## The Rate on the Page Is Rarely the Rate You Pay
+
+The Column 1 General rate is a starting point, not the total. Several layers can sit on top, each with a different owner and timeframe.
+
+| Layer | Who sets it | How fast it changes | Where it appears |
+|---|---|---|---|
+| Column 1 General duty | HTSUS, updated by proclamation | Slow, annual revisions | Chapter 61 or 62 line |
+| Section 301 duties | US Trade Representative action | Moderate, by notice | Chapter 99 subheading |
+| Country-specific additional duties | Executive action under trade statutes | Fast, by executive action | Chapter 99 subheading |
+| Merchandise processing fee | CBP, adjusted each fiscal year | Annual | Entry summary |
+| Harbor maintenance fee | CBP, ocean cargo only | Stable | Entry summary |
+
+The merchandise processing fee is ad valorem with a floor and a ceiling that move each fiscal year: currently around 0.35 percent of value, with a minimum near thirty dollars and a maximum near six hundred and forty per entry. The harbor maintenance fee is 0.125 percent on ocean freight. Both are small next to a misclassified garment and easy to miss when comparing landed cost with a quote.
+
+Free trade agreements are the other variable. The United States has no free trade agreement with Bangladesh, and Bangladesh is not currently GSP-eligible, so there is no preferential rate to claim: the general rate applies plus whatever country-level action is in force. For Section 301 countries, that additional duty is a separate chapter 99 layer that has moved through several rounds since 2018.
+
+## De Minimis: What the 800 Dollar Rule Was and Is
+
+For decades the United States let shipments below a de minimis threshold enter free of duty with minimal paperwork. The threshold was 800 dollars per person per day, set in 19 U.S.C. 1321. It is why a generation of direct-to-consumer apparel brands could land single parcels without an importer of record, a bond or a duty line in the accounts.
+
+That changed in stages during 2025: withdrawn for China and Hong Kong first, then for essentially all origins, with postal shipments required to clear and pay duty. For an apparel buyer the effects are specific. Pre-production, fit and salesman samples sent by courier now attract duty and brokerage, billed back weeks later. Splitting small top-up orders into sub-threshold parcels no longer avoids duty, and structuring shipments to stay under a threshold is the behaviour the penalty provisions are written for.
+
+De minimis never covered commercial quantities, so a bulk order is unaffected. What changes is the cost of a development calendar, and the case for one consolidated sample shipment with a proper commercial invoice.
+
+## From FOB Price to Landed Cost, Step by Step
+
+A landed cost that survives an audit is built in a fixed order, starting from the same [garment costing sheet](/blog/garment-costing-sheet) the factory used to quote you.
+
+1. Assign a ten-digit classification to each style, and to each fibre or colour variant that changes it. Record the reasoning, not just the code.
+2. Establish the customs value: ex-factory price, plus foreign inland freight and buying commissions, plus the value of anything the buyer supplies free, such as labels, hangtags or design work.
+3. Apply the Column 1 rate for that line.
+4. Add any chapter 99 additional duty for the origin, at the rate in force on the expected entry date, not the purchase order date.
+5. Add the merchandise processing fee per entry and, for ocean freight, the harbor maintenance fee.
+6. Add brokerage, ISF filing, bond cost and the inland move from port to warehouse.
+7. Recalculate at a duty rate ten percentage points higher and check whether the programme still clears its margin.
+
+Step seven is the one most spreadsheets skip. Because country-level additional duties move by executive action rather than treaty, a costing built on today's rate can be wrong by the time the goods sail. A margin that only works at one duty rate is a bet.
+
+## Classification Errors That Show Up in Audits
+
+CBP does not audit classification by reading product names. It compares the entry to the physical goods and factory records, which is why the same five errors recur.
+
+- Fibre content described loosely. A poly blend is not a category. The exact percentage of each fibre decides the subheading, and mill lab reports are the evidence.
+- Knit and woven confused. Fabric construction, not appearance, decides the chapter.
+- Gender unassigned. Unisex ranges must still be split into men's or women's lines for entry, consistently across the range.
+- Sets treated as one garment. A coordinated set may be dutiable at the rate of the component giving it essential character, often higher than a buyer assumed.
+- Value understated. Assists such as buyer-supplied fabric, trims, patterns or design work, and royalties related to the goods, are part of the customs value.
+
+The consequence is not a corrected entry. Under 19 U.S.C. 1592 an inaccurate entry can attract penalties scaled to negligence or fraud, plus interest, and prior disclosure is the mechanism that limits exposure. The cheap version of this work happens before the first shipment.
+
+## Compliance Gates That Sit Next to Duty
+
+Duty is one line on an entry summary. Several requirements run in parallel and can stop a shipment that is classified perfectly.
+
+Children's apparel brings Consumer Product Safety Commission rules, including flammability testing under 16 CFR 1610, drawstring rules under 16 CFR 1120, and lead limits for components. Labelling obligations come from the FTC for fibre content, origin and care, and origin marking is separately required under 19 U.S.C. 1304 at import. Forced-labour enforcement under the Uyghur Forced Labor Prevention Act has made yarn-to-garment traceability a documentation exercise: buyers are routinely asked for mill names, transaction records and production records several tiers back. Entry records are kept for five years.
+
+## Where Bangladesh Fits and How to Plan Around Rate Uncertainty
+
+Bangladesh is the largest single source of US apparel imports by volume, and it competes on capacity and price rather than tariff preference. With no preferential rate to claim, the duty line on a Bangladeshi garment is set by classification and by whichever additional actions are in force, so the sourcing decision turns on factory price, lead time and reliability.
+
+Which is why classification work matters more than location work. A correctly coded cotton knit T-shirt from a compliant factory pays the rate for a cotton knit T-shirt, and nothing in the origin changes that. Where a manufacturer earns its place is in supplying documents that make the rate safe: fibre content by mill, construction detail, and a tech pack precise enough that nobody has to guess at the entry.
+
+TEXVENTURE works as a Bangladesh-based [Clothing Manufacturer in Bangladesh](/), coordinating more than twenty vetted factories across knitwear, wovens, denim, sweaters and activewear, with minimum order quantities from 100 pieces per style and certifications including ISO 9001, BSCI, OEKO-TEX, SGS, Sedex and GOTS. The sourcing team runs the order end to end, from tech pack and sampling through production, inspection and shipping documentation, so the records your broker needs are generated during production rather than reconstructed afterwards.
+
+## Frequently Asked Questions
+
+### What is the import duty on clothes from Bangladesh?
+
+Bangladesh has no free trade agreement with the United States and no GSP eligibility, so goods pay the Column 1 General rate for their classification, plus any country-specific additional duty in force at entry, plus the merchandise processing fee. The rate depends on the garment, not the country alone.
+
+### How much duty do I pay on T-shirts imported to the USA?
+
+A men's cotton knitted T-shirt normally falls under heading 6109.10, where the general rate is around 16.5 percent of customs value. Man-made fibre T-shirts sit in different lines and often carry a higher rate. Confirm the ten-digit line before costing the order.
+
+### Do I have to pay duty on clothing samples?
+
+Yes, in most cases now. The 800 dollar de minimis exemption has been withdrawn for essentially all origins, so courier shipments of samples need an entry and attract duty plus brokerage. One consolidated shipment with a commercial invoice is usually cheaper than several parcels.
+
+### Who is responsible for classifying my goods, the factory or me?
+
+Legally the importer of record, normally the brand. Factories can suggest a code, and good ones supply the fibre and construction detail to support it, but the importer signs the declaration. A binding ruling request to CBP is the only way to make a classification certain in advance.
+
+### Can I get duty back if the goods are defective or re-exported?
+
+Duty drawback allows recovery of most of the duty paid on goods later exported, including rejected merchandise returned to the supplier, subject to time limits and record requirements. It is a formal claim, not an automatic refund.
+
+## Get the Duty Line Right Before You Approve the Sample
+
+Duty is decided long before the container is booked: at classification, at costing, and when a fibre composition is written into a tech pack. Fix it there and the border becomes an administrative step. Leave it to the broker at the last minute and it becomes a margin problem.
+
+If you are building a US programme from Bangladesh, send the styles and target prices through the [instant quote request](https://quote.texventure.com/) and the sourcing team will come back with factory pricing, MOQ by style and the fibre and construction detail your broker needs to classify each line correctly.
+`,
+    category: "sourcing",
+    tags: ["apparel import duty usa","hts code apparel","de minimis clothing import","us import duty on clothing"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 10,
+    featuredImage: "/images/about-texventure.webp",
+    imageAlt: "Export cartons of finished knitwear staged in a Bangladesh factory shipping area before a United States apparel import shipment",
+    metaDescription: "US apparel import duty for clothing buyers: how HTS codes set the rate, what customs value includes, the de minimis change, fees and landed cost steps.",
+  },
 ];

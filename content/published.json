@@ -263,8 +263,19 @@
       "at": "2026-11-03T15:45:19.712Z",
       "commit": "52c8c16",
       "deploy": "live"
+    },
+    {
+      "order": 25,
+      "slug": "apparel-import-duty-usa",
+      "title": "Apparel Import Duty for US Buyers: HS Codes, Rates and De Minimis",
+      "url": "https://texventure.com/blog/apparel-import-duty-usa",
+      "publishedAt": "2026-11-03",
+      "words": 2200,
+      "at": "2026-11-03T15:53:57.088Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T15:45:19.713Z"
+  "updatedAt": "2026-11-03T15:53:57.089Z"
 }
