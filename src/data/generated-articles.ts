@@ -3436,4 +3436,147 @@ Fabric decisions get expensive when the fibre, the weight and the certification 
     imageAlt: "Rolls of organic cotton, recycled polyester and lyocell fabric laid side by side on a cutting table for a cost and hand-feel comparison",
     metaDescription: "Ten sustainable fabrics ranked by mill-level cost against conventional cotton jersey, plus what drives each premium and which certification the claim requires.",
   },
+  {
+    slug: "garment-payment-terms",
+    title: "Payment Terms in Garment Manufacturing: T/T, LC and Net 30 Explained",
+    excerpt: "Garment payment terms explained from the factory side: T/T deposit splits, letter of credit documents and fees, Net 30 open account, and which term fits your order size.",
+    content: `Payment terms decide who carries the money risk in a garment order, and they are usually settled in one line of a purchase order nobody reads twice. A buyer who wires a 30% deposit and a 70% balance against a scanned bill of lading runs a very different risk profile from one who opens a letter of credit, and a factory quoting Net 30 to a brand it has never shipped to is pricing that credit into the unit cost. Here is how the three structures actually work, what each costs beyond the unit price, and what to settle before you sign.
+
+## What Payment Terms Decide on a Garment Order
+
+A term is not one date. It is four decisions that usually get collapsed into a single line of a PO: when money leaves the buyer's account, which document proves the goods exist and are moving, who pays the sending, intermediary and amendment fees, and what remedy exists if the shipment is late, short or fails inspection.
+
+Most disputes we see are not about price. They are about the trigger document. "Balance before shipment" sounds clear until the factory reads it as "goods ready" and the buyer reads it as "B/L issued" — roughly a week apart in the middle of a production run.
+
+## The Three Structures You Will Actually Be Offered
+
+Almost every quote on a Bangladesh factory floor resolves to one of five schedules. The first two cover the bulk of first orders.
+
+| Structure | How money moves | Who carries the risk | Where it fits |
+|---|---|---|---|
+| T/T, 30/70 | 30% deposit on PO, 70% before shipment | Buyer carries production risk, factory carries shipment risk | First orders, small runs, MOQs in the low hundreds |
+| LC at sight | 100% through banks, paid on compliant documents | Banks carry both sides | Large orders, new counterparties, regulated imports |
+| Usance LC, 60-120 days | Bank pays at maturity, not at shipment | Bank carries it, buyer keeps cash longer | Established importers with a bank line |
+| Net 30 open account | Nothing until goods land and are checked | Factory carries everything | Repeat buyers with a shipping history |
+| D/P or D/A collection | Documents released against payment or acceptance | Shared, with no bank guarantee behind it | Mid-size orders where LC cost is disproportionate |
+
+## T/T: Deposits, Balance Triggers and the 30/70 Default
+
+T/T is the default below a few tens of thousands of dollars, and the 30/70 split exists for a physical reason: the deposit books fabric. A factory cannot reserve greige or place a dye lot without committing its own money, and on a small run the fabric order often exceeds the margin on the style.
+
+The split moves with the material: cotton jersey sits at 30/70, while yarn-dyed wovens and speciality knits often move to 40/60 or 50/50, because the mill wants a higher commitment before a narrow dye lot.
+
+The balance trigger is where buyers lose control. Four versions circulate, roughly in order of protection:
+
+1. Balance against a B/L copy, unverified. The weakest option, and the most common.
+2. Balance against a B/L copy plus a passed third-party inspection report.
+3. Balance against a telex release, so documents move only once funds clear.
+4. Balance after arrival and count. Rare on a first order, and it usually costs 2-4% on the unit price.
+
+Ask for option two. It costs nothing at quoting stage and converts "the goods are made" into "the goods are made and passed AQL" — the only version a buyer can act on.
+
+Then the clause that quietly costs money: bank charges. A wire passes a sending bank and often one or two intermediaries before Dhaka, and each takes a fee. If the PO says nothing, the factory receives less than the invoice, asks for a top-up, and the shipment release slips by days. Write "all bank charges outside Bangladesh for the buyer's account" into the PO and the conversation disappears.
+
+## Letter of Credit: What It Solves and What It Costs
+
+An LC replaces trust with documents. The buyer's bank promises to pay a defined sum against a defined set of papers, so the factory ships knowing the money sits with a bank rather than in a buyer's working capital. On a large order with a new counterparty, that is worth real money.
+
+The cost is not only the fee, it is the discipline. An LC is checked document by document, and a discrepancy blocks payment until it is waived or amended. The usual culprits are dull: shipment a few days past the latest shipment date, an invoice description that does not match the LC word for word, a missing beneficiary certificate, a B/L marked freight collect when the LC named freight prepaid. Each amendment carries a fee and a delay.
+
+Bangladesh adds a second clock buyers rarely see. A factory shipping under an LC typically opens a back-to-back LC against that master LC to import fabric, and that leg alone can consume 30-45 days. A master LC with a 60-day latest shipment date leaves almost no room, so the factory either declines or pads the lead time. Give the LC 90-120 days and say so before the price is agreed. Bangladesh banks also issue UPAS LCs, where the bank pays at sight and the buyer settles later, giving the importer usance terms without delaying the factory. Whatever the instrument, the documents ride on an Incoterm that decides when risk passes, covered in [FOB vs CIF Incoterms](/blog/fob-vs-cif-incoterms).
+
+## Net 30 and Open Account: Credit You Have to Earn
+
+Net 30 means the factory finances the whole order: fabric, labour, finishing, freight to port, and the 30-45 days the money then sits in transit and customs. On a USD 50,000 order that is real working capital, and no factory lends it to a buyer it has never shipped to. A 100-piece first order on Net 30 is not a negotiating position, it is a signal that the buyer is new to this.
+
+Open account is earned in stages: two or three clean T/T orders with no chargebacks, then a partial concession such as 20/80 with the balance at 15 days, then full Net 30 with a credit limit rather than an open ceiling. Buyers who need credit earlier substitute instruments: a bank guarantee, credit insurance on the receivable, escrow or a parent company guarantee, each cheaper than the financing charge baked into the price.
+
+That charge is real. A factory offering Net 30 to an unknown buyer prices the receivable at its own borrowing cost plus risk margin, and the number never appears as a line item. It spreads across the unit price, which is why the same style can quote 3-5% higher on Net 30 than on T/T. Cost it into the [garment costing sheet](/blog/garment-costing-sheet) rather than discovering it at comparison stage.
+
+## The Real Cost of Each Term, Side by Side
+
+Fees vary by bank and country, so treat these as typical rather than quoted. The column that usually decides the question is the third: how much cash is locked before anything ships.
+
+| Term | Typical bank cost | Cash locked before shipment | Admin load | Earns its keep when |
+|---|---|---|---|---|
+| T/T 30/70 | Wire fees, often 0.1-0.3% of value | 30-50% of order value | Low | Order under about USD 30,000 |
+| LC at sight | Roughly 0.3-1.0% with advising and amendments | LC margin plus deposit | High, every document must match | Order above USD 50,000 or an unproven supplier |
+| Usance LC 90 days | As above, plus interest for the tenor | Bank margin only | High | You have a bank line and a repeating programme |
+| Net 30 open account | None charged to you | Nothing | Low for you, heavy for the factory | Twelve months of clean shipment history |
+| D/P collection | Around 0.1-0.3% | Draft cleared before documents release | Medium | Mid-size order, known factory, no LC line |
+
+Weigh that against the cost of getting it wrong: a 30% deposit lost on a factory that stops answering is a total loss, while an LC fee is a fraction of a percent. The instrument should be proportional to what you cannot afford to lose.
+
+## Matching the Term to Order Size and Factory Relationship
+
+What works in practice runs on order value and history, not buyer preference.
+
+- **Under USD 10,000, first order.** T/T 30/70, balance against an inspection report and B/L copy. Bank instruments cost more than they protect at this size.
+- **USD 10,000-50,000, first or second order.** T/T with a stronger trigger, or D/P if both banks are comfortable. An escrowed deposit is a reasonable middle path.
+- **Above USD 50,000, new supplier.** LC at sight, with the document list agreed line by line before issuance.
+- **Repeat business, one year or more.** Move to Net 30 by degrees, starting with the final balance at 15 days.
+
+A [Best Clothing Manufacturer in Bangladesh](/) with a broad vetted factory base can run different terms per order rather than one schedule for everything, which is what a growing brand usually needs: tight control on a new style, credit on the reorder.
+
+## A Payment Terms Checklist Before You Sign the PO
+
+Settle these before the price is final. Each open item becomes a delay later.
+
+1. Write the deposit percentage, and what it specifically covers.
+2. Name the balance trigger document in one sentence, with no alternatives.
+3. State the latest date the balance must clear to keep the shipment on schedule.
+4. Assign bank charges on both sides, including intermediaries.
+5. Fix the inspection standard and who pays for the inspection.
+6. Agree what happens to the deposit if either side cancels.
+7. For an LC, list every required document and the latest shipment date before issuance.
+8. Confirm the Incoterm and named port, then check the LC matches it.
+9. Write the remedy for a failed inspection: rework, price adjustment or rejection.
+
+The list also reads the factory fast: a supplier answering all nine without hedging has done this before, and one answering three has told you how a claim will be handled. The same trade-off runs through [negotiating with a clothing manufacturer](/blog/negotiate-with-clothing-manufacturer), where terms and price move together.
+
+## Red Flags in a Payment Schedule
+
+- **100% advance on a first order.** No legitimate factory needs the full amount to book fabric on a new style.
+- **Deposit to a personal or unrelated company account.** The name must match the contracting entity on the PO and invoice.
+- **Vague balance wording.** "Before shipment" without a named document is not a term, it is an intention.
+- **Amendments charged silently to the buyer.** Ask for the fee schedule up front.
+- **Requests to split a payment into small transfers.** Often a sign the receiving entity cannot take a clean commercial payment.
+- **No written cancellation or defect clause.** Without it the deposit is a gift if the relationship sours.
+
+## Agreeing Payment Terms With TEXVENTURE
+
+TEXVENTURE is a Bangladesh-based manufacturer working with more than 20 vetted factories, MOQs from 100 pieces per style, and certifications including ISO 9001, BSCI, OEKO-TEX, SGS, Sedex and GOTS. Terms are set per order, so a 300-piece trial run and a 30,000-piece programme are not the same document. Our [manufacturing services](/services) run from sourcing through to shipping, which keeps fabric booking, LC documents and inspection inside one chain of responsibility.
+
+Send the style, the destination and the term your bank prefers through [the order quote request](https://quote.texventure.com/) and the reply will state the deposit, the balance trigger and the document list for that order.
+
+## Frequently Asked Questions
+
+### What payment terms do clothing manufacturers usually ask for?
+
+The working default on a first order is a 30% deposit by T/T with the 70% balance before shipment, usually against a B/L copy. Orders with imported trim often move to 40/60. Large orders with new buyers commonly run on an LC at sight.
+
+### Should I pay a 30% deposit to a garment factory?
+
+Yes on most first orders, because the deposit is what books the fabric. What matters is the paper around it: a PO naming the entity that receives the money, a written cancellation clause, and a balance trigger tied to an inspection report rather than the factory's word.
+
+### Is an LC mandatory for garment imports?
+
+No, it is not mandatory in most markets and is rarely used below about USD 30,000, where fees and admin outweigh the protection. It becomes the normal instrument for large orders, unproven counterparties, or where the buyer's bank or local regulation requires a documentary credit.
+
+### Who pays bank charges on an international garment payment?
+
+It depends on what the PO and LC say. The convention is that the buyer pays charges outside the seller's country and the seller pays inside it, but intermediary banks still deduct fees in transit unless the payment is marked to pass all charges to the sender. State it explicitly and the shortfall conversation never happens.
+
+### Can payment terms be changed after the order is confirmed?
+
+They can, but every change costs money and time, especially on an LC where an amendment carries a fee and may push shipment past the latest shipment date. Terms are much cheaper to negotiate before the PO is signed, which is why the checklist is worth finishing while the price is still open.`,
+    category: "pricing",
+    tags: ["garment payment terms","letter of credit clothing","tt payment apparel","net 30 clothing supplier","garment order deposit"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 10,
+    featuredImage: "/images/jackets.webp",
+    imageAlt: "Buyer and factory merchandiser reviewing a payment schedule and letter of credit documents beside stacked jacket samples",
+    metaDescription: "How garment payment terms work in practice: T/T deposit splits, letter of credit documents and fees, Net 30 open account, and which term fits your order size.",
+  },
 ];

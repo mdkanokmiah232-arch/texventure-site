@@ -241,8 +241,19 @@
       "at": "2026-11-03T15:24:08.702Z",
       "commit": "c2e3a43",
       "deploy": "live"
+    },
+    {
+      "order": 23,
+      "slug": "garment-payment-terms",
+      "title": "Payment Terms in Garment Manufacturing: T/T, LC and Net 30 Explained",
+      "url": "https://texventure.com/blog/garment-payment-terms",
+      "publishedAt": "2026-11-03",
+      "words": 2208,
+      "at": "2026-11-03T15:33:59.102Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T15:24:08.703Z"
+  "updatedAt": "2026-11-03T15:33:59.103Z"
 }
