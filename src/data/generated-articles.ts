@@ -1068,4 +1068,160 @@ TEXVENTURE manufactures in Bangladesh across knit, woven, denim and outerwear, w
     imageAlt: "Export documents, shipping cartons and folded knitwear on a Bangladesh garment factory desk prepared for international shipment",
     metaDescription: "How to import clothing from Bangladesh: importer registration, HS classification, duty, export documents, inspections, payment terms, freight and landed cost.",
   },
+  {
+    slug: "garment-production-lead-time",
+    title: "Garment Production Lead Time: What Actually Delays Your Order",
+    excerpt: "Garment production lead time broken down stage by stage: what each phase really costs in days, which delays move your ship date, and how to build a calendar that holds.",
+    content: `Ask three factories to quote the same tech pack and you will get three different numbers: 45 days, 70 days, 90 days. The gap is rarely dishonesty. It is a difference in what each factory treats as day one, whether the fabric is already running on their machines, how full their sewing lines are, and whether the number they quoted ends at the factory gate or at your warehouse door.
+
+Garment production lead time is the elapsed time between a confirmed purchase order and the goods leaving the factory, and it is built from several queues that partly run in parallel. Once you can see those queues separately, delays stop looking random. They almost always trace back to one stage that everyone treated as a formality and that turned out to be the critical path.
+
+## What Lead Time Actually Measures
+
+The phrase covers at least three different clocks, and buyers get into trouble when a supplier quotes one and the buyer plans around another.
+
+- Sampling lead time: tech pack received to approved production sample, usually 10 to 25 days depending on how many revision rounds the fit needs.
+- Production lead time: purchase order confirmed to goods packed and ready for dispatch, the number most factories mean when they say lead time.
+- Delivery lead time: ex-factory date to your distribution centre, which adds inland transport, port congestion, ocean transit, customs clearance and inland haulage at destination.
+
+Calendar days and working days differ by roughly 15 percent in a Bangladeshi factory that closes on Fridays only, and by much more once public holidays land inside the window. Eid-ul-Fitr and Eid-ul-Adha each remove seven to ten usable days, and the Ramadan weeks before Eid run at reduced output on day shifts. A 60 working day promise can become 80 calendar days without anyone breaking a promise.
+
+The other thing lead time measures is queue position. A factory with 24 sewing lines running near full capacity and a factory with idle lines can both quote 75 days, but the first is quoting a booked slot and the second is quoting an intention. The number is the same; the risk is not.
+
+## The Production Lead Time Formula That Survives a Real Order
+
+Strip the marketing out of a lead time and what remains is a chain of dependent dates:
+
+production lead time = longest of (fabric chain, trims chain) + cutting + sewing + finishing + inspection and packing + inland transport, plus buffer
+
+The fabric and trims chains start together at PO and run in parallel, but cutting cannot begin until both have landed and the pre-production sample is approved. That makes the slower of the two the governing chain, and in most knit and woven programs it is fabric, because it contains three separate queues: yarn allocation, knitting or weaving, and dyeing.
+
+| Stage | Clock starts when | Typical calendar days | Owned by |
+|---|---|---|---|
+| Fabric booking and yarn allocation | PO confirmed and lab dip approved | 7 to 21 | Factory fabric department or mill |
+| Knitting or weaving greige | Yarn in house | 5 to 12 | Knitting or weaving unit |
+| Dyeing and finishing | Greige available and shade approved | 10 to 25 | Dye house |
+| Fabric inspection and relaxation | Fabric back from dye house | 2 to 4 | Factory quality team |
+| Trims and accessories | PO with full trims list | 7 to 20, longer if imported | Merchandiser |
+| Cutting | Approved PP sample and fabric in house | 2 to 5 | Cutting section |
+| Sewing | Cut panels and a line slot | 12 to 30 | Production manager |
+| Wash, print or embroidery | Sewn or cut goods | 3 to 15 | In-house unit or subcontractor |
+| Final inspection and packing | End of sewing | 2 to 5 | Quality and packing |
+
+Adding that column together gives a number far longer than any real lead time, which is the point: only the fabric chain, cutting, sewing, finishing and inspection are serial. Teams that add every line item vertically plan for 150 days on an order a factory can ship in 70.
+
+## Garment Lead Time by Product Category
+
+Category is the second biggest variable after fabric, because it changes how many processes the goods pass through and how many of those processes need a separate approval.
+
+| Product type | Sampling, typical days | Bulk PO to ex-factory | Main driver |
+|---|---|---|---|
+| Basic jersey tee and light knit | 10 to 15 | 35 to 50 | Fabric availability and print slots |
+| Fleece hoodie and sweat | 12 to 18 | 45 to 65 | Yarn-dyed loops, embroidery capacity |
+| Woven shirt and blouse | 15 to 20 | 55 to 75 | Shirting fabric booking, collar and cuff trials |
+| Five-pocket denim | 18 to 25 | 60 to 85 | Wash development rounds, laundry capacity |
+| Sweater and flat knit | 20 to 30 | 75 to 110 | Yarn spinning to shade, machine gauge time, linking |
+| Performance activewear | 18 to 25 | 60 to 80 | Functional fabric sourcing, bonding and seam testing |
+| Workwear and hi-vis | 20 to 30 | 70 to 95 | Certified fabric, imported reflective trims |
+
+These are typical ranges across export-oriented factories, not a promise attached to any single supplier. Your position in the queue moves them by weeks in either direction.
+
+Sweaters sit at the top of the range for structural reasons: yarn must be spun and dyed to shade before a panel is knitted, sweater machines run slowly, and linking and hand finishing cannot be compressed by adding a shift. Denim follows because wash development is an approval process, and each recipe change costs another sample and another laundry slot.
+
+## The Six Things That Actually Delay Orders
+
+Delay rarely arrives as a catastrophe. It arrives as six small slippages that each looked reasonable on the day they were agreed.
+
+- **Lab dip and strike-off rounds.** Each round costs 10 to 14 days once courier time and dye house rebooking are counted. Three rounds on a tight shade is normal, and it is the most common cause of a late fabric booking.
+- **Non-commodity trims.** Branded zippers, moulded buttons, heat transfer labels and woven badges are often imported, which can take six to ten weeks and holds cutting even when fabric is already in the warehouse.
+- **Print, embroidery and wash slot booking.** These departments are shared across every order in the factory, and a slot missed by three days can reappear three weeks later.
+- **Buyer approval turnaround.** Fit, PP sample, lab dip and artwork comments all sit on your side of the table, and none appear in the factory's quoted lead time.
+- **Capacity displacement.** A large repeat order lands in front of yours, lines are reshuffled, and the sewing start date moves without anyone telling you.
+- **Holiday compression.** The two Eid holidays plus shutdowns for maintenance or audits can remove two working weeks from an already tight quarter.
+
+## Why Your Approval Date Is the Real Critical Path
+
+Consider an order placed on 1 March with a quoted 75 day production lead time. The lab dip goes out on 3 March, the buyer takes nine days to comment instead of the agreed three, and the second round is approved on 20 March. Fabric can only be booked after that approval, so the fabric booking slips from 6 March to 23 March.
+
+That is a 17 day slip on a nine day delay. The extra eight days come from the dye house queue: the slot the factory would have taken in the first week of March was given to another order, and the next available booking is later than a simple date shift would suggest.
+
+From there the slip propagates: cutting starts 17 days late, sewing starts 17 days late, and the inspection window collides with a public holiday, adding three more days. A buyer who lost nine days of email time lost 20 days of ship date.
+
+This is what critical path means in practice. A stage can only absorb delay if it has float, meaning spare time before the next dependent stage. Most apparel orders run with zero float from fabric booking onward, so the only genuinely flexible period is the approval and development phase at the front. Spend your attention there, and the rest of the calendar tends to hold.
+
+## How to Build a Production Calendar You Can Defend
+
+A dated calendar is the difference between a plan and a hope. Build it before the PO is signed, not after the first delay.
+
+1. Fix the ex-factory date first, then work backwards through inspection, packing, finishing, sewing and cutting to arrive at a fabric-in-house date.
+2. Write the fabric booking date into the purchase order as a milestone, not as an assumption, and name who is responsible for hitting it.
+3. Agree the number of lab dip rounds in advance and put a calendar deadline on each round, including courier transit.
+4. List every trim with its supplier, model number and lead time, and flag anything imported as a separate tracked item.
+5. Set a written approval service level, typically three working days for comments and five for sample decisions, and hold both sides to it.
+6. Reserve print, embroidery and wash slots at the same time as the fabric booking rather than after sewing starts.
+7. Schedule mid-line inspection and final inspection dates with the agreed AQL, and book the inspection body before the goods are ready.
+8. Carry one buffer line, expressed as a number of days, owned by one named person.
+
+If you are sourcing through a Bangladesh-based manufacturer such as [TEXVENTURE](/), ask for the time and action calendar before the PO is signed. A supplier who cannot produce one is telling you something useful about how the order will be managed.
+
+The technical inputs on that calendar come from two documents you control: a [tech pack for clothing](/blog/tech-pack-for-clothing) that specifies fabric, trims and construction without ambiguity, and a realistic view of the [garment sampling process](/blog/garment-sampling-process), because every sample round you add at the front is a week you remove from the back.
+
+## Where Buffer Belongs and Where It Does Not
+
+Buffer is not padding, and putting it in the wrong place wastes money without reducing risk.
+
+- **Buffer the fabric booking.** Two to five extra days at the front protects the entire downstream chain. This is the highest-value buffer in the order.
+- **Buffer the approval phase, not production.** If comments take five days instead of three, the calendar should already assume five.
+- **Do not buffer sewing.** A factory cannot sew faster because you asked for slack, and padding sewing dates only hides whether the line is behind.
+- **Do not double-buffer.** If the factory adds 10 days and you add 10 days on top for the same risk, you have bought nothing and paid for it twice in lost selling weeks.
+- **Express buffer as a date.** "Ship by 14 October" is enforceable; "add a week somewhere" is not.
+
+## Red Flags in a Quoted Lead Time
+
+Most bad lead times are visible before you commit, if you read the quote closely.
+
+- The clock starts at order confirmation but nobody confirms when fabric will be booked.
+- The quote does not distinguish between ex-factory date and vessel sailing date, which are usually one to two weeks apart.
+- The same lead time is offered for 300 pieces and 30,000 pieces, which suggests it was not calculated from line capacity.
+- No holiday calendar is attached, so Eid is invisible in the plan.
+- Nobody has discussed who pays air freight if the delay originates in the factory.
+
+## Frequently Asked Questions
+
+### How long does it take to manufacture clothes from an approved tech pack?
+
+For a basic knit style with stock fabric, 35 to 50 days from purchase order to ex-factory is typical. Wovens, denim and sweaters run longer because fabric development, wash recipes or yarn dyeing sit on the critical path. Add sampling separately: 10 to 30 days depending on category and revision rounds.
+
+### Is garment production lead time calculated in calendar days or working days?
+
+Both are used, and the difference can break a delivery plan. A 60 working day lead time covers roughly 84 calendar days in a factory that closes only on Fridays, and more once holidays fall inside the window. Ask which convention a supplier quotes, and ask for the ex-factory date as a fixed date.
+
+### Why is my clothing order delayed when the factory says production is on schedule?
+
+Production is usually on schedule relative to the date the line started, not the date you planned around. Most delays originate upstream in fabric booking, lab dip approval or imported trims, so sewing starts late while the sewing plan stays intact. Ask for the fabric in-house and cutting dates, not the production percentage.
+
+### Does a smaller order get a shorter lead time?
+
+Rarely, and sometimes the opposite. Fabric mills set minimum order quantities per shade and dye houses batch colours, so a small order may wait for a batch slot rather than run sooner. Small orders do move faster through cutting and sewing, which can save five to ten days at the back of the schedule.
+
+### Can air freight rescue a late production date?
+
+Air freight recovers transit time, not production time. It typically saves two to four weeks on ocean transit, which helps when goods are packed and waiting but does nothing when the fabric has not been dyed. Decide before the delay happens who pays for it if the cause sits in the factory.
+
+## Getting a Lead Time You Can Plan a Business Around
+
+Lead time is not a single number a supplier hands you. It is a set of dated milestones, and the order ships on the date the slowest one allows. Buyers who plan from the fabric booking date rather than the sewing start date are the ones whose launches land on schedule.
+
+TEXVENTURE works as a Bangladesh-based manufacturer with 20+ vetted factories, MOQ from 100 pieces per style, ISO 9001, BSCI, OEKO-TEX, SGS, Sedex and GOTS certifications, and end-to-end handling from sourcing through shipping. Knitwear programs run through [knitwear production](/products/knit-wear) lines, with full-package support across [apparel manufacturing services](/services) when an order crosses several product types.
+
+Send your tech pack, target ship date and order quantity to [request a dated production plan](https://quote.texventure.com/) and you will get the milestone dates back in writing, before the clock starts.`,
+    category: "manufacturing",
+    tags: ["garment production lead time","apparel lead time","production lead time formula","clothing lead time bangladesh"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 12,
+    featuredImage: "/images/about-texventure.webp",
+    imageAlt: "Factory merchandiser reviewing a time and action calendar beside cut fabric rolls and a line of sewing machines on a Bangladesh garment floor",
+    metaDescription: "Garment production lead time explained stage by stage: fabric booking, dyeing, cutting, sewing and inspection, plus the delays that move your ship date.",
+  },
 ];

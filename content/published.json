@@ -76,8 +76,19 @@
       "at": "2026-11-03T11:34:13.376Z",
       "commit": "51ab7d4",
       "deploy": "live"
+    },
+    {
+      "order": 8,
+      "slug": "garment-production-lead-time",
+      "title": "Garment Production Lead Time: What Actually Delays Your Order",
+      "url": "https://texventure.com/blog/garment-production-lead-time",
+      "publishedAt": "2026-11-03",
+      "words": 2374,
+      "at": "2026-11-03T11:45:13.686Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T11:34:13.378Z"
+  "updatedAt": "2026-11-03T11:45:13.688Z"
 }
