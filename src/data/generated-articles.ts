@@ -2674,4 +2674,157 @@ TEXVENTURE works from Bangladesh with more than 20 vetted factories, MOQ from 10
     imageAlt: "Rolls of 10oz, 12oz and 14oz denim stacked beside a cutting table in a Bangladesh jeans factory",
     metaDescription: "Denim weight in ounces explained factory-side: what 10oz, 12oz and 14oz mean in GSM, which needle and thread each needs, and how weight moves cost and freight.",
   },
+  {
+    slug: "types-of-garment-defects",
+    title: "20 Common Garment Defects and How to Classify Them",
+    excerpt: "Garment defects are graded, not guessed. Here is the factory classification ladder for critical, major and minor faults, plus the 20 defects that fill most inspection reports.",
+    content: `A defect only becomes a defect once someone defines it. Two inspectors can look at the same puckered side seam and reach opposite verdicts — one writes major, the other passes it — because nobody agreed before production what that seam is allowed to look like. Most arguments at final inspection are not about quality. They are about vocabulary, and the vocabulary was never written down.
+
+So every programme needs a working list: the types of garment defects its order tolerates, the class each one falls into, and the action that follows. Without it, the factory grades to the inspector's mood and the buyer to the market's expectation, and the gap is paid for in rework hours or air freight.
+
+What follows is the classification logic we use on the floor: the twenty defects that fill most reports, how to sort them into critical, major and minor, and how to write the sheet so a supervisor, an in-line checker and a third-party inspector land on the same verdict.
+
+## What Counts as a Garment Defect
+
+A garment defect is any measurable deviation from the approved [tech pack](/blog/tech-pack-for-clothing), specification sheet, approved sample or reference standard that affects appearance, performance, safety, fit or saleability. Measurable means the tolerance is a number, not an adjective. Deviation means comparison against an approved reference, not memory. The four impact areas then decide the class, because two millimetres of seam allowance drift is invisible on a baggy work shirt and a fit failure on a fitted bodysuit.
+
+Three things are routinely logged as defects that are not defects, and each wastes a working day if it is not separated early:
+
+- A specification change the buyer approved verbally but never wrote into the tech pack, so the factory is graded against a document that no longer reflects the order.
+- Natural variation inside the agreed tolerance — half a centimetre of body length, a shade step within the approved colour band.
+- A fault from sample sewing that never entered bulk, which belongs in a sample comment sheet.
+
+The test is whether the tolerance exists in writing and whether the unit was made against it. If both are yes, it is a defect and it gets a class. If either is no, it is a documentation problem for a different list.
+
+## The Classification Ladder: Critical, Major and Minor
+
+Classification is about consequence, not appearance. A three millimetre oil spot on a black hoodie looks worse than a missing bar tack, but only one of them makes the pocket fail in the wash. Grade by what the defect does; let visibility set priority inside the class.
+
+| Class | Test applied | Typical examples | Standard disposition |
+|---|---|---|---|
+| Critical | Unsafe, illegal or unusable. Injury risk, regulatory breach or loss of function. | Needle fragment in a seam, sharp wire tip, mould, banned dye, choking hazard on children's wear | Reject affected units, screen the whole lot at 100%, root cause before the next shipment |
+| Major | Reduces saleability or performance. Visible at one metre or outside a written tolerance. | Open seam, missing bar tack, shade jump between panels, hole or needle cut, print crack after wash | Unit rejected; repair, replace or downgrade to second before packing |
+| Minor | Cosmetic only. No effect on function, safety or full price sale within tolerance. | Loose thread over one centimetre, faint puckering at a curve, bowing within tolerance | Pass, correct the cause at the next bundle, log the trend |
+
+The class drives the accept or reject number in a sampling plan, which is why mislabelling a major as minor costs more than it looks — it quietly raises the defect rate a supplier can pass. If the sampling arithmetic is unfamiliar, the explanation of [AQL inspection](/blog/aql-inspection-meaning) shows how the class mix converts into an accept figure at a given lot size.
+
+## The Twenty Defects That Fill Most Reports
+
+These twenty account for the bulk of a daily defect report on a Bangladesh knit or woven programme. The default class is a starting point; a stricter buyer standard always wins.
+
+| # | Defect | Stage it appears | Default class |
+|---|---|---|---|
+| 1 | Shade variation between panels or rolls | Fabric / cutting | Major |
+| 2 | Holes, slubs or thin places in the greige | Fabric | Major |
+| 3 | Bowing and skewing after relaxation | Fabric / cutting | Major |
+| 4 | Fabric weight or GSM below the approved spec | Fabric | Major |
+| 5 | Excessive shrinkage after the first wash | Fabric / finishing | Major |
+| 6 | Colour bleeding or crocking | Finishing | Major |
+| 7 | Short or missing cut panel | Cutting | Major |
+| 8 | Mismatched plies from a shifted lay | Cutting | Major |
+| 9 | Missing or misplaced notch | Cutting | Minor |
+| 10 | Skipped stitches in a load-bearing seam | Sewing | Major |
+| 11 | Open or broken seam | Sewing | Major |
+| 12 | Seam slippage at low seam efficiency | Sewing | Major |
+| 13 | Puckering along a curved seam | Sewing | Minor |
+| 14 | Needle cut, hole or grin-through on knits | Sewing | Major |
+| 15 | Uneven seam allowance or wavy topstitch | Sewing | Minor |
+| 16 | Missing bar tack, button or rivet | Sewing / finishing | Major |
+| 17 | Print crack, misregistration or partial transfer | Finishing | Major |
+| 18 | Embroidery misalignment or thread breaks | Finishing | Major |
+| 19 | Untrimmed thread or loose lint | Finishing | Minor |
+| 20 | Wrong label, polybag or size ratio in packing | Packing | Major |
+
+## Fabric and Mill Defects
+
+Mill faults are the most expensive group because they arrive before a panel is cut and multiply across every garment in the roll. Shade variation is the classic case: two rolls inside tolerance on their own can produce a visible jump when one becomes a sleeve and the other a body. The control is a physical shade band approved by the buyer, with rolls tagged against it and cut in the order the band allows.
+
+Bowing and skewing come from loom tension and relax after the fabric rests, so a mill shipping straight off the finishing range sends cloth that moves on the cutting table and produces a garment that twists after wash. Resting the roll and re-measuring a square catches most of it. Weight and shrinkage deserve a test on every lot: a 180 GSM jersey measured at 165 GSM sews almost identically, then feels thin on the shelf and shrinks past tolerance at home.
+
+## Cutting Room Defects
+
+Cutting produces few defect types, and each repeats across dozens of units at once. A shifted lay means the plies no longer match the marker, so the panels are all slightly the wrong shape and the error surfaces only at sewing when the notches fail to align. The usual causes are a spreader working ahead of the marker pins, or fabric with more stretch than the lay plan assumed.
+
+Short or missing panels are a planning fault, worth counting separately: a bundle one panel down stops the line and forces a re-cut that rarely matches the original shade. A missing notch is minor on its own but the first sign the cutting room is rushing.
+
+## Sewing Defects
+
+Sewing has the richest vocabulary, and the cause is nearly always machine setup or operator handling rather than the fabric. This is the table pinned above the line.
+
+| Sewing defect | Usual cause | Correction on the floor |
+|---|---|---|
+| Skipped stitch | Wrong needle point or size for the fabric, timing drift | Fit a ballpoint or light sharp needle, retime the hook, test on scrap |
+| Open or broken seam | Thread tension too high, thin ticket, allowance below spec | Reset tension, move up a ticket, verify allowance against the marker |
+| Puckering | Differential feed wrong, too many stitches per inch | Adjust differential feed, reduce SPI, relax the seam before pressing |
+| Needle cut and grin-through | Needle too large for the knit, seam over-stretched | Drop one needle size, use a ballpoint, reduce seam extension |
+| Uneven seam allowance | Worn trim guide, operator sighting the edge by eye | Fit a new guide, mark the allowance on the bed, re-train the station |
+| Missing bar tack | Station skipped, tacker out of adjustment | Add a check at the station, log the unit, verify in-line |
+
+Two rules save more money than any inspection: never start a style on a machine that has not been sewn off on scrap, and never let a bundle move forward with a known machine fault. A skipped stitch caught at the station costs seconds; caught at final inspection it re-opens the whole lot.
+
+## Finishing, Washing and Packing Defects
+
+Finishing is where a garment that passed every earlier check can still fail. Garment dyeing and washing move shade, so a lot that matched the approved lab dip before wash may sit a full step away after it. Print cracking appears only after a wash or a stretch test, which means a print approval that ignores wash performance approves a defect. Embroidery misalignment is usually a hoop or placement issue, cheap at the first piece and expensive after the run.
+
+Packing defects look trivial and behave like majors, because a wrong size ratio or a missing care label turns a clean shipment into a claim at destination. The last gate should be a packing audit against the ratio sheet, not a glance at a carton.
+
+## Grading a Defect in Under a Minute
+
+Speed matters because a checker who hesitates stops the line. The sequence below keeps verdicts consistent across shifts.
+
+1. Confirm the reference: pull the approved sample, tech pack page or measurement chart for that operation before you look at the garment.
+2. Measure, do not estimate: use the tape or template for anything dimensional, and write the actual number rather than "slightly out".
+3. Count the spread in the bundle: one unit is an incident, ten units is a process fault.
+4. Apply the class: safety and legality first, then function and saleability, then appearance.
+5. Record the code against the operation, not just the style, so the pattern points at a station.
+6. Set the disposition: pass, repair, replace, downgrade or reject, and note who authorised any deviation.
+
+Step five is the one most factories skip. "Major, side seam" tells you nothing on Friday. An operation code tells you which machine, which supervisor and which fix.
+
+### Turning the list into a code sheet
+
+Two letters for the stage and two digits for the defect — FA for fabric, CU for cutting, SE for sewing, FI for finishing, PK for packing — with the class as a suffix. SE-11-M is an open seam, major, and the whole floor reads it the same way. Keep the sheet to one page per style family, add buyer tolerances in an appendix, and review it weekly against the top three codes by volume. A code that stays at the top for three weeks is not an inspection problem; it is a machine, a method or a material.
+
+## Prevention Beats Sorting
+
+Classification tells you what you have; prevention decides how much you get, and the cheapest controls sit early. In-line checks at roughly twenty, fifty and eighty percent of the run catch drift while units can still be saved, and a pre-production meeting on the three likeliest failure points of a new style does more than a final audit.
+
+The [factory audit checklist](/blog/garment-factory-audit-checklist) covers the systems side, but the daily work is simpler: a calibration log for every measuring tool, a maintenance schedule that includes needle changes, and a five-why note for every critical defect without exception. A programme that treats critical defects as accidents rather than signals will meet the same defect next season. That is also why the sheet belongs in the conversation before a purchase order is signed — working with a [Trusted Clothing Manufacturer in Bangladesh](/) usually means the sheet exists and the first meeting is about tolerances rather than definitions. If you would rather start from the other end, our [manufacturing services](/services) include the inspection plan in the order pack.
+
+## Build the Sheet Before the First Cut
+
+Every order carries a defect budget whether or not it is written down: repair hours, re-inspection, air freight for a short shipment, and the discount offered when a lot lands with too many seconds. That budget shrinks the moment the words are defined, because a factory that knows what counts as major stops arguing at the loading dock.
+
+If you want the classification sheet and inspection plan drafted against your product, send the tech pack and the target market through the [quote request](https://quote.texventure.com/) and we will come back with the defect classes, sampling plan and reporting format your order should run on.
+
+## Frequently Asked Questions
+
+### What are the most common defects in garments?
+
+The volume sits in sewing: skipped stitches, open seams, puckering, needle cuts and missing bar tacks, with shade variation and print faults close behind on dyed and printed programmes. These are process defects rather than material ones, which is why they respond quickly to machine setup and in-line checking.
+
+### What is the difference between a major and a minor defect?
+
+A major defect reduces saleability or performance — an open seam, a hole, a measurement outside tolerance, a shade jump between panels. A minor defect is cosmetic and does not stop a full price sale, such as a loose thread or slight puckering within tolerance. The class follows consequence, not visibility.
+
+### What counts as a critical defect in apparel?
+
+A critical defect creates a safety or legal risk: needle fragments or sharp metal in a seam, mould, restricted substances, or a choking hazard on children's wear. It normally triggers a hundred percent screen of the lot plus a documented root cause, whatever the accept number in the sampling plan.
+
+### How many garment defects are acceptable in an inspection?
+
+Acceptance is set by the sampling plan, not by a fixed number. A typical AQL 2.5 major level on a few thousand units allows a handful of majors before the lot fails, while critical defects are usually set at zero. Agree the level in the purchase order so the result is a calculation rather than a negotiation.
+
+### How do you classify garment defects during production?
+
+Compare the unit against the approved sample and written tolerance, measure anything dimensional, then grade by consequence: safety first, then function and saleability, then appearance. Record the class with a stage code against the operation rather than the style, so the log shows which station needs the fix.`,
+    category: "manufacturing",
+    tags: ["garment defects","major vs minor defects","sewing defects","quality control","apparel inspection"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 10,
+    featuredImage: "/images/cert-6.png",
+    imageAlt: "Inspector measuring a side seam against a tolerance chart on a garment factory inspection table",
+    metaDescription: "Types of garment defects explained factory-side: 20 defects that fill inspection reports, the critical, major and minor classes, and how to grade each one fast.",
+  },
 ];

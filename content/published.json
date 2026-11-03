@@ -186,8 +186,19 @@
       "at": "2026-11-03T13:43:40.960Z",
       "commit": "8afcbce",
       "deploy": "live"
+    },
+    {
+      "order": 18,
+      "slug": "types-of-garment-defects",
+      "title": "20 Common Garment Defects and How to Classify Them",
+      "url": "https://texventure.com/blog/types-of-garment-defects",
+      "publishedAt": "2026-11-03",
+      "words": 2361,
+      "at": "2026-11-03T13:54:59.372Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T13:43:40.961Z"
+  "updatedAt": "2026-11-03T13:54:59.373Z"
 }
