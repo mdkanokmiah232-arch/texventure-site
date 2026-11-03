@@ -28,7 +28,7 @@ export default function InternalLinks({ currentPage }: InternalLinksProps) {
     },
     {
       keyword: 'Low MOQ Manufacturer',
-      href: '/get-a-quote',
+      href: 'https://quote.texventure.com/',
       description: 'Start with just 100 pieces per style - perfect for startups and small brands',
     },
   ];

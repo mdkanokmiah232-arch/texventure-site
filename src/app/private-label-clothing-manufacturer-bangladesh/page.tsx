@@ -81,7 +81,7 @@ export default function PrivateLabelPage() {
         <HeroSection
           headline="Private Label Clothing Manufacturer in Bangladesh"
           subheadline="Launch or expand your own clothing brand with full private label manufacturing. Custom labels, hang tags, packaging, and branding — produced from just 100 pieces per style."
-          primaryCta={{ text: 'Start Private Labeling', href: '/get-a-quote' }}
+          primaryCta={{ text: 'Start Private Labeling', href: 'https://quote.texventure.com/' }}
           secondaryCta={{ text: 'See Our Services', href: '/services' }}
         />
 
@@ -229,7 +229,7 @@ export default function PrivateLabelPage() {
           headline="Ready to Launch Your Own Label?"
           description="From blank styles to fully branded products — we handle everything. Get a free quote and start building your brand today."
           buttonText="Start Private Labeling"
-          buttonHref="/get-a-quote"
+          buttonHref="https://quote.texventure.com/"
         />
 
         {/* Internal Links */}
@@ -239,7 +239,7 @@ export default function PrivateLabelPage() {
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {[
                 { title: 'Custom Clothing Manufacturing', desc: 'Your design, built to spec', href: '/custom-clothing-manufacturer-bangladesh' },
-                { title: 'Get a Quote', desc: 'From 100 pieces per style', href: '/get-a-quote' },
+                { title: 'Get a Quote', desc: 'From 100 pieces per style', href: 'https://quote.texventure.com/' },
                 { title: 'Instant Quote Calculator', desc: 'Get pricing estimates in seconds', href: 'https://quote.texventure.com/' },
               ].map((item) => (
                 <Link

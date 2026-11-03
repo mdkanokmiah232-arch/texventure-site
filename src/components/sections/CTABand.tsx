@@ -11,7 +11,7 @@ export default function CTABand({
   headline = "Ready to Source Your Next Collection?",
   description = "Partner with a trusted Bangladesh buying house. Low MOQ, fast turnaround, and quality you can count on.",
   buttonText = "Get a Quote",
-  buttonHref = "/get-a-quote",
+  buttonHref = "https://quote.texventure.com/",
 }: CTABandProps) {
   return (
     <section className="relative overflow-hidden bg-white border-y border-gray-100">

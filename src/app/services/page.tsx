@@ -139,7 +139,7 @@ export default function ServicesPage() {
         headline="Not Sure Which Service You Need?"
         description="Tell us about your brand and what you're looking for. We'll recommend the right service approach and provide a free quote."
         buttonText="Get a Free Quote"
-        buttonHref="/get-a-quote"
+        buttonHref="https://quote.texventure.com/"
       />
 
     </main>

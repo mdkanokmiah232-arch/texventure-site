@@ -150,7 +150,7 @@ export default function ProductsPage() {
           <h2 className="text-3xl font-bold text-white">Ready to Start Your Production?</h2>
           <p className="mt-4 text-lg text-gray-300">Get a free quote for any category. Low MOQ from 100 pieces.</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/get-a-quote" className="inline-flex items-center gap-2 rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-[#08CCD4]/25 transition hover:bg-[#07b8be]">
+            <Link href="https://quote.texventure.com/" className="inline-flex items-center gap-2 rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-[#08CCD4]/25 transition hover:bg-[#07b8be]">
               Get a Free Quote
             </Link>
             <Link href="https://quote.texventure.com/" className="inline-flex items-center gap-2 rounded-full border-2 border-white/20 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/5">

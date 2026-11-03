@@ -195,7 +195,7 @@ export default function QuoteCalculator() {
           {/* CTA */}
           <div className="mt-6">
             <Link
-              href="/get-a-quote"
+              href="https://quote.texventure.com/"
               className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#07b8be]"
             >
               Request Exact Quote

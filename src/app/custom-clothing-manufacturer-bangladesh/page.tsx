@@ -93,7 +93,7 @@ export default function PillarPage() {
         <HeroSection
           headline="Best Custom Clothing Manufacturer in Bangladesh"
           subheadline="From concept to delivery — TEXVENTURE provides custom apparel manufacturing with low MOQs from 100 pieces, competitive pricing, certified factories, and global shipping to 30+ countries."
-          primaryCta={{ text: 'Get a Free Quote', href: '/get-a-quote' }}
+          primaryCta={{ text: 'Get a Free Quote', href: 'https://quote.texventure.com/' }}
           secondaryCta={{ text: 'Instant Quote Calculator', href: 'https://quote.texventure.com/' }}
         />
 
@@ -137,7 +137,7 @@ export default function PillarPage() {
                 {
                   title: 'Low MOQ Production',
                   description: 'Start with as few as 100 pieces per style. Perfect for startups, capsule collections, and limited drops.',
-                  link: '/get-a-quote',
+                  link: 'https://quote.texventure.com/',
                 },
                 {
                   title: 'Private Label / OEM',
@@ -157,7 +157,7 @@ export default function PillarPage() {
                 {
                   title: 'Global Shipping',
                   description: 'FOB, CIF, and DDP terms with sea, air, and express courier options to 30+ countries worldwide.',
-                  link: '/get-a-quote',
+                  link: 'https://quote.texventure.com/',
                 },
               ].map((item) => (
                 <Link
@@ -220,7 +220,7 @@ export default function PillarPage() {
                 </div>
                 <div className="mt-8">
                   <Link
-                    href="/get-a-quote"
+                    href="https://quote.texventure.com/"
                     className="inline-flex items-center justify-center gap-2 rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#07b8be]"
                   >
                     Get a Free Quote
@@ -275,7 +275,7 @@ export default function PillarPage() {
           headline="Ready to Start Manufacturing in Bangladesh?"
           description="Get a free, no-obligation quote within 24 hours. Share your tech pack or tell us what you need — we'll handle the rest."
           buttonText="Get a Free Quote"
-          buttonHref="/get-a-quote"
+          buttonHref="https://quote.texventure.com/"
         />
 
         {/* Internal Links */}
@@ -284,7 +284,7 @@ export default function PillarPage() {
             <h2 className="text-xl font-bold text-[#1B2A4A]">Explore Our Services</h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                { title: 'Get a Quote', desc: 'From 100 pieces per style', href: '/get-a-quote' },
+                { title: 'Get a Quote', desc: 'From 100 pieces per style', href: 'https://quote.texventure.com/' },
                 { title: 'Private Label Manufacturing', desc: 'Your brand, our expertise', href: '/private-label-clothing-manufacturer-bangladesh' },
                 { title: 'Streetwear Manufacturing', desc: 'Built for the culture', href: '/streetwear-manufacturer-bangladesh' },
                 { title: 'Instant Quote Calculator', desc: 'Get pricing estimates in seconds', href: 'https://quote.texventure.com/' },

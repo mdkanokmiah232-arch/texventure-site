@@ -81,7 +81,7 @@ export default function StreetwearPage() {
         <HeroSection
           headline="Streetwear Manufacturer in Bangladesh"
           subheadline="Premium heavyweight fabrics, bold graphics, and drop-ready production. We manufacture hoodies, oversized tees, cargo pants, and statement pieces for streetwear brands worldwide."
-          primaryCta={{ text: 'Manufacture Streetwear', href: '/get-a-quote' }}
+          primaryCta={{ text: 'Manufacture Streetwear', href: 'https://quote.texventure.com/' }}
           secondaryCta={{ text: 'See Pricing Estimates', href: 'https://quote.texventure.com/' }}
         />
 
@@ -241,7 +241,7 @@ export default function StreetwearPage() {
           headline="Ready to Manufacture Your Next Drop?"
           description="Premium streetwear manufacturing from Bangladesh. Heavyweight fabrics, bold graphics, and production schedules that match your drop timeline."
           buttonText="Manufacture Streetwear"
-          buttonHref="/get-a-quote"
+          buttonHref="https://quote.texventure.com/"
         />
 
         {/* Internal Links */}
@@ -251,7 +251,7 @@ export default function StreetwearPage() {
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {[
                 { title: 'Custom Clothing Manufacturing', desc: 'Your design, built to spec', href: '/custom-clothing-manufacturer-bangladesh' },
-                { title: 'Get a Quote', desc: 'From 100 pieces per style', href: '/get-a-quote' },
+                { title: 'Get a Quote', desc: 'From 100 pieces per style', href: 'https://quote.texventure.com/' },
                 { title: 'Private Label Manufacturing', desc: 'Your brand, our expertise', href: '/private-label-clothing-manufacturer-bangladesh' },
               ].map((item) => (
                 <Link

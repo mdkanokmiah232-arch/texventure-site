@@ -138,7 +138,7 @@ export default async function ProductCategoryPage({ params }: Props) {
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
               <Link
-                href="/get-a-quote"
+                href="https://quote.texventure.com/"
                 className="inline-flex items-center gap-2 rounded-full bg-[#08CCD4] px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-[#08CCD4]/25 transition hover:bg-[#07b8be]"
               >
                 Get a Free Quote
@@ -464,7 +464,7 @@ export default async function ProductCategoryPage({ params }: Props) {
                 </div>
               </dl>
               <Link
-                href="/get-a-quote"
+                href="https://quote.texventure.com/"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#08CCD4] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#07b8be]"
               >
                 Request a Free Quote
@@ -554,7 +554,7 @@ export default async function ProductCategoryPage({ params }: Props) {
         headline={`Ready to Source ${product.shortName}?`}
         description={`Partner with TEXVENTURE for reliable ${product.shortName.toLowerCase()} manufacturing in Bangladesh. Low MOQ, fast turnaround, and quality you can count on.`}
         buttonText="Get a Free Quote"
-        buttonHref="/get-a-quote"
+        buttonHref="https://quote.texventure.com/"
       />
 
       {/* Product Schema */}
