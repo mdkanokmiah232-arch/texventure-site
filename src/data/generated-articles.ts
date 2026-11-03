@@ -902,4 +902,170 @@ They belong on a separate landed cost sheet, because they are not part of what t
     imageAlt: "Illustrative garment costing sheet listing fabric, trim and making charge lines beside stacked finished jackets on a factory table",
     metaDescription: "How to build a garment costing sheet that matches factory quotes: eight cost lines, CMT versus full package, formulas, a worked example and gap checks.",
   },
+  {
+    slug: "import-clothing-from-bangladesh",
+    title: "How to Import Clothing From Bangladesh: Step-by-Step for New Buyers",
+    excerpt: "Importing clothing from Bangladesh is a document driven process, and this guide covers registration, classification, inspection and shipment in the order they happen.",
+    content: `Importing clothing from Bangladesh is not one transaction. It is a chain of registrations, documents, inspections and payment events, and every link has an owner. New buyers usually lose money not on the price of the garment but on a link nobody owned: a certificate of origin that arrived after the vessel sailed, a test report the brand's compliance team rejected, a duty line that was never in the landed cost.
+
+A factory exports; you import. Those are two separate legal acts in two jurisdictions, and the paperwork only looks like one bundle because it travels together. The factory produces the goods, clears them through Bangladesh customs and issues the commercial invoice, packing list and export documents. You are the registered importer, you classify the goods, and you pay duty and tax at your own border. A supplier can support all of that, but none of it transfers by default, and a FOB price ends at the port.
+
+## Step 1: Choose the Route Your Order Travels
+
+There are three practical routes from a Bangladesh factory to your warehouse, and they differ in who signs the export documents and who carries the risk when something is wrong.
+
+| Route | Who handles export docs | What you pay for | Control over production | Fits |
+|---|---|---|---|---|
+| Direct to manufacturer | Factory export department | FOB price, no intermediary margin | High, if you have your own QC | Buyers with a tech pack and inspection plan |
+| Buying house or sourcing agent | Agent, on your behalf | Commission of roughly 5 to 10 percent | Medium, depends on the agent's access | Buyers who need local eyes but no in-house QA |
+| Trading company | Trader, as exporter of record | Bundled price with hidden margin | Low to medium | Small, multi-product orders |
+
+Direct manufacturing is the cheapest per unit and the least forgiving. An agent earns its commission when it inspects rather than forwards. A trading company consolidates small quantities across several factories, which suits a first capsule and costs more at scale. A Bangladesh-based manufacturer such as [Best Clothing Manufacturer in Bangladesh](/) typically works the first route, with export documentation and inspections handled in-house rather than subcontracted.
+
+## Step 2: Register as an Importer Before You Order
+
+Registration is dull, cheap and impossible to do retrospectively. Finish it before a purchase order exists.
+
+In the United States you need a business entity, an Employer Identification Number, and a customs bond if you clear entries yourself or through a broker who requires one. In the European Union you need an EORI number and a VAT registration in the country of import. The United Kingdom runs its own EORI and VAT regime. Most other markets follow the same shape: a tax identity, a customs identity, and a broker authorised to file on your behalf.
+
+Two operational points are worth settling at the same time. Decide whether you will be importer of record or whether a freight forwarder acts for you, since that decides who is liable for a misdeclared value. And ask your broker which documents they want before the vessel arrives, not after.
+
+## Step 3: Classify the Product and Price the Duty
+
+Duty follows classification, and classification follows three things: fibre content, knit or woven construction, and garment type. Apparel sits in HS chapter 61 for knitted garments and chapter 62 for woven ones, and national tariffs split those headings into eight or ten digit lines.
+
+| Garment | Typical heading | What moves the rate |
+|---|---|---|
+| Cotton knit t-shirt | 6109 | Fibre share, tank or tee, gender |
+| Woven cotton shirt | 6205 | Yarn dyed versus printed, sleeve construction |
+| Cotton denim trousers | 6203 | Denim weight, gender, bib overall or not |
+| Knitted sweater | 6110 | Animal fibre content, gauge, lining |
+| Knitted hoodie | 6110 | Fibre blend, full zip or pullover |
+
+The heading is only half the answer. Preference programmes decide the rest. Bangladesh exports to the European Union under Everything But Arms, duty free and quota free provided the goods meet the rules of origin, and the certificate of origin is what proves it. The United Kingdom runs a similar scheme. The United States has no free trade agreement with Bangladesh, so apparel generally enters at MFN rates, commonly quoted between roughly 10 and 30 percent depending on the line. Treat every figure as indicative: schedules are revised, and your broker's classification is the one that gets filed.
+
+Two mistakes recur. Classifying by the fabric you bought rather than the garment you are importing, and forgetting that a blend can move a style into a different line entirely. If a fabric mixes cotton and polyester, classify on the exact composition in the test report, not the marketing description.
+
+## Step 4: Assemble the Export Document Set
+
+Documents fail in two ways: missing, or inconsistent. A packing list that says 220 cartons when the bill of lading says 218 will hold your container while a broker asks questions. Build the set as a checklist and reconcile the numbers across all of them before the goods leave.
+
+| Document | Issued by | What breaks without it |
+|---|---|---|
+| Commercial invoice | Exporter | No duty assessment, no entry |
+| Packing list | Exporter | Carton count and weight disputes at destination |
+| Bill of lading or airway bill | Carrier | No title to the goods, no release |
+| Certificate of origin | Export Promotion Bureau in Bangladesh | Preference claim lost, full duty payable |
+| Bangladesh EXP form and UD | Exporter and its bank | Export shipment not accepted by Bangladesh customs |
+| Test reports | Accredited laboratory | Retail compliance rejection, possible re-export |
+| Inspection report | Third party or in-house QA | No evidence if a defect claim is raised |
+| Insurance certificate | Insurer | Uninsured loss on CIF terms |
+
+The EXP form and the utilisation declaration are Bangladesh-side instruments, generated by the exporter and endorsed through its bank. They rarely appear on a buyer's checklist, which is exactly why they surface as a delay: if the export file is not clean, the shipment does not sail and your production schedule absorbs the slippage.
+
+## Step 5: Agree Quality Terms Before the First Cut
+
+Quality is a contract before it is an inspection. The purchase order should name the sample that was approved, the inspection standard, the acceptance level and who pays for the inspector.
+
+Four terms cover most of the risk. Approve a pre-production sample and keep it sealed as the reference. State an AQL level, with 2.5 for major defects being the usual starting point in apparel. Name the defect classification, so a skipped stitch and a broken zip are not treated as the same thing. And book the inspection window early, because a final inspection squeezed into the last two days before a vessel cut-off cannot fix anything it finds.
+
+How the sample round is run decides how smooth the bulk order is, which is why the [sampling sequence from fit sample to TOP sample](/blog/garment-sampling-process) is worth understanding before you place an order rather than after.
+
+## Step 6: Settle Payment, Delivery Terms and Freight
+
+Payment structure and delivery terms are negotiated together, because both allocate risk.
+
+On payment, three structures dominate. A deposit and balance, typically 30 percent with the order and 70 percent against the bill of lading copy, is standard for repeat buyers. A letter of credit costs more in bank charges but protects both sides on a first large order. Cash against documents sits between the two and depends entirely on the relationship.
+
+On delivery terms, FOB is the buyer's default because it keeps freight under your control and makes unit prices comparable between factories. CIF bundles freight and insurance into the supplier's price, which is convenient and opaque: you cannot see the freight margin, and you inherit whatever routing was booked. EXW leaves export clearance with you, which almost never makes sense from Bangladesh. Whatever you choose, write it into the purchase order with the named port, and make sure the invoice matches it exactly.
+
+Chattogram handles the overwhelming majority of Bangladesh's apparel exports, with a smaller share moving by air from Dhaka. Congestion and transshipment are normal: most services to Europe and North America route through Colombo, Singapore or Port Klang.
+
+| Mode | Typical transit | Best for | Watch out for |
+|---|---|---|---|
+| FCL, 20 foot | 25 to 35 days to Europe, 30 to 40 to US East Coast | Orders above roughly 15 cubic metres | Container utilisation, detention at destination |
+| LCL | 30 to 45 days door to door | First orders under 10 cubic metres | Co-loading damage, slower consolidation |
+| Air freight | 3 to 7 days | Samples, launches, high value per kilo | Cost multiples of sea, chargeable weight rules |
+
+Book against the inspection date, not the production start date. A booking made before the goods pass inspection is a booking you may have to amend, and amendments cost more than the delay they were meant to avoid. Then hand the full document set to your broker at least five working days before arrival, so classification and duty are settled before the container sits on the terminal.
+
+## What Landed Cost Must Include
+
+Every first order overruns because the budget stopped at the invoice. Build the landed cost as a stack, not a number.
+
+- FOB value of the goods.
+- International freight, plus any peak season surcharge.
+- Marine insurance, usually a small percentage of CIF value.
+- Import duty, by HS line.
+- Import VAT or GST, recoverable in some markets and a real cost in others.
+- Broker fees, entry fees and any bond cost.
+- Port handling, terminal charges and demurrage if clearance slips.
+- Inland transport from port to warehouse.
+- Financing cost between deposit payment and goods receipt.
+- A defect and shortfall allowance, typically 1 to 3 percent.
+
+If the total lands more than 40 percent above FOB, check the freight and the duty line first. Those two account for most of the variance between a good landed cost estimate and a bad one.
+
+## The Mistakes That Cost New Importers Money
+
+1. Budgeting on FOB plus freight and discovering duty and clearance later.
+2. Placing a purchase order before the importer registration and customs bond exist.
+3. Approving a sample by email photograph instead of a signed, sealed reference.
+4. Booking the inspection after the container is packed and sealed.
+5. Reusing a test report from a different fabric, colour or factory.
+6. Splitting a small order across six styles, then paying setup costs six times.
+7. Ignoring the Eid calendar, which can remove one to two working weeks from a schedule.
+8. Leaving AQL, defect classification and the inspection cost out of the purchase order.
+
+## A Realistic First-Order Timeline
+
+A clean first order from Bangladesh runs twelve to sixteen weeks from enquiry to warehouse, and the schedule is driven by documents as much as by sewing.
+
+1. Weeks 1 to 2: registration, classification, target price and factory shortlist.
+2. Weeks 2 to 3: tech pack review, fabric selection, counter-quotes.
+3. Weeks 3 to 5: sampling rounds and sample approval.
+4. Week 5: purchase order, payment instrument, booking deposit.
+5. Weeks 6 to 10: fabric in-house, bulk production, in-line checks.
+6. Week 10 or 11: final inspection and packing.
+7. Week 11 or 12: export documentation, customs clearance, vessel departure.
+8. Weeks 12 to 16: transit, import clearance, inland delivery.
+
+Compressing that schedule is possible, but not by skipping a step. It is done by holding fabric in stock, approving the sample in one round, and having the documents ready before production ends.
+
+## Frequently Asked Questions
+
+### Do I need a licence to import clothing from Bangladesh?
+
+Most markets do not issue an apparel-specific import licence. What you need is a business and tax registration, an importer or customs identity such as an EORI number in the EU, and a broker authorised to file entries. Some destinations add product rules, for example labelling, fibre content disclosure or chemical restrictions, but those are compliance requirements rather than import licences.
+
+### How long does it take to import clothing from Bangladesh to the USA?
+
+Plan for twelve to sixteen weeks in total. Production and sampling take six to ten weeks depending on fabric, sea transit from Chattogram to a US East Coast port is typically thirty to forty days with transshipment, and clearance adds a few days. Air freight shortens transit to under a week but rarely shortens production.
+
+### What documents do I need to import apparel from Bangladesh?
+
+The core set is a commercial invoice, packing list, bill of lading or airway bill, certificate of origin, and the Bangladesh export form with its bank endorsement. Add test reports for fibre composition and restricted substances, an inspection report, and an insurance certificate if you ship on CIF terms. Every document must agree on quantities, weights and values.
+
+### Is there import duty on clothing from Bangladesh?
+
+It depends entirely on the destination. European Union imports from Bangladesh are duty free under Everything But Arms provided the rules of origin are met, and the UK scheme runs on similar terms. The United States has no such agreement with Bangladesh, so apparel generally pays MFN duty, commonly in the range of 10 to 30 percent. Confirm the rate against your HS line with a customs broker before you price the order.
+
+### Can I place a small first order, or is there a minimum?
+
+Minimums exist at the fabric and the line level rather than in law. A factory may accept a few hundred pieces per style when the fabric is a stock quality, and require substantially more when it has to be knitted or dyed to order. Asking what the [minimum order quantity actually covers](/blog/what-is-moq) is the fastest way to find out whether a trial order is realistic. TEXVENTURE quotes from 100 pieces per style, which keeps a first order testable rather than speculative.
+
+## Start With a Quote That Includes the Export Side
+
+The import process only becomes predictable when the factory and the buyer work from the same document set, the same acceptance level and the same shipping terms. That is a sourcing decision as much as a customs one.
+
+TEXVENTURE manufactures in Bangladesh across knit, woven, denim and outerwear, works with more than 20 vetted factories, holds ISO 9001, BSCI, OEKO-TEX, SGS, Sedex and GOTS certification, and handles sourcing through to shipment. You can review the [audit and certification record](/certifications) before you commit, then [send your first style for an import ready quote](https://quote.texventure.com/) with the FOB price, MOQ and lead time stated line by line.`,
+    category: "sourcing",
+    tags: ["import clothing from bangladesh","sourcing from bangladesh","bangladesh garment export","apparel import documentation","landed cost"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 10,
+    featuredImage: "/images/about-texventure.webp",
+    imageAlt: "Export documents, shipping cartons and folded knitwear on a Bangladesh garment factory desk prepared for international shipment",
+    metaDescription: "How to import clothing from Bangladesh: importer registration, HS classification, duty, export documents, inspections, payment terms, freight and landed cost.",
+  },
 ];
