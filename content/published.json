@@ -32,8 +32,19 @@
       "at": "2026-11-03T10:34:46.296Z",
       "commit": "0bc9cd0",
       "deploy": "live"
+    },
+    {
+      "order": 4,
+      "slug": "cost-to-manufacture-a-t-shirt",
+      "title": "How Much Does It Cost to Manufacture a T-Shirt in 2026?",
+      "url": "https://texventure.com/blog/cost-to-manufacture-a-t-shirt",
+      "publishedAt": "2026-11-03",
+      "words": 2345,
+      "at": "2026-11-03T10:53:37.679Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T10:34:46.299Z"
+  "updatedAt": "2026-11-03T10:53:37.680Z"
 }
