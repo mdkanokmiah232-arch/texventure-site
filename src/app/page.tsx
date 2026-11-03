@@ -194,21 +194,16 @@ const whyItems = [
   },
 ];
 
-/* ─── Helpers ─── */
-
-function getLatestGuides(count: number) {
-  return [...guides]
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
-    )
-    .slice(0, count);
-}
-
 /* ─── Page Component ─── */
 
 export default function HomePage() {
-  const latestGuides = getLatestGuides(3);
+  // Homepage Journal: pinned to the two guides requested by the client.
+  const latestGuides = [
+    "bangladesh-vs-china-vs-vietnam",
+    "cost-to-manufacture-a-hoodie",
+  ]
+    .map((slug) => guides.find((g) => g.slug === slug))
+    .filter((g): g is (typeof guides)[number] => Boolean(g));
 
   return (
     <>
