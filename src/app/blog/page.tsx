@@ -197,12 +197,12 @@ export default function BlogPage() {
               <p className="mt-2 text-sm text-white/80">
                 Get custom manufacturing pricing. Low MOQ from 100 pieces.
               </p>
-              <Link
-                href="/get-a-quote"
+              <a
+                href="https://quote.texventure.com/"
                 className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#08CCD4] transition hover:bg-gray-50"
               >
                 Get a Free Quote
-              </Link>
+              </a>
             </div>
           </aside>
         </div>
