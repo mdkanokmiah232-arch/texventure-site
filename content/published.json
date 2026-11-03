@@ -142,8 +142,19 @@
       "at": "2026-11-03T13:05:04.712Z",
       "commit": "9a9a30a",
       "deploy": "live"
+    },
+    {
+      "order": 14,
+      "slug": "jersey-vs-interlock-fabric",
+      "title": "Jersey vs Interlock Fabric: Which Knit Is Right for Your Product?",
+      "url": "https://texventure.com/blog/jersey-vs-interlock-fabric",
+      "publishedAt": "2026-11-03",
+      "words": 2967,
+      "at": "2026-11-03T13:12:44.639Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T13:05:04.713Z"
+  "updatedAt": "2026-11-03T13:12:44.640Z"
 }
