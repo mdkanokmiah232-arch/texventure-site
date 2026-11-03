@@ -1538,4 +1538,179 @@ It depends on the factory and the fabric. TEXVENTURE works from 100 pieces per s
     imageAlt: "Three garment samples on a factory table showing stock white label knitwear, a branded private label tee and a technical OEM jacket against its spec drawing",
     metaDescription: "Private label vs white label vs OEM compared: who owns the design, the pattern and the label, what each model costs in MOQ and control, and how to choose.",
   },
+  {
+    slug: "clothing-line-startup-cost",
+    title: "Clothing Line Startup Costs: A Realistic Budget for 100–500 Pieces",
+    excerpt: "Starting a clothing label with 100 to 500 pieces costs more than the factory quote. Here is the full budget: sampling, labels, freight, duty and contingency.",
+    content: `A founder with 300 tees and a budget of five thousand dollars usually meets the real number three months later, when the freight invoice lands and the hangtags still are not printed. The garment price is quoted early and loudly. Sampling, grading, label plates, polybags, cartons, duty, inspection and photography arrive as separate invoices from separate suppliers, at the moment the money is already committed. The distance between the quote you planned around and the cash you actually spend is what a clothing line startup cost really measures.
+
+This budget covers the first order, between 100 and 500 pieces per style. It separates the costs that scale with quantity from the ones that simply repeat every time you add a style.
+
+## What a Clothing Line Startup Cost Actually Covers
+
+A startup budget has three layers, paid to three different parties on three different schedules.
+
+- **Development** — patterns, grading, samples, lab dips, print strike-offs, fit revisions. Paid to the factory or a freelance patternmaker before production, almost always non-refundable.
+- **Production** — fabric, trims, cutting, sewing, finishing, packing. The FOB price, paid partly on confirmation and partly before shipment.
+- **Landing** — freight, insurance, clearance, duty, destination handling, inland delivery. Paid to forwarders and brokers, never to the factory, which is why it is absent from almost every factory quote.
+
+No factory can price the third layer for you. It depends on your port, your HS code and your incoterm. Build all three into one sheet before you send a deposit. Working with [Best Clothing Manufacturer in Bangladesh](/) helps here because fabric booking, sampling and production scheduling sit with one team, so the numbers you compare describe the same order instead of three different assumptions.
+
+## Why the Per-Piece Price Is the Smallest Line on the Quote
+
+At 100 pieces, FOB is usually less than half of what the first order costs. The rest is fixed cost divided by a very small run.
+
+1. **Style count.** Every style carries its own pattern, grading set, sample set, label plate, care label artwork and packing list. Three styles at 100 pieces cost far more per unit than one style at 300.
+2. **Colourways.** Each added colour means a lab dip, a separate cutting spread and often a minimum dye lot that exceeds your whole order quantity.
+3. **Print and embroidery.** Screens and digitising are charged per position per colour, once. Two print positions can add a few hundred dollars before a garment is sewn.
+4. **Quantity breaks.** Small runs carry a margin that covers changeover time. That penalty is real and it does not negotiate to zero.
+
+None of this is hidden dishonestly. It is quoted separately, quoted later, or buried in a line called development.
+
+## Unit Cost at 100, 250 and 500 Pieces
+
+These are the bands Bangladeshi factories typically quote for basic constructions, before trim upgrades and branding. Treat them as planning ranges for a budget model, not as offers.
+
+| Product (basic construction) | 100 pcs FOB | 250 pcs FOB | 500 pcs FOB |
+| --- | --- | --- | --- |
+| Cotton jersey tee, 160 GSM, one-colour front print | $4.20–5.40 | $3.60–4.80 | $3.20–4.20 |
+| Fleece hoodie, 300 GSM, kangaroo pocket | $11.50–15.00 | $10.00–13.50 | $9.00–12.00 |
+| Woven poplin shirt, long sleeve, fused collar | $8.50–11.00 | $7.40–9.80 | $6.80–8.90 |
+| Rib-knit tank or bodysuit, 180 GSM | $3.60–4.60 | $3.10–4.00 | $2.80–3.60 |
+
+The drop from 100 to 250 pieces is worth roughly 12–18 percent per unit; 250 to 500 adds another 8–12 percent. Then the curve flattens: 500 to 1,000 rarely saves more than five percent, because setup is already recovered. That matters for planning. If capital is limited, 250 pieces at a slightly higher unit cost usually beats 500 pieces of stock you cannot sell.
+
+## Sampling and Development: The Non-Refundable Layer
+
+A development sequence for one style runs through five stages:
+
+- **Pattern and grading** — built from your tech pack, or adapted from the factory's existing block. Adaptation is cheaper.
+- **Fit sample** — one or two pieces in the actual fabric or a close substitute, checked against measurements and silhouette.
+- **Lab dips and strike-offs** — colour approval on bulk fabric and on print. Every revision resets the clock.
+- **Photo or salesman sample** — the version you photograph or show to a retailer.
+- **Pre-production sample** — the sealed reference the bulk order is measured against.
+
+Typical planning figures sit between $60 and $150 per sample set for knitwear, higher for structured wovens, and two to three rounds is normal. Two styles, three rounds and courier charges can reach $400–700 before anything is cut. A pre-production sample is often absorbed into the order; fit samples are not. Cutting a round does not save money, it moves the cost into production, where a measurement error repeats across 300 units. The sequence itself is set out in the [garment sampling process](/blog/garment-sampling-process) guide, and the per-style cost is broken down in the [cost to manufacture a t-shirt](/blog/cost-to-manufacture-a-t-shirt) analysis.
+
+## Labels, Packaging and Trims: Cheap Per Piece, Expensive Per Style
+
+| Item | Basis | Planning cost |
+| --- | --- | --- |
+| Woven main label | Woven plate, then per unit | $60–120 plate, $0.05–0.12 per unit |
+| Printed care label | Artwork, then per unit | $25–60 artwork, $0.02–0.05 per unit |
+| Hangtag | Die cut and print run | $80–200 per design |
+| Polybag with sticker | Per unit | $0.03–0.08 per unit |
+| Carton with printed mark | Per carton | $1.20–2.50 per carton |
+| Barcode stickers | Per unit, if retail | $0.02–0.05 per unit |
+
+One 300-piece style usually lands between $120 and $200 for this block. Three styles at 100 pieces each land near $300 for the same total quantity, because every plate and die repeats. If a retailer demands a specific polybag, a security tag or folded-and-stickered presentation, price it here rather than assuming the factory absorbs it.
+
+## Freight, Duty and Landed Cost
+
+The landing layer is where a $4.00 garment becomes a $7.00 garment. This is 300 jersey tees at $4.00 FOB, shipped by sea LCL.
+
+| Cost line | Basis | Amount |
+| --- | --- | --- |
+| FOB goods | 300 × $4.00 | $1,200 |
+| Sampling, two styles, three rounds | Per sample set | $180 |
+| Labels, hangtags, polybags | Per style, 300 units | $145 |
+| Cartons and packing | Per carton | $60 |
+| Sea freight, LCL, about 1.2 CBM | Per shipment | $180 |
+| Destination charges and clearance | Per shipment | $220 |
+| Import duty | 0–12 percent of goods value | $0–144 |
+| Inland delivery | Per shipment | $70 |
+| **Landed total** | | **$2,055–2,199** |
+| **Landed cost per piece** | | **$6.85–7.33** |
+
+Air freight changes the shape of the table. The same tees weigh 60–75 kg but occupy enough volume that chargeable weight lands near 180 kg, and air rates multiply that several times over. Air is for reorders against live demand or samples bound for a trade show, not a first production run.
+
+Duty is the line most often guessed wrong. It depends on fibre content, knit versus woven, and whether the garment is classified for men, women or unisex in your tariff schedule. Ask your forwarder for the HS code before you order; the answer is free. Documentation and customs formalities are covered in the [import clothing from Bangladesh](/blog/import-clothing-from-bangladesh) walkthrough.
+
+## Three Realistic Startup Budgets
+
+| Cost block | Lean: 100 pcs, one style | Standard: 250 pcs, two styles | Retail-ready: 500 pcs, three styles |
+| --- | --- | --- | --- |
+| Development and sampling | $250 | $600 | $1,300 |
+| Production, FOB | $520 | $1,600 | $3,500 |
+| Labels, trims, packaging | $110 | $290 | $820 |
+| Freight, duty, clearance | $390 | $760 | $1,380 |
+| Photography and content | $0–200 | $400 | $1,100 |
+| Contingency at 10 percent | $127 | $365 | $810 |
+| **Total** | **$1,400–1,600** | **$4,000** | **$8,900** |
+| **Per unit, all-in** | **$14.00–16.00** | **$16.00** | **$17.80** |
+
+Per unit, the retail-ready column is the most expensive even though its garments are the cheapest. Packaging, content and style count cost more than the quantity discount saves. The lean column is not the frugal option, it is a single-style test with no marketing support. Most brands should plan for the standard column if they intend to sell through more than one channel.
+
+## Building the Budget in Eight Steps
+
+1. **Fix the product list.** Style count, colourways, print positions. Every later number depends on these three counts.
+2. **Set quantity per style, not a total.** 300 pieces as three styles prices differently from 300 as one.
+3. **Request FOB quotes against a one-page spec.** Fabric weight, composition, construction, size range, packing. Vague specs produce quotes you cannot compare.
+4. **Add development as its own line.** Pattern, grading, sample rounds, courier. Do not let it disappear into a unit price you cannot audit.
+5. **Price trims from your own artwork.** Ask for plate and die charges explicitly, then add unit costs.
+6. **Quote freight on volume.** Cubic metres, not piece count, and ask for sea LCL and air side by side.
+7. **Add duty, clearance and inland delivery.** Use the HS code your forwarder confirms, not an assumption.
+8. **Apply a ten percent contingency.** A colour revision, a re-cut sample, a short shipment of trims: something always lands here.
+
+The output is a landed cost per unit you can hold against your retail price. If landed cost is more than a third of planned retail, the model is thin for a first order, because marketing, returns and marketplace fees still come out of the difference.
+
+## What to Cut, What to Protect
+
+Worth cutting:
+
+- **Style count.** Two well-made styles outsell six compromised ones, and each drop removes a full set of plates, dies and samples.
+- **Custom packaging.** A clean unprinted mailer with a sticker costs a fraction of a printed box nobody keeps.
+- **Studio photography.** Daylight, a plain wall and a phone produce usable first-listing images. Save the studio for the reorder.
+- **Fancy hangtags.** Card stock in one colour reads as premium; foil does not sell the garment.
+
+Worth protecting:
+
+- **Fabric weight and composition.** Dropping from 300 to 240 GSM fleece saves a dollar a unit and returns it in returns and reviews.
+- **Grading and fit.** One pattern stretched across a size range produces shoulder and sleeve problems no discount fixes.
+- **Inspection.** A pre-shipment check against AQL levels costs a few hundred dollars; a container of rejects costs the order. Apparel manufacturing services that bundle pattern development, fabric booking and inspection under one contract cost more on the quote and less on the invoice, which is worth reading carefully on the [services](/services) page before comparing numbers.
+
+## Cash Flow: When the Money Actually Leaves
+
+Cost is only half the constraint. Timing is the other half, and the two rarely line up with revenue.
+
+- **Development** — paid before anything is cut, non-refundable.
+- **Order confirmation** — a deposit, typically around 30 percent of FOB, triggers fabric booking.
+- **Before shipment** — the balance, usually against shipping documents or an inspection pass.
+- **At destination** — freight, destination charges, duty and clearance, all due before release.
+- **After delivery** — first sale revenue, commonly 60 to 120 days after the goods land for a new brand.
+
+You therefore fund the whole order before seeing a sale, with the largest payments clustered in the two weeks before shipment. Two habits make that survivable: keep deposit and balance in separate reserves so a delay in one does not stall the other, and never spend the marketing budget on a larger production run. Inventory you cannot sell is the most expensive line in any startup budget.
+
+If you want the production side narrowed to an actual figure for your own styles and quantities, send them through the [TEXVENTURE instant quote form](https://quote.texventure.com/) and get a factory-side cost before you commit to a sampling budget.
+
+## Frequently Asked Questions
+
+### How much does it cost to start a clothing line with 100 pieces?
+
+For one style in a basic construction, a realistic all-in figure is $1,400 to $1,600 including sampling, labels, freight, duty and a ten percent contingency. The garment itself accounts for roughly a third. Multi-style orders at the same total quantity cost more because plates, dies and samples repeat per style.
+
+### Is it cheaper to start with 100 or 500 pieces?
+
+Per unit, 500 pieces is 20 to 30 percent cheaper than 100. In total cash it costs several times more and locks capital in stock you have not yet proven you can sell. Most first brands do better with 250 pieces of one or two styles, then a 500-piece reorder once a product proves itself.
+
+### What is the cheapest way to start a clothing brand without wrecking quality?
+
+Cut style count, colourways and packaging before touching fabric weight, fit or inspection. Use the factory's existing block instead of a new pattern, print one colour instead of three, and photograph the first samples yourself. Those choices remove fixed costs without changing how the garment wears or washes.
+
+### Do I have to pay for samples before placing an order?
+
+Yes, in almost every case. Fit and photo samples are charged and the cost is normally not credited against production, though a pre-production sample is sometimes absorbed into the order. Expect two to three rounds and budget the courier charges as part of development.
+
+### Which startup costs do first-time buyers forget most often?
+
+Destination charges, duty and inland delivery, followed by label plate and die charges and the cost of a second colour revision. A ten percent contingency absorbs most of these. Without it, a normal first order becomes an unplanned request for more money two weeks before shipment.`,
+    category: "sourcing",
+    tags: ["clothing line startup cost","cost to start a clothing brand","clothing brand startup costs","budget for clothing line"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 10,
+    featuredImage: "/images/hoodies.webp",
+    imageAlt: "Budget worksheet beside folded 300 GSM fleece hoodies and a printed cost sheet on a factory table, showing startup cost planning for a small clothing line",
+    metaDescription: "Clothing line startup costs at 100 to 500 pieces: sampling, patterns, labels, freight, duty and contingency, with three worked budgets and a landed cost table.",
+  },
 ];

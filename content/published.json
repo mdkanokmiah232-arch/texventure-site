@@ -109,8 +109,19 @@
       "at": "2026-11-03T12:13:22.151Z",
       "commit": "50d8b3f",
       "deploy": "live"
+    },
+    {
+      "order": 11,
+      "slug": "clothing-line-startup-cost",
+      "title": "Clothing Line Startup Costs: A Realistic Budget for 100–500 Pieces",
+      "url": "https://texventure.com/blog/clothing-line-startup-cost",
+      "publishedAt": "2026-11-03",
+      "words": 2183,
+      "at": "2026-11-03T12:24:19.057Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T12:13:22.153Z"
+  "updatedAt": "2026-11-03T12:24:19.061Z"
 }
