@@ -120,8 +120,19 @@
       "at": "2026-11-03T12:24:19.057Z",
       "commit": "5c6e3a1",
       "deploy": "live"
+    },
+    {
+      "order": 12,
+      "slug": "sourcing-agent-vs-manufacturer",
+      "title": "Sourcing Agent vs Manufacturer: What Does a Buying House Actually Do?",
+      "url": "https://texventure.com/blog/sourcing-agent-vs-manufacturer",
+      "publishedAt": "2026-11-03",
+      "words": 2295,
+      "at": "2026-11-03T12:52:03.859Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T12:24:19.061Z"
+  "updatedAt": "2026-11-03T12:52:03.861Z"
 }

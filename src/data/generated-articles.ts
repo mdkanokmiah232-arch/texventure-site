@@ -1713,4 +1713,158 @@ Destination charges, duty and inland delivery, followed by label plate and die c
     imageAlt: "Budget worksheet beside folded 300 GSM fleece hoodies and a printed cost sheet on a factory table, showing startup cost planning for a small clothing line",
     metaDescription: "Clothing line startup costs at 100 to 500 pieces: sampling, patterns, labels, freight, duty and contingency, with three worked budgets and a landed cost table.",
   },
+  {
+    slug: "sourcing-agent-vs-manufacturer",
+    title: "Sourcing Agent vs Manufacturer: What Does a Buying House Actually Do?",
+    excerpt: "A sourcing agent, a buying house and a factory are three different businesses with three different incentives. Here is what each does between tech pack and container.",
+    content: `A brand with a tech pack and a target price has three routes into production: hire a clothing sourcing agent, place the order directly with a factory, or work through a partner that does both. The quotes that come back are rarely comparable, because each party prices a different bundle of work. The agent prices a service on top of factory cost. The factory prices production and leaves everything else to you. The hybrid prices a landed unit cost that buries both.
+
+That difference matters more than the percentage on the invoice. The wrong model for your order size is a common reason a first run arrives late or out of spec while every contract in the chain appears honoured. This guide sets out what a buying house actually does, what a factory can do that no agent can, and how to choose between them.
+
+## The Three Businesses Behind a Garment Order
+
+The word sourcing covers at least three distinct businesses, and buyers use them interchangeably in email before discovering at the sample stage that the supplier has a very different scope in mind.
+
+A **sourcing agent** represents the buyer. It does not own sewing lines. It keeps a vendor list, negotiates prices, coordinates samples and takes a percentage of order value or a fixed fee. Its value is optionality: it can move your order between factories.
+
+A **buying house** is the South Asian term for the same idea at larger scale, often acting as the local buying office for a foreign retailer. It typically carries more staff, a formal quality department and an approved vendor matrix with capacity commitments on your behalf. The difference from a small agent is scale and process, not principle.
+
+A **manufacturer** owns machines, workers and capacity. It sells production time and technical capability, quoting a free on board price per garment, and everything upstream and downstream of that price is your responsibility unless you negotiate it in. This is an ownership question as much as a scope one, and it decides the [private label vs white label](/blog/private-label-vs-white-label) argument for most new brands.
+
+| What you are buying | Sourcing agent or buying house | Manufacturer |
+|---|---|---|
+| Core product | Coordination, vendor access, quality control | Capacity, machinery, technical skill |
+| Quote basis | Commission or service fee on order value | Unit price per garment, FOB |
+| Who owns the sample room | Rarely; outsourced to the factory | Usually in house |
+| Quality liability | Process monitoring and inspection | Construction and workmanship defects |
+| Flexibility to switch suppliers | High, across its vendor list | None; one plant or one group |
+| Discipline over your calendar | Strong; it manages many factories | Depends on other buyers on your line |
+
+## What a Buying House Actually Does All Day
+
+Strip out the relationship language and a competent buying house performs a fixed set of tasks between your concept and your container.
+
+- **Vendor shortlisting.** Matching your product to factories that actually run it: circular knit versus woven bottoms, sweater gauges, denim laundry, work wear with reflective tape. A shortlist that ignores the plant's real product mix is where delays begin.
+- **Compliance verification.** Confirming the audit status fits your market, whether BSCI, Sedex, WRAP or a buyer specific social audit, and that the [factory certifications](/certifications) on file cover the building that will run your order.
+- **Price negotiation and counter sourcing.** Breaking a quote into fabric, trims, cutting, sewing, finishing and overhead, so a high number has a named cause instead of a shrug.
+- **Tech pack interpretation.** Returning your specification with questions answered and ambiguities flagged, because a factory that guesses on seam allowance will produce a consistent, wrong garment.
+- **Sample coordination.** Booking fit samples, size sets, photo samples, pre-production and top of production samples, with a comment sheet tracked per round.
+- **Testing logistics.** Arranging fabric and garment testing at an accredited laboratory and holding results against your buyer requirements manual.
+- **Inline and final inspection.** Running AQL based inspections at the plant, catching problems while they are still fixable on the line rather than in a warehouse 6,000 km away.
+- **Production follow up.** A weekly status against a line loading plan, not a reassuring email once a fortnight.
+- **Shipping documentation.** Packing lists, commercial invoices, certificate of origin and letter of credit compliance, where one inconsistent field stalls a container; the sequence is in [import clothing from Bangladesh](/blog/import-clothing-from-bangladesh).
+
+An agent doing all nine of those tasks is doing real work. An agent doing only the shortlisting and the price email is charging you for a phone book.
+
+## What a Factory Does That No Agent Can
+
+The case for going direct is not only cost. A manufacturer controls things an intermediary can only influence.
+
+- **Capacity commitments.** A factory can hold a line for a date. An agent can ask politely and be told the line is full when another buyer pays more.
+- **Technical problem solving.** When a bonded seam fails or a dye lot shifts, the fix happens in a plant with technicians who can change a stitch, a needle or a finishing route on the spot.
+- **In house process control.** Printing, embroidery, washing and knitting under one roof shorten the critical path and remove handoffs where responsibility evaporates.
+- **Cost visibility.** A plant that shares a costing breakdown lets you engineer cost through fabric weight, construction or packaging, rather than arguing about a total.
+- **Fewer interfaces.** Every additional party adds a translation step between what you asked for and what was cut.
+
+The trade off is concrete. A single factory cannot tell you whether its price is competitive, cannot source trims and labels across three vendors, will rarely accept a 100 piece order on a style it has never run, and grades your order against other buyers on the same line. Direct buying rewards buyers who know exactly what they want and can police it themselves.
+
+## Fee Models and What They Reward
+
+Fee structure tells you what the intermediary is optimised for. Two agents charging similar percentages can behave very differently.
+
+| Fee model | How it works | What it rewards | Main risk to the buyer |
+|---|---|---|---|
+| Percentage of order value | Industry range from a few percent to around ten percent on FOB | Larger orders, higher unit prices | Padded unit price |
+| Fixed retainer | Monthly or project fee, independent of volume | Service quality that ignores order size | Staff spread thin across many accounts |
+| Per order service fee | Flat charge per style or shipment | Predictable scope | Scope creep on inspections and rework |
+| Mark up on FOB | Agent buys at factory cost and resells | Margin on the difference | No visibility of the true factory price |
+| Fee inside the unit price | One landed cost with sourcing and coordination included | Full scope ownership to shipment | Requires trust in the breakdown |
+
+Percentage commission has a structural flaw buyers underestimate: the agent is paid more when the garment costs more. That does not make every commission agent dishonest, but your negotiation and their commission move in opposite directions unless the contract ties the fee to savings or to a fixed target price.
+
+## Where Each Model Breaks Down
+
+**Agents fail on substitution and seasonality.** When a plant is overbooked before a major retail season, work moves to a subcontractor. The order is still delivered, the labels are correct, and the audit trail points at a building nobody assessed. Buyers who state in writing that no subcontracting is permitted without written approval, and who ask for a production floor video call mid run, close most of that gap.
+
+**Factories fail on scope gaps.** The quote covers sewing. It does not cover the trim sourcing you assumed was included, the lab test your retailer requires, the inspection you forgot to book, or the rework when a label position is wrong. Those gaps surface as change orders, and change orders in the final three weeks are expensive.
+
+**Both fail on specification quality.** A weak tech pack makes an agent look incompetent and a factory look careless when the real fault is upstream. Incomplete measurements, construction, fabric or labelling instructions cannot be rescued by any sourcing model.
+
+## Matching the Model to Your Order Profile
+
+| Order situation | Better first call | Why |
+|---|---|---|
+| First run, 100 to 500 pieces, one style | Manufacturer with low minimums, or a hybrid partner | Commission agents struggle to earn on small value |
+| 500 to 2,000 pieces, repeat style | Either, with a clear costing sheet | Enough value to interest an agent, simple enough to manage direct |
+| Multi style collection across knit, woven, outerwear | Buying house or hybrid | Few single plants run all three competently |
+| Technical or regulated product | Factory with the specific certification, plus testing support | Compliance evidence matters more than breadth |
+| Peak season booking under capacity pressure | Manufacturer with confirmed line allocation | An agent cannot conjure capacity that does not exist |
+
+## A Buying House Order Walkthrough
+
+What the sequence looks like when an intermediary runs your order properly, in order.
+
+1. Brief received with tech pack, target price, ship window and destination market.
+2. Product matched to two or three factories whose machinery and audit status fit.
+3. Costing requested against a shared bill of materials, then compared line by line.
+4. Counter offer issued with specific cost drivers named, not a flat demand for a discount.
+5. Factory nominated in writing, capacity dates confirmed before sample work begins.
+6. Fit sample developed, measured and commented, with a revision where needed.
+7. Fabric and trims booked, lab tests submitted, results reviewed before bulk cutting.
+8. Pre-production sample approved, size set signed off, line loading plan locked.
+9. Inline inspection timed for the point where a defect becomes systemic rather than isolated.
+10. Final random inspection against the agreed AQL, then documentation and shipment booking.
+
+Any step skipped is a step where risk transfers back to you without a corresponding drop in fee.
+
+## Questions to Ask Before You Sign
+
+- Which factories will you place this with, and can I see their current audit reports?
+- Is your fee a percentage of the price you negotiate, and does it change if the price falls?
+- Who signs the inspection report, and what is your liability if goods fail my buyer's inspection?
+- Will you disclose the full costing breakdown, or only the final unit price?
+- What is my remedy if the factory misses the ship date, and who pays the air freight?
+- Do you permit any subcontracting, and how do you verify it did not happen?
+
+A partner who answers those six with specifics, including the uncomfortable ones, is worth a higher fee than one who answers with assurances.
+
+## How TEXVENTURE Sits in This
+
+[TEXVENTURE](/) is a Bangladesh based manufacturer and sourcing partner rather than a pure commission agent. Work is placed across 20+ vetted factories in and around Dhaka, with minimum order quantities from 100 pieces per style, so the choice is rarely between a fee and no fee but between two ways of buying the same production.
+
+The practical differences matter more than the label. Sourcing, sampling, quality control and shipping sit in one team rather than being resold, and the scope is set out in [apparel sourcing and manufacturing services](/services). Coordination cost sits inside the quoted unit price instead of appearing as a separate commission line, so any comparison against an agent quote starts from the same base. The factories behind the quote hold ISO 9001, BSCI, OEKO-TEX, SGS, Sedex and GOTS credentials that can be checked before you commit, and because the same team runs bulk production there is no incentive to route your order to the plant that is convenient rather than correct.
+
+If you are comparing models, the useful next step is a costing conversation rather than a brochure. Send your tech pack, target quantity and ship window to [request a factory costing from TEXVENTURE](https://quote.texventure.com/) and you will get a breakdown you can hold against any agent quote on the table.
+
+## Frequently Asked Questions
+
+### What does a clothing sourcing agent do?
+
+A clothing sourcing agent represents the buyer rather than owning production. It shortlists factories, negotiates prices, coordinates sampling and testing, monitors quality and handles shipment documentation, usually for a percentage of order value or a fixed fee. Because it owns no machinery, its control over a production line is influence rather than authority.
+
+### Is a buying house the same as a sourcing agent?
+
+In practice the two overlap heavily, and in Bangladesh the terms are often used for the same business. A buying house usually implies a larger operation with formal quality and compliance departments, sometimes acting as the local buying office for a foreign retailer. A smaller agent may run the same process with fewer staff and a shorter vendor list.
+
+### Do I need a sourcing agent for a small first order?
+
+Usually not a commission agent, because a few hundred pieces rarely generate enough fee to justify close attention. A manufacturer that accepts 100 pieces per style, or a partner that combines sourcing and production, tends to serve a first run better. What a small order needs is a complete tech pack and a factory whose product mix already matches the garment.
+
+### Who is responsible if the goods fail inspection?
+
+Under most arrangements the factory is responsible for conforming goods, while the agent is responsible for the monitoring it contracted to provide. That split belongs in writing before production, covering who bears rework cost, who pays for a reinspection, and who absorbs air freight when a ship date slips. Verbal assurances are not a remedy.
+
+### How much does a clothing sourcing agent charge?
+
+Typical industry practice is a commission in the mid single digits to around ten percent of order value, a fixed retainer, or a per order service fee. Some agents build a mark up into the unit price instead. The number matters less than the fee model, because a commission rewards a higher unit price while a fixed fee rewards throughput.
+`,
+    category: "sourcing",
+    tags: ["clothing sourcing agent","garment buying house","sourcing agent vs factory","apparel sourcing agent"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 10,
+    featuredImage: "/images/hero-bg.webp",
+    imageAlt: "Two garment merchandisers reviewing an order status sheet on a Dhaka factory floor beside racks of cut fabric and finished knitwear samples",
+    metaDescription: "Sourcing agent vs manufacturer compared: what a buying house actually does, how each fee model is paid, scope gaps, and which model fits your order size.",
+  },
 ];
