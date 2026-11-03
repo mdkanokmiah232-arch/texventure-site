@@ -175,8 +175,19 @@
       "at": "2026-11-03T13:33:17.047Z",
       "commit": "faa5a5e",
       "deploy": "live"
+    },
+    {
+      "order": 17,
+      "slug": "denim-weight-oz",
+      "title": "Denim Weight Guide: What 10oz, 12oz and 14oz Mean for Jeans",
+      "url": "https://texventure.com/blog/denim-weight-oz",
+      "publishedAt": "2026-11-03",
+      "words": 2421,
+      "at": "2026-11-03T13:43:40.960Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T13:33:17.048Z"
+  "updatedAt": "2026-11-03T13:43:40.961Z"
 }
