@@ -318,8 +318,19 @@
       "at": "2026-11-03T16:34:25.022Z",
       "commit": "ba01e82",
       "deploy": "live"
+    },
+    {
+      "order": 30,
+      "slug": "garment-worker-wages-bangladesh",
+      "title": "Garment Worker Wages in Bangladesh: What Responsible Buyers Should Know",
+      "url": "https://texventure.com/blog/garment-worker-wages-bangladesh",
+      "publishedAt": "2026-11-03",
+      "words": 2115,
+      "at": "2026-11-03T16:44:54.369Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T16:34:25.023Z"
+  "updatedAt": "2026-11-03T16:44:54.370Z"
 }
