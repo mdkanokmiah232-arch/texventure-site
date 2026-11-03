@@ -751,4 +751,155 @@ Higher GSM increases weight for the same pattern area, but consumption also depe
     imageAlt: "Knitted panels measured on a cutting table beside a consumption sheet listing component length, width and GSM",
     metaDescription: "Fabric consumption calculation explained factory-side: the kg and metre formulas, worked examples for a t-shirt and woven pant, and a reusable Excel sheet.",
   },
+  {
+    slug: "garment-costing-sheet",
+    title: "Garment Costing Sheet: How to Build One That Matches Factory Quotes",
+    excerpt: "A garment costing sheet is only useful if its lines reconcile with the factory quote, so here is the build-up, the formulas and the checks that close the gap.",
+    content: `A garment costing sheet is only worth building if its numbers survive contact with a factory. Buyers build one, send it out with the tech pack, and get quotes back that disagree by fifteen to thirty percent. The factory is rarely inflating. The sheet was built from a fabric price and a making charge, and it never carried wastage, trims, testing or the difference between CMT and full package costing.
+
+This guide covers how a working sheet is structured for a Bangladesh-based programme: the lines it must carry, the arithmetic behind each, the checks that expose a quote built on different assumptions, and the version control that keeps a revised sheet from becoming a negotiation trap.
+
+## What a Costing Sheet Is Actually For
+
+Three documents circulate in every programme and they are not the same thing. The target price is what your margin plan allows. The factory quote is what a supplier will commit to. The costing sheet is your own build-up, the only one of the three you control, and its job is to tell you whether the other two are plausible.
+
+A sheet that does its job answers three questions. What does this garment cost to make, line by line, at a stated quantity? What sits inside that number and what sits outside it? And which two or three variables would move the price most if they changed? If it cannot answer the third, it is a quote with extra columns.
+
+## The Eight Cost Lines Every Sheet Needs
+
+Most garments cost out across the same eight pools. Sheets that fail usually fail because a pool was left empty, not because a rate was wrong.
+
+- **Fabric, including every component.** Body fabric is obvious; rib, collar, cuff, pocketing, lining and interlining are the ones that get forgotten. One line per fabric, each with its own consumption and rate.
+- **Trims and accessories.** Thread, care and brand labels, hangtags, buttons, zips, drawcords, elastic, poly bags, cartons. Price from a bill of materials with quantities per garment, never as a lump sum.
+- **Making charge.** Cutting, sewing, finishing, pressing and packing labour. Driven by stitch count, seam complexity and line efficiency, not fabric weight.
+- **Process charges.** Garment dyeing, washing, printing, embroidery. Quoted per piece per operation, plus a setup that behaves like a fixed cost.
+- **Testing and compliance.** Fibre composition, colourfastness, shrinkage, restricted substances, buyer protocols. Charge per style per season, then divide by order quantity.
+- **Commercial costs.** Bank charges, documentation, inland transport to port, inspection fees, agent commission, and the cost of money between fabric payment and settlement.
+- **Packaging.** Poly bag, tissue, hanger, stickers, carton and marking. Small per piece, meaningful across a season, and a frequent source of mismatch.
+- **Factory margin.** Stated as a percentage of FOB, and stated as gross or net. A ten percent margin on conversion is not a ten percent margin on FOB.
+
+## CMT Versus Full Package: Two Different Sheets
+
+CMT means cut, make and trim: the buyer supplies fabric and trims and pays for conversion only. Full package means the factory buys everything and delivers a finished garment.
+
+| Element | CMT sheet | Full package sheet |
+| Fabric and trims | Buyer's cost, outside the sheet | Factory purchase cost, inside every line |
+| Making charge | The whole price | One line among eight |
+| Process charges | Usually separate | Bundled or itemised, must be checked |
+| Testing | Often buyer-arranged | Factory-managed, still charged |
+| Currency exposure | Buyer carries fabric risk | Factory prices the risk into the rate |
+| Where it breaks | Fabric delay stops the line | Hidden margin inside the fabric rate |
+
+Comparing the two directly is guesswork with a spreadsheet attached. Add your own landed fabric and trim cost to the CMT number first. Working with a [Trusted Clothing Manufacturer in Bangladesh](/) that quotes both ways, and states which basis is on the paper, removes most of that ambiguity before it reaches your inbox.
+
+## The Arithmetic Behind Each Line
+
+Costing is simple multiplication repeated honestly, in the order a factory costing department does it.
+
+Fabric cost per garment equals net consumption, multiplied by one plus the wastage percentage, multiplied by the rate per unit. Net consumption comes from the pattern or marker, not an average garment weight. For knits it is usually expressed in kilograms and derived from a [fabric consumption calculation](/blog/fabric-consumption-calculation) that accounts for GSM, width and panel shape; for wovens, metres at a stated width. Getting the unit wrong is the most common costing error, because kilograms and yards are not interchangeable and neither is 58 inch against 64 inch width.
+
+Trim cost equals the sum of quantity per garment times unit price across the bill of materials. Thread is estimated from stitch count and seam length; labels, bags and cartons come straight from the packaging specification.
+
+Making charge equals standard allowed minutes multiplied by line cost per minute, or a quoted rate per dozen. Line cost per minute carries operator wages, supervision, machine depreciation, power and line overhead, which is why a factory with fast machines and a badly balanced line can quote higher than a slower, tidier one.
+
+Process charges are quoted per piece per operation. Screen or digital setup is fixed, so divide it by the order quantity. A three-colour print at 1,000 pieces and at 5,000 pieces has the same setup and very different per-piece cost.
+
+Margin and overheads are percentages, and the base matters. A margin applied to conversion is worth far less per garment than the same percentage on FOB. Ask which base is being used and write it on the sheet.
+
+## Building the Sheet: A Seven-Step Process
+
+1. Freeze the [tech pack](/blog/tech-pack-for-clothing) and stop changing it. A sheet built on a moving specification gets rebuilt twice. Lock construction, fabric, trims and packaging before entering numbers.
+2. Confirm consumption from the pattern or marker, not from a similar style you made last season. Record the width or GSM the number assumes, because that assumption travels with the cost.
+3. Build the bill of materials and price every trim. Where a trim has a minimum order quantity, spread the excess over the order as its own line so nobody argues later.
+4. Get a making charge with a stated basis, minutes or per dozen, and note the operation set it covers. If a factory will only quote a lump-sum CMT, ask for the SAM; the answer shows how much room exists.
+5. Add process charges per piece and their setup, divided by order quantity.
+6. Layer testing, packaging, commercial costs and overheads. Small individually, five to ten percent of FOB collectively.
+7. Apply margin on the agreed base, then compare against your target price and at least one factory quote. A gap over ten percent means an assumption is wrong, not that the market moved.
+
+## A Worked Example You Can Copy
+
+The figures are illustrative, built on typical Bangladesh export ranges for a 180 GSM cotton jersey tee at 2,000 pieces. They are not a quotation from anyone; replace every rate with your own before reusing the structure.
+
+| Line | Basis | Indicative USD per piece | Share of FOB |
+| Fabric | 0.26 kg net, 10 percent wastage, 6.20 per kg | 1.77 | 52 percent |
+| Trims and accessories | Bill of materials, 14 items | 0.31 | 9 percent |
+| Making charge | 9.5 minutes at 0.082 per minute | 0.78 | 23 percent |
+| Print, one placement | Per piece plus setup over 2,000 | 0.12 | 4 percent |
+| Packaging and carton | Poly bag, sticker, carton | 0.11 | 3 percent |
+| Testing | Protocol cost divided by order quantity | 0.04 | 1 percent |
+| Commercial and overhead | 5 percent on material and conversion | 0.14 | 4 percent |
+| Margin | 8 percent on FOB | 0.26 | 8 percent |
+| FOB total | Sum of the lines above | 3.53 | 100 percent |
+
+Read the share column first. It shows instantly that fabric is more than half the cost, so arguing about poly bags wastes a meeting. The basis column is what you send when asking why a factory's number differs, because it lets them disagree with one line instead of the whole quote.
+
+## Where Sheets and Quotes Diverge
+
+When your sheet and a quote land more than ten percent apart, the cause is usually one of these, roughly in this order.
+
+| Cause | Sheet assumption | Factory assumption | How to resolve |
+| Consumption basis | Net weight from pattern | Gross weight with cutting room waste | Compare kilograms at the same width and GSM |
+| Wastage | 8 percent | 12 to 15 percent for the same style | Agree on marker efficiency, not a flat number |
+| Fabric rate | Spot price today | Price at shipment, plus dyeing | Fix a rate date and a dyeing charge |
+| Quantity break | 2,000 pieces | 1,200 after colour split | Cost per colourway, not per style |
+| Colour minimums | One dye lot | Three lots, each with a minimum | Consolidate colours or accept the surcharge |
+| Package scope | Garment only | Garment, testing, inspection, freight to port | Compare Incoterms before totals |
+| Payment terms | 30 days after shipment | LC at sight, or TT advance | Price the cost of money into the sheet |
+| Currency | Rate on the day the sheet was built | Forward rate for the shipment month | Use one rate date for both sides |
+
+Every gap in that table closes with a written assumption, and none close with a demand for a lower price. A factory that will not state its wastage or dyeing charge is telling you something useful about how the relationship will run.
+
+## Currency, Imported Inputs and Rate Dates
+
+Bangladesh factories buy much of their fabric locally and specialty inputs on import, so a sheet carries two exposures: the exchange rate against your quote currency, and the lead time between the fabric order and shipment. Put a rate date on the sheet and keep it through the negotiation. A quote that silently uses a spot rate for a shipment four months out is carrying risk the factory will recover elsewhere, usually in the making charge.
+
+For imported trims, add duty, clearing and inland freight as separate lines. Bundling them into a rate per kilogram hides the one number you can actually negotiate, which is the forwarder's charge rather than the fabric price.
+
+## Version Control and the Commercial Conversation
+
+A sheet without a version number is a liability. Change one rate, send it, and two people negotiate from different documents with the same file name.
+
+Three habits fix that. Number and date every version in the file name. Keep an assumptions block at the top listing quantity, colourways, fabric rate date, exchange rate and testing protocol. And keep a sensitivity block: FOB at plus and minus twenty percent quantity, and at one fewer colourway. That block turns a sheet into a decision, because it shows where volume actually pays.
+
+Negotiation follows the same logic. Ask for the three lines that carry the most cost, not a discount on the total. On a knit tee that means fabric consumption, wastage and making charge; on a woven jacket, fabric width utilisation, lining and seam count. A factory that cuts a total by five percent has taken the five percent out of somewhere unstated.
+
+## Reviewing the Sheet Before You Commit
+
+Four checks before a sheet goes to a factory or a board. Does every line have a stated basis, so someone else could rebuild it? Do the percentages sum to a hundred, and does the margin base match the quote? Is the quantity per colourway or per style? And is the export cost on the correct Incoterm, with freight handled consistently on both sides?
+
+For an indicative band to test the result against, the [instant quote tool](/instant-quote) gives a starting range by product and quantity, and the [t-shirt manufacturing cost breakdown](/blog/cost-to-manufacture-a-t-shirt) shows the same arithmetic on a single product in more detail.
+
+If you would rather hand the build-up to the people who run the lines, send your tech pack, target quantity and ship window to [TEXVENTURE's costing desk](https://quote.texventure.com/) and ask for a garment costing sheet with fabric, trim and making charge itemised, so the reply arrives as something you can audit rather than a single FOB number.
+
+## Frequently Asked Questions
+
+### What is CMT cost in garment manufacturing?
+
+CMT means cut, make and trim: the factory charges for conversion only while the buyer supplies fabric and trims. The price covers cutting, sewing, finishing, pressing, packing labour, machine time and factory overhead. Because it excludes material, a CMT number can look thirty to fifty percent lower than a full package price for the same garment, so the two are never compared directly.
+
+### How do you calculate garment cost per piece?
+
+Multiply net fabric consumption by one plus wastage and by the fabric rate, add the bill of materials, add making charge from minutes or a per-dozen rate, then layer process, packaging, testing, commercial costs and margin. Keep one basis per line and state it. When two people build the same garment and get different totals, the difference is nearly always consumption basis or wastage, not arithmetic.
+
+### Can I build a garment costing sheet in Excel?
+
+Yes, and most factories do. A workable layout uses one row per cost line with columns for quantity per garment, wastage, unit rate, cost per piece and share of FOB, plus a summary block for margin and a second block for sensitivity at different order quantities. Keep assumptions at the top of the first sheet. The tool does not matter; the stated basis on every row does.
+
+### Why is my costing sheet different from the supplier quote?
+
+The usual causes are wastage, fabric width or GSM tolerance, a colour split that reduces the effective order quantity, and a different Incoterm or testing scope. Compare one line at a time rather than totals, and ask the factory to state consumption in the same unit as yours. If the gap survives, the remaining difference is a rate date or the margin base.
+
+### Should freight and duty go on the costing sheet?
+
+They belong on a separate landed cost sheet, because they are not part of what the factory charges. Keep FOB clean and comparable, then add freight, insurance, duty, clearing and inland delivery in a second block so you can see landed cost per piece and per season. Mixing the two is how a competitive FOB quote becomes an uncompetitive landed cost after booking.
+`,
+    category: "pricing",
+    tags: ["garment costing sheet","clothing manufacturing cost sheet","garment cost breakdown","apparel costing formula","cmt cost"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 10,
+    featuredImage: "/images/jackets.webp",
+    imageAlt: "Illustrative garment costing sheet listing fabric, trim and making charge lines beside stacked finished jackets on a factory table",
+    metaDescription: "How to build a garment costing sheet that matches factory quotes: eight cost lines, CMT versus full package, formulas, a worked example and gap checks.",
+  },
 ];

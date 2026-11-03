@@ -54,8 +54,19 @@
       "at": "2026-11-03T11:15:53.809Z",
       "commit": "b66ef4d",
       "deploy": "live"
+    },
+    {
+      "order": 6,
+      "slug": "garment-costing-sheet",
+      "title": "Garment Costing Sheet: How to Build One That Matches Factory Quotes",
+      "url": "https://texventure.com/blog/garment-costing-sheet",
+      "publishedAt": "2026-11-03",
+      "words": 2367,
+      "at": "2026-11-03T11:24:40.590Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T11:15:53.811Z"
+  "updatedAt": "2026-11-03T11:24:40.592Z"
 }
