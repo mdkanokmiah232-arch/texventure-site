@@ -230,8 +230,19 @@
       "at": "2026-11-03T15:15:21.059Z",
       "commit": "68de640",
       "deploy": "live"
+    },
+    {
+      "order": 22,
+      "slug": "sustainable-fabrics-for-clothing-brands",
+      "title": "Sustainable Fabrics for Clothing Brands: 10 Options Ranked by Cost",
+      "url": "https://texventure.com/blog/sustainable-fabrics-for-clothing-brands",
+      "publishedAt": "2026-11-03",
+      "words": 2102,
+      "at": "2026-11-03T15:24:08.702Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T15:15:21.060Z"
+  "updatedAt": "2026-11-03T15:24:08.703Z"
 }
