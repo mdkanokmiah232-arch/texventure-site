@@ -1,3 +1,4 @@
 {"at": "2026-11-03T10:20:00Z", "order": 1, "slug": "tech-pack-for-clothing", "commit": "4c6f43f", "words": 2003, "url": "https://texventure.com/blog/tech-pack-for-clothing", "deploy": "live", "attempts": 1, "note": "first publish: push retried manually after credential helper fix"}
 {"at":"2026-11-03T10:20:06.682Z","order":2,"slug":"garment-sampling-process","commit":"f85bc29","words":2141,"url":"https://texventure.com/blog/garment-sampling-process","deploy":"live","attempts":3}
 {"at":"2026-11-03T10:35:36.417Z","order":3,"slug":"fabric-gsm-meaning","commit":"0bc9cd0","words":2384,"url":"https://texventure.com/blog/fabric-gsm-meaning","deploy":"live","attempts":3}
+{"at":"2026-11-03T11:00:02.569Z","order":4,"slug":"cost-to-manufacture-a-t-shirt","commit":"d7d85c3","words":2345,"url":"https://texventure.com/blog/cost-to-manufacture-a-t-shirt","deploy":"unverified","attempts":null}
