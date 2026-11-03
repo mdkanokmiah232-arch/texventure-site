@@ -4275,4 +4275,143 @@ The decision belongs at fabric booking, not at the dyehouse. If the colour is fi
     imageAlt: "Garment-dyed cotton tees and fleece stacked on a dyehouse table after the dye bath and tumble dry",
     metaDescription: "Garment dyeing versus yarn dyeing for apparel buyers: how each process runs, what drives cost, shade and rework risk, and which use cases each route suits.",
   },
+  {
+    slug: "what-is-grading-in-clothing",
+    title: "What Is Grading in Clothing? Pattern Grading Explained for Brands",
+    excerpt: "Pattern grading is the rule set that turns one fitted sample into a full size range. How grade increments, grade points and review actually work in production.",
+    content: `Pattern grading sits between a garment that fits one model and a garment that fits a market. A factory drafts and fits one base size, signs that pattern off, and every other size is generated from it by moving fixed points by fixed amounts. Right increments give eight sizes from one fitting session; wrong ones give a medium that fits and an extra large that pulls across the back.
+
+This guide covers how grade rules are built, how patterns are graded on paper and in CAD, where knit, woven and childrenswear rules differ, and what to check before a chart reaches bulk.
+
+## Grading Is a Rule Set, Not a Second Fitting
+
+A pattern is drafted once, at one size, called the base size. That pattern holds the garment's geometry: armhole curve, neckline, crotch curve, sleeve cap height. Grading redraws none of it. It takes the 20 to 30 grade points on the pattern and moves each by a stored amount per size step. The armhole keeps its shape; it is relocated and slightly rescaled.
+
+Grading cannot repair a bad fit: an armhole too deep at the base size is too deep at every size, and the error grows as the pattern scales. Grading distributes a fit, it does not create one.
+
+Three documents get confused, and the confusion causes counter-sample disputes: the pattern is the shape that gets cut, the grading chart is the increments per point per step with the base marked, and the size chart is the finished measurements the factory is held to. The size chart states targets, the grading chart states movement, and neither is a tolerance. For the published side, the guide to a [clothing size chart](/blog/clothing-size-chart) covers measurement method; this piece stays on grading.
+
+## The Three Numbers Behind Every Grade Rule
+
+**Base size.** The size the pattern was drafted and fitted at: usually a mid-range M in menswear, M or L in womenswear, 4 or 5 years in kidswear. Grading runs outward from it, so a base at the edge of the range means larger sizes are extrapolated.
+
+**Grade increment.** The change per size step. Menswear tops typically move 1 inch (2.5 cm) on half chest, which is 2 inches on the full chest. Womenswear is not uniform: bust, waist and hip often carry different increments, which is why those ranges need two or three rule sets.
+
+**Grade point.** The exact place the increment is applied: a shoulder tip, underarm point, waist notch, hem corner. Place one half a centimetre off and the garment still measures to chart while the curve between the points distorts, because that curve is redrawn from the new positions.
+
+## A Typical Grading Chart, Read Line by Line
+
+Below is the structure of a grading chart for a men's cotton crew-neck tee, base M, with typical increments. It shows structure, not a specification for any buyer.
+
+| Measurement point | Base M | S | L | XL | Increment per step |
+|---|---|---|---|---|---|
+| Half chest (2.5 cm below armhole) | 52.0 | 49.5 | 54.5 | 57.0 | 2.5 cm |
+| Body length (HPS to hem) | 70.0 | 68.0 | 72.0 | 74.0 | 2.0 cm |
+| Shoulder width | 46.0 | 44.5 | 47.5 | 49.0 | 1.5 cm |
+| Sleeve length from shoulder | 22.0 | 21.0 | 23.0 | 24.0 | 1.0 cm |
+| Neck width | 18.0 | 17.4 | 18.6 | 19.2 | 0.6 cm |
+| Sleeve opening | 16.0 | 15.2 | 16.8 | 17.6 | 0.8 cm |
+
+Two features carry the risk. Half chest versus full chest: the table is in half measures because patterns are cut on the fold, while a tape around the finished garment records full chest, so mixing the two halves or doubles a size. And increments that step rather than stay constant: neck width and sleeve opening grow more slowly than chest, because a neck does not widen at the rate of a ribcage. A chart with one flat increment down every row is a chart nobody thought about, and it shows up first in the neck and cuff.
+
+## How Patterns Are Actually Graded: Spread and Trace versus CAD
+
+Hand grading uses a spread: the base pattern is traced at each size by pivoting around one grade point at a time and marking the next position with a grade rule ruler. It needs no licence and handles complicated drape well, but it is only as consistent as the operator's hand, and the paper set is re-cut whenever a rule changes.
+
+CAD grading digitises the pattern once, stores the rule table, and regenerates the range. Change one increment and every size updates: rules can be revised after a fit session without redrawing anything. It also nests the marker across sizes so consumption can be calculated, and generates the QC sheet from the same numbers the cutter used.
+
+| Aspect | Spread and trace (manual) | CAD grading |
+|---|---|---|
+| Setup for a new style | Fast for one range, no digitising | Needs a clean digital pattern and rule table |
+| Consistency across sizes | Depends on the operator | Identical every run |
+| Changing one increment | Re-trace affected sizes by hand | Edit the rule and regenerate the range |
+| Fabric consumption per size | Estimated from the paper set | Calculated from the nested marker |
+| Best fit for | Small ranges, heavy wovens, capsules | Repeat programmes, many sizes, revisions |
+| Audit trail | Paper set and notes | Versioned rule table and pattern files |
+
+Most Bangladesh knit programmes work in CAD because the range is wide and rules get revised after every fit round. The question that matters is not which method a factory uses, but whether the rule table is documented and versioned. If nobody can show you the increments, nobody can check them.
+
+## Where the Rules Change: Knits, Wovens and Childrenswear
+
+**Knits** grade on smaller increments because the fabric stretches and recovers: 2 cm chest steps on lightweight single jersey where a woven shirt takes 3 cm, and tee length steps as small as 1.5 cm. Rib bands, cuffs and collars often carry a separate, tighter rule, because a rib that grows too fast stops gripping. The available [knitwear fabrics](/products/knit-wear) also shape what a rule set can hold.
+
+**Wovens** grade on ease and seam allowance rather than stretch. Armhole depth, yoke depth and sleeve cap height must move with the chest or the shoulder seam shifts forward. Mismatched grading surfaces here first: a sleeve cap on one rule and an armhole on another gives a sleeve that will not set without puckering, though both measure correctly alone.
+
+**Childrenswear** follows growth, not adult proportion. Chest and height change at different rates, so increments are larger between small sizes and flatten later, and points adult grading ignores, such as crotch depth and knee position, have to move.
+
+**Plus and extended sizes** break linear rules deliberately. Bust, waist and hip increments diverge, armhole depth grows faster than chest width, and extending base increments in a straight line is the most common cause of a plus-size fit complaint.
+
+## The Grading Errors That Reach Bulk
+
+These survive sampling and surface in production, which is what makes them expensive:
+
+- **Grading from an unapproved fit.** The base pattern was a counter sample, so every size inherits a correction that was still in progress.
+- **Grade points placed by eye.** The numbers are right and the curve between them is wrong, so the garment measures to spec and looks wrong on a body.
+- **One rule set for the range.** Neck, cuff and waistband graded on the chest increment, producing an XXL neck no adult can wear comfortably.
+- **Trims left ungraded.** Pocket bags, yokes, plackets and linings stay at base size while the shell grows, and cutting discovers it.
+- **No shrinkage allowance.** The graded pattern is correct for greige fabric and the garment lands a size small after wash.
+
+## How a Grading Chart Gets Approved Before Cutting
+
+The sequence below keeps grading out of the sampling loop. It is the order the work has to happen in, not a menu.
+
+1. **Lock the base size and the approved fit sample.** No grading starts until one size is fitted, measured and signed off in writing. The base pattern is then frozen.
+2. **Write the rule table before touching the pattern.** Every point gets an increment per step, a base value and a tolerance. Points on a separate rule, such as rib bands, are flagged.
+3. **Grade one size up and one size down first.** Check the adjacent sizes, including curve shape at armhole and crotch, before generating the whole range.
+4. **Cut and fit the extreme sizes.** The bottom and top of the range get physical samples. The middle tests little, because increments have had the fewest steps to accumulate error.
+5. **Reconcile the mating pieces.** Sleeve cap against armhole, collar against neckline, cuff against sleeve opening, waistband against waist, each checked as a pair.
+6. **Regenerate the size chart and QC sheet from the rule table.** Both must come out of the same source numbers with tolerance columns, or inspection measures against different targets.
+7. **Re-check consumption per size and re-cost.** Grading changes the marker, so consumption has to be refreshed for the largest sizes, not carried over from the base.
+8. **Version and release.** Chart, pattern files and measurement sheet are issued together with a revision number, and any later change starts a new revision.
+
+Steps 4 and 5 are where brands save time and lose money. A chart checked only as a table is an untested claim; graded geometry is proved by a garment on a body.
+
+## What Poor Grading Costs in Production
+
+A rule table correction costs an hour of pattern work. The same correction after bulk fabric is cut costs the fabric, cutting room time, the line changeover and the size labels already printed.
+
+Indirect costs follow. More sizes mean more marker spreads and lower efficiency at the extremes, so a range with badly graded ends can consume more fabric per unit than the costing sheet assumed. Measurement failures at AQL concentrate in the sizes furthest from the base, which QC samples least. And a fit complaint in one size becomes a return-rate problem across the whole product page.
+
+## What to Send a Factory So Grading Starts Correct
+
+Send the approved base size fit sample or pattern with its measurement sheet, the base size named clearly, the full range in selling order, and the grade rule table if you have one. State which measurements are fit-critical, or every point will be held to one tolerance.
+
+Add the shrinkage result for the actual bulk fabric rather than a typical value, since grading and shrinkage compensation interact. Add trims that change with size, such as drawcords, elastics and woven labels. Then name one person who can approve a revised rule table within days, because grading decisions that wait two weeks become production decisions.
+
+At TEXVENTURE, grading review sits inside the sampling workflow the factories work to, so a rule table is checked against the fit sample before the size chart is issued. Working with a [Clothing Manufacturer in Bangladesh](/) that writes its increments down also means the rule table survives the handover from pattern room to cutting floor. The programme runs across 20+ vetted factories in Bangladesh with ISO 9001, BSCI, OEKO-TEX and Sedex coverage depending on the partner, MOQ from 100 pieces per style, and end-to-end handling from sourcing through shipping. The [tech pack](/blog/tech-pack-for-clothing) is where the grading chart belongs, and the fit sample it references is the base the rules hang from.
+
+## Frequently Asked Questions
+
+### What is grading in clothing in simple terms?
+
+Grading generates every size in a range from one fitted pattern by applying fixed increments at fixed points. The base pattern is drafted once, and each size comes from moving those same points by the same amounts.
+
+### Is grading the same as size grading in apparel?
+
+Yes. Pattern grading, size grading and apparel grading describe the same operation: moving grade points on a base pattern to create a size run. The terms differ by market, not by method.
+
+### How many sizes can be graded from one base pattern?
+
+There is no technical limit, but accuracy falls as you move away from the base. Five to seven sizes on one rule set is common; extended and plus sizes usually need a second set, because bust, waist and hip increments stop being proportional.
+
+### Does grading fix a garment that fits badly?
+
+No. Grading distributes a fit, it does not create one. Any error in the base pattern is reproduced at every size and often amplified, so the fit sample has to be approved before grading begins.
+
+### Who owns the grading chart, the brand or the factory?
+
+Either can produce it, but the brand has to approve it. The factory holds the pattern files and the rule table while the brand owns the fit intent, so the chart carries a revision number and both sides sign it off before bulk.
+
+## Get Your Grade Rules Checked Before the First Cut
+
+If you have a base pattern and a size range but no written rule table, close that gap before a purchase order is placed. Send the fit sample, the measurement sheet and the size range through the [quote request form](https://quote.texventure.com/) and the grading review, size chart and costing impact for the largest sizes can be worked through together, in one conversation instead of three sampling rounds.`,
+    category: "manufacturing",
+    tags: ["pattern grading","grading chart clothing","size grading apparel","grading rules for clothing"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 9,
+    featuredImage: "/images/cat-tshirts.webp",
+    imageAlt: "Graded pattern paper pieces for five sizes fanned across a Bangladesh factory cutting table beside a grade rule ruler and measuring tape",
+    metaDescription: "Pattern grading in clothing sets the increments that turn one base size into a full range. How grade rules work, what to review and where factories go wrong.",
+  },
 ];

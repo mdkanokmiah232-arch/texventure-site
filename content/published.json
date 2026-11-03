@@ -307,8 +307,19 @@
       "at": "2026-11-03T16:26:10.406Z",
       "commit": "33cf3ec",
       "deploy": "live"
+    },
+    {
+      "order": 29,
+      "slug": "what-is-grading-in-clothing",
+      "title": "What Is Grading in Clothing? Pattern Grading Explained for Brands",
+      "url": "https://texventure.com/blog/what-is-grading-in-clothing",
+      "publishedAt": "2026-11-03",
+      "words": 2203,
+      "at": "2026-11-03T16:34:25.022Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T16:26:10.408Z"
+  "updatedAt": "2026-11-03T16:34:25.023Z"
 }
