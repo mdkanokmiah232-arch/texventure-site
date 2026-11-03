@@ -285,8 +285,19 @@
       "at": "2026-11-03T16:04:00.606Z",
       "commit": "1f94fdc",
       "deploy": "live"
+    },
+    {
+      "order": 27,
+      "slug": "golden-sample-garment",
+      "title": "Golden Sample vs Approved Sample: Why It Decides Your QC Outcome",
+      "url": "https://texventure.com/blog/golden-sample-garment",
+      "publishedAt": "2026-11-03",
+      "words": 2320,
+      "at": "2026-11-03T16:13:55.527Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T16:04:00.607Z"
+  "updatedAt": "2026-11-03T16:13:55.529Z"
 }
