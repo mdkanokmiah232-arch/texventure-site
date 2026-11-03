@@ -274,8 +274,19 @@
       "at": "2026-11-03T15:53:57.088Z",
       "commit": "44c06d3",
       "deploy": "live"
+    },
+    {
+      "order": 26,
+      "slug": "clothing-size-chart",
+      "title": "How to Build a Clothing Size Chart Buyers Actually Trust",
+      "url": "https://texventure.com/blog/clothing-size-chart",
+      "publishedAt": "2026-11-03",
+      "words": 2245,
+      "at": "2026-11-03T16:04:00.606Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T15:53:57.089Z"
+  "updatedAt": "2026-11-03T16:04:00.607Z"
 }
