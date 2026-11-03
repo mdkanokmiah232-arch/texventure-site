@@ -156,4 +156,147 @@ A tech pack turns a conversation into a quote. If your specification is ready, [
     imageAlt: "Pattern makers reviewing a garment tech pack on the production floor of a Bangladesh clothing manufacturer",
     metaDescription: "What a clothing tech pack must contain, how to build one from a reference sample, and which measurements cause production disputes. A factory-side guide.",
   },
+  {
+    slug: "garment-sampling-process",
+    title: "Garment Sampling Process: Fit, PP and TOP Samples Explained",
+    excerpt: "How the garment sampling process runs on a factory floor: what fit, PP and TOP samples each prove, how long every round takes, and what to check before you sign.",
+    content: `A factory can quote a garment from a photograph. It cannot cut one without building something first, and that something is a sample.
+
+The garment sampling process is the ordered sequence of physical samples a style passes through between an approved tech pack and the bulk cutting table: fit sample, size set, pre-production (PP) sample and, in most buyer manuals, the TOP sample pulled from the first output of the bulk run. Each round answers a different question and consumes calendar days.
+
+What follows is that sequence as it runs on a Bangladesh factory floor: what each sample proves, where the delays come from, and what to check before you approve a PP sample.
+
+## The sample sequence: what each round approves
+
+Sampling is a chain of approvals, and each link exists because the previous one could not prove enough on its own.
+
+| Sample | What it proves | Who signs off | Typical position |
+|---|---|---|---|
+| Fit sample (proto) | The pattern produces the intended silhouette and measurements | Buyer's technical designer | Before costing is final |
+| Size set | Grading holds across the full size range | Fit technologist | After fit approval |
+| Salesman sample | The style is presentable for selling, in the correct fabric and colourway | Buyer's sales and design team | During the buying season |
+| PP sample | The factory can build the approved product with production materials, in production conditions | Buyer's QA and merchandiser | Three to five weeks before bulk cutting |
+| TOP sample | The actual bulk line output matches the PP standard | Buyer's QA plus factory QC | After the first 10-20% of bulk is sewn |
+
+Not every order runs the full chain. A repeat with an unchanged pattern may skip fit and go straight to PP; a new print, fabric and silhouette can run two fit rounds, a size set, two PP rounds and a TOP. The depth reflects how much is genuinely new, and should be agreed at costing.
+
+## Fit sample: where the pattern meets real fabric
+
+The fit sample is the first physical object in the process: a pattern master converts the tech pack's points of measure into a pattern, the cutting room cuts it, the sample tailors sew it. The buyer receives something that can be put on a body.
+
+The purpose is narrow: does the pattern deliver the intended fit and measurements? Not "is the colour right", not "is the finish retail-ready". Aesthetic notes at fit stage send the sampling room back to rebuild the pattern while the real issue — a 1.5 cm discrepancy at the chest because the POM chart contradicts the flat sketch — goes unexamined.
+
+Three things decide whether the fit round lands in one pass:
+
+- **The POM chart is internally consistent.** Every measurement exists on the chart, matches the flat sketch, and carries a tolerance.
+- **The mock-up fabric behaves like the bulk fabric.** A 160 gsm cotton jersey and a 280 gsm cotton-poly fleece drape and shrink differently. Sewn in whatever is on the shelf, the fit you approve belongs to that fabric, not your product — the most common reason a fit that passed fails at PP.
+- **Fit comments are measurable.** "Slightly tight at the armhole" starts a conversation; "armhole depth plus 1 cm, sleeve cap height unchanged" closes one.
+
+Most first-order styles need two fit rounds; a third usually means the pattern is being corrected in the wrong place. A tech pack carrying clean POMs is what keeps this stage short — the guide to [what a clothing tech pack must contain](/blog/tech-pack-for-clothing) covers the sections sampling rooms work from.
+
+## PP sample: the round that authorizes bulk production
+
+The PP sample is the most consequential object in the order. It is made with production fabric, trims, labels, print or embroidery, and — where the factory is serious — on the production line with the operators who will run the bulk.
+
+What a PP sample proves is not fit. Fit was settled earlier. PP proves the factory can execute the approved product at production quality, in production materials, at the costed price. Every deviation between the PP sample and the bulk order is a defect the buyer has, by signature, accepted.
+
+This is why factories seal it. The signed PP sample, with counter-sample and photographs, becomes the standard held by factory QC, and bulk is inspected against that object rather than a memory of it. When a buyer later says the bulk hoodies feel lighter than the sample, the sealed PP sample settles it in ten minutes rather than ten emails.
+
+## TOP sample: the last gate before shipment
+
+TOP means top of production. The TOP sample is not built by the sample room — it is pulled from the first output of the bulk line, usually after the first 10-20% of the order has been sewn.
+
+That distinction is the point. A PP sample is made by the most skilled people in the building, slowly. A TOP sample is made by the line at line speed, by whoever is on that machine that morning. If it differs from the sealed PP sample, the gap is not a sampling error but a production problem — found while the bulk is still on the floor.
+
+At TOP stage the decision is not approve or revise but continue, correct in-line, or stop the line. That is why a TOP gate earns its two to five days, especially on first orders of structured product: bonded jackets, workwear, anything with interlining.
+
+## How long garment sampling takes in practice
+
+Duration is set by cutting slots, sewing capacity, lab turnaround and, above all, how fast comments come back. Typical first-order ranges, with knit lead times covered under [knitwear manufacturing](/products/knit-wear):
+
+| Round | Typical duration | What adds days |
+|---|---|---|
+| Fit sample | 7-14 days from approved tech pack | Fabric not in-house, pattern built from sketches only, missing trims |
+| Size set | 5-10 days | Grading rules not agreed, fit not actually closed |
+| PP sample | 10-18 days | Lab dips pending, print screens not struck, labels not approved |
+| PP re-round | 7-12 days each | Comments arriving in batches, changes at trim level |
+| TOP sample | 2-5 days after first bulk output | Line not loaded, first output pulled too early to be representative |
+
+End to end, a first order with new fabric and a new print commonly needs four to seven weeks from approved tech pack to sealed PP sample; a repeat with no changes compresses below two weeks. Round count is not the variable that matters most — the gaps are. A factory can only re-cut as fast as it receives a complete written comment set, so three days of silence at the buyer's end adds three days to the critical path exactly as a missing fabric does.
+
+## Inside a garment sampling department
+
+A sampling room is a small factory inside the factory, with a capacity ceiling: a sampling manager who schedules slots, a pattern master, two to six sample tailors, a cutter, a trim coordinator and a QC who measures each finished sample against the POM chart.
+
+That ceiling is what buyers compete for. Demand clusters into the same pre-season weeks, and a facility carrying twenty-five buyers cannot give every style the same slot on the same day. Slots are booked against fabric in-house dates, not the PO signature: a style whose fabric lands in week three of the window is sampled in week four whatever the purchase order says.
+
+This is where a [Trusted Clothing Manufacturer in Bangladesh](/) changes the arithmetic. A single plant has one sampling room; a sourcing operation spanning knitwear, wovens, denim and outerwear across 20+ vetted factories can place a style where the sample room is open that week, and tell you which of your three styles will miss the shipping window before you commit to all three. Buyers who need [ISO 9001, BSCI and OEKO-TEX evidence](/certifications) should confirm it at sampling stage, not final inspection.
+
+## What sampling costs, and how factories credit it back
+
+Sample charges are normal, and buyers who expect free sampling are usually sampled last. Industry practice, as ranges rather than quotes: a simple knit style often carries a charge in the low tens of US dollars per style and colourway, while structured outerwear with multiple panels, linings and trims can run several times that. Print and embroidery development — screens, strike-offs, digitising — is usually charged separately and only partly refundable, because the cost is incurred whether or not the order proceeds.
+
+Most factories credit sample charges against the bulk order, turning sampling from a cost into a deposit. Confirm four things in writing: whether the charge is per style or per style-colourway, whether it is credited at confirmation or deducted from the final invoice, whether factory-error re-rounds are charged again, and what happens if the order is cancelled after PP approval.
+
+A style at the [100-piece minimum order quantity](/blog/what-is-moq) may carry a charge worth a meaningful share of the first run — a reason to consolidate colourways into one sampling round, not to skip sampling.
+
+## A seven-step approval checklist before you sign a PP sample
+
+The signature is a commercial commitment. Run this first:
+
+1. **Measure the sample yourself** against the POM chart, the way factory QC does, and write the numbers down.
+2. **Wash a companion piece** if the style will be washed in use; shrinkage and torque appear after the first wash, not before it.
+3. **Check every trim against the bill of materials** — zips, drawcords, eyelets, interlining, thread colour, care and size labels.
+4. **Compare colour under proper light.** A D65 booth or north-facing daylight, not office fluorescents. Pantone reference against the lab dip, confirmed in writing.
+5. **Photograph the sample flat and on a body**, front and back, and attach the photos to the approval email. They become the shared record.
+6. **Send comments as a numbered list** referencing the POM chart and the photo, so every point is actionable and closable.
+7. **Seal and sign.** One sample stays with factory QC, one travels to you, both marked with style number, date and version.
+
+## Five sampling failures that push lead times
+
+Most late deliveries trace back to sampling, not the sewing floor:
+
+- **Fabric substitution at sample stage.** A stock fabric "close enough" to the ordered one is used, so fit and hand-feel approvals are invalidated by the real fabric at PP.
+- **Comments without references.** "Make it look more premium" cannot be executed; every vague comment costs a round.
+- **Approving a PP made in the wrong materials.** A PP sewn before the actual trims arrive is not a PP sample. It is a hope.
+- **Silent pattern changes.** A pattern master corrects a measurement nobody asked about and the approved fit quietly changes. Version every pattern, and approve labels at fit stage — they are the first thing to block packing.
+
+## Frequently Asked Questions
+
+### What is a PP sample in apparel?
+
+A PP sample, or pre-production sample, is made with production fabric, trims and branding and approved by the buyer before bulk cutting begins. It becomes the sealed reference standard that bulk production and final inspection are measured against.
+
+### How many samples before bulk production?
+
+A typical first order runs one or two fit samples, a size set and one or two PP rounds before bulk — four to six physical samples per style, more if the fabric or print is new. Repeats with no changes often need only a PP.
+
+### How long does garment sampling take?
+
+From an approved tech pack to a sealed PP, a first order commonly takes four to seven weeks: fit rounds of 7-14 days, a size set of 5-10 and a PP of 10-18, with the gaps between rounds usually costing more than the rounds themselves.
+
+### Can I skip the fit sample on a small order?
+
+You can if the pattern is proven — a repeat of a style your factory has already produced and you have sold. On a new silhouette, or the same one in a different fabric weight, skipping fit moves the discovery to PP, where corrections cost more.
+
+### Who keeps the approved sample?
+
+Both sides keep one. The factory holds the sealed PP sample in its QC office as the inspection standard; the buyer keeps an identical counter-sample. Both carry the same style number, date and version, so a dispute has a physical reference, not an email trail.
+
+## Book the sample round before the fabric is booked
+
+Sampling capacity is the tightest resource in a pre-season window, and the styles sampled first are the ones with complete documentation and a booked slot.
+
+Send the tech pack, target fabric and colourway count for your next style, and we will come back with the rounds it needs, the calendar for each, and which partner factory has room to run it.
+
+[Request a sampling timeline and cost sheet for your style](https://quote.texventure.com/)`,
+    category: "manufacturing",
+    tags: ["garment sampling","pp sample","fit sample","product development","apparel production"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 9,
+    featuredImage: "/images/cat-tshirts.webp",
+    imageAlt: "Sample room tailors sewing a fit sample and measuring a pre-production garment in a Bangladesh clothing factory",
+    metaDescription: "A factory-side walkthrough of the garment sampling process: what fit, size set, PP and TOP samples each prove, typical timelines per round, and approval checks.",
+  },
 ];

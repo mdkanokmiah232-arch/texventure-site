@@ -10,8 +10,19 @@
       "at": "2026-11-03T10:09:34.449Z",
       "commit": "4c6f43f",
       "deploy": "live"
+    },
+    {
+      "order": 2,
+      "slug": "garment-sampling-process",
+      "title": "Garment Sampling Process: Fit, PP and TOP Samples Explained",
+      "url": "https://texventure.com/blog/garment-sampling-process",
+      "publishedAt": "2026-11-03",
+      "words": 2141,
+      "at": "2026-11-03T10:19:19.017Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T10:11:33.871Z"
+  "updatedAt": "2026-11-03T10:19:19.019Z"
 }
