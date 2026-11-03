@@ -252,8 +252,19 @@
       "at": "2026-11-03T15:33:59.102Z",
       "commit": "b698601",
       "deploy": "live"
+    },
+    {
+      "order": 24,
+      "slug": "pre-shipment-inspection",
+      "title": "Pre-Shipment Inspection: Checklist Before Your Goods Leave the Factory",
+      "url": "https://texventure.com/blog/pre-shipment-inspection",
+      "publishedAt": "2026-11-03",
+      "words": 2087,
+      "at": "2026-11-03T15:45:19.712Z",
+      "commit": null,
+      "deploy": "pending"
     }
   ],
   "failed": [],
-  "updatedAt": "2026-11-03T15:33:59.103Z"
+  "updatedAt": "2026-11-03T15:45:19.713Z"
 }

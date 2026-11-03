@@ -3579,4 +3579,135 @@ They can, but every change costs money and time, especially on an LC where an am
     imageAlt: "Buyer and factory merchandiser reviewing a payment schedule and letter of credit documents beside stacked jacket samples",
     metaDescription: "How garment payment terms work in practice: T/T deposit splits, letter of credit documents and fees, Net 30 open account, and which term fits your order size.",
   },
+  {
+    slug: "pre-shipment-inspection",
+    title: "Pre-Shipment Inspection: Checklist Before Your Goods Leave the Factory",
+    excerpt: "A pre shipment inspection is the last gate before cartons leave the factory. Get the checklist, sample size, timing and failure rules right.",
+    content: `A pre shipment inspection is the last point where a problem can still be fixed cheaply. Once cartons are sealed and loaded, every defect travels with the goods: across an ocean, through customs, into a warehouse, and into the hands of someone who has already paid for it. The inspection moves that discovery back to the factory floor, where rework costs hours instead of a season.
+
+Most buyers treat it as a formality, a report to attach to the file. The ones who get value from it treat it as the final gate in a process that began with a tech pack and an approved sample. Here is what gets checked, how the sample is drawn, and what a rejection actually means.
+
+## What a Pre-Shipment Inspection Actually Is
+
+A pre shipment inspection, or PSI, is a statistical check of finished, packed goods against the approved specification and the purchase order. It happens when production is complete and the order is in export cartons, typically once the factory reports 80 to 100 percent packed.
+
+Three things separate it from every other quality event in an order. It looks at what will physically ship, not at what is still on the line. It samples rather than inspects everything, so the result is a decision about the lot with a known error rate. And it comes after the money has been spent, which is why it is unforgiving: no cheap fix is left, only rework, sorting or a difficult conversation.
+
+A factory's own QC team runs an internal final audit before calling goods ready. Most independent brands use a third party inspection company instead — SGS, Bureau Veritas, Intertek, TÜV and QIMA appear most often in apparel — because the report carries an arm's length signature a factory cannot issue to itself.
+
+## PSI vs DPI vs Inline: Where Each Check Sits
+
+The confusion in most order files is not about PSI but about which check was meant to catch the problem first. These are not alternatives; each answers a different question.
+
+| Check | When it happens | What it decides |
+|---|---|---|
+| Inline | during sewing, on the line | whether workmanship is drifting |
+| DPI (during production) | roughly 20 to 40 percent produced | whether the process is capable of the standard |
+| PSI (final random) | 80 to 100 percent packed | whether the lot is accepted or rejected |
+| Loading supervision | at loading | whether quantity, cartons and marks match |
+
+Inline is where money is saved. A drift caught at 2,000 pieces is an adjustment; the same drift at 20,000 pieces is a rework programme. PSI cannot substitute for inline work, and DPI is worth adding when an order is large or a supplier is new.
+
+## The Pre-Shipment Inspection Checklist, Section by Section
+
+A standard PSI report uses the same headings across agencies, which is why buyers can compare reports from different firms. What varies is depth inside each heading.
+
+| Section | What is checked | Evidence in the report |
+|---|---|---|
+| Quantity | cartons counted against the packing list | cartons present, short or excess |
+| Carton and marks | shipping marks, barcode, dimensions, gross and net weight | photos, weights |
+| Packing | polybag type, folding, size stickers, size ratio per carton | opened carton photo |
+| Workmanship | seams, symmetry, trims, matching, shade, handfeel versus approved sample | defects counted by class |
+| Measurement | critical points against spec across a graded size set | out-of-tolerance flags |
+| Labels and tags | care content, fibre, origin, size label, hangtags, price tickets | label photos |
+| Barcode | retail barcode scans and resolves correctly | scan result per style |
+| On-site tests | seam pull, needle detection, carton drop | pass or fail per test |
+| Documents | invoice, packing list and carton marks agreeing | noted discrepancies |
+
+The unglamorous rows catch a large share of real problems, because packing is where scheduling pressure becomes visible. Cartons are counted physically, not accepted from a list. Assortment ratios are checked across the run, since one carton holding five mediums instead of 1-2-2-2-1 has broken the retail plan while the total count stays correct.
+
+## Workmanship and Measurement: What the Inspector Physically Does
+
+A trained inspector works garment by garment with the approved sample on the table and a defect list in hand. Seams are checked for skipped stitches, open seams, puckering and grin under tension. Symmetry is checked by folding, at collar points, pocket placement, sleeve length and hem depth. Matching is checked across panels: print placement at the seam, stripe alignment at the placket.
+
+Shade is checked by laying panels from one garment together, and garments from different cartons, under a standard light source rather than factory tube light, because a band invisible under warm light reads as two-tone in a shop. Handfeel is compared with the sample, which is where a lot passes on paper and fails commercially.
+
+Measurement is the most objective part and the most argued about. The inspector measures chest, waist, hip, body length, sleeve, shoulder, neck, armhole, cuff and hem against targets from the spec sheet. Knitwear commonly runs at plus or minus one centimetre on body measurements, tighter at neck and armhole. Whatever the number, it belongs in the tech pack before the first cut, and sampling follows the graded size set so each size is represented.
+
+## Labels, Tags and Trims: The Cheap Failures
+
+Label errors are cheap to fix in the factory and expensive in a market, because a wrong care label makes a garment legally unsaleable in most destination countries regardless of quality.
+
+The inspector checks fibre composition against the actual fabric, country of origin, care symbols, size label placement, brand label stitch, hangtag artwork and price ticket. The retail barcode is scanned, not read: one that resolves to the wrong item stops a receiving process dead.
+
+## How the Sample Size and AQL Are Set
+
+The sample is drawn to a published plan, almost always general inspection level II with AQL 2.5 for major defects, 4.0 for minor and zero acceptance for critical. At 3,201 to 10,000 pieces that means a 200-piece sample; below that it shrinks fast, so a 1,000-piece order is checked on 80 pieces.
+
+Two decisions matter more than the numbers. The first is the lot definition: one lot, or split by style, colour or destination. Splitting gives a stricter read and isolates a weak colour; combining is cheaper and lets a good colour carry a bad one. The second is randomness, meaning the sample is pulled across the packing sequence and the factory does not choose which cartons are opened. The chart mechanics are set out in the [AQL sampling plan guide](/blog/aql-inspection-meaning), and the [types of garment defects](/blog/types-of-garment-defects) that count as major are a short list worth writing into the order.
+
+## Booking the Inspection: Timing and Cost
+
+Inspection capacity is a scheduling problem, not a purchasing one. Book three to seven days ahead, longer in peak season, for a date when the order will genuinely be packed. An inspector who arrives at 60 percent packed either inspects a partial lot or leaves without a report, and both cost a man-day.
+
+A single-style order is normally a one man-day job: carton count and packing, then workmanship and measurement, then a report with photographs the same evening or next morning. Multi-style orders booked as separate lots can run to two days. Leave three to five working days between PSI and the ship date for rework: a [production lead time](/blog/garment-production-lead-time) plan that ends at the ship date has no failure path in it.
+
+Agencies quote per man-day rather than per order, so the fee tracks styles, lots and days on site, not the value of the goods. Across South Asia a standard single-day inspection typically falls in the low hundreds of US dollars, with travel and testing billed separately. The buyer should appoint and pay the agency; an inspection paid for by the factory carries a conflict of interest.
+
+## Reading the Report and Deciding What Happens Next
+
+A usable report has a summary page, a quantity section, defects by class, a measurement chart, photographs and a result. Read the defect list before the result line: scattered minors mean a factory running fast, while a cluster of majors on one operation means a process that needs fixing.
+
+A rejection is a decision point, not an ending. The options are rework and re-inspection of the failed lot, 100 percent screening of the specific defect, shipping under a written concession with a price adjustment, or holding part of the quantity back. Each carries a cost and a schedule consequence, and the choice belongs in writing before anyone touches the goods. A verbal instruction to sort it out with no follow-up inspection is not a fix, because unverified rework is an assumption with a shipping date attached.
+
+## The Failures That Recur, and How to Design Them Out
+
+Most failed inspections in apparel fail on the same short list, and none of it needs new technology to prevent.
+
+- Shade variation across cartons, from cutting several fabric roll lots without separating shades. Prevention: shade banding at cutting.
+- Measurement drift at the end of the run, usually from a pattern or cutting change never re-approved. Prevention: inline measurement checks at fixed intervals.
+- Wrong care labels, from artwork approval arriving late and the label store issuing the previous version. Prevention: a sealed approved-label set at the line.
+- Bulk not matching the approved sample on handfeel or trims, from an unapproved substitution. Prevention: a sealed gold-seal sample on site.
+- Metal fragments, from a broken needle or blade. Prevention: needle policy, broken-needle log and a detector on every line.
+
+The pattern is identical in each: the failure was designed in weeks earlier by a missing written standard, and PSI only reported it.
+
+## Frequently Asked Questions
+
+### What is checked in a pre-shipment inspection?
+
+Quantity and carton count, shipping marks, packing and assortment, workmanship against the approved sample, measurements against the spec, labels and tags, barcodes, trims, and on-site tests such as seam pull, carton drop and needle detection. Each area is recorded with photographs and a defect list by class.
+
+### PSI vs DPI inspection — which one do I need?
+
+They answer different questions, so serious orders use both. DPI runs at roughly 20 to 40 percent production and says whether the process can meet the standard while correction is still cheap. PSI runs at 80 to 100 percent packed and says whether this lot ships. With only one, PSI protects the shipment, DPI the schedule.
+
+### How much does a pre-shipment inspection cost?
+
+Agencies charge per man-day, so the fee depends on styles, lots and days on site rather than order value. A standard single-day inspection in South Asia typically falls in the low hundreds of US dollars, with travel and testing billed separately. Weigh that against a rejected container at destination.
+
+### How far ahead should I book the inspection?
+
+Three to seven days ahead in normal conditions, longer in peak season when agency calendars fill. Book it for a date when at least 80 percent is packed, and confirm the packed quantity the day before. An inspector arriving at a half-packed order cannot issue a valid final report.
+
+### What happens if the inspection fails?
+
+The lot is rejected at the agreed AQL and the buyer chooses between rework and re-inspection, 100 percent screening, shipping under a written concession with a price adjustment, or holding part of the order back. Whichever route is chosen belongs in writing with a re-inspection date.
+
+## Closing the Gate Before the Container Does
+
+A pre shipment inspection is worth exactly what the standard behind it is worth. With a spec sheet, an approved sample, defined defect classes, a random sample and a written consequence for failure, it is a reliable gate that protects a season. Without those, it is a photograph album with a signature.
+
+[TEXVENTURE](/) is a Bangladesh-based clothing manufacturer working with 20+ vetted factories, MOQ from 100 pieces per style, ISO 9001, BSCI, OEKO-TEX, SGS, Sedex and GOTS certifications, and end-to-end handling from sourcing through shipping. Inspection standards are agreed at order stage, with defect classes and re-inspection rules written into the order rather than discovered on the last day, and the same discipline carries across [apparel manufacturing services](/services) on multi-product orders.
+
+If you want the next order built around a written inspection plan instead of a verbal promise, [send your spec, order quantity and target AQL levels for a quote](https://quote.texventure.com/) and the inspection schedule will come back defined per lot.`,
+    category: "manufacturing",
+    tags: ["pre shipment inspection","psi inspection","final random inspection","third party inspection garment"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 9,
+    featuredImage: "/images/cert-13.png",
+    imageAlt: "Quality inspector opening export cartons on a factory floor to count packed garments and check shipping marks before shipment",
+    metaDescription: "Pre shipment inspection explained for apparel buyers: what the inspector checks, PSI versus DPI, sample size, booking timing, cost and what a fail means.",
+  },
 ];
