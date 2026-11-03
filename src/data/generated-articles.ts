@@ -3,4 +3,157 @@
 import type { GuideArticle } from './guides';
 
 export const generatedArticles: GuideArticle[] = [
+  {
+    slug: "tech-pack-for-clothing",
+    title: "Tech Pack for Clothing: What to Include and How to Build One",
+    excerpt: "A practical guide to clothing tech packs: the seven sections a factory needs, the difference between a tech pack, spec sheet and BOM, and the measurements that cause most production disputes.",
+    content: `Most first orders do not fail on the sewing floor. They fail before the factory ever quotes — because the buyer sends a mood board, a photo of a competitor's hoodie and a target price, and expects a manufacturer to reverse-engineer the product from three images and a feeling.
+
+A tech pack is the document that removes that guesswork. It is the difference between a factory quoting your product and a factory quoting its own interpretation of your product.
+
+This guide covers what a production-ready tech pack for clothing actually contains, how to build one from a reference sample, which measurements cause the most disputes, and where the document fits between costing, sampling and bulk production.
+
+## What a tech pack actually is
+
+A tech pack is a technical specification document that tells a manufacturer exactly how to build a garment: measurements, materials, construction, colour, trims, labelling and packing. It is written once per style, reused across every production run, and updated when the product changes.
+
+It is not a design brief. A design brief sells the idea internally. A tech pack specifies the physical object — the kind of document a pattern maker can open and start working from without a call.
+
+Three properties separate a usable tech pack from a folder of inspiration:
+
+- **It is measurable.** Every dimension has a number and a tolerance, not a description.
+- **It is complete.** A factory should never have to choose a fabric, a stitch or a label on your behalf.
+- **It is versioned.** Styles change; the document must carry a version number and date so the approved sample and the bulk order reference the same specification.
+
+## The seven sections every production-ready tech pack needs
+
+A tech pack does not need to be beautiful. It needs to answer every question a sampling room will ask. These seven sections cover that ground.
+
+| Section | What it contains | What goes wrong without it |
+|---|---|---|
+| 1. Style overview | Style number, name, season, category, size range, colourways | Factory builds the wrong silhouette or size range |
+| 2. Flats and construction | Technical flat sketches, front/back, stitch callouts, seam types | Construction is guessed; sample and bulk differ |
+| 3. Bill of materials | Fabric, lining, trims, threads, interlining with suppliers and references | Substituted fabric, wrong hand-feel, wrong cost |
+| 4. Colour and print | Pantone references, placement, print method, repeat size | Shade mismatch, print size drift between runs |
+| 5. Points of measure | Measurement chart with tolerances, graded across sizes | Fit disputes with no objective standard |
+| 6. Branding and packing | Labels, hangtags, polybags, carton marks, folding | Rework at the warehouse, retail rejection |
+| 7. Comments and approvals | Sample round notes, signed-off sample reference, version history | Factory works from an obsolete version |
+
+### Flats and construction detail
+
+Technical flats are line drawings, not illustrations. They show seam placement, topstitch distances, pocket shapes, zip lengths and the exact stitch class where it matters. If a hoodie has a three-needle coverstitch at the hem and a single-needle chain stitch at the neck, that belongs on the drawing — otherwise the factory will choose the faster option.
+
+### Bill of materials
+
+The BOM is where cost lives. List every component with a reference: fabric composition and weight (for example, 100% cotton single jersey, 180 GSM), thread ticket number, zip brand and length, drawcord diameter, interlining weight. Where a specific mill or supplier is required, name it. Where the factory may substitute, say so explicitly and define the acceptable range.
+
+### Points of measure
+
+This is the section that decides whether a fit dispute is resolvable. One table, one row per measurement — chest, body length, shoulder, sleeve length, neck width, armhole, hem width — one column per size, one column for tolerance. A tolerance of ±1 cm on body length and ±0.5 cm on chest is typical for knitwear; denim and tailored wovens usually run tighter.
+
+## Tech pack vs spec sheet vs bill of materials
+
+The three documents get used interchangeably in conversation and mean different things. Confusing them is a common reason a factory receives half a specification.
+
+| Document | Scope | Who owns it | When it is used |
+|---|---|---|---|
+| Tech pack | The complete build specification for one style | Brand, usually with a designer or technical designer | Every sample round and every production run |
+| Spec sheet | Measurement and construction detail only | Technical designer or factory | During fitting and QC |
+| Bill of materials | Component and material list with quantities | Brand with the factory's input | Costing and material purchasing |
+
+A tech pack contains a spec sheet and a BOM. If you send only a spec sheet, the factory still has to source fabric blind — and will quote on an assumption.
+
+## How to build a tech pack from a reference sample
+
+Most small brands start with a garment they already own and want to reproduce or improve. That is a legitimate starting point, and it produces a better tech pack than a sketch drawn from imagination.
+
+1. **Choose the reference and document why.** Photograph the garment flat, front and back, with a ruler in frame. Note what you want to keep and what you want to change — a longer body, a heavier fabric, a different neckline.
+2. **Measure the reference, not the plan.** Lay it flat, measure every point you intend to specify, and record the numbers as your base size. Fit comments without numbers are not actionable.
+3. **Identify the fabric.** Ask for the composition and weight, or have a small swatch tested. Weight in GSM and composition in percentages are the two variables that drive both hand-feel and price. If you are unsure what a weight means in practice, start from the fabric specifications our [knitwear manufacturing](/products/knit-wear) team works to before you commit.
+4. **Trace the construction.** Turn the garment inside out. Photograph every seam, the hem finish, the collar attachment, the pocket bag. Each photo becomes a callout on the flat.
+5. **Write the BOM while the garment is in front of you.** Composition, trims, thread, labels, packaging. Anything you cannot identify, ask your manufacturer to confirm during sampling.
+6. **Build the size chart and grade it.** Start with one base size and apply your grade rules upward and downward. If grading is new to you, keep the increments conservative and let the factory's pattern room review them.
+7. **Add the commercial context.** Target quantity per style and colour, target FOB if you have one, delivery window, and destination market. This is what turns a specification into a quote rather than a question.
+
+## The measurements that cause most production disputes
+
+Disputes rarely come from the measurements everyone watches. They come from the ones nobody wrote down.
+
+| Measurement | Why it is missed | Practical rule |
+|---|---|---|
+| Neck drop / collar height | Hidden under the collar in flat drawings | Specify finished height and stretch recovery |
+| Armhole depth | Assumed from chest and sleeve | Specify separately; it drives comfort more than chest |
+| Sleeve opening | Treated as a detail, not a fit dimension | Give finished opening for every size |
+| Hem and cuff recovery | Only noticed after washing | Specify elastane percentage and recovery target |
+| Pocket placement | Judged visually on the sample | Give coordinates from a named reference point |
+| Garment wash shrinkage | Discovered at QC | Agree shrinkage allowance before cutting |
+
+The underlying rule: if a QC inspector cannot measure it with a tape and compare it to a number, it is not specified.
+
+## Who should write it: you, a designer, or the factory
+
+All three routes exist, and the right one depends on how much of the product you want to control.
+
+- **You write it.** Best when the product is simple and you know exactly what you want. Highest control, highest effort.
+- **A technical designer writes it.** Common for brands without an in-house pattern room. Costs money per style, but produces a document a factory can quote without interpretation.
+- **The factory drafts it from your inputs.** Fastest route, and appropriate when you are adapting an existing block the factory already runs. The trade-off is that the factory's defaults — fabric, construction, trims — quietly become your specification.
+
+Whichever route you choose, the approval step is the same: you sign off a document version, and that version is what the sample is measured against.
+
+## Five mistakes that delay sampling
+
+1. **Sending images instead of flats.** A photograph shows one angle and one lighting condition. Construction is invisible.
+2. **Omitting tolerances.** Without them, every measurement is arguable, and a sample that is 1 cm off can be rejected or accepted depending on who is looking.
+3. **Naming a fabric without a weight.** "Cotton jersey" describes a family, not a product. 140 GSM and 220 GSM behave completely differently.
+4. **Changing the spec between sample rounds without a version number.** The factory quotes and cuts the old version, then reworks.
+5. **Leaving branding until the end.** Labels, hangtags and packing are long-lead items; discovered late, they delay shipment after the goods are already finished.
+
+## How a tech pack moves through sampling, costing and bulk production
+
+The document is the input to four downstream steps, and each one consumes a different part of it.
+
+- **Costing.** The BOM and the construction detail drive material and minute cost. A complete pack gets a real number; an incomplete one gets a range with caveats.
+- **Sampling.** Pattern making, fabric booking and sample sewing all start from the flats and the spec sheet.
+- **Approval.** The approved sample becomes the physical reference. The tech pack remains the written one. When the two disagree, the written version should say which wins.
+- **Bulk production and QC.** Inline and final inspection measure against the spec sheet, and packing lists follow the packing section.
+
+At TEXVENTURE, a tech pack review is the first thing our [custom clothing manufacturing](/custom-clothing-manufacturer-bangladesh) team does on a new enquiry, because it determines whether a quote is a real number or an estimate. As a [Clothing Manufacturer in Bangladesh](/), we work from buyer tech packs and can draft the missing sections with you during sampling — but the earlier the document is complete, the fewer sample rounds an order needs.
+
+If you are still deciding how many units to commit to a first run, read our guide on [what MOQ means in garment manufacturing](/blog/what-is-moq) before you finalise quantities; it explains why a 100-piece run and a 1,000-piece run are costed differently.
+
+## Frequently Asked Questions
+
+### What is a tech pack in clothing?
+
+A tech pack is a technical specification document for a garment. It contains flat sketches, construction detail, a bill of materials, colour references, a measurement chart with tolerances, branding and packing instructions. Manufacturers use it to cost, sample and produce a style consistently.
+
+### How long should a tech pack be?
+
+Length is not the measure. A simple t-shirt can be fully specified in six to ten pages; a lined jacket with multiple panels can run to twenty or more. What matters is that every component, measurement and construction detail is defined and versioned.
+
+### Can a factory create a tech pack for me?
+
+Yes, many factories will draft one from your sketches, reference samples or existing product. It is the fastest route, but the factory's standard construction and fabric preferences will shape the document. Review it carefully before you sign off.
+
+### Do I need a tech pack for a 100-piece order?
+
+Yes, and arguably more so. Small runs leave less room for rework, and sample rounds are the main cost driver on low-volume orders. A complete pack reduces the number of rounds needed to reach an approved sample.
+
+### What is the difference between a tech pack and a spec sheet?
+
+A spec sheet is the measurement and construction section alone. A tech pack contains the spec sheet plus materials, colour, branding, packing and version history. Sending only a spec sheet usually means the factory sources materials on assumption.
+
+## Cost your style with a complete specification
+
+A tech pack turns a conversation into a quote. If your specification is ready, [send it for a manufacturing quote](https://quote.texventure.com/) and our team will return a line-by-line cost with fabric options, MOQ and lead time for your exact style.
+`,
+    category: "manufacturing",
+    tags: ["tech pack","garment manufacturing","product development","sampling","spec sheet"],
+    author: { name: "TEXVENTURE Sourcing Team", role: "Manufacturing & Sourcing" },
+    publishedAt: "2026-11-03",
+    readTimeMinutes: 9,
+    featuredImage: "/images/about-texventure.webp",
+    imageAlt: "Pattern makers reviewing a garment tech pack on the production floor of a Bangladesh clothing manufacturer",
+    metaDescription: "What a clothing tech pack must contain, how to build one from a reference sample, and which measurements cause production disputes. A factory-side guide.",
+  },
 ];
